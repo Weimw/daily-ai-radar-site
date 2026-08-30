@@ -155,7 +155,6 @@
         "zh": "今日值得关注的新产品与更新。"
       },
       "count": 8,
-      "visible": 5,
       "items": [
         {
           "title": {
@@ -341,7 +340,6 @@
         "zh": "研究亮点与技术社区讨论。"
       },
       "count": 7,
-      "visible": 4,
       "items": [
         {
           "title": {
@@ -505,7 +503,6 @@
         "zh": "精选博客与通讯中的高信号文章。"
       },
       "count": 1,
-      "visible": 1,
       "items": [
         {
           "title": {
@@ -544,7 +541,6 @@
         "zh": "Hacker News 热门讨论与链接。"
       },
       "count": 13,
-      "visible": 5,
       "items": [
         {
           "title": {

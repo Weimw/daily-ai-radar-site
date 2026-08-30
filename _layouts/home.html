@@ -103,9 +103,7 @@
                       {% assign story_source_zh = story.source.zh | default: story.source.en %}
                       {% assign story_age_zh = story.age.zh | default: story.age.en %}
                       {% assign story_summary_zh = story.summary.zh | default: story.summary.en %}
-                      {% assign story_state = "" %}
-                      {% if forloop.index > section.visible %}{% assign story_state = " is-hidden" %}{% endif %}
-                      <article class="story-item{{ story_state }}" data-story-item data-section="{{ section.id }}">
+                      <article class="story-item" data-story-item data-section="{{ section.id }}">
                         <div class="story-title-row">
                           <h3 class="story-title"><a href="{{ story.url | escape }}" target="_blank" rel="noopener" data-i18n="{{ section.id }}-title-{{ forloop.index }}" data-en="{{ story.title.en | escape }}" data-zh="{{ story_title_zh | escape }}">{{ story.title.en | escape }}</a></h3>
                           <span class="story-score">{{ story.score }}</span>
@@ -125,9 +123,6 @@
                       </article>
                     {% endfor %}
                   </div>
-                  {% if section.items.size > section.visible %}
-                    <button type="button" class="view-all" data-expand-section="{{ section.id }}" data-more-en="View all {{ section.count }}" data-more-zh="查看全部 {{ section.count }} 条">View all {{ section.count }}</button>
-                  {% endif %}
                 </section>
               {% endfor %}
             </div>

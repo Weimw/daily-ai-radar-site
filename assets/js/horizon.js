@@ -88,10 +88,6 @@
       if (value !== null) setTextPreservingChildren(element, value);
     });
 
-    document.querySelectorAll('[data-expand-section]').forEach(function (button) {
-      var label = button.getAttribute('data-more-' + normalized);
-      if (label && !button.classList.contains('is-expanded')) button.textContent = label;
-    });
     document.querySelectorAll('[data-save-story]').forEach(function (button) {
       if (!button.classList.contains('is-saved')) {
         var saveLabel = button.getAttribute('data-save-' + normalized);
@@ -186,20 +182,6 @@
   }
 
   function setupSectionNavigation() {
-    document.querySelectorAll('[data-expand-section]').forEach(function (button) {
-      button.addEventListener('click', function () {
-        var sectionId = button.getAttribute('data-expand-section');
-        var section = document.getElementById('section-' + sectionId);
-        if (!section) return;
-        section.classList.add('is-expanded');
-        section.querySelectorAll('.story-item.is-hidden').forEach(function (item) {
-          item.classList.remove('is-hidden');
-        });
-        button.classList.add('is-expanded');
-        button.textContent = document.documentElement.getAttribute('lang') === 'zh-CN' ? '已显示全部' : 'All stories shown';
-      });
-    });
-
     var jump = document.querySelector('#section-jump');
     if (jump) {
       jump.addEventListener('change', function () {

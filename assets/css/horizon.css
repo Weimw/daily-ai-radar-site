@@ -406,8 +406,6 @@ button { font: inherit; }
   border-bottom: 1px solid var(--hz-border);
 }
 
-.story-item.is-hidden { display: none; }
-
 .story-title-row {
   display: flex;
   align-items: baseline;
@@ -494,19 +492,6 @@ button { font: inherit; }
 
 .story-action:hover,
 .story-action.is-saved { color: var(--hz-link); }
-
-.view-all {
-  appearance: none;
-  border: 0;
-  padding: 10px 0 0;
-  background: transparent;
-  color: var(--hz-link);
-  cursor: pointer;
-  font-size: 0.7rem;
-  text-align: left;
-}
-
-.view-all:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Generated article pages retain their existing readable treatment. */
 body:not(.horizon-home) { min-height: 100vh; }
@@ -660,7 +645,6 @@ body:not(.horizon-home) .main-content > ol { padding: 0.8em 0.8em 0.8em 2em; bor
   .story-utilities { display: flex; }
   .original-link,
   .story-action { font-size: 0.7rem; }
-  .view-all { padding-top: 12px; font-size: 0.74rem; }
 }
 
 @media (max-width: 480px) {
