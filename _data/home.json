@@ -143,13 +143,16 @@
     {
       "id": "products",
       "nav_label": {
-        "en": "Products"
+        "en": "Products",
+        "zh": "产品"
       },
       "label": {
-        "en": "Product Launches"
+        "en": "Product Launches",
+        "zh": "产品发布"
       },
       "brief": {
-        "en": "Noteworthy new products and updates today."
+        "en": "Noteworthy new products and updates today.",
+        "zh": "今日值得关注的新产品与更新。"
       },
       "count": 8,
       "visible": 5,
@@ -326,13 +329,16 @@
     {
       "id": "research",
       "nav_label": {
-        "en": "Research"
+        "en": "Research",
+        "zh": "研究"
       },
       "label": {
-        "en": "Research & Community"
+        "en": "Research & Community",
+        "zh": "研究与社区"
       },
       "brief": {
-        "en": "Research highlights and technical community discussions."
+        "en": "Research highlights and technical community discussions.",
+        "zh": "研究亮点与技术社区讨论。"
       },
       "count": 7,
       "visible": 4,
@@ -487,13 +493,16 @@
     {
       "id": "blogs",
       "nav_label": {
-        "en": "RSS & Blogs"
+        "en": "RSS & Blogs",
+        "zh": "RSS 与博客"
       },
       "label": {
-        "en": "RSS & Blogs"
+        "en": "RSS & Blogs",
+        "zh": "RSS 与博客"
       },
       "brief": {
-        "en": "High-signal posts from curated blogs and newsletters."
+        "en": "High-signal posts from curated blogs and newsletters.",
+        "zh": "精选博客与通讯中的高信号文章。"
       },
       "count": 1,
       "visible": 1,
@@ -523,13 +532,16 @@
     {
       "id": "hn",
       "nav_label": {
-        "en": "HN"
+        "en": "HN",
+        "zh": "HN"
       },
       "label": {
-        "en": "Hacker News"
+        "en": "Hacker News",
+        "zh": "Hacker News"
       },
       "brief": {
-        "en": "Top discussions and links from Hacker News."
+        "en": "Top discussions and links from Hacker News.",
+        "zh": "Hacker News 热门讨论与链接。"
       },
       "count": 13,
       "visible": 5,
