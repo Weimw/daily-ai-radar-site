@@ -1,0 +1,806 @@
+{
+  "edition": {
+    "number": "030",
+    "date": {
+      "en": "Sunday, August 30, 2026",
+      "zh": "2026 年 8 月 30 日，星期日"
+    },
+    "story_count": 45,
+    "stories_label": {
+      "en": "45 stories scored",
+      "zh": "已评分 45 条"
+    }
+  },
+  "note": {
+    "en": "A focused view of today's highest-signal products, research, blogs, and community conversations.",
+    "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
+  },
+  "source_status": {
+    "fetched_count": 50,
+    "priority_count": 29
+  },
+  "index": [
+    {
+      "title": {
+        "en": "Hy4 preview"
+      },
+      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "7.0",
+      "summary": {
+        "en": "Hy4 Preview is Tencent’s stated 770B-parameter MoE open model for long-context, long-horizon agent tasks such as coding and document analysis."
+      },
+      "source": {
+        "en": "Product Hunt"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "products",
+        "product-hunt",
+        "agents",
+        "models"
+      ]
+    },
+    {
+      "title": {
+        "en": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]"
+      },
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
+      "score": "6.0",
+      "summary": {
+        "en": "The post argues that simple statistical process control can outperform reported state-of-the-art methods on parts of the TSB-AD benchmark, suggesting the benchmark may be too easy for meaningful claims."
+      },
+      "source": {
+        "en": "Reddit"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "research",
+        "reddit"
+      ]
+    },
+    {
+      "title": {
+        "en": "[AINews] OpenAI shuts off Cursor"
+      },
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "score": "3.0",
+      "summary": {
+        "en": "A brief AINews item claims that an Elon Musk–Sam Altman dispute has led OpenAI to shut off Cursor access."
+      },
+      "source": {
+        "en": "RSS Feeds"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "blogs",
+        "rss-feeds"
+      ]
+    },
+    {
+      "title": {
+        "en": "Tencent Releases and Open-Sources Tencent Hy4 Preview"
+      },
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "score": "7.0",
+      "summary": {
+        "en": "Tencent released and open-sourced the Hy4 Preview model, prompting substantial discussion about its capabilities, economics, and development approach."
+      },
+      "source": {
+        "en": "Hacker News"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "community",
+        "hacker-news",
+        "open-source",
+        "models"
+      ]
+    },
+    {
+      "title": {
+        "en": "Cohere Parse 5"
+      },
+      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "7.0",
+      "summary": {
+        "en": "Cohere Parse 5 converts complex enterprise documents, tables, and images into structured AI-ready data through API, cloud, or air-gapped deployment."
+      },
+      "source": {
+        "en": "Product Hunt"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "products",
+        "product-hunt"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "section_ids": [
+        "products",
+        "blogs"
+      ]
+    },
+    {
+      "section_ids": [
+        "research",
+        "hn"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "products",
+      "nav_label": {
+        "en": "Products"
+      },
+      "label": {
+        "en": "Product Launches"
+      },
+      "brief": {
+        "en": "Noteworthy new products and updates today."
+      },
+      "count": 8,
+      "visible": 5,
+      "items": [
+        {
+          "title": {
+            "en": "Hy4 preview"
+          },
+          "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "7.0",
+          "summary": {
+            "en": "Hy4 Preview is Tencent’s stated 770B-parameter MoE open model for long-context, long-horizon agent tasks such as coding and document analysis."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Cohere Parse 5"
+          },
+          "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "7.0",
+          "summary": {
+            "en": "Cohere Parse 5 converts complex enterprise documents, tables, and images into structured AI-ready data through API, cloud, or air-gapped deployment."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "God’s Eye View"
+          },
+          "url": "https://www.producthunt.com/products/god-s-eye-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "7.0",
+          "summary": {
+            "en": "God’s Eye View is an MIT-licensed browser simulator for exploring public live geospatial data such as aircraft, ships, satellites, earthquakes, traffic, and cameras on a 3D globe."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "1752vc Pitch Deck Analyzer"
+          },
+          "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "1752vc Pitch Deck Analyzer is an AI tool that provides investor-style feedback on startup pitch decks before founders send them."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "seendiff"
+          },
+          "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "seendiff is a local code-diff viewer that tracks review progress, supports chunked review, and lets users ask a coding agent to explain changes."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Staats"
+          },
+          "url": "https://www.producthunt.com/products/staats-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "Staats offers cookieless site analytics designed for coding agents to monitor deploys, detect changes, and recommend evidence-based next actions without a traditional dashboard."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neo"
+          },
+          "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Neo is a distraction-free writing app aimed at helping novelists draft manuscripts with automatic book-like formatting."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Democruit"
+          },
+          "url": "https://www.producthunt.com/products/democruit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Democruit is an AI-assisted job-application companion spanning resume improvement through offer-stage support, using a deferred-payment model."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "nav_label": {
+        "en": "Research"
+      },
+      "label": {
+        "en": "Research & Community"
+      },
+      "brief": {
+        "en": "Research highlights and technical community discussions."
+      },
+      "count": 7,
+      "visible": 4,
+      "items": [
+        {
+          "title": {
+            "en": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
+          "score": "6.0",
+          "summary": {
+            "en": "The post argues that simple statistical process control can outperform reported state-of-the-art methods on parts of the TSB-AD benchmark, suggesting the benchmark may be too easy for meaningful claims."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "I analyzed 31,352 hourly LLM benchmark scores: within-day variation was 2.8 points, while between-day variation was 8.4 [P]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1jp1j/i_analyzed_31352_hourly_llm_benchmark_scores/",
+          "score": "6.0",
+          "summary": {
+            "en": "The author reports analyzing repeated hourly LLM evaluations across 49 model identifiers to examine how production API benchmark performance varies over time."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Open-source access-control checker for retrieval-based AI applications [P]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/",
+          "score": "5.0",
+          "summary": {
+            "en": "The author shares an open-source checker for testing whether RAG applications retrieve documents beyond a user’s access permissions."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "How important is having an internship to get a good job for ML PhD in USA? [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/",
+          "score": "5.0",
+          "summary": {
+            "en": "An international PhD student in 3D computer vision asks how the lack of internship access may affect prospects for industry research roles after graduation."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Finished ML + DL — what should I do next? [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1tr86/finished_ml_dl_what_should_i_do_next_d/",
+          "score": "5.0",
+          "summary": {
+            "en": "A learner asks for project, study, and research-roadmap advice after completing foundational machine learning and deep learning material."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "PhD Internship in smaller lab [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1itzf/phd_internship_in_smaller_lab_d/",
+          "score": "4.0",
+          "summary": {
+            "en": "A UK-based robotics/ML PhD student asks whether a relevant internship at a smaller lab is sufficient for post-PhD industry opportunities."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "Do you use a whiteboard when thinking? [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1yv9b/do_you_use_a_whiteboard_when_thinking_d/",
+          "score": "3.0",
+          "summary": {
+            "en": "A radar DSP practitioner asks whether others still use whiteboards to reason through DSP, data science, and machine-learning ideas before coding."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "coding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blogs",
+      "nav_label": {
+        "en": "RSS & Blogs"
+      },
+      "label": {
+        "en": "RSS & Blogs"
+      },
+      "brief": {
+        "en": "High-signal posts from curated blogs and newsletters."
+      },
+      "count": 1,
+      "visible": 1,
+      "items": [
+        {
+          "title": {
+            "en": "[AINews] OpenAI shuts off Cursor"
+          },
+          "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+          "score": "3.0",
+          "summary": {
+            "en": "A brief AINews item claims that an Elon Musk–Sam Altman dispute has led OpenAI to shut off Cursor access."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "nav_label": {
+        "en": "HN"
+      },
+      "label": {
+        "en": "Hacker News"
+      },
+      "brief": {
+        "en": "Top discussions and links from Hacker News."
+      },
+      "count": 13,
+      "visible": 5,
+      "items": [
+        {
+          "title": {
+            "en": "Tencent Releases and Open-Sources Tencent Hy4 Preview"
+          },
+          "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+          "score": "7.0",
+          "summary": {
+            "en": "Tencent released and open-sourced the Hy4 Preview model, prompting substantial discussion about its capabilities, economics, and development approach."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "DHS is using obscure law to snoop on journalists, non-profits, unions"
+          },
+          "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+          "score": "7.0",
+          "summary": {
+            "en": "The item reports that DHS used little-known 1509 summonses to seek records involving journalists, nonprofits, and unions, prompting concern over surveillance and third-party compliance."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "vLLM v0.28.0"
+          },
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+          "score": "6.0",
+          "summary": {
+            "en": "vLLM v0.28.0 drew active community discussion, including reports of ongoing reliability and hardware-support issues."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Good Culture Is the Biggest Productivity Hack, Not AI"
+          },
+          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+          "score": "6.0",
+          "summary": {
+            "en": "The item argues that healthy engineering culture matters more than AI tools for productivity, with commenters noting that AI can amplify either effective teams or existing dysfunction."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Samsung's Processing-in-Memory (PIM)"
+          },
+          "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+          "score": "6.0",
+          "summary": {
+            "en": "The item discusses Samsung's PIM approach and community debate over its applicability, data-movement tradeoffs, and prospects versus specialized accelerators."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Indirect Calling of Nested Functions on GCC Without Executable Stack"
+          },
+          "url": "https://uecker.codeberg.page/2026-08-29.html",
+          "score": "6.0",
+          "summary": {
+            "en": "The item explores a technique for indirectly calling GCC nested functions without requiring an executable stack."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)"
+          },
+          "url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
+          "score": "6.0",
+          "summary": {
+            "en": "GrapheneOS reports that the Pixel 11 no longer supports hardware memory tagging, prompting concern over a security-capability regression alongside criticism of the device’s incremental hardware changes."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Nancy Grace Roman Space Telescope"
+          },
+          "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+          "score": "6.0",
+          "summary": {
+            "en": "Discussion centers on the Nancy Grace Roman Space Telescope’s wide-field imaging role and its anticipated contribution alongside Rubin, Hubble, and JWST."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Quantifying Colour"
+          },
+          "url": "https://ekunazanu.foo/lab/quantifying-colour/",
+          "score": "5.0",
+          "summary": {
+            "en": "A Hacker News post highlights a visually elaborate article about quantifying color, with readers praising its presentation while questioning parts of its cone-response and color rendering treatment."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "StemDeck, a free, open-source and local AI stem separator"
+          },
+          "url": "https://github.com/stemdeckapp/stemdeck",
+          "score": "5.0",
+          "summary": {
+            "en": "StemDeck is a free, local open-source application for separating audio stems, built around existing separation models."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "TurboKV: Insanely fast Rust key-value store"
+          },
+          "url": "https://github.com/kingroryg/turbokv",
+          "score": "5.0",
+          "summary": {
+            "en": "TurboKV is a Rust key-value store whose performance and durability claims prompted discussion about WAL syncing, mmap behavior beyond RAM, and benchmark representativeness."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Defrag98: Windows 98 Disk Defragmenter Simulator Online"
+          },
+          "url": "https://defrag98.com/",
+          "score": "4.0",
+          "summary": {
+            "en": "Defrag98 is an online Windows 98 disk defragmenter simulator that recreates the visual process and disk sounds."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Calibrate Before You Accelerate: Bias Toward Action in a New Role"
+          },
+          "url": "https://tucker.wales/writing/bias-towards-action/",
+          "score": "3.0",
+          "summary": {
+            "en": "The post argues that people entering new roles should understand existing systems before making rapid changes, prompting discussion about disruptive leadership and possible AI authorship."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5f7">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{{ page.title | default: site.title | escape }} · {{ site.title | escape }}</title>
+    {% include head-custom.html %}
+  </head>
+  <body class="horizon-site horizon-home">
+    {% assign home = site.data.home %}
+    <a class="skip-link" href="#briefing-content">Skip to content</a>
+    <div class="home-shell">
+      <header class="site-header" aria-label="Horizon Daily header">
+        <div class="brand-lockup">
+          <a class="brand-name" href="{{ '/' | relative_url }}">Horizon Daily</a>
+          <p class="brand-deck" data-i18n="brandDeck" data-en="AI-curated technology briefing" data-zh="AI 策展的技术简报">AI-curated technology briefing</p>
+        </div>
+        <div class="header-tools" aria-label="Site controls">
+          <div class="language-switcher" aria-label="Language">
+            <button class="language-button is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <span aria-hidden="true" class="tool-divider">|</span>
+            <button class="language-button" type="button" data-lang="zh" aria-pressed="false">中文</button>
+          </div>
+          <span class="tool-divider" aria-hidden="true">|</span>
+          <button class="theme-button" type="button" data-theme-toggle aria-label="Use dark mode" aria-pressed="false">
+            <span data-theme-label>Dark</span>
+          </button>
+          <span class="tool-divider" aria-hidden="true">|</span>
+          <a class="rss-link" href="{{ '/feed-en.xml' | relative_url }}" aria-label="Subscribe to the English RSS feed">RSS</a>
+        </div>
+      </header>
+
+      <section class="edition-line" aria-label="Current edition">
+        <span data-i18n="fieldNote" data-en="Field Note" data-zh="现场笔记">Field Note</span>
+        <span class="edition-number">{{ home.edition.number }}</span>
+        <span aria-hidden="true">·</span>
+        <span data-i18n="editionDate" data-en="{{ home.edition.date.en | escape }}" data-zh="{{ home.edition.date.zh | escape }}">{{ home.edition.date.en | escape }}</span>
+        <span aria-hidden="true">·</span>
+        <span data-i18n="storiesScored" data-en="{{ home.edition.stories_label.en | escape }}" data-zh="{{ home.edition.stories_label.zh | escape }}">{{ home.edition.stories_label.en | escape }}</span>
+      </section>
+
+      <nav class="section-strip" aria-label="Today's sections">
+        {% for section in home.sections %}
+          <a class="section-tab{% if forloop.first %} is-active{% endif %}" href="#section-{{ section.id }}" data-section-tab="{{ section.id }}">
+            <span data-i18n="section-nav-{{ section.id }}" data-en="{{ section.nav_label.en | escape }}" data-zh="{{ section.nav_label.zh | escape }}">{{ section.nav_label.en | escape }}</span>
+            <span class="section-tab-count">{{ section.count }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+
+      <div class="jump-row">
+        <label for="section-jump" data-i18n="jumpLabel" data-en="Jump to section" data-zh="跳转到栏目">Jump to section</label>
+        <select id="section-jump" aria-label="Jump to section">
+          {% for section in home.sections %}
+            <option value="section-{{ section.id }}" data-i18n="jump-option-{{ section.id }}" data-en="{{ section.nav_label.en | escape }} · {{ section.count }}" data-zh="{{ section.nav_label.zh | escape }} · {{ section.count }}">{{ section.nav_label.en | escape }} · {{ section.count }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <main id="briefing-content" class="briefing-layout">
+        <aside class="quick-rail" aria-labelledby="quick-rail-title">
+          <p id="quick-rail-title" class="rail-heading" data-i18n="quickRail" data-en="TODAY IN 30 SECONDS" data-zh="今日 30 秒速览">TODAY IN 30 SECONDS</p>
+          <ol class="quick-list">
+            {% for story in home.index %}
+              {% assign index_title_zh = story.title.zh | default: story.title.en %}
+              {% assign index_source_zh = story.source.zh | default: story.source.en %}
+              {% assign index_age_zh = story.age.zh | default: story.age.en %}
+              {% assign index_summary_zh = story.summary.zh | default: story.summary.en %}
+              <li class="quick-item">
+                <span class="quick-number" aria-hidden="true">{{ forloop.index }}</span>
+                <div class="quick-copy">
+                  <a href="{{ story.url | escape }}" target="_blank" rel="noopener" data-i18n="index-title-{{ forloop.index }}" data-en="{{ story.title.en | escape }}" data-zh="{{ index_title_zh | escape }}">{{ story.title.en | escape }}</a>
+                  <p class="quick-meta"><span data-i18n="index-source-{{ forloop.index }}" data-en="{{ story.source.en | escape }}" data-zh="{{ index_source_zh | escape }}">{{ story.source.en | escape }}</span> <span aria-hidden="true">·</span> <span data-i18n="index-age-{{ forloop.index }}" data-en="{{ story.age.en | escape }}" data-zh="{{ index_age_zh | escape }}">{{ story.age.en | escape }}</span></p>
+                  <p class="quick-summary" data-i18n="index-summary-{{ forloop.index }}" data-en="{{ story.summary.en | escape }}" data-zh="{{ index_summary_zh | escape }}">{{ story.summary.en | escape }}</p>
+                  <a class="quick-source" href="{{ story.url | escape }}" target="_blank" rel="noopener" data-i18n="index-source-link-{{ forloop.index }}" data-en="Original source" data-zh="原始来源">Original source</a>
+                </div>
+                <span class="quick-score">{{ story.score }}</span>
+              </li>
+            {% endfor %}
+          </ol>
+        </aside>
+
+        <div class="briefing-columns">
+          {% for column in home.columns %}
+            <div class="briefing-column">
+              {% for section_id in column.section_ids %}
+                {% assign section = home.sections | where: "id", section_id | first %}
+                <section id="section-{{ section.id }}" class="digest-section section-{{ section.id }}" aria-labelledby="heading-{{ section.id }}">
+                  <header class="section-heading-wrap">
+                    <h2 id="heading-{{ section.id }}" class="section-heading">
+                      <span data-i18n="section-label-{{ section.id }}" data-en="{{ section.label.en | escape }}" data-zh="{{ section.label.zh | escape }}">{{ section.label.en | escape }}</span>
+                      <span class="section-heading-dot" aria-hidden="true">·</span>
+                      <span class="section-count">{{ section.count }}</span>
+                    </h2>
+                    <p class="section-brief" data-i18n="section-brief-{{ section.id }}" data-en="{{ section.brief.en | escape }}" data-zh="{{ section.brief.zh | escape }}">{{ section.brief.en | escape }}</p>
+                  </header>
+
+                  <div class="story-list">
+                    {% for story in section.items %}
+                      {% assign story_title_zh = story.title.zh | default: story.title.en %}
+                      {% assign story_source_zh = story.source.zh | default: story.source.en %}
+                      {% assign story_age_zh = story.age.zh | default: story.age.en %}
+                      {% assign story_summary_zh = story.summary.zh | default: story.summary.en %}
+                      {% assign story_state = "" %}
+                      {% if forloop.index > section.visible %}{% assign story_state = " is-hidden" %}{% endif %}
+                      <article class="story-item{{ story_state }}" data-story-item data-section="{{ section.id }}">
+                        <div class="story-title-row">
+                          <h3 class="story-title"><a href="{{ story.url | escape }}" target="_blank" rel="noopener" data-i18n="{{ section.id }}-title-{{ forloop.index }}" data-en="{{ story.title.en | escape }}" data-zh="{{ story_title_zh | escape }}">{{ story.title.en | escape }}</a></h3>
+                          <span class="story-score">{{ story.score }}</span>
+                        </div>
+                        <p class="story-meta"><span data-i18n="{{ section.id }}-source-{{ forloop.index }}" data-en="{{ story.source.en | escape }}" data-zh="{{ story_source_zh | escape }}">{{ story.source.en | escape }}</span> <span aria-hidden="true">·</span> <span data-i18n="{{ section.id }}-age-{{ forloop.index }}" data-en="{{ story.age.en | escape }}" data-zh="{{ story_age_zh | escape }}">{{ story.age.en | escape }}</span></p>
+                        <p class="story-summary" data-i18n="{{ section.id }}-summary-{{ forloop.index }}" data-en="{{ story.summary.en | escape }}" data-zh="{{ story_summary_zh | escape }}">{{ story.summary.en | escape }}</p>
+                        <div class="story-tags" aria-label="Topics">
+                          {% for tag in story.tags %}<span>{{ tag | escape }}</span>{% unless forloop.last %}<span aria-hidden="true">·</span>{% endunless %}{% endfor %}
+                        </div>
+                        <div class="story-actions">
+                          <a class="original-link" href="{{ story.url | escape }}" target="_blank" rel="noopener" data-i18n="original-{{ section.id }}-{{ forloop.index }}" data-en="Original source" data-zh="原始来源">Original source</a>
+                          <div class="story-utilities">
+                            <button type="button" class="story-action" data-save-story data-story-id="{{ section.id }}-{{ forloop.index }}" data-save-en="Save" data-save-zh="保存">Save</button>
+                            <button type="button" class="story-action" data-copy-story data-story-url="{{ story.url | escape }}" data-copy-en="Copy link" data-copy-zh="复制链接">Copy link</button>
+                          </div>
+                        </div>
+                      </article>
+                    {% endfor %}
+                  </div>
+                  {% if section.items.size > section.visible %}
+                    <button type="button" class="view-all" data-expand-section="{{ section.id }}" data-more-en="View all {{ section.count }}" data-more-zh="查看全部 {{ section.count }} 条">View all {{ section.count }}</button>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
