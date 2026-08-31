@@ -1,6 +1,6 @@
 # Daily AI Radar operations
 
-This private deployment uses Horizon for collection and analysis, Hermes cron for scheduling, and Hermes's configured Feishu home channel for delivery. GitHub Pages and Horizon's direct webhook delivery are intentionally disabled.
+This private deployment uses Horizon for collection and analysis, Hermes cron for scheduling, and Hermes's configured Feishu home channel for delivery. Each successful run also creates or refreshes a policy-compliant generated note in the canonical Obsidian vault. GitHub Pages and Horizon's direct webhook delivery are intentionally disabled.
 
 ## Runtime configuration
 
@@ -50,7 +50,7 @@ release metadata requests and raises the GitHub API rate limit.
 
 ## Schedule
 
-The installed wrapper under `~/.hermes/scripts/daily-ai-radar.sh` calls `scripts/run-daily-ai-radar.sh`. The Hermes job is a no-agent job scheduled for `0 8 * * *` in the configured Asia/Shanghai timezone and delivers stdout to `feishu`.
+The installed wrapper under `~/.hermes/scripts/daily-ai-radar.sh` calls `scripts/run-daily-ai-radar.sh`. The Hermes job is a no-agent job scheduled for `0 8 * * *` in the configured Asia/Shanghai timezone and delivers stdout to `feishu`. Stdout contains only a short completion notice and, when applicable, a concise archive warning; the raw digest is not sent to Feishu.
 
 Useful checks:
 
@@ -62,9 +62,17 @@ hermes cron runs
 
 ## Archive and failure behavior
 
-Successful runs write `digests/YYYY/MM/YYYY-MM-DD.md`, commit that one file, and push `main` to the private `origin`. Diagnostics go to stderr so Feishu receives only the digest.
+Successful runs write `digests/YYYY/MM/YYYY-MM-DD.md`, commit that one file, and push `main` to the private `origin`. Diagnostics and generated content stay off stdout so Feishu receives only the completion notice.
 
-If GitHub push fails after generation, Feishu still receives the digest with an archive warning and the local commit remains available for retry. A collection or generation failure emits a short failure notice and a non-zero durable Hermes run.
+The same run writes `10 Daily/YYYY-MM-DD AI News.md` in the canonical Hermes
+Obsidian vault. The exporter resolves `OBSIDIAN_VAULT_PATH` first, then the
+documented Hermes-container and host paths. Before writing, it reads the active
+vault policy, uses minimal daily-note properties, labels the content as generated
+and unverified, preserves original source URLs, and links back to the private
+project archive. It updates only notes bearing its `hermes-managed` marker and
+fails rather than overwrite a human-authored note at the canonical path.
+
+If GitHub push fails after generation, Feishu receives the completion notice plus an archive warning, and the local commit remains available for retry. A collection or generation failure emits a short failure notice and a non-zero durable Hermes run.
 
 ## Upstream updates
 

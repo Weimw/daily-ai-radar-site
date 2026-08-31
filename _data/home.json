@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "030",
+    "number": "031",
     "date": {
-      "en": "Sunday, August 30, 2026",
-      "zh": "2026 年 8 月 30 日，星期日"
+      "en": "Monday, August 31, 2026",
+      "zh": "2026 年 8 月 31 日，星期一"
     },
-    "story_count": 45,
+    "story_count": 42,
     "stories_label": {
-      "en": "45 stories scored",
-      "zh": "已评分 45 条"
+      "en": "42 stories scored",
+      "zh": "已评分 42 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 50,
-    "priority_count": 29
+    "fetched_count": 42,
+    "priority_count": 39
   },
   "index": [
     {
       "title": {
-        "en": "Hy4 preview"
+        "en": "Ulpaso"
       },
-      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/ulpaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "7.0",
       "summary": {
-        "en": "Hy4 Preview is Tencent’s stated 770B-parameter MoE open model for long-context, long-horizon agent tasks such as coding and document analysis."
+        "en": "Ulpaso is a Product Hunt–listed Mac meeting-notes tool that records mic and system audio, transcribes locally into editable Markdown without a cloud account or login; its transcription quality, supported workflows, and implementation details are not supplied."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,19 +37,17 @@
       },
       "tags": [
         "products",
-        "product-hunt",
-        "agents",
-        "models"
+        "product-hunt"
       ]
     },
     {
       "title": {
-        "en": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]"
+        "en": "It's official! 192GB Framework"
       },
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
-      "score": "6.0",
+      "url": "https://i.redd.it/fbvr8x017gmh1.png",
+      "score": "5.5",
       "summary": {
-        "en": "The post argues that simple statistical process control can outperform reported state-of-the-art methods on parts of the TSB-AD benchmark, suggesting the benchmark may be too easy for meaningful claims."
+        "en": "A Reddit post claims an official 192GB Framework configuration; commenters flag potentially low memory bandwidth for inference, but the supplied material includes no primary specs or performance validation."
       },
       "source": {
         "en": "Reddit"
@@ -64,12 +62,12 @@
     },
     {
       "title": {
-        "en": "[AINews] OpenAI shuts off Cursor"
+        "en": "Most Neoclouds Suck At Security"
       },
-      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "score": "3.0",
+      "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
+      "score": "4.5",
       "summary": {
-        "en": "A brief AINews item claims that an Elon Musk–Sam Altman dispute has led OpenAI to shut off Cursor access."
+        "en": "Jordan Nanos’s article is presented as covering security shortcomings at neoclouds, including container escapes, kernel bypass, network policies, security keys, and multi-tenant Grafana, but the excerpt provides no findings or confirmation."
       },
       "source": {
         "en": "RSS Feeds"
@@ -79,17 +77,38 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds"
+        "rss-feeds",
+        "security"
       ]
     },
     {
       "title": {
-        "en": "Tencent Releases and Open-Sources Tencent Hy4 Preview"
+        "en": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel"
       },
-      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
-      "score": "7.0",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "score": "7.5",
       "summary": {
-        "en": "Tencent released and open-sourced the Hy4 Preview model, prompting substantial discussion about its capabilities, economics, and development approach."
+        "en": "A reported Qubes OS flaw enables arbitrary code execution through copy-to-VM error reporting, with one discussion comment stating that the affected path is Dom0's copy-to-VM command rather than the VM variant."
+      },
+      "source": {
+        "en": "Hacker News"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "community",
+        "hacker-news"
+      ]
+    },
+    {
+      "title": {
+        "en": "Omarchy: Any User Process Can Escalate to Root"
+      },
+      "url": "https://0xcc.io/posts/omarchy-root-creds/",
+      "score": "7.5",
+      "summary": {
+        "en": "A post alleges that any Omarchy user process can escalate to root, while discussion also cites a recently fixed claim about USB descriptors reaching a shell and debates the broader security maturity of heavily promoted distributions."
       },
       "source": {
         "en": "Hacker News"
@@ -100,28 +119,7 @@
       "tags": [
         "community",
         "hacker-news",
-        "open-source",
-        "models"
-      ]
-    },
-    {
-      "title": {
-        "en": "Cohere Parse 5"
-      },
-      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-      "score": "7.0",
-      "summary": {
-        "en": "Cohere Parse 5 converts complex enterprise documents, tables, and images into structured AI-ready data through API, cloud, or air-gapped deployment."
-      },
-      "source": {
-        "en": "Product Hunt"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "products",
-        "product-hunt"
+        "security"
       ]
     }
   ],
@@ -154,38 +152,16 @@
         "en": "Noteworthy new products and updates today.",
         "zh": "今日值得关注的新产品与更新。"
       },
-      "count": 8,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "Hy4 preview"
+            "en": "Ulpaso"
           },
-          "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/ulpaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "7.0",
           "summary": {
-            "en": "Hy4 Preview is Tencent’s stated 770B-parameter MoE open model for long-context, long-horizon agent tasks such as coding and document analysis."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cohere Parse 5"
-          },
-          "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "7.0",
-          "summary": {
-            "en": "Cohere Parse 5 converts complex enterprise documents, tables, and images into structured AI-ready data through API, cloud, or air-gapped deployment."
+            "en": "Ulpaso is a Product Hunt–listed Mac meeting-notes tool that records mic and system audio, transcribes locally into editable Markdown without a cloud account or login; its transcription quality, supported workflows, and implementation details are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -200,12 +176,12 @@
         },
         {
           "title": {
-            "en": "God’s Eye View"
+            "en": "Edge Drop"
           },
-          "url": "https://www.producthunt.com/products/god-s-eye-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/edge-drop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "7.0",
           "summary": {
-            "en": "God’s Eye View is an MIT-licensed browser simulator for exploring public live geospatial data such as aircraft, ships, satellites, earthquakes, traffic, and cameras on a 3D globe."
+            "en": "Product Hunt lists Edge Drop as a free, open-source Windows 10/11 edge-hover clipboard shelf for dragging copied text, screenshots, files, and links into apps, with pinned items and local-only history; its claims are not independently verified in the supplied content."
           },
           "source": {
             "en": "Product Hunt"
@@ -215,37 +191,18 @@
           },
           "tags": [
             "products",
-            "product-hunt"
+            "product-hunt",
+            "open-source"
           ]
         },
         {
           "title": {
-            "en": "1752vc Pitch Deck Analyzer"
+            "en": "Olostep"
           },
-          "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/olostep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
           "summary": {
-            "en": "1752vc Pitch Deck Analyzer is an AI tool that provides investor-style feedback on startup pitch decks before founders send them."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "seendiff"
-          },
-          "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
-          "summary": {
-            "en": "seendiff is a local code-diff viewer that tracks review progress, supports chunked review, and lets users ask a coding agent to explain changes."
+            "en": "Olostep is a Product Hunt-listed API for AI builders that converts URLs into LLM-ready Markdown, JSON, or structured data for agentic-search workflows, with scalability claimed but no supplied evidence on implementation, reliability, or constraints."
           },
           "source": {
             "en": "Product Hunt"
@@ -257,17 +214,17 @@
             "products",
             "product-hunt",
             "agents",
-            "coding"
+            "LLM"
           ]
         },
         {
           "title": {
-            "en": "Staats"
+            "en": "Superagent"
           },
-          "url": "https://www.producthunt.com/products/staats-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
           "summary": {
-            "en": "Staats offers cookieless site analytics designed for coding agents to monitor deploys, detect changes, and recommend evidence-based next actions without a traditional dashboard."
+            "en": "Product Hunt presents Superagent as an open-source Mac-style workspace for developers using coding agents, with local browser and iOS Simulator control, files, timed routines, encrypted phone pairing, and per-chat Git worktrees; implementation, compatibility, and reliability details are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -279,17 +236,60 @@
             "products",
             "product-hunt",
             "agents",
-            "coding"
+            "open-source"
           ]
         },
         {
           "title": {
-            "en": "Neo"
+            "en": "oMLX"
           },
-          "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/omlx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Product Hunt lists oMLX as an Apache-2.0 native Swift Mac LLM server for developers, serving text, vision, OCR, embedding, and reranking models through OpenAI- and Anthropic-compatible APIs with batching and persistent RAM+SSD KV caching; claimed latency gains are unverified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "models",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "Maritime"
+          },
+          "url": "https://www.producthunt.com/products/maritime?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Maritime, launched on Product Hunt, offers companies selling AI agents isolated persistent VMs per customer for browser use, files, code, and retained state, with managed scaling and sleep/wake; technical implementation, limits, and validation are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Topview Motion Studio"
+          },
+          "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Neo is a distraction-free writing app aimed at helping novelists draft manuscripts with automatic book-like formatting."
+            "en": "Product Hunt presents Topview Motion Studio for product teams to turn briefs and reference images into styled launch videos without After Effects, with configurable duration and aspect ratio; output quality, pricing, rights, and workflow reliability are not evidenced."
           },
           "source": {
             "en": "Product Hunt"
@@ -304,12 +304,32 @@
         },
         {
           "title": {
-            "en": "Democruit"
+            "en": "Hyperfocus"
           },
-          "url": "https://www.producthunt.com/products/democruit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/hyperfocus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Democruit is an AI-assisted job-application companion spanning resume improvement through offer-stage support, using a deferred-payment model."
+            "en": "Hyperfocus is a free macOS goals-first planner for individuals who want to select key outcomes, structure weeks and days around them, and support focused work; Product Hunt lists engagement, but supplied details do not establish differentiation beyond that workflow."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Murfy AI"
+          },
+          "url": "https://www.producthunt.com/products/murfy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Product Hunt presents Murfy AI as a collaborative agent-based research-writing workspace for drafting and reviewing papers, fixing LaTeX errors, checking references, and generating Beamer slides, with unspecified reliability and integration details."
           },
           "source": {
             "en": "Product Hunt"
@@ -320,7 +340,28 @@
           "tags": [
             "products",
             "product-hunt",
-            "models"
+            "agents",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sayscroll"
+          },
+          "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Product Hunt presents Sayscroll as a browser-based AI teleprompter for video creators and presenters that follows speech, pauses during improvisation, records video, supports 60+ languages, and offers prompter display controls; accuracy and operational caveats are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
           ]
         }
       ]
@@ -339,16 +380,16 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 7,
+      "count": 12,
       "items": [
         {
           "title": {
-            "en": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]"
+            "en": "It's official! 192GB Framework"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
-          "score": "6.0",
+          "url": "https://i.redd.it/fbvr8x017gmh1.png",
+          "score": "5.5",
           "summary": {
-            "en": "The post argues that simple statistical process control can outperform reported state-of-the-art methods on parts of the TSB-AD benchmark, suggesting the benchmark may be too easy for meaningful claims."
+            "en": "A Reddit post claims an official 192GB Framework configuration; commenters flag potentially low memory bandwidth for inference, but the supplied material includes no primary specs or performance validation."
           },
           "source": {
             "en": "Reddit"
@@ -363,12 +404,74 @@
         },
         {
           "title": {
-            "en": "I analyzed 31,352 hourly LLM benchmark scores: within-day variation was 2.8 points, while between-day variation was 8.4 [P]"
+            "en": "Here my pretty good qwen3.8 27B setup, hope it helps"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1jp1j/i_analyzed_31352_hourly_llm_benchmark_scores/",
-          "score": "6.0",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2pvsd/here_my_pretty_good_qwen38_27b_setup_hope_it_helps/",
+          "score": "5.5",
           "summary": {
-            "en": "The author reports analyzing repeated hourly LLM evaluations across 49 model identifiers to examine how production API benchmark performance varies over time."
+            "en": "A LocalLLaMA user shares a claimed Qwen3.8 27B ROCm setup, while one commenter reports a mixed RTX 3060/RX 6800 split-layer run at about 400 prompt tokens and 25 generation tokens with MTP=2 and 128k context, but no configuration details are supplied here."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Implementing Kimi K3 from scratch in PyTorch [P]"
+          },
+          "url": "https://www.youtube.com/watch?v=U6sobPCsdaY",
+          "score": "5.0",
+          "summary": {
+            "en": "A Reddit project links a video claiming to implement Kimi K3 from scratch in PyTorch; commenters view it as helpful practice for understanding new architectures and running ablations, but provide no technical validation or implementation details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Me these days"
+          },
+          "url": "https://i.redd.it/mlx9785m4imh1.png",
+          "score": "5.0",
+          "summary": {
+            "en": "A humorous LocalLLaMA thread prompts practitioners to argue that AI coding remains most manageable when developers constrain work into understandable steps, while unconstrained feature generation can create large, hard-to-review changes."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "developer-tools",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Are there any interesting architectural innovations that we seem to be on the verge of for LLM models or AI models that might be a big deal? (Excluding maybe N-gram, since everyone is already well aware of that one)"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural/",
+          "score": "5.0",
+          "summary": {
+            "en": "A LocalLLaMA discussion surveys possible post-transformer directions—linear attention/state-space compression, latent prediction, updateable n-gram modules, and HRM—but the supplied comments offer mostly speculative claims and limited supporting detail."
           },
           "source": {
             "en": "Reddit"
@@ -385,12 +488,12 @@
         },
         {
           "title": {
-            "en": "Open-source access-control checker for retrieval-based AI applications [P]"
+            "en": "Qwen 3.8 Flash Next locally on simple mobile phone at 3.5 tok/s"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/",
-          "score": "5.0",
+          "url": "https://v.redd.it/xas8w9aotjmh1",
+          "score": "4.5",
           "summary": {
-            "en": "The author shares an open-source checker for testing whether RAG applications retrieve documents beyond a user’s access permissions."
+            "en": "A Reddit post claims Qwen 3.8 Flash Next runs locally on a mobile phone at 3.5 tok/s and links BigMoeOnEdge, while commenters ask which app, GPU use, and phone model without supplied answers."
           },
           "source": {
             "en": "Reddit"
@@ -401,57 +504,17 @@
           "tags": [
             "research",
             "reddit",
-            "open-source"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "How important is having an internship to get a good job for ML PhD in USA? [D]"
+            "en": "NeurIPS accepted papers leaked? [D]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/",
-          "score": "5.0",
-          "summary": {
-            "en": "An international PhD student in 3D computer vision asks how the lack of internship access may affect prospects for industry research roles after graduation."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Finished ML + DL — what should I do next? [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1tr86/finished_ml_dl_what_should_i_do_next_d/",
-          "score": "5.0",
-          "summary": {
-            "en": "A learner asks for project, study, and research-roadmap advice after completing foundational machine learning and deep learning material."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "PhD Internship in smaller lab [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1itzf/phd_internship_in_smaller_lab_d/",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/",
           "score": "4.0",
           "summary": {
-            "en": "A UK-based robotics/ML PhD student asks whether a relevant internship at a smaller lab is sufficient for post-PhD industry opportunities."
+            "en": "Commenters who compared the alleged NeurIPS list with papers they authored or reviewed report both low-scoring, withdrawn, or rejection-leaning papers included and strong acceptance-leaning papers absent, suggesting it may be a submission-data or test export rather than accepted papers."
           },
           "source": {
             "en": "Reddit"
@@ -461,18 +524,17 @@
           },
           "tags": [
             "research",
-            "reddit",
-            "robotics"
+            "reddit"
           ]
         },
         {
           "title": {
-            "en": "Do you use a whiteboard when thinking? [D]"
+            "en": "Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data, so I had the model add 4 things that are probably not."
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w1yv9b/do_you_use_a_whiteboard_when_thinking_d/",
-          "score": "3.0",
+          "url": "https://v.redd.it/tvlr8gd1ehmh1",
+          "score": "4.0",
           "summary": {
-            "en": "A radar DSP practitioner asks whether others still use whiteboards to reason through DSP, data science, and machine-learning ideas before coding."
+            "en": "A LocalLLaMA post claims a Qwen3.8-27B Q4-vibecoded Minecraft clone was extended with four likely non-training-data features, while the supplied comments are mostly enthusiasm and speculative ideas rather than evidence."
           },
           "source": {
             "en": "Reddit"
@@ -483,7 +545,90 @@
           "tags": [
             "research",
             "reddit",
-            "coding"
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Whatever happened to OpenClaw and its derivatives?"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2q1hx/whatever_happened_to_openclaw_and_its_derivatives/",
+          "score": "4.0",
+          "summary": {
+            "en": "A LocalLLaMA question thread suggests OpenClaw may be losing momentum to Hermes and facing bug or contribution-backlog concerns, but the supplied comments provide no verifiable project data, release details, or consensus."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "NVIDIA® DGX Station™ Delivering Data-Center-Class Performance from the Desktop"
+          },
+          "url": "https://www.msi.com/Landing/NVIDIA-DGX-STATION",
+          "score": "4.0",
+          "summary": {
+            "en": "MSI’s landing page promotes an NVIDIA DGX Station desktop system, while commenters report that pricing is gated behind contact forms and one commenter says received quotes make roughly $100k seem like a good deal, without supplied specifications or benchmarks."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Unpopular opinion Qwen 3.8 is hard to understand"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ncr5/unpopular_opinion_qwen_38_is_hard_to_understand/",
+          "score": "4.0",
+          "summary": {
+            "en": "Commenters anecdotally argue that recent Qwen, Opus, and GPT models can require requests for elaboration, with speculation that agentic or coding optimization may trade off conversational clarity; no reproducible evidence is supplied."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Uncensored Multi-Model Releases, LongCat-Flash-Lite-Sparse with MTPs and LSAs, Qwen3.8-27B with MTPs, Qwen3.5-122B-A10B with MTPs, Qwen3-Coder-Next and Laguna-S2.1 with Vision, All Available in GGUF Format! Bonus: Links to my llama.cpp Fork for LongCat-Flash-Lite Support and J-Wash Enhanced Fork!"
+          },
+          "url": "https://huggingface.co/llmfan46/models",
+          "score": "4.0",
+          "summary": {
+            "en": "The author announces several purported uncensored GGUF model releases plus llama.cpp forks for LongCat-Flash-Lite and J-Wash, while comments offer appreciation but no benchmarks, compatibility testing, or independent validation."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
           ]
         }
       ]
@@ -506,12 +651,12 @@
       "items": [
         {
           "title": {
-            "en": "[AINews] OpenAI shuts off Cursor"
+            "en": "Most Neoclouds Suck At Security"
           },
-          "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-          "score": "3.0",
+          "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
+          "score": "4.5",
           "summary": {
-            "en": "A brief AINews item claims that an Elon Musk–Sam Altman dispute has led OpenAI to shut off Cursor access."
+            "en": "Jordan Nanos’s article is presented as covering security shortcomings at neoclouds, including container escapes, kernel bypass, network policies, security keys, and multi-tenant Grafana, but the excerpt provides no findings or confirmation."
           },
           "source": {
             "en": "RSS Feeds"
@@ -521,7 +666,8 @@
           },
           "tags": [
             "blogs",
-            "rss-feeds"
+            "rss-feeds",
+            "security"
           ]
         }
       ]
@@ -540,38 +686,16 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 13,
+      "count": 16,
       "items": [
         {
           "title": {
-            "en": "Tencent Releases and Open-Sources Tencent Hy4 Preview"
+            "en": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel"
           },
-          "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
-          "score": "7.0",
+          "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+          "score": "7.5",
           "summary": {
-            "en": "Tencent released and open-sourced the Hy4 Preview model, prompting substantial discussion about its capabilities, economics, and development approach."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "open-source",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "DHS is using obscure law to snoop on journalists, non-profits, unions"
-          },
-          "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
-          "score": "7.0",
-          "summary": {
-            "en": "The item reports that DHS used little-known 1509 summonses to seek records involving journalists, nonprofits, and unions, prompting concern over surveillance and third-party compliance."
+            "en": "A reported Qubes OS flaw enables arbitrary code execution through copy-to-VM error reporting, with one discussion comment stating that the affected path is Dom0's copy-to-VM command rather than the VM variant."
           },
           "source": {
             "en": "Hacker News"
@@ -586,93 +710,12 @@
         },
         {
           "title": {
-            "en": "vLLM v0.28.0"
+            "en": "Omarchy: Any User Process Can Escalate to Root"
           },
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-          "score": "6.0",
+          "url": "https://0xcc.io/posts/omarchy-root-creds/",
+          "score": "7.5",
           "summary": {
-            "en": "vLLM v0.28.0 drew active community discussion, including reports of ongoing reliability and hardware-support issues."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Good Culture Is the Biggest Productivity Hack, Not AI"
-          },
-          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-          "score": "6.0",
-          "summary": {
-            "en": "The item argues that healthy engineering culture matters more than AI tools for productivity, with commenters noting that AI can amplify either effective teams or existing dysfunction."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Samsung's Processing-in-Memory (PIM)"
-          },
-          "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-          "score": "6.0",
-          "summary": {
-            "en": "The item discusses Samsung's PIM approach and community debate over its applicability, data-movement tradeoffs, and prospects versus specialized accelerators."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Indirect Calling of Nested Functions on GCC Without Executable Stack"
-          },
-          "url": "https://uecker.codeberg.page/2026-08-29.html",
-          "score": "6.0",
-          "summary": {
-            "en": "The item explores a technique for indirectly calling GCC nested functions without requiring an executable stack."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)"
-          },
-          "url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
-          "score": "6.0",
-          "summary": {
-            "en": "GrapheneOS reports that the Pixel 11 no longer supports hardware memory tagging, prompting concern over a security-capability regression alongside criticism of the device’s incremental hardware changes."
+            "en": "A post alleges that any Omarchy user process can escalate to root, while discussion also cites a recently fixed claim about USB descriptors reaching a shell and debates the broader security maturity of heavily promoted distributions."
           },
           "source": {
             "en": "Hacker News"
@@ -688,12 +731,12 @@
         },
         {
           "title": {
-            "en": "Nancy Grace Roman Space Telescope"
+            "en": "Zig: Pointer Stability for ArrayLists"
           },
-          "url": "https://science.nasa.gov/mission/roman-space-telescope/",
-          "score": "6.0",
+          "url": "https://ziglang.org/devlog/2026/#2026-08-27",
+          "score": "7.0",
           "summary": {
-            "en": "Discussion centers on the Nancy Grace Roman Space Telescope’s wide-field imaging role and its anticipated contribution alongside Rubin, Hubble, and JWST."
+            "en": "Zig’s development log presents pointer stability for ArrayLists, prompting discussion of explicit programmer-managed locking versus compiler-enforced lifetimes, indices, or alternative collection structures."
           },
           "source": {
             "en": "Hacker News"
@@ -708,12 +751,12 @@
         },
         {
           "title": {
-            "en": "Quantifying Colour"
+            "en": "Automating Immersive Reading"
           },
-          "url": "https://ekunazanu.foo/lab/quantifying-colour/",
-          "score": "5.0",
+          "url": "https://smoores.dev/post/automating_immersive_reading/",
+          "score": "7.0",
           "summary": {
-            "en": "A Hacker News post highlights a visually elaborate article about quantifying color, with readers praising its presentation while questioning parts of its cone-response and color rendering treatment."
+            "en": "The Storyteller project reports reimplementing forced alignment for self-hosted read-aloud books to synchronize narration with sentence- and potentially word-level highlighting; commenters note proofreading and ebook/audiobook handoff uses while questioning the best highlighting granularity."
           },
           "source": {
             "en": "Hacker News"
@@ -728,12 +771,52 @@
         },
         {
           "title": {
-            "en": "StemDeck, a free, open-source and local AI stem separator"
+            "en": "One Nix flake to rule them all"
           },
-          "url": "https://github.com/stemdeckapp/stemdeck",
-          "score": "5.0",
+          "url": "https://fzakaria.com/2026/08/28/one-flake-to-rule-them-all",
+          "score": "7.0",
           "summary": {
-            "en": "StemDeck is a free, local open-source application for separating audio stems, built around existing separation models."
+            "en": "The linked article proposes consolidating Nix flake inputs, while discussion reports that large configurations commonly use 20–30 inputs and warns that overriding Nixpkgs to avoid duplicates can break dependencies not ready for the newest revision."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Cores in space: The core memory module from a 1980 Spacelab computer"
+          },
+          "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+          "score": "6.5",
+          "summary": {
+            "en": "A Righto article examines a core-memory module from a 1980 Spacelab computer; discussion highlights core memory’s perceived reliability and connects space computing to N-modular redundancy, without supplying specific technical evidence."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Building my own network stack"
+          },
+          "url": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
+          "score": "6.5",
+          "summary": {
+            "en": "A Hacker News submission titled “Building my own network stack” sparked discussion of bespoke stacks in legacy industrial systems, FPGA-based minimal stacks, protocol-learning value, and the security tradeoff between monoculture and custom infrastructure."
           },
           "source": {
             "en": "Hacker News"
@@ -744,18 +827,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "open-source",
-            "models"
+            "security"
           ]
         },
         {
           "title": {
-            "en": "TurboKV: Insanely fast Rust key-value store"
+            "en": "California lawmakers unanimously pass Linux exemption from age-verification law"
           },
-          "url": "https://github.com/kingroryg/turbokv",
-          "score": "5.0",
+          "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+          "score": "6.5",
           "summary": {
-            "en": "TurboKV is a Rust key-value store whose performance and durability claims prompted discussion about WAL syncing, mmap behavior beyond RAM, and benchmark representativeness."
+            "en": "The linked report says California lawmakers unanimously passed an age-verification-law exemption for software under GPL, MIT, BSD, and Apache licenses; commenters warn that services could still restrict access from unapproved operating systems and note a systemd birthdate-field change that may have preceded the exemption."
           },
           "source": {
             "en": "Hacker News"
@@ -770,12 +852,12 @@
         },
         {
           "title": {
-            "en": "Defrag98: Windows 98 Disk Defragmenter Simulator Online"
+            "en": "Haiku R1/beta6 has been released"
           },
-          "url": "https://defrag98.com/",
-          "score": "4.0",
+          "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+          "score": "6.0",
           "summary": {
-            "en": "Defrag98 is an online Windows 98 disk defragmenter simulator that recreates the visual process and disk sounds."
+            "en": "Haiku R1/beta6 has been released, and one commenter reports regressions that left a ThinkPad X1 Yoga system unbootable, with the boot safe-mode menu offering a recovery path."
           },
           "source": {
             "en": "Hacker News"
@@ -790,12 +872,134 @@
         },
         {
           "title": {
-            "en": "Calibrate Before You Accelerate: Bias Toward Action in a New Role"
+            "en": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver"
           },
-          "url": "https://tucker.wales/writing/bias-towards-action/",
-          "score": "3.0",
+          "url": "https://github.com/KodeMunkie/sm750hdmifb",
+          "score": "6.0",
           "summary": {
-            "en": "The post argues that people entering new roles should understand existing systems before making rapid changes, prompting discussion about disruptive leadership and possible AI authorship."
+            "en": "The author released a modern Linux framebuffer driver for an HDMI-only Silicon Motion SM750 card, claiming support for ultrawide resolutions, higher refresh rates, and faster performance than older drivers; discussion mainly questions the hardware choice and development process."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Hacking IKEA Furniture"
+          },
+          "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+          "score": "6.0",
+          "summary": {
+            "en": "A DIY article on modifying IKEA furniture prompted examples of using readily available CAD drawings and a customized Billy unit to hide apartment pipes, alongside discussion of IKEA’s accessibility and durability tradeoffs."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Longest Straight Line Paths on Water or Land on the Earth (2018)"
+          },
+          "url": "https://arxiv.org/abs/1804.07389",
+          "score": "6.0",
+          "summary": {
+            "en": "An arXiv paper reportedly verifies a crowdsourced longest uninterrupted water route and derives a land route using elevation data and an algorithm, while discussion flags that classifying below-sea-level terrain as water may miss a longer Senegal–China land path."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy"
+          },
+          "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+          "score": "6.0",
+          "summary": {
+            "en": "The European Commission is reported to be reviving a ProtectEU-related push for law-enforcement access to encrypted communications, while commenters warn that intentional access mechanisms would weaken security and privacy."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Europe's summer drought is so extreme that desertification is a growing threat"
+          },
+          "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
+          "score": "6.0",
+          "summary": {
+            "en": "A Fortune report says Europe’s summer drought has become severe enough to raise desertification concerns; discussion includes firsthand observations of unusually dry conditions and points readers to a Copernicus drought map."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Startup Anti-Patterns"
+          },
+          "url": "https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/",
+          "score": "5.5",
+          "summary": {
+            "en": "A startup anti-patterns article prompted discussion that premature microservices and scalability planning can be costly before product-market fit, while commenters caution that broad anti-pattern narratives may be hindsight-driven and miss single-customer overfitting."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack"
+          },
+          "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
+          "score": "5.5",
+          "summary": {
+            "en": "A linked post claims METR and Redwood published a postmortem of a Hugging Face hack; discussion focuses on AI-safety predictions and argues that human institutional failures may be underexamined."
           },
           "source": {
             "en": "Hacker News"
