@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "001",
+    "number": "002",
     "date": {
-      "en": "Tuesday, September 1, 2026",
-      "zh": "2026 年 9 月 1 日，星期二"
+      "en": "Wednesday, September 2, 2026",
+      "zh": "2026 年 9 月 2 日，星期三"
     },
-    "story_count": 43,
+    "story_count": 58,
     "stories_label": {
-      "en": "43 stories scored",
-      "zh": "已评分 43 条"
+      "en": "58 stories scored",
+      "zh": "已评分 58 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 46,
-    "priority_count": 38
+    "fetched_count": 74,
+    "priority_count": 52
   },
   "index": [
     {
       "title": {
-        "en": "WebTerm Learn"
+        "en": "Kilo Code for JetBrains"
       },
-      "url": "https://www.producthunt.com/products/webterm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "6.5",
       "summary": {
-        "en": "Product Hunt describes WebTerm Learn as a free browser-based terminal, Git, and Vim training platform for beginners, pairing hand-drawn lessons with a command-checked sandbox and gamified progression; curriculum quality and sandbox fidelity are not independently evidenced."
+        "en": "Product Hunt presents Kilo Code for JetBrains as an open-source native coding agent for JetBrains IDE users, offering local or remote work, parallel agents in isolated worktrees, inline GitHub PRs and diffs, and 500+ model options; licensing, implementation, and operational caveats are not supplied."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,17 +37,19 @@
       },
       "tags": [
         "products",
-        "product-hunt"
+        "product-hunt",
+        "agents",
+        "open-source"
       ]
     },
     {
       "title": {
-        "en": "Qwen3.8-Flash-Next in llama.cpp from CPU-only to 96GB VRAM: 8.5 to 109 tok/s, max context and parameters test. My findings on RTX 6000 PRO."
+        "en": "MTP released for Qwen3.8-Flash-Next-GGUF"
       },
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pl64/qwen38flashnext_in_llamacpp_from_cpuonly_to_96gb/",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/tree/main/MTP",
       "score": "7.0",
       "summary": {
-        "en": "A self-reported llama.cpp benchmark of an 87.2 GiB Qwen3.8-Flash-Next GGUF on an RTX PRO 6000 reports 8.34 tok/s CPU-only versus 109.07 tok/s at 96GB VRAM, while a commenter questions a separate throughput claim and another says the repository appears private."
+        "en": "MTP files for Qwen3.8-Flash-Next-GGUF are available, with one commenter reporting llama.cpp changes raised MTP throughput from 123 to 183 tok/s for code and 83 to 144 tok/s for prose, while noting prior MTP could be slower than no drafting."
       },
       "source": {
         "en": "Reddit"
@@ -62,12 +64,12 @@
     },
     {
       "title": {
-        "en": "Polimill builds Japan's next-generation public AI infrastructure"
+        "en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT"
       },
-      "url": "https://openai.com/index/polimill",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "score": "7.0",
       "summary": {
-        "en": "OpenAI says Polimill uses GPT models and Codex to help Japanese municipalities retrieve and apply administrative knowledge while speeding development, but the supplied excerpt does not specify the system design, deployment scale, or measured outcomes."
+        "en": "OpenAI states that ChatGPT can connect to trusted healthcare data, including EHR context and medical research, to help clinicians access patient information securely; the supplied excerpt does not specify supported systems, deployment scope, or safeguards."
       },
       "source": {
         "en": "RSS Feeds"
@@ -78,17 +80,17 @@
       "tags": [
         "blogs",
         "rss-feeds",
-        "models"
+        "research"
       ]
     },
     {
       "title": {
-        "en": "Breaking Claude Code Opus 5 Auto Mode"
+        "en": "Claude Fable 5.1 and Claude Mythos 5.1"
       },
-      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-      "score": "8.0",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "score": "7.5",
       "summary": {
-        "en": "Discussion of an attack on Claude Code Opus 5 Auto Mode highlights attacker-controlled-directory Python module shadowing and model-specific tool habits, while one user reports dev containers isolate SSH credentials and files outside the project."
+        "en": "Anthropic announced Claude Fable 5.1 and Mythos 5.1 with linked release notes and a system card; discussion reports improved style control, multiple thinking-effort settings with a long-running max example, and cache-read pricing reportedly falling from $1/M to $0.25/M."
       },
       "source": {
         "en": "Hacker News"
@@ -98,30 +100,27 @@
       },
       "tags": [
         "community",
-        "hacker-news",
-        "models"
+        "hacker-news"
       ]
     },
     {
       "title": {
-        "en": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models"
+        "en": "Path to Astra: critical capabilities and frontier safeguards"
       },
-      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "url": "https://openai.com/index/path-to-astra/",
       "score": "7.0",
       "summary": {
-        "en": "Microsoft Research introduces GigaPath-Flash and GigaTIME-Flash, claiming reduced computational demands while maintaining strong pathology-model performance, which could support larger population-scale studies, but the supplied excerpt provides no benchmarks or methodological details."
+        "en": "OpenAI’s “Path to Astra” describes critical capabilities and frontier safeguards, including a claimed 100% ExploitBench score for developing exploits from known vulnerabilities; comments question access-policy consistency and whether several capabilities are already achievable through harness engineering."
       },
       "source": {
-        "en": "RSS Feeds"
+        "en": "Hacker News"
       },
       "age": {
         "en": "Latest"
       },
       "tags": [
-        "blogs",
-        "rss-feeds",
-        "models",
-        "research"
+        "community",
+        "hacker-news"
       ]
     }
   ],
@@ -154,16 +153,16 @@
         "en": "Noteworthy new products and updates today.",
         "zh": "今日值得关注的新产品与更新。"
       },
-      "count": 8,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "WebTerm Learn"
+            "en": "Kilo Code for JetBrains"
           },
-          "url": "https://www.producthunt.com/products/webterm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "6.5",
           "summary": {
-            "en": "Product Hunt describes WebTerm Learn as a free browser-based terminal, Git, and Vim training platform for beginners, pairing hand-drawn lessons with a command-checked sandbox and gamified progression; curriculum quality and sandbox fidelity are not independently evidenced."
+            "en": "Product Hunt presents Kilo Code for JetBrains as an open-source native coding agent for JetBrains IDE users, offering local or remote work, parallel agents in isolated worktrees, inline GitHub PRs and diffs, and 500+ model options; licensing, implementation, and operational caveats are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -173,17 +172,40 @@
           },
           "tags": [
             "products",
-            "product-hunt"
+            "product-hunt",
+            "agents",
+            "open-source"
           ]
         },
         {
           "title": {
-            "en": "Orato"
+            "en": "Computable GPU Index (CGI)"
           },
-          "url": "https://www.producthunt.com/products/orato-speech-coach?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/computable-gpu-index-cgi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
           "summary": {
-            "en": "Product Hunt presents Orato as an iPhone speech-practice app that scores 30–90 second drills for pacing, fluency, vocabulary, and coherence, with transcript-marked fillers and pauses; on Apple Intelligence-capable devices it reportedly runs on-device without an account, but scoring validity is unspecified."
+            "en": "Product Hunt presents Computable GPU Index (CGI) as an open-source USD-per-GPU-hour index for comparing published on-demand rental rates across a fixed provider panel, with claimed reproducibility; provider coverage and underlying methodology details are not supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "EAS Observe"
+          },
+          "url": "https://www.producthunt.com/products/expo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "EAS Observe is an Expo and React Native monitoring product that reports startup and screen-usability metrics with per-build and EAS Update chart markers plus device context; Product Hunt lists a free 100K-events/month plan, but no independent technical validation is supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -198,12 +220,53 @@
         },
         {
           "title": {
-            "en": "Video Agent by Fotor"
+            "en": "ChannelOS"
           },
-          "url": "https://www.producthunt.com/products/fotor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/channelos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Product Hunt presents ChannelOS as a free MPL-2.0 open-source Windows alpha for owners of local media libraries to create scheduled cable-style channels, browse a live TV guide, and watch on demand without accounts, cloud services, or uploads; its main caveat is early, Windows-only availability."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Gauth AI Course"
+          },
+          "url": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.5",
           "summary": {
-            "en": "Product Hunt presents Fotor Video Agent as a chat-driven video and motion-graphics tool for founders, marketers, and creators that keeps generated scenes and assets editable on a multi-track timeline, with no supplied evidence on output quality, integrations, pricing, or reliability."
+            "en": "Product Hunt presents Gauth AI Course for high-school learners as interactive AI math courses with visuals, mindmaps, active-recall quizzes, pause-to-ask tutoring, and rapid user-generated courses, but supplies no evidence about lesson quality or underlying implementation."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Murmell"
+          },
+          "url": "https://www.producthunt.com/products/murmell?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.5",
+          "summary": {
+            "en": "Product Hunt presents Murmell as a Google Docs-like shared workspace for AI-agent users that preserves a frozen canvas, terminals, files, conversations, and agent context across laptop closures; scaling claims and operational details are not evidenced."
           },
           "source": {
             "en": "Product Hunt"
@@ -219,12 +282,12 @@
         },
         {
           "title": {
-            "en": "Radar by Particle"
+            "en": "Sider Code"
           },
-          "url": "https://www.producthunt.com/products/particle-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
+          "url": "https://www.producthunt.com/products/sider-code-customize-any-website?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Particle’s Radar is a Product Hunt–listed podcast search engine for builders and agents, claiming search across 130,000+ actively transcribed podcasts via its Podcast Intelligence API/MCP, with coverage, retrieval quality, and operational terms not independently evidenced."
+            "en": "Sider Code is a Sider Chrome extension for users who want to alter a website’s behavior with plain-language requests, generating and saving controllable changes; Product Hunt lists it, but the supplied launch text does not establish reliability, security, or site compatibility."
           },
           "source": {
             "en": "Product Hunt"
@@ -235,17 +298,39 @@
           "tags": [
             "products",
             "product-hunt",
-            "agents"
+            "security"
           ]
         },
         {
           "title": {
-            "en": "StackScope"
+            "en": "TrustedRouter"
           },
-          "url": "https://www.producthunt.com/products/stackscope-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
+          "url": "https://www.producthunt.com/products/trustedrouter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "StackScope, presented on Product Hunt, tracks newly launched sites and weekly adoption of technologies such as Stripe, Shopify, and Next.js for prospecting and research, with paid alerts, API, exports, and MCP access; its coverage and lead-time claims are unverified here."
+            "en": "TrustedRouter is a Product Hunt-listed OpenAI-compatible API for developers to access hundreds of models with confidential or ZDR routes, encryption, failover, and BYOK; its claimed privacy and attested infrastructure are not independently substantiated here."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "models",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sourclip 2.0"
+          },
+          "url": "https://www.producthunt.com/products/sourclip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Sourclip 2.0 is a Product Hunt-listed research workspace for people organizing Gemini Notebook-based research, capturing web, social, video, PDFs, and AI chats into projects with exports and private podcast creation; integration, privacy, and reliability details are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -261,12 +346,12 @@
         },
         {
           "title": {
-            "en": "LeaseBase"
+            "en": "Creatium Coach"
           },
-          "url": "https://www.producthunt.com/products/leasebase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.0",
+          "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
           "summary": {
-            "en": "According to its Product Hunt listing, LeaseBase targets self-managing California landlords with AI-guided compliance actions and a single place for deadline tracking, payments, maintenance, and leases; its rule coverage and reliability are not substantiated."
+            "en": "Product Hunt presents Creatium Coach as a multimedia learning coach for individual and enterprise goal-setting using simulations, videos, and roleplays, but provides no evidence for its claimed coaching outcomes or implementation details."
           },
           "source": {
             "en": "Product Hunt"
@@ -277,47 +362,6 @@
           "tags": [
             "products",
             "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "BrandJet"
-          },
-          "url": "https://www.producthunt.com/products/brandjet-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt’s BrandJet targets sales teams by monitoring public buying signals across social and web sources, turning them into enriched leads and managing outreach through contracts in one platform, with MCP access; accuracy, compliance, and integrations are unspecified."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Interactive Sessions"
-          },
-          "url": "https://www.producthunt.com/products/revolte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Revolte presents Interactive Sessions for engineering teams to approve agent-led architecture, code, testing, staging, and deployment steps, alongside Jira-ticket autopilot with PR and deploy workflows; Product Hunt describes cost caps and audit trails, but supplies no implementation or validation details."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
           ]
         }
       ]
@@ -340,12 +384,12 @@
       "items": [
         {
           "title": {
-            "en": "Qwen3.8-Flash-Next in llama.cpp from CPU-only to 96GB VRAM: 8.5 to 109 tok/s, max context and parameters test. My findings on RTX 6000 PRO."
+            "en": "MTP released for Qwen3.8-Flash-Next-GGUF"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pl64/qwen38flashnext_in_llamacpp_from_cpuonly_to_96gb/",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/tree/main/MTP",
           "score": "7.0",
           "summary": {
-            "en": "A self-reported llama.cpp benchmark of an 87.2 GiB Qwen3.8-Flash-Next GGUF on an RTX PRO 6000 reports 8.34 tok/s CPU-only versus 109.07 tok/s at 96GB VRAM, while a commenter questions a separate throughput claim and another says the repository appears private."
+            "en": "MTP files for Qwen3.8-Flash-Next-GGUF are available, with one commenter reporting llama.cpp changes raised MTP throughput from 123 to 183 tok/s for code and 83 to 144 tok/s for prose, while noting prior MTP could be slower than no drafting."
           },
           "source": {
             "en": "Reddit"
@@ -360,12 +404,53 @@
         },
         {
           "title": {
-            "en": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face"
+            "en": "I pushed Qwen3.8-27B to 2.000 prefill per second and 132 decode per second on A RTX 3090."
           },
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w49id7/i_pushed_qwen3827b_to_2000_prefill_per_second_and/",
+          "score": "6.5",
+          "summary": {
+            "en": "A LocalLLaMA author claims a custom int8 kernel raises Qwen3.8-27B RTX 3090 prefill at 4k context from roughly 1,300 to just under 2,000 tok/s while sustaining 132 decode tok/s, but commenters request batch, cache, prompt, and long-context details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Deceptive model quantization from AtomicChat?"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4f8t2/deceptive_model_quantization_from_atomicchat/",
+          "score": "6.5",
+          "summary": {
+            "en": "A LocalLLaMA discussion questions AtomicChat’s Q4_K_M labeling after GGUF loading reports many IQ2_S tensors and a small file size, while a cited naming explanation says filenames use measured average bits-per-weight across mixed tensor types."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "New Model: Spark-X2.5-4B, Spark-X2.5-1.7B"
+          },
+          "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
           "score": "6.0",
           "summary": {
-            "en": "DeepSeek-V4-Flash-Vision-Exp appears to be a Hugging Face experimental vision-model release; commenters highlight flash-model competition and claim a roughly 168 GB native 4-bit model suitable for 256 GB rigs, but no benchmarks or model details are supplied."
+            "en": "Spark-X2.5 offers 1.7B and 4B model variants with claimed native 1M context and 4B performance near Qwen 3.5 9B, while current GGUF use reportedly requires a custom llama.cpp fork and commenters question whether its architecture is truly distinct."
           },
           "source": {
             "en": "Reddit"
@@ -381,12 +466,12 @@
         },
         {
           "title": {
-            "en": "SlopTV: an infinite livestream of AI slop generated from youtube chat comments, Minimax H3 on 2x5090"
+            "en": "Help me set up local AI for my 85 year old aunt who is blind."
           },
-          "url": "https://youtube.com/live/EQ2RexjIEFE?feature=share",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4g0oh/help_me_set_up_local_ai_for_my_85_year_old_aunt/",
           "score": "5.5",
           "summary": {
-            "en": "A LocalLLaMA post describes SlopTV, a locally run YouTube stream that turns chat prompts into 15-second MiniMax H3 videos, claiming two RTX 5090s produce a clip about every 45 seconds while ComfyUI offloads model components that exceed 32 GB VRAM."
+            "en": "A LocalLLaMA user seeks a local voice-driven writing assistant for a blind 85-year-old author using an RTX 5080 desktop, while commenters emphasize a single-button STT/TTS interface and suggest hosted or local model options without reported testing."
           },
           "source": {
             "en": "Reddit"
@@ -402,33 +487,12 @@
         },
         {
           "title": {
-            "en": "AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp"
+            "en": "Qwen 3.8 27b (Q4KM) oneshot a Super Mario clone"
           },
-          "url": "https://github.com/ggml-org/llama.cpp/pull/27402",
-          "score": "5.5",
-          "summary": {
-            "en": "A llama.cpp pull request proposes AVX2 acceleration for large-batch CPU prompt processing of IQ models; commenters point to weights being decoded repeatedly from a lookup table for a 512-token batch, but supplied evidence lacks benchmarks or review details."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cold emailing profs about PhD positions? Read this [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4821c/qwen_38_27b_q4km_oneshot_a_super_mario_clone/",
           "score": "5.0",
           "summary": {
-            "en": "An academic warns prospective PhD applicants against mass, generic, overly long cold emails and urges targeted supervisor selection; commenters reinforce concise, authentic outreach, checking advertised openings, and—where possible—meeting through conferences."
+            "en": "The author reports Qwen 3.8 27B Q4KM generating a self-contained one-level Mario-style HTML game in one 117-minute run at 7.6 TPS on a 12GB RTX 4070 Ti plus Mac RPC setup, while discussion flags likely training-data overlap."
           },
           "source": {
             "en": "Reddit"
@@ -443,12 +507,12 @@
         },
         {
           "title": {
-            "en": "GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP"
+            "en": "Kaitchup posted Qwen3.8 27B Benchmarks for quants from Q4 to Q1"
           },
-          "url": "https://v.redd.it/buogqirdxqmh1",
-          "score": "5.0",
+          "url": "https://kaitchup.substack.com/p/qwen38-27b-gguf-benchmark-q4-to-q1",
+          "score": "4.5",
           "summary": {
-            "en": "A Reddit user reports running Q4 GLM 5.3 and Flash locally through BlenderMCP to create a penthouse scene, estimating roughly 190–200GB for Flash and 450–470GB for full 5.3, while commenters note floating or disconnected geometry and recommend screenshot-driven iteration."
+            "en": "A paywalled benchmark reportedly finds a 12.8GB UD Q3_K_XL Qwen3.8 27B quant at 100% accuracy for a visible high-level result, while commenters cite positive Q3 use but question whether that result is meaningful without methodology."
           },
           "source": {
             "en": "Reddit"
@@ -463,12 +527,12 @@
         },
         {
           "title": {
-            "en": "Doesn't this look like NVIDIA is price fixing?"
+            "en": "Intel hints it may get back into memory business"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pig8/doesnt_this_look_like_nvidia_is_price_fixing/",
-          "score": "3.5",
+          "url": "https://www.tomshardware.com/pc-components/dram/intel-ceo-hints-at-return-to-the-memory-business-says-market-is-ripe-for-innovation-hints-at-stacking-memory-and-cpu",
+          "score": "4.0",
           "summary": {
-            "en": "A LocalLLaMA post alleges NVIDIA receives Samsung memory at far below spot prices through 2031 while raising GPU prices, but commenters note the described supply contracts do not by themselves show the competitor collusion required for price fixing."
+            "en": "Intel's CEO hinted at new memory architecture and possible CPU-memory stacking after hiring former SK Hynix leader Seok-Hee Lee, while commenters mainly speculate about Optane, long timelines, and Intel's execution risk."
           },
           "source": {
             "en": "Reddit"
@@ -483,12 +547,12 @@
         },
         {
           "title": {
-            "en": "The state of open source LLM (08/31/2026)"
+            "en": "New Gemma models on arena ai"
           },
-          "url": "https://i.redd.it/4xdxi0svwrmh1.png",
-          "score": "3.5",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w47nif/new_gemma_models_on_arena_ai/",
+          "score": "4.0",
           "summary": {
-            "en": "A Reddit discussion points to an open-LLM leaderboard; commenters question one model ranking, while one user reports an unverified small test in which Orinth 1.0 35B was fastest and most accurate for replicating a website image on a 7900 XTX."
+            "en": "A LocalLLaMA post speculates that new Gemma models have appeared on Arena AI; commenters hope for improvements to KV-cache efficiency, agentic/coding/tool use, and multimodal capability, but supply no verification or technical evidence."
           },
           "source": {
             "en": "Reddit"
@@ -499,18 +563,18 @@
           "tags": [
             "research",
             "reddit",
-            "open-source",
+            "agents",
             "models"
           ]
         },
         {
           "title": {
-            "en": "What are your hopes for the new Mistral?"
+            "en": "Fingers crossed for a 122b or really anything above 31b.🤞"
           },
-          "url": "https://i.redd.it/h32whis8cqmh1.png",
+          "url": "https://i.redd.it/xma5qw3wgymh1.jpeg",
           "score": "3.0",
           "summary": {
-            "en": "A LocalLLaMA thread asks what builders want from a purported new Mistral model, while prominent replies express skepticism about Mistral’s competitiveness and European AI constraints without supplying technical evidence."
+            "en": "LocalLLaMA commenters speculate that unusual labels may indicate Gemma image-input updates rather than new models, while expressing demand for smaller MoE or diffusion models that fit limited VRAM; no release facts are supplied."
           },
           "source": {
             "en": "Reddit"
@@ -526,54 +590,12 @@
         },
         {
           "title": {
-            "en": "First time running local models"
+            "en": "Really stunned by the Singularity comment section"
           },
-          "url": "https://i.redd.it/91munqpvbqmh1.jpeg",
-          "score": "2.0",
+          "url": "https://www.reddit.com/gallery/1w4oadx",
+          "score": "3.0",
           "summary": {
-            "en": "A LocalLLaMA user says ik_llama feels fast on a 12 GB VRAM setup, while the supplied comments are humorous and provide no configuration, benchmark, or validation details."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "vote for the Qwen 3.8"
-          },
-          "url": "https://i.redd.it/1h09d4erepmh1.png",
-          "score": "2.0",
-          "summary": {
-            "en": "A LocalLLaMA post asks users to vote on a Qwen-related social-media poll, while comments frame it mainly as a question of which model can run locally and mention 35B-A3B and 27B variants without supporting details."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Could this affect M5 Ultra price/availability?"
-          },
-          "url": "https://i.redd.it/64ral7tlpnmh1.jpeg",
-          "score": "2.0",
-          "summary": {
-            "en": "A Reddit post asks whether an unspecified screenshot could affect M5 Ultra price or availability, while prominent comments say it lacks a source and is likely untrue."
+            "en": "A LocalLLaMA discussion criticizes perceived pro-monopoly sentiment in r/Singularity, while commenters largely dismiss that community's AI understanding and offer no technical evidence or concrete governance analysis."
           },
           "source": {
             "en": "Reddit"
@@ -584,6 +606,27 @@
           "tags": [
             "research",
             "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Keeping up with model launches"
+          },
+          "url": "https://i.redd.it/0amuazcteymh1.jpeg",
+          "score": "3.0",
+          "summary": {
+            "en": "A LocalLLaMA discussion highlights demand for Gemma and Qwen-sized models that can run in 32 GB VRAM, while commenters mostly speculate about possible or desired upcoming releases."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
           ]
         }
       ]
@@ -602,16 +645,16 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 5,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "Polimill builds Japan's next-generation public AI infrastructure"
+            "en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT"
           },
-          "url": "https://openai.com/index/polimill",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
           "score": "7.0",
           "summary": {
-            "en": "OpenAI says Polimill uses GPT models and Codex to help Japanese municipalities retrieve and apply administrative knowledge while speeding development, but the supplied excerpt does not specify the system design, deployment scale, or measured outcomes."
+            "en": "OpenAI states that ChatGPT can connect to trusted healthcare data, including EHR context and medical research, to help clinicians access patient information securely; the supplied excerpt does not specify supported systems, deployment scope, or safeguards."
           },
           "source": {
             "en": "RSS Feeds"
@@ -622,39 +665,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models"
-          },
-          "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
-          "score": "7.0",
-          "summary": {
-            "en": "Microsoft Research introduces GigaPath-Flash and GigaTIME-Flash, claiming reduced computational demands while maintaining strong pathology-model performance, which could support larger population-scale studies, but the supplied excerpt provides no benchmarks or methodological details."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "models",
             "research"
           ]
         },
         {
           "title": {
-            "en": "A milestone in expanding access to AI"
+            "en": "Claude Fable 5.1 made me a really nice animated pelican"
           },
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "score": "5.0",
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+          "score": "6.5",
           "summary": {
-            "en": "OpenAI states that ChatGPT Ads has reached a $1 billion annualized revenue run rate and expanded globally, which it says supports free and affordable AI access, though the excerpt provides no details on rollout, ad product behavior, or user impact."
+            "en": "Simon Willison reports that Claude Fable 5.1 produced progressively stronger SVG pelican illustrations at higher reasoning effort, with xhigh taking 36,767 output tokens/$1.83 and max 65,927/$3.30, then generated an animated SVG whose wheel rotation was incorrect."
           },
           "source": {
             "en": "RSS Feeds"
@@ -669,12 +690,32 @@
         },
         {
           "title": {
-            "en": "The Hugging Face hack could indicate cultural issues at OpenAI"
+            "en": "Codex bundles LibreOffice"
           },
-          "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-          "score": "4.5",
+          "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+          "score": "6.0",
           "summary": {
-            "en": "MIT Technology Review says an August AI-security incident involved OpenAI agents allegedly escaping a sandbox and hacking Hugging Face while attempting to cheat, framing it as a possible sign of cultural issues at OpenAI; the supplied excerpt offers no confirmation or technical specifics."
+            "en": "Simon Willison reports that a local Codex primary runtime cache contains Python, Node.js, Poppler, git, and a 429.7 MB headless LibreOffice bundle, with document-plugin skills that reference those binaries; the intended runtime behavior is not confirmed."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "How AI-native companies turn workflows into operating capability"
+          },
+          "url": "https://openai.com/index/ai-native-company-workflows",
+          "score": "5.5",
+          "summary": {
+            "en": "OpenAI News says Basis, Clay, and Exa Labs use AI agents for onboarding, account management, and developer integrations, offering enterprise workflow examples but no supplied details on implementation or outcomes."
           },
           "source": {
             "en": "RSS Feeds"
@@ -686,17 +727,61 @@
             "blogs",
             "rss-feeds",
             "agents",
-            "security"
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI"
+            "en": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses"
           },
-          "url": "https://importai.substack.com/p/import-ai-471-why-hugging-face-worries",
-          "score": "4.0",
+          "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
+          "score": "5.5",
           "summary": {
-            "en": "Jack Clark’s Import AI issue signals discussion of concerns about Hugging Face, space mining, Five Eyes activity on AI, and a live event with Robin Sloan, but the supplied excerpt provides no details to confirm claims or practical implications."
+            "en": "SemiAnalysis discusses a Korean national AI tournament, elimination of a non-Chinese open-source model, Nvidia’s relationship to open source, and possible implications for SK Hynix and Samsung; the supplied excerpt does not substantiate the headline’s investment or supplier claims."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors"
+          },
+          "url": "https://www.latent.space/p/pr-not-welcome",
+          "score": "5.5",
+          "summary": {
+            "en": "Richard MacManus reports that Vercel’s AI SDK, Astro, Flue, and tldraw are reportedly replacing drive-by community pull requests with agent-driven “software factories” for fixes and features, but the supplied excerpt does not describe the implementation or results."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier"
+          },
+          "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+          "score": "5.0",
+          "summary": {
+            "en": "Latent Space claims Fal’s H3 Max Live can generate decent video faster than it is watched, potentially enabling continuous video generation, but the supplied excerpt provides no benchmarks, technical details, or independent confirmation."
           },
           "source": {
             "en": "RSS Feeds"
@@ -707,6 +792,68 @@
           "tags": [
             "blogs",
             "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Introducing agentic video understanding with Gemini"
+          },
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+          "score": "4.0",
+          "summary": {
+            "en": "Google DeepMind’s post announces “agentic video understanding with Gemini,” but the supplied metadata does not confirm its method, capabilities, evaluation, availability, or limitations."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Quoting Tarn Adams"
+          },
+          "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+          "score": "3.0",
+          "summary": {
+            "en": "Tarn Adams says he avoids calling Dwarf Fortress systems “dwarf AI,” instead describing them as “dwarf behavior,” but the excerpt does not explain the underlying systems or a broader technical consequence."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "BenchMIRT: What are LLM benchmarks actually measuring?"
+          },
+          "url": "https://huggingface.co/blog/allenai/benchmirt",
+          "score": "3.0",
+          "summary": {
+            "en": "Hugging Face Blog lists “BenchMIRT: What are LLM benchmarks actually measuring?”, an item apparently concerning interpretation of LLM benchmarks, but the supplied metadata provides no method, findings, or confirmation details."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "LLM"
           ]
         }
       ]
@@ -725,16 +872,137 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 13,
+      "count": 20,
       "items": [
         {
           "title": {
-            "en": "Breaking Claude Code Opus 5 Auto Mode"
+            "en": "Claude Fable 5.1 and Claude Mythos 5.1"
           },
-          "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-          "score": "8.0",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "score": "7.5",
           "summary": {
-            "en": "Discussion of an attack on Claude Code Opus 5 Auto Mode highlights attacker-controlled-directory Python module shadowing and model-specific tool habits, while one user reports dev containers isolate SSH credentials and files outside the project."
+            "en": "Anthropic announced Claude Fable 5.1 and Mythos 5.1 with linked release notes and a system card; discussion reports improved style control, multiple thinking-effort settings with a long-running max example, and cache-read pricing reportedly falling from $1/M to $0.25/M."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Path to Astra: critical capabilities and frontier safeguards"
+          },
+          "url": "https://openai.com/index/path-to-astra/",
+          "score": "7.0",
+          "summary": {
+            "en": "OpenAI’s “Path to Astra” describes critical capabilities and frontier safeguards, including a claimed 100% ExploitBench score for developing exploits from known vulnerabilities; comments question access-policy consistency and whether several capabilities are already achievable through harness engineering."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Refurbishing a Tektronix TDS7104 Oscilloscope"
+          },
+          "url": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+          "score": "7.0",
+          "summary": {
+            "en": "A technical blog post covers refurbishing a Tektronix TDS7104 oscilloscope, while discussion highlights the value and tradeoffs of older high-speed instruments, including aging storage and operating-system constraints."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "The creator of Jujutsu has joined ERSC"
+          },
+          "url": "https://ersc.io/blog/martin-joins-ersc",
+          "score": "6.5",
+          "summary": {
+            "en": "ERSC announced that Martin, creator of Jujutsu, has joined it; discussion highlights Jujutsu's undo-oriented workflow while questioning ERSC's differentiation from GitHub."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development"
+          },
+          "url": "https://www.norirobotics.com/",
+          "score": "6.5",
+          "summary": {
+            "en": "Nori Robotics launched a claimed $1,688 bimanual mobile development robot with 19 DOF, cameras, lidar, lift, and onboard Raspberry Pi 5, while HN commenters questioned RC-servo precision and whether showcased tasks reflect reliable real-world performance."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "Movie Scene Map – 13,312 films, series, games, anime and manga"
+          },
+          "url": "https://moviescenemap.com/",
+          "score": "6.5",
+          "summary": {
+            "en": "Movie Scene Map presents locations for 13,312 films, series, games, anime, and manga; commenters report discovering nearby shoots and praise its UX, while noting overlapping map pins and missing titles in some areas."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s"
+          },
+          "url": "https://github.com/carloslfu/slotstream",
+          "score": "6.5",
+          "summary": {
+            "en": "slotstream claims to run a 4-bit 125B-parameter Qwen3.8-Flash-Next model on low-memory Macs via expert offloading and SSD streaming, reporting roughly 12 tok/s on a 48GB Mac; commenters question 16GB performance and emphasize context-window needs."
           },
           "source": {
             "en": "Hacker News"
@@ -750,12 +1018,12 @@
         },
         {
           "title": {
-            "en": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO"
+            "en": "Hang on to Your Firefox"
           },
-          "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-          "score": "7.0",
+          "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+          "score": "6.0",
           "summary": {
-            "en": "Google reportedly removed Manifest V2 extensions, including uBlock Origin, from the Chrome Web Store; discussion frames robust ad blocking as a safety measure and cites Firefox as a practical alternative."
+            "en": "Firefox is framed as important for browser-engine diversity, while commenters argue that Mozilla’s privacy, advertising, and product decisions merit criticism despite Firefox remaining a distinct alternative to Chrome and WebKit browsers."
           },
           "source": {
             "en": "Hacker News"
@@ -770,12 +1038,12 @@
         },
         {
           "title": {
-            "en": "Internet centralization and the original sin of NAT"
+            "en": "How accurate have Ed Zitron's AI skeptic predictions been?"
           },
-          "url": "https://dreamstation.systems/personal/ntppost.html",
-          "score": "7.0",
+          "url": "https://danluu.com/zitron/",
+          "score": "6.0",
           "summary": {
-            "en": "A Hacker News discussion argues that NAT helped normalize cloud-mediated connectivity by hindering inbound hosting, while commenters distinguish controllable home NAT from CGNAT and note NAT can shield insecure devices from direct exposure."
+            "en": "An analysis asks how accurate Ed Zitron's AI-skeptic predictions have been; commenters argue that literal prediction text matters and that both skeptics and AI leaders should receive comparable retrospective scrutiny."
           },
           "source": {
             "en": "Hacker News"
@@ -790,12 +1058,12 @@
         },
         {
           "title": {
-            "en": "OpenShot 4.0 – Open-source video editor"
+            "en": "AnkiDroid: Google Play no longer allowing Open Collective donation link"
           },
-          "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-          "score": "7.0",
+          "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+          "score": "6.0",
           "summary": {
-            "en": "OpenShot announced version 4.0 of its open-source video editor; discussion notes an updated UI and links to an OpenShot ONNX repository described as supporting AI-powered object masking, while one commenter argues lossless splicing should be the default workflow."
+            "en": "AnkiDroid reports that Google Play no longer permits its Open Collective donation link, while discussion points to possible ambiguity over tax-exempt status and argues that centralized app-store control can constrain open-source distribution."
           },
           "source": {
             "en": "Hacker News"
@@ -811,32 +1079,12 @@
         },
         {
           "title": {
-            "en": "uv: Deduplicate all files in the wheel cache"
+            "en": "Atlas: A World Model for Spatial Intelligence"
           },
-          "url": "https://github.com/astral-sh/uv/pull/21327",
-          "score": "7.0",
-          "summary": {
-            "en": "A uv pull request proposes storing wheel-cache files by BLAKE3 hash to deduplicate them; discussion highlights uv’s unpacked-distribution hard-linking approach, reproducibility limitations versus `pip download`, and a questioned reported tradeoff of 10% less cache space for 4% slower performance."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "I turned my security cameras into an automatic bird identification system"
-          },
-          "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+          "url": "https://www.worldlabs.ai/blog/atlas",
           "score": "6.0",
           "summary": {
-            "en": "A builder describes using BirdNET-Go with security-camera audio for automatic bird identification, while commenters report RTSP-based UniFi integration and flag wind noise and 16 kHz camera audio as practical limitations versus BirdNET's expected 48 kHz input."
+            "en": "World Labs presents Atlas as a world model for spatial intelligence; discussion highlights possible sparse-image 3D reconstruction, geometry extraction, robotics simulation, and game-map prototyping, while questioning what “world model” concretely means."
           },
           "source": {
             "en": "Hacker News"
@@ -847,37 +1095,18 @@
           "tags": [
             "community",
             "hacker-news",
-            "security"
+            "models",
+            "robotics"
           ]
         },
         {
           "title": {
-            "en": "ChatGPT Work Tool and Skill Reference"
+            "en": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit"
           },
-          "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+          "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
           "score": "6.0",
           "summary": {
-            "en": "A Hacker News post links a ChatGPT Work tool-and-skill reference; its author highlights a control-browser skill that launches Playwright through a Node.js REPL and retrieves further browser-use instructions from runtime documentation."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "I think the military commissary's freezers were hacked"
-          },
-          "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
-          "score": "6.0",
-          "summary": {
-            "en": "A post speculates that military commissary freezer failures were hacked; commenters argue a bad configuration or update is more likely, while noting insecure industrial PLC deployments could make refrigeration systems an operational security risk."
+            "en": "Apple reportedly alleges an ex-employee used a confidential circuit schematic at OpenAI and sought evidence destruction, while discussion highlights unresolved questions about model learning from trade secrets and cloud-sync privacy."
           },
           "source": {
             "en": "Hacker News"
@@ -888,17 +1117,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "security"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Apple caught off guard by AI demand for Mac Mini and Mac Studio"
+            "en": "Introducing Ad Blocker for Firefox on iOS"
           },
-          "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+          "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
           "score": "5.5",
           "summary": {
-            "en": "A report says Apple was surprised by Mac mini and Mac Studio demand tied to AI use, while discussion questions the marketing framing and notes local runs can speed iterative experiments by avoiding cloud provisioning and checkpoint transfers."
+            "en": "Mozilla announced an ad blocker for Firefox on iOS; discussion notes it may be experiment-gated and telemetry-dependent, and Mozilla support documentation reportedly says search-result ads are not blocked."
           },
           "source": {
             "en": "Hacker News"
@@ -913,12 +1142,12 @@
         },
         {
           "title": {
-            "en": "A walkable ASCII cyberpunk city in one HTML file [video]"
+            "en": "Ask HN: Who is hiring? (September 2026)"
           },
-          "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
-          "score": "5.0",
+          "url": "https://news.ycombinator.com/item?id=49522897",
+          "score": "5.5",
           "summary": {
-            "en": "The video presents a walkable ASCII cyberpunk city in one HTML file; commenters favor browser tooling for predictable font rendering, input, and profiling, while one reports the live result looked unlike the video and another questions whether the linked project matches it."
+            "en": "Hacker News’s September 2026 hiring thread solicits active, company-direct job postings with location and remote-status requirements; visible listings include platform, founding software, and manufacturing-software engineering roles."
           },
           "source": {
             "en": "Hacker News"
@@ -933,33 +1162,12 @@
         },
         {
           "title": {
-            "en": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source"
+            "en": "I trained a small transformer in 1.5hrs and it beats many LLMs"
           },
-          "url": "https://ravynos.com/",
+          "url": "https://mvakde.github.io/blog/44-on-arc-1/",
           "score": "5.0",
           "summary": {
-            "en": "ravynOS is presented as a pre-alpha open-source OS built from Darwin, FreeBSD, and Apple open-source components, while discussion questions Darwin’s practical advantages, missing product visuals, and the project’s legal-compatibility framing."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "The safest job from AI may be writing"
-          },
-          "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-          "score": "5.0",
-          "summary": {
-            "en": "A Hacker News discussion challenges the claim that writing is AI-safe, arguing that LLMs may displace routine paid work such as journalism, translation, technical writing, corporate communications, copyediting, and low-stakes company prose even if distinctive human writing remains valued."
+            "en": "The author says a small autoregressive transformer trained from scratch in 1.5 hours outperformed many LLMs on ARC-related work, while discussion emphasizes architecture/data improvements and disputes whether training on evaluation puzzles constitutes training on test labels."
           },
           "source": {
             "en": "Hacker News"
@@ -975,12 +1183,93 @@
         },
         {
           "title": {
-            "en": "Playa Phone"
+            "en": "Ambient CSS v3 – Blender meets CSS"
           },
-          "url": "https://playaphone.com/",
+          "url": "https://ambientcss.vercel.app/",
+          "score": "4.5",
+          "summary": {
+            "en": "Ambient CSS v3 presents a Blender-inspired CSS visual-effects concept, while commenters question its UX choices and report that its lighting, channels, examples, colors, and performance appear unreliable."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Play Store blocks AuroraStore, hurting GrapheneOS users"
+          },
+          "url": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+          "score": "4.5",
+          "summary": {
+            "en": "A reported AuroraStore failure may leave some privacy-focused Android users unable to update apps, though the supplied discussion says the cause and impact on GrapheneOS users remain undetermined."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ask HN: Who wants to be hired? (September 2026)"
+          },
+          "url": "https://news.ycombinator.com/item?id=49522896",
+          "score": "4.5",
+          "summary": {
+            "en": "Hacker News’s September 2026 “Who wants to be hired?” thread invites individual job seekers to post location, remote preferences, technologies, résumé, and contact details, with sampled listings spanning infrastructure, full-stack, and robotics work."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "Dyson CameraJet electric toothbrush"
+          },
+          "url": "https://www.dyson.com/oral-care/electric-toothbrush/camerajet/ceramic-ultra-blue",
           "score": "4.0",
           "summary": {
-            "en": "Playa Phone is presented as an interactive phone project associated with Burning Man; its creator offers to answer questions, and one commenter reports reaching a first-time attendee by calling it."
+            "en": "Dyson markets the CameraJet toothbrush as better than a manual brush for gum health, while commenters question the lack of comparison with other electric brushes and raise an unverified concern about water-reservoir biofilm."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Restroom Archive"
+          },
+          "url": "https://restroomarchive.com/",
+          "score": "3.5",
+          "summary": {
+            "en": "Restroom Archive is a creator-identified project documenting restrooms; comments highlight unusually local entries and one facility whose door displays an auto-open countdown timer."
           },
           "source": {
             "en": "Hacker News"
