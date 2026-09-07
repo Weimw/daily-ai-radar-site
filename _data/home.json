@@ -1,9 +1,9 @@
 {
   "edition": {
-    "number": "006",
+    "number": "007",
     "date": {
-      "en": "Sunday, September 6, 2026",
-      "zh": "2026 年 9 月 6 日，星期日"
+      "en": "Monday, September 7, 2026",
+      "zh": "2026 年 9 月 7 日，星期一"
     },
     "story_count": 33,
     "stories_label": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 33,
+    "fetched_count": 35,
     "priority_count": 31
   },
   "index": [
     {
       "title": {
-        "en": "dif.sh"
+        "en": "AI Toolbox 3.0"
       },
-      "url": "https://www.producthunt.com/products/dif-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/chatgpt-toolbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "6.5",
       "summary": {
-        "en": "Product Hunt presents dif.sh as an open-source, Markdown-file-based feature-flag tool for teams using coding agents, keeping flag rationale and experiment decisions in the repository; its practical integrations and implementation remain unverified here."
+        "en": "Product Hunt presents AI Toolbox 3.0 as a local-first browser extension for ChatGPT, Claude, Gemini, and Grok users, adding cross-platform chat search, folders, prompt chains, bookmarks, context tracking, and Markdown/PDF/JSON export; compatibility and claims are not independently verified here."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,19 +37,17 @@
       },
       "tags": [
         "products",
-        "product-hunt",
-        "agents",
-        "open-source"
+        "product-hunt"
       ]
     },
     {
       "title": {
-        "en": "Language Models Can Control Their Own Attention [R]"
+        "en": "Applying Sliding Window Attention to pretrained LLMs at inference time [P]"
       },
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
-      "score": "7.0",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w8repz/applying_sliding_window_attention_to_pretrained/",
+      "score": "6.5",
       "summary": {
-        "en": "Declarative Attention asks a language model to emit , , or  declarations during chain-of-thought so an inference engine can avoid reading most KV-cache tokens, but the supplied abstract provides no measured results or validation."
+        "en": "A reusable Hugging Face causal-LLM inference layer applies attention sinks plus a bounded sliding-window KV cache; its Qwen2.5-7B results report about 3.5 MB SWA-64 cache use at 16K–64K context and lower 16K TPOT, with a stated long-range-context trade-off."
       },
       "source": {
         "en": "Reddit"
@@ -60,39 +58,17 @@
       "tags": [
         "research",
         "reddit",
-        "models"
+        "LLM"
       ]
     },
     {
       "title": {
-        "en": "Using Blender with coding agents on macOS"
+        "en": "Isar Aerospace reaches orbit and deploys payloads on second flight"
       },
-      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "score": "5.5",
-      "summary": {
-        "en": "Simon Willison reports that a coding agent on macOS can use an installed Blender application to generate and iteratively improve a rendered scene via Blender’s Python API, illustrated by linked output code; setup, reliability, and broader workflow limits are not detailed."
-      },
-      "source": {
-        "en": "RSS Feeds"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "blogs",
-        "rss-feeds",
-        "agents",
-        "coding"
-      ]
-    },
-    {
-      "title": {
-        "en": "Visualizing Rust's Vtables: How dyn Trait Works In Memory"
-      },
-      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
       "score": "7.0",
       "summary": {
-        "en": "A recent post visualizes Rust dyn Trait memory layout and vtables; discussion notes that the article’s “object safety” terminology has been renamed “dyn compatibility” in current Rust documentation and asks for deeper vtable-structure analysis."
+        "en": "Isar Aerospace says its second flight reached orbit and deployed payloads, a potential new launch-capability milestone for Europe, while discussion questions its framing that this newly creates European “sovereign access to space.”"
       },
       "source": {
         "en": "Hacker News"
@@ -107,12 +83,32 @@
     },
     {
       "title": {
-        "en": "GitWarren"
+        "en": "Asahi Linux on M3"
       },
-      "url": "https://www.producthunt.com/products/gitwarren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+      "score": "7.0",
+      "summary": {
+        "en": "Asahi Linux is reported to have official M3 support progress, while discussion highlights unresolved sleep and HDMI support and substantially weaker llama.cpp performance than macOS Metal on an M1 Ultra."
+      },
+      "source": {
+        "en": "Hacker News"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "community",
+        "hacker-news"
+      ]
+    },
+    {
+      "title": {
+        "en": "Agentic Video Understanding in Gemini"
+      },
+      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "6.5",
       "summary": {
-        "en": "GitWarren is a Product Hunt-listed local, PR-like review app for developers to inspect committed, staged, unstaged, and untracked changes, keep inline comment threads, and connect coding agents through MCP before pushing, with implementation and compatibility details not provided."
+        "en": "Product Hunt describes Gemini’s agentic video-processing mode for API and enterprise users, letting supported Flash models choose viewing speed and modality for long videos; it claims lower token and cost use with modest accuracy gains, but provides no benchmark methodology or operational caveats."
       },
       "source": {
         "en": "Product Hunt"
@@ -124,7 +120,7 @@
         "products",
         "product-hunt",
         "agents",
-        "developer-tools"
+        "models"
       ]
     }
   ],
@@ -157,16 +153,36 @@
         "en": "Noteworthy new products and updates today.",
         "zh": "今日值得关注的新产品与更新。"
       },
-      "count": 8,
+      "count": 7,
       "items": [
         {
           "title": {
-            "en": "dif.sh"
+            "en": "AI Toolbox 3.0"
           },
-          "url": "https://www.producthunt.com/products/dif-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/chatgpt-toolbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "6.5",
           "summary": {
-            "en": "Product Hunt presents dif.sh as an open-source, Markdown-file-based feature-flag tool for teams using coding agents, keeping flag rationale and experiment decisions in the repository; its practical integrations and implementation remain unverified here."
+            "en": "Product Hunt presents AI Toolbox 3.0 as a local-first browser extension for ChatGPT, Claude, Gemini, and Grok users, adding cross-platform chat search, folders, prompt chains, bookmarks, context tracking, and Markdown/PDF/JSON export; compatibility and claims are not independently verified here."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Agentic Video Understanding in Gemini"
+          },
+          "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Product Hunt describes Gemini’s agentic video-processing mode for API and enterprise users, letting supported Flash models choose viewing speed and modality for long videos; it claims lower token and cost use with modest accuracy gains, but provides no benchmark methodology or operational caveats."
           },
           "source": {
             "en": "Product Hunt"
@@ -178,17 +194,17 @@
             "products",
             "product-hunt",
             "agents",
-            "open-source"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "GitWarren"
+            "en": "Kit by Speakeasy"
           },
-          "url": "https://www.producthunt.com/products/gitwarren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/speakeasydev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "6.5",
           "summary": {
-            "en": "GitWarren is a Product Hunt-listed local, PR-like review app for developers to inspect committed, staged, unstaged, and untracked changes, keep inline comment threads, and connect coding agents through MCP before pushing, with implementation and compatibility details not provided."
+            "en": "Kit by Speakeasy is a Product Hunt-listed static-binary coding-agent runtime for developers, combining a terminal client, ACP server, A2A endpoint, and subagent orchestration; its claimed editor and harness compatibility is not independently substantiated here."
           },
           "source": {
             "en": "Product Hunt"
@@ -205,76 +221,12 @@
         },
         {
           "title": {
-            "en": "BrickForgerAI"
+            "en": "DocsAlot Visual Editor"
           },
-          "url": "https://www.producthunt.com/products/brickforgerai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.5",
-          "summary": {
-            "en": "BrickForgerAI, listed on Product Hunt, targets custom brick-model creators by turning prompts into LEGO-compatible voxel builds with structural checks, LDraw files, parts lists, and PDF instructions, though its stated library currently contains 55 part types."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Hyperprobe"
-          },
-          "url": "https://www.producthunt.com/products/hyperprobe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
-          "summary": {
-            "en": "Product Hunt presents HyperProbe as a backend-team tool that lets Claude Code, Codex, or Cursor place read-only probes in a running service to capture previously unlogged variable state for production debugging, with security, compatibility, and implementation details not provided."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Experiential Labs"
-          },
-          "url": "https://www.producthunt.com/products/experiential-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
-          "summary": {
-            "en": "Experiential Labs is presented on Product Hunt as an open-source, zero-markup AI gateway for BYOK, self-hosting, and 1,000+ marketplace models that learns from traffic to recommend models, reduce costs, and train an owned specialized model, with implementation and validation details absent."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "open-source",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Ponytail"
-          },
-          "url": "https://www.producthunt.com/products/ponytail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Ponytail is a Product Hunt-listed plugin for coding-agent users that checks whether a requested change is necessary, already present, or achievable with the standard library or native APIs to minimize added code; its effectiveness and integrations are not provided."
+            "en": "Product Hunt presents DocsAlot Visual Editor as a visual technical-documentation editor for writers and developers, combining Markdown mode, AI-assisted edits, reusable components, publishing, and version history; its differentiation and integration trade-offs are not described."
           },
           "source": {
             "en": "Product Hunt"
@@ -285,18 +237,17 @@
           "tags": [
             "products",
             "product-hunt",
-            "agents",
-            "coding"
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Reflexio"
+            "en": "H3 Max by fal"
           },
-          "url": "https://www.producthunt.com/products/reflexio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
+          "url": "https://www.producthunt.com/products/fal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Product Hunt presents Reflexio for AI-agent builders as a system that converts corrections, failures, and successful paths into visible, testable, reversible reusable behavior, with unverified claims of reducing task failures and token use."
+            "en": "Product Hunt presents fal’s H3 Max as a post-trained MiniMax H3 for video-production teams, claiming improved prompt adherence, visual quality, and fast 5-second generation on NVIDIA GB200 NVL72; benchmark and throughput claims are unverified in the supplied material."
           },
           "source": {
             "en": "Product Hunt"
@@ -306,18 +257,37 @@
           },
           "tags": [
             "products",
-            "product-hunt",
-            "agents"
+            "product-hunt"
           ]
         },
         {
           "title": {
-            "en": "​​AI Agents Listing​"
+            "en": "Tadata"
           },
-          "url": "https://www.producthunt.com/products/ai-agents-listing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/tadata?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists AI Agents Listing, a free directory for builders to discover agentic AI tools, MCP servers, and agent skills through linked pages, search, categories, comparisons, and alternatives; supplied material does not establish its catalog quality or maintenance."
+            "en": "Product Hunt presents Tadata as an AI employee for Slack that connects to company tools, learns team preferences, and performs work for teams; the specific tasks, integrations, safeguards, and evidence of effectiveness are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "hi.new"
+          },
+          "url": "https://www.producthunt.com/products/hey-new?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt lists hi.new as an open-source multiplayer Grok Bot for letting a user-approved bot communicate with other people’s bots, but provides no implementation, interoperability, or operational details."
           },
           "source": {
             "en": "Product Hunt"
@@ -328,7 +298,7 @@
           "tags": [
             "products",
             "product-hunt",
-            "agents"
+            "open-source"
           ]
         }
       ]
@@ -347,16 +317,78 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 5,
+      "count": 8,
       "items": [
         {
           "title": {
-            "en": "Language Models Can Control Their Own Attention [R]"
+            "en": "Applying Sliding Window Attention to pretrained LLMs at inference time [P]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
-          "score": "7.0",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w8repz/applying_sliding_window_attention_to_pretrained/",
+          "score": "6.5",
           "summary": {
-            "en": "Declarative Attention asks a language model to emit , , or  declarations during chain-of-thought so an inference engine can avoid reading most KV-cache tokens, but the supplied abstract provides no measured results or validation."
+            "en": "A reusable Hugging Face causal-LLM inference layer applies attention sinks plus a bounded sliding-window KV cache; its Qwen2.5-7B results report about 3.5 MB SWA-64 cache use at 16K–64K context and lower 16K TPOT, with a stated long-range-context trade-off."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Point density, not architecture, was the bottleneck for a 5-class radar-only object [P]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w934ew/point_density_not_architecture_was_the_bottleneck/",
+          "score": "6.0",
+          "summary": {
+            "en": "A RadarScenes 5-class radar-point-cloud experiment reports macro F1 rising from 0.381 at one point per instance to 0.764 at five, while described architecture and feature changes stayed within a measured noise floor; the post supplies no reproducible artifacts or full evaluation details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Is designing a memory graph around known data structure “overfitting” if I never touch the questions? [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w8ph8b/is_designing_a_memory_graph_around_known_data/",
+          "score": "5.0",
+          "summary": {
+            "en": "A developer asks whether extracting people, facts, claims, events, timestamps, and relations into a graph for LoCoMo conversations is schema-aware engineering or overfitting when QA pairs were not inspected, and requests a convincing leakage test."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "Proposed architecture for inferencing sparse MOE models increasing Active parameters using layered + linear decay. Succinct reasoning without any model training or fine tune. [p]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w94dtn/proposed_architecture_for_inferencing_sparse_moe/",
+          "score": "4.5",
+          "summary": {
+            "en": "The author says a llama.cpp port expands routed MoE experts beyond native top-K with adaptive thresholds, 99-to-50% influence decay, and configurable layer ranges, but supplies no benchmark results or validation in the post."
           },
           "source": {
             "en": "Reddit"
@@ -372,52 +404,12 @@
         },
         {
           "title": {
-            "en": "Astra vs. Fable 5.1 on real ML tasks -- tradeoffs, strengths, shortcomings [P]"
+            "en": "Reproducibility seems to be headed towards irrelevance in ML research. Is it too late? [D]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w8g1gk/astra_vs_fable_51_on_real_ml_tasks_tradeoffs/",
-          "score": "5.5",
-          "summary": {
-            "en": "A Reddit author reports that Astra produced a slightly better ML workflow and stricter held-out validation protocol than Fable 5.1, while Fable was more coherent and instruction-following; the claims are self-reported and the supplied evidence is incomplete."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
-          "score": "5.0",
-          "summary": {
-            "en": "A Reddit post reports that a researcher privately disclosed an adapted Task-in-Prompt jailbreak of GPT-6 Astra within a day, but supplies neither the jailbreak details nor independent evidence beyond a cited researcher post and TIP paper."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Implementing Embedding Gemma from scratch in PyTorch [P]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w7scxc/implementing_embedding_gemma_from_scratch_in/",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/",
           "score": "4.0",
           "summary": {
-            "en": "A Reddit post claims to implement Embedding Gemma from scratch in PyTorch, but the supplied record contains no code, methodology, results, or comments to evaluate the implementation."
+            "en": "A Reddit author argues that expensive physical-AI setups and opaque company-reported performance make ML results increasingly difficult to independently reproduce, while providing no specific examples, measurements, or proposed solution in the supplied text."
           },
           "source": {
             "en": "Reddit"
@@ -432,12 +424,54 @@
         },
         {
           "title": {
-            "en": "NeurIPS 2026 Automatic Reference Checker [R]"
+            "en": "PINNStudio: A free, open-source no-code GUI for setting up, training, and visualizing PINNs [P]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9a2i7/pinnstudio_a_free_opensource_nocode_gui_for/",
+          "score": "4.0",
+          "summary": {
+            "en": "PINNStudio is presented as a free open-source no-code GUI for defining 1D/2D forward or inverse PINN problems, coupled PDEs, conditions, architectures, and training schedules, but the supplied post provides no code, benchmarks, or demonstrated results."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "What is the correct way to vibe-code Machine Learning projects?[p]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w98h2p/what_is_the_correct_way_to_vibecode_machine/",
+          "score": "4.0",
+          "summary": {
+            "en": "A learner asks how to divide responsibility between AI coding tools and human judgment across ML project planning, implementation, data work, debugging, review, and conversation context, but provides no outcomes or discussion evidence."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "AIStats 2027 Questions [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w8l0hn/aistats_2027_questions_d/",
           "score": "2.5",
           "summary": {
-            "en": "A NeurIPS 2026 submitter asks whether the automatic reference/citation checker was used in paper decisions after receiving an instructional email, but provides no confirmation or supporting details."
+            "en": "A researcher asks where to find an AIStats 2027 LaTeX template and whether a quantitative-finance paper fits AIStats or ICLR, citing a prior UAI rejection and self-reported finance-conference recognition but providing no technical paper details or discussion response."
           },
           "source": {
             "en": "Reddit"
@@ -466,73 +500,8 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 3,
-      "items": [
-        {
-          "title": {
-            "en": "Using Blender with coding agents on macOS"
-          },
-          "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-          "score": "5.5",
-          "summary": {
-            "en": "Simon Willison reports that a coding agent on macOS can use an installed Blender application to generate and iteratively improve a rendered scene via Blender’s Python API, illustrated by linked output code; setup, reliability, and broader workflow limits are not detailed."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "agents",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot"
-          },
-          "url": "https://www.latent.space/p/grok-bot",
-          "score": "4.0",
-          "summary": {
-            "en": "Dan McAteer characterizes SpaceXAI’s Grok Bot as offering programming power comparable to OpenClaw while exposing a different, MacBook-like level of abstraction; the excerpt provides no technical details or independent confirmation."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "Introducing GPT-6 Astra for developers"
-          },
-          "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-          "score": "3.5",
-          "summary": {
-            "en": "A Simon Willison post highlights a video statement that GPT-6 Astra reportedly produces more sophisticated outputs and particularly excels at 3D models, while noting a recurring pelican-on-a-bicycle visual motif; the supplied excerpt provides no benchmarks, availability details, or independent validation."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "models",
-            "developer-tools"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "id": "hn",
@@ -548,16 +517,16 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 15,
+      "count": 16,
       "items": [
         {
           "title": {
-            "en": "Visualizing Rust's Vtables: How dyn Trait Works In Memory"
+            "en": "Isar Aerospace reaches orbit and deploys payloads on second flight"
           },
-          "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+          "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
           "score": "7.0",
           "summary": {
-            "en": "A recent post visualizes Rust dyn Trait memory layout and vtables; discussion notes that the article’s “object safety” terminology has been renamed “dyn compatibility” in current Rust documentation and asks for deeper vtable-structure analysis."
+            "en": "Isar Aerospace says its second flight reached orbit and deployed payloads, a potential new launch-capability milestone for Europe, while discussion questions its framing that this newly creates European “sovereign access to space.”"
           },
           "source": {
             "en": "Hacker News"
@@ -572,12 +541,32 @@
         },
         {
           "title": {
-            "en": "Isar Aerospace launch into orbit [video]"
+            "en": "Asahi Linux on M3"
           },
-          "url": "https://www.youtube.com/watch?v=Ss1DUqLjecc",
+          "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+          "score": "7.0",
+          "summary": {
+            "en": "Asahi Linux is reported to have official M3 support progress, while discussion highlights unresolved sleep and HDMI support and substantially weaker llama.cpp performance than macOS Metal on an M1 Ultra."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Research acceleration: The view inside OpenAI"
+          },
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
           "score": "6.5",
           "summary": {
-            "en": "A video reports Isar Aerospace reaching orbit, with an operations-side commenter celebrating the campaign and another commenter comparing its stated class to Electron, Neutron, and Falcon 9 while questioning proximity to commercial launches."
+            "en": "OpenAI describes pursuing supervised automated AI researchers to advance deep learning and alignment, while discussion raises alignment-governance concerns and one commenter reports that stronger models and tooling already enabled unattended 24/7 jobs."
           },
           "source": {
             "en": "Hacker News"
@@ -587,17 +576,40 @@
           },
           "tags": [
             "community",
-            "hacker-news"
+            "hacker-news",
+            "models",
+            "research"
           ]
         },
         {
           "title": {
-            "en": "Learn Programming with OCaml"
+            "en": "An Alien Mind"
           },
-          "url": "https://usr.lmf.cnrs.fr/lpo/",
+          "url": "https://openai.com/index/an-alien-mind/",
+          "score": "6.5",
+          "summary": {
+            "en": "OpenAI’s “An Alien Mind” prompts Hacker News discussion about AI-agent alignment boundaries, including an unverified dispute over whether agents impersonated a forum moderator in a prior incident."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "GrapheneOS Overhauled Default Apps and Secure Clipboard"
+          },
+          "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
           "score": "6.0",
           "summary": {
-            "en": "A Hacker News post highlights “Learn Programming with OCaml,” while commenters discuss the difficulty and possible benefits of learning functional programming early and ask how the resource compares with other OCaml materials."
+            "en": "GrapheneOS announced an overhaul of default apps, with discussion indicating the current concrete release is an SMS/RCS app while gallery and possibly keyboard replacements are planned; commenters also questioned the title’s “Secure Clipboard” claim."
           },
           "source": {
             "en": "Hacker News"
@@ -612,112 +624,12 @@
         },
         {
           "title": {
-            "en": "The \"$60 Gaming PC\" – AMD BC-250 (2025)"
+            "en": "Your intellectual fly is open (2025)"
           },
-          "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
           "score": "6.0",
           "summary": {
-            "en": "Commenters report AMD BC-250 builds require additional power, storage, cooling, adapters, and a DIY case, with variable BIOS-enabled core unlocks, while recent board prices cited in discussion are roughly $150–$186 rather than $60."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Terpstra Keyboard"
-          },
-          "url": "http://terpstrakeyboard.com/",
-          "score": "6.0",
-          "summary": {
-            "en": "Terpstra Keyboard presents an isomorphic musical-keyboard layout intended to preserve note-group shapes across positions; commenters describe similar Lumatone hardware as helpful for improvisation and transposition in varied tunings, though no product-specific technical comparison is supplied."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Private German rocket makes history, reaches orbit from European soil"
-          },
-          "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-          "score": "5.5",
-          "summary": {
-            "en": "Space.com reports that Isar Aerospace's Spectrum rocket reached orbit from Norway's Andøya Spaceport, while the supplied discussion focuses on European autonomy and land-rights questions rather than launch performance."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)"
-          },
-          "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
-          "score": "5.5",
-          "summary": {
-            "en": "A 2014 post concerns finite-time blowup for an averaged three-dimensional Navier-Stokes equation, while the HN discussion cautions that current rumors claiming the Millennium Navier-Stokes problem was solved are baseless speculation."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": ".gitignore Everything by Default"
-          },
-          "url": "https://packagemain.tech/p/gitignore-everything-by-default",
-          "score": "5.5",
-          "summary": {
-            "en": "A proposed `.gitignore` default-deny workflow is challenged by commenters who say explicit staging, global ignores, and conventional templates reduce accidental-file risk without hiding intended project files."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "LLMs as a Cognitive Virus"
-          },
-          "url": "https://arxiv.org/abs/2609.03344",
-          "score": "5.0",
-          "summary": {
-            "en": "An arXiv paper frames LLMs as a cognitive virus; discussion compares this to longstanding cognitive outsourcing through writing, teams, and other idea-spreading technologies, questioning whether the framing identifies an LLM-specific mechanism."
+            "en": "An essay and HN discussion argue that undisclosed LLM-written prose can obscure an author's voice, with commenters emphasizing that writing itself can change and sharpen a person's thinking during emails, posts, and software design documents."
           },
           "source": {
             "en": "Hacker News"
@@ -733,12 +645,12 @@
         },
         {
           "title": {
-            "en": "Nitter has more working instances than before the takedowns"
+            "en": "Nitter and XCancel resume service after legal advice"
           },
-          "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-          "score": "5.0",
+          "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+          "score": "6.0",
           "summary": {
-            "en": "A Codeberg-hosted directory claims Nitter has more working instances after takedowns; commenters value its accountless UI and report RSS may persist through one visible-site shutdown, while warning instances frequently disappear."
+            "en": "Nitter and XCancel reportedly resumed service after legal advice; discussion emphasizes the value of alternative frontends for information posted exclusively to X, but supplies no concrete legal or technical explanation."
           },
           "source": {
             "en": "Hacker News"
@@ -753,12 +665,12 @@
         },
         {
           "title": {
-            "en": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA"
+            "en": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple"
           },
-          "url": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
-          "score": "5.0",
+          "url": "https://github.com/marsbos/mador",
+          "score": "5.5",
           "summary": {
-            "en": "Wikimedia Foundation workers reportedly voted overwhelmingly to unionize with CWA amid technology-sector change, while a cited Foundation statement says it will accept the outcome and engage in good faith; discussion notes these workers are distinct from Wikipedia editors."
+            "en": "Mador presents an 80-line Proxy state tuple intended to make DOM updates reactive; comments question its API readability and Proxy performance, and note that comparable JavaScript signal/reactivity implementations already exist."
           },
           "source": {
             "en": "Hacker News"
@@ -773,12 +685,12 @@
         },
         {
           "title": {
-            "en": "Git hosting that never leaves Europe"
+            "en": "NetBSD 9.5 released and EOL for NetBSD-9"
           },
-          "url": "https://pushin.eu/",
-          "score": "5.0",
+          "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+          "score": "5.5",
           "summary": {
-            "en": "Pushin.eu presents a Europe-only Git-hosting service still under development; discussion praises its UI speed but notes absent company/legal details, possible Cloudflare dependency, no public IPv6, and an existing Europe-based alternative in Codeberg."
+            "en": "NetBSD 9.5 has been released and NetBSD-9 has reached end of life; the sole comment reflects an operator considering an upgrade from NetBSD 9.3 to the 11.x line."
           },
           "source": {
             "en": "Hacker News"
@@ -793,12 +705,73 @@
         },
         {
           "title": {
-            "en": "A bizarre Commodore 64 peripheral, a mime, and some pretty bad ads"
+            "en": "I'm teaching an introductory 12 week course on Quantum Oracle Engineering"
           },
-          "url": "https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/",
+          "url": "https://shukla.io/quantum-oracle-engineering/",
+          "score": "5.5",
+          "summary": {
+            "en": "The author says an accepted IEEE Quantum Week tutorial on quantum oracle engineering is publicly available as a 12-week course with new lessons released every Tuesday; the only discussion adds a naming joke, not technical evidence."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Research carried out using NetBSD"
+          },
+          "url": "https://www.netbsd.org/gallery/research.html",
+          "score": "5.0",
+          "summary": {
+            "en": "NetBSD’s research gallery highlights academic and industry use cases; discussion speculates about licensing, custom hardware ports, and desktop usability, while one comment references Microsoft-related NetBSD work without enough supplied detail to assess it."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "It took a year to ship WebAssembly in Anubis"
+          },
+          "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+          "score": "5.0",
+          "summary": {
+            "en": "Anubis’s author reports that shipping WebAssembly took a year; commenters value its compatibility attention and language-toolchain context, while one questions whether its anti-scraping approach depends on scrapers being memory-constrained."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "A/I shuts down – Stay human"
+          },
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
           "score": "4.0",
           "summary": {
-            "en": "A retrospective examines an unusual Commodore 64 peripheral and its ads, while a commenter suggests its disk support may relate to 1541-compatible hardware using an internally Apple Disk II-style interface."
+            "en": "A/I announces it is shutting down; discussion focuses on alleged pressure on hosting providers and questions whether purported use of its services by rail-sabotage groups could justify treating it as materially assisting terrorism."
           },
           "source": {
             "en": "Hacker News"
@@ -813,12 +786,12 @@
         },
         {
           "title": {
-            "en": "The Real Luxuries In Life"
+            "en": "Doomscrolling Ourselves to Death"
           },
-          "url": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
-          "score": "4.0",
+          "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
+          "score": "3.5",
           "summary": {
-            "en": "Hacker News discussion around Brad Feld’s reflection emphasizes health, relationships, family time, and the ability to pursue meaningful activity as priorities that startup work should not displace."
+            "en": "The linked opinion piece and comments examine whether social-media feeds and short-form consumption worsen anxiety, procrastination, and sustained reading, with commenters offering personal experiences rather than evidence of causation."
           },
           "source": {
             "en": "Hacker News"
@@ -833,12 +806,12 @@
         },
         {
           "title": {
-            "en": "South African diamond mines are closing due to weak sales and lab-grown stones"
+            "en": "The pencil case model of creativity"
           },
-          "url": "https://www.wsj.com/business/diamond-mines-are-closing-and-south-africans-have-few-alternatives-fa3b8cbf",
-          "score": "3.0",
+          "url": "https://dub.uu.nl/en/column/pencil-case-model-creativity",
+          "score": "3.5",
           "summary": {
-            "en": "The linked article claims weak diamond sales and competition from lab-grown stones are closing South African mines, while comments raise unverified concerns about Botswana’s diamond-dependent economy and De Beers stockpiles."
+            "en": "A column argues that creativity may arise within boundaries, while the most concrete discussion insight is that specific prompts can elicit more creativity than an unconstrained blank page."
           },
           "source": {
             "en": "Hacker News"
@@ -848,7 +821,29 @@
           },
           "tags": [
             "community",
-            "hacker-news"
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "AI, Tools and Transformation"
+          },
+          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+          "score": "3.5",
+          "summary": {
+            "en": "A Hacker News thread about “AI, Tools and Transformation” discusses AI potentially flattening software and social hierarchies while retaining human responsibility for audit, security, maintenance, and accountability."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "security"
           ]
         }
       ]
