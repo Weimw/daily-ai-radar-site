@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "008",
+    "number": "009",
     "date": {
-      "en": "Tuesday, September 8, 2026",
-      "zh": "2026 年 9 月 8 日，星期二"
+      "en": "Wednesday, September 9, 2026",
+      "zh": "2026 年 9 月 9 日，星期三"
     },
-    "story_count": 31,
+    "story_count": 57,
     "stories_label": {
-      "en": "31 stories scored",
-      "zh": "已评分 31 条"
+      "en": "57 stories scored",
+      "zh": "已评分 57 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 31,
-    "priority_count": 31
+    "fetched_count": 68,
+    "priority_count": 49
   },
   "index": [
     {
       "title": {
-        "en": "PR Lens by Coldtea.ai"
+        "en": "Relaticle"
       },
-      "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/relaticle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "7.0",
       "summary": {
-        "en": "Product Hunt lists PR Lens by Coldtea.ai as an MIT-licensed tool for developers that generates animated architecture and data-flow diagrams for codebases and pull requests via GitHub Action, CLI, or coding-agent skill; accuracy and supported environments are not specified."
+        "en": "Relaticle is a Product Hunt–listed open-source CRM for teams using agent workflows, exposing 37 OAuth-backed MCP tools and custom-field schemas while requiring record-by-record approval of in-app AI write proposals; implementation maturity and integrations are not evidenced here."
       },
       "source": {
         "en": "Product Hunt"
@@ -39,17 +39,17 @@
         "products",
         "product-hunt",
         "agents",
-        "developer-tools"
+        "open-source"
       ]
     },
     {
       "title": {
-        "en": "LLM-guided program evolution improves 10 best-known circle-packing solutions (Packomania csqv, N=101-114) [R]"
+        "en": "My lab found a way to migrate between embedding models with zero downtime. [R]"
       },
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9xlyi/llmguided_program_evolution_improves_10_bestknown/",
-      "score": "7.5",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wabmm7/my_lab_found_a_way_to_migrate_between_embedding/",
+      "score": "5.5",
       "summary": {
-        "en": "The author reports that LLM-proposed changes to a seed optimization solver improved Packomania csqv best-known sum-of-radii results for 10 N values from 101–114 by 2.4–5.4% in 15 iterations at a stated $27.72 cost, with claimed independent acceptance and linked paper/code."
+        "en": "The author proposes Embedflow, reranking K documents from an old embedding index with a new model to avoid full re-embedding, reporting 63 migrations on up to one million documents but providing no complete results, method details, code, or validation."
       },
       "source": {
         "en": "Reddit"
@@ -60,17 +60,17 @@
       "tags": [
         "research",
         "reddit",
-        "LLM"
+        "models"
       ]
     },
     {
       "title": {
-        "en": "TPU Inference Externalization Full Steam Ahead - InferenceX"
+        "en": "On the Navier–Stokes Millennium Prize Problem"
       },
-      "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
-      "score": "6.0",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "score": "8.5",
       "summary": {
-        "en": "SemiAnalysis says InferenceX is advancing external access to Google’s TPU inference stack, citing up to 50% better performance per dollar, a growing customer base, Ironwood, and TPUv8i; the excerpt provides no benchmark methodology or confirmation of these claims."
+        "en": "Simon Willison reports that OpenAI claims agents resolved and Lean-verified the Navier–Stokes existence-and-smoothness problem after 88 hours and extensive compute, while an NYU mathematician alleges possible overlap with separate AI-assisted work and OpenAI says de-identified product data cannot be ruled out as model-improving input."
       },
       "source": {
         "en": "RSS Feeds"
@@ -80,37 +80,19 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds"
+        "rss-feeds",
+        "agents",
+        "models"
       ]
     },
     {
       "title": {
-        "en": "216M Spy TVs – The LG Smart TV Problem [video]"
+        "en": "AlphaGenome Atlas: a high-resolution map of human DNA"
       },
-      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
-      "score": "7.0",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "score": "7.5",
       "summary": {
-        "en": "A linked report alleges LG smart TVs logged audio while screens were off and inspected local devices, while commenters highlight reportedly broad voice-capture consent terms and network isolation as a user mitigation."
-      },
-      "source": {
-        "en": "Hacker News"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "community",
-        "hacker-news"
-      ]
-    },
-    {
-      "title": {
-        "en": "Replaceable but Employed: Automation and the Meaning of Work"
-      },
-      "url": "https://www.nber.org/papers/w35559",
-      "score": "7.0",
-      "summary": {
-        "en": "An NBER working paper argues automation can reduce labor's value and bargaining power before eliminating jobs; commenters find its models interesting but question their connection to observed wages or workplace automation."
+        "en": "Google DeepMind’s AlphaGenome Atlas is presented as a predictive, high-resolution map of possible human DNA letter changes including non-coding DNA; discussion asks whether it adds information beyond existing AlphaGenome API access and whether it can identify pathogenic variants from consumer genomes."
       },
       "source": {
         "en": "Hacker News"
@@ -121,7 +103,27 @@
       "tags": [
         "community",
         "hacker-news",
-        "models"
+        "coding"
+      ]
+    },
+    {
+      "title": {
+        "en": "Introducing ChatGPT Images 2.5"
+      },
+      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "score": "8.0",
+      "summary": {
+        "en": "Simon Willison reports that OpenAI introduced gpt-image-2.5-sunburst for editing precision and gpt-image-2.5-flare for faster everyday generation, with claimed improvements to multi-turn instruction following and reference-subject preservation, and demonstrates adding a character to an input image via a CLI."
+      },
+      "source": {
+        "en": "RSS Feeds"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "blogs",
+        "rss-feeds"
       ]
     }
   ],
@@ -154,16 +156,60 @@
         "en": "Noteworthy new products and updates today.",
         "zh": "今日值得关注的新产品与更新。"
       },
-      "count": 7,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "PR Lens by Coldtea.ai"
+            "en": "Relaticle"
           },
-          "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/relaticle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "7.0",
           "summary": {
-            "en": "Product Hunt lists PR Lens by Coldtea.ai as an MIT-licensed tool for developers that generates animated architecture and data-flow diagrams for codebases and pull requests via GitHub Action, CLI, or coding-agent skill; accuracy and supported environments are not specified."
+            "en": "Relaticle is a Product Hunt–listed open-source CRM for teams using agent workflows, exposing 37 OAuth-backed MCP tools and custom-field schemas while requiring record-by-record approval of in-app AI write proposals; implementation maturity and integrations are not evidenced here."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Switch"
+          },
+          "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Switch is a Product Hunt-listed open-source, self-hostable tool for teams to add named AI agents to Slack, Teams, Discord, or Telegram rooms with room-specific context and rules, claiming compatibility with Claude Code, OpenAI, Google ADK, and LangChain; implementation and operational details are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Kopai"
+          },
+          "url": "https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "Kopai, presented on Product Hunt for developers shipping AI agents, offers hosted native or OpenAI-compatible streaming APIs, a marketplace, cost-versus-revenue analytics, benchmarking, and expiring re-checkable certification; implementation, pricing, and operational constraints are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -180,32 +226,12 @@
         },
         {
           "title": {
-            "en": "Routines by Databox"
+            "en": "Kombai Gallery"
           },
-          "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
-          "summary": {
-            "en": "Product Hunt presents Routines by Databox as an AI analyst for teams that schedules prompted analysis of live data and sends recurring reports by email, Slack, or in-app, with unspecified data connections, reliability, privacy, and reporting controls."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Tucky"
-          },
-          "url": "https://www.producthunt.com/products/tucky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/kombai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Tucky is a native macOS notes app for users wanting edge-docked capture, with claimed local encrypted storage and a $4/month Plus tier for voice, connectors, and higher-end LLM models; Product Hunt is the supplied source, so integration and privacy details remain unverified."
+            "en": "Kombai Gallery is a Product Hunt-listed free, no-sign-up collection of 20,000+ web and mobile UI references for designers and builders to browse, preview live, and copy prompts for agent-assisted UI work, with curation quality and prompt effectiveness unverified."
           },
           "source": {
             "en": "Product Hunt"
@@ -216,18 +242,17 @@
           "tags": [
             "products",
             "product-hunt",
-            "models",
-            "LLM"
+            "agents"
           ]
         },
         {
           "title": {
-            "en": "Scriptly"
+            "en": "GoodLads"
           },
-          "url": "https://www.producthunt.com/products/sciptly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/good-lads-1-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Product Hunt lists Scriptly as a TestFlight iOS teleprompter for video creators that writes, organizes, and records scripts with real-time voice-following scrolling and local storage, with beta-stage maturity as the main caveat."
+            "en": "Product Hunt presents GoodLads as an AI growth manager for Google Ads users that proposes ROAS or CPA improvement hypotheses, lets users deploy each with approval, and tracks outcomes on a kanban board; implementation, pricing, compatibility, and effectiveness are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -242,12 +267,12 @@
         },
         {
           "title": {
-            "en": "Clipnote"
+            "en": "Tables.so"
           },
-          "url": "https://www.producthunt.com/products/clipnote-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.5",
+          "url": "https://www.producthunt.com/products/tables-so?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Product Hunt presents Clipnote as a notepad for ChatGPT and Claude users to save AI conversations via a “save this” request or pasted content and revisit them later; supported platforms, privacy handling, and how continuation works are not specified."
+            "en": "Product Hunt presents Tables.so as a sales prospecting tool that turns natural-language customer criteria into scored, enriched contact lists with cited answer sources and HubSpot, Pipedrive, Attio, LinkedIn, and Claude integrations, while data quality and operational constraints remain unverified."
           },
           "source": {
             "en": "Product Hunt"
@@ -262,12 +287,12 @@
         },
         {
           "title": {
-            "en": "Airuncode"
+            "en": "OpenMarket"
           },
-          "url": "https://www.producthunt.com/products/airuncode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/openmarket?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Airuncode is a Product Hunt-listed local-first runtime for developers to run multiple coding agents with their own API keys across local or cloud models, claiming code editing and test self-healing; its implementation and reliability are not evidenced here."
+            "en": "Product Hunt presents OpenMarket, a research-preview marketplace in which sellers pitch products, competitors challenge claims, and independent truth agents verify evidence for buyers; its verification mechanics, implementation, and real-world reliability are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -279,17 +304,17 @@
             "products",
             "product-hunt",
             "agents",
-            "models"
+            "research"
           ]
         },
         {
           "title": {
-            "en": "Nina by Antalpha"
+            "en": "Replay QA Security Scan"
           },
-          "url": "https://www.producthunt.com/products/antalpha?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/replayio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt describes Nina by Antalpha as a non-custodial AI assistant for crypto and US-stock research, trade drafting, prediction and wallet-safety checks, with charts, alerts, and MCP integration; its data quality, security model, and reliability are not detailed."
+            "en": "Product Hunt presents Replay QA Security Scan as an automated recurring web-app penetration-testing tool for AI-built apps, reporting injection, access-control, and IDOR findings across localhost through production, with no supplied independent validation or technical detail."
           },
           "source": {
             "en": "Product Hunt"
@@ -300,8 +325,48 @@
           "tags": [
             "products",
             "product-hunt",
-            "models",
             "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "SODAX SDK"
+          },
+          "url": "https://www.producthunt.com/products/sodax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "SODAX SDK is presented on Product Hunt as customizable infrastructure for neobanks, exchanges, and DeFi products to build stablecoin, crypto, and real-world-asset transaction, lending, and yield flows, with no supplied detail on supported networks, security, or implementation."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Knockin'"
+          },
+          "url": "https://www.producthunt.com/products/knockin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Product Hunt presents Knockin as an AI business card for people sharing a bio, letting visitors ask about their work in the owner’s voice, book time, and be remembered for follow-up; privacy, answer quality, and calendar integration details are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
           ]
         }
       ]
@@ -320,81 +385,16 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 7,
+      "count": 5,
       "items": [
         {
           "title": {
-            "en": "LLM-guided program evolution improves 10 best-known circle-packing solutions (Packomania csqv, N=101-114) [R]"
+            "en": "My lab found a way to migrate between embedding models with zero downtime. [R]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9xlyi/llmguided_program_evolution_improves_10_bestknown/",
-          "score": "7.5",
-          "summary": {
-            "en": "The author reports that LLM-proposed changes to a seed optimization solver improved Packomania csqv best-known sum-of-radii results for 10 N values from 101–114 by 2.4–5.4% in 15 iterations at a stated $27.72 cost, with claimed independent acceptance and linked paper/code."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "KV cache as an agent runtime [R]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9myqc/kv_cache_as_an_agent_runtime_r/",
-          "score": "6.5",
-          "summary": {
-            "en": "A research team proposes modifying LLM inference KV-cache state as an intermediate lever for more interactive agents, citing Hogwild! Inference and AsyncReasoning and previewing a Qwen3.8-27B agent playing DOOM, but provides no implementation or evaluation details here."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "agents",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Measuring LLM performance drift: observations and methodology from 31,352 repeated benchmark measurements [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9llr4/measuring_llm_performance_drift_observations_and/",
-          "score": "6.5",
-          "summary": {
-            "en": "A community post argues that API-served LLM evaluation should detect deviations from each model’s repeated-call baseline across coding, multi-turn reasoning, and tool use, citing 31,352 repeated benchmark measurements but providing no detailed results or methodology in the excerpt."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "Rustuna: A High-Performance Rust Implementation of Optuna [P]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9nyhz/rustuna_a_highperformance_rust_implementation_of/",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wabmm7/my_lab_found_a_way_to_migrate_between_embedding/",
           "score": "5.5",
           "summary": {
-            "en": "Rustuna is announced as a Rust implementation designed around Optuna compatibility, zero Python dependencies, and lower memory use, but the post provides no benchmarks, API coverage details, or independent validation."
+            "en": "The author proposes Embedflow, reranking K documents from an old embedding index with a new model to avoid full re-embedding, reporting 63 migrations on up to one million documents but providing no complete results, method details, code, or validation."
           },
           "source": {
             "en": "Reddit"
@@ -404,37 +404,18 @@
           },
           "tags": [
             "research",
-            "reddit"
+            "reddit",
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Automotive Radar Object Classification [P]"
+            "en": "Generating Bad Apple autonomously from a single initial state using a tiny recurrent dynamical system (417k params) [P]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9m26u/automotive_radar_object_classification_p/",
-          "score": "5.5",
-          "summary": {
-            "en": "A radar engineer describes a five-class, single-scan RadarScenes point-cloud classifier using 16-bin histograms and a three-layer MLP, while flagging class aggregation, imbalance, and track-induced velocity-distribution bias as major limitations."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "[UPDATE - EIC confirmed ghost reviewer]How to get rejected by IEEE T-PAMI with 'Excellent' scores?[D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9v43o/update_eic_confirmed_ghost_reviewerhow_to_get/",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wa8rub/generating_bad_apple_autonomously_from_a_single/",
           "score": "4.5",
           "summary": {
-            "en": "A Reddit post claims that IEEE T-PAMI’s editor-in-chief confirmed a “ghost reviewer” after the author received “Excellent” scores yet was rejected, but the supplied content provides no supporting documentation or discussion context."
+            "en": "The author proposes a 417k-parameter closed-loop recurrent system that decodes 384×512 grayscale Bad Apple frames from a single initial 64-D state without timestamp inputs, but the excerpt provides no quantitative or visual validation of long-rollout fidelity."
           },
           "source": {
             "en": "Reddit"
@@ -449,12 +430,12 @@
         },
         {
           "title": {
-            "en": "Roboticists working in Learning-from-Demonstrations and Behavioral Cloning : What is going on in your field these days? [D]"
+            "en": "when a run is wrong but nothing actually failed, where do you start? [D] [R]"
           },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w9lt31/roboticists_working_in_learningfromdemonstrations/",
-          "score": "4.0",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1waewc3/when_a_run_is_wrong_but_nothing_actually_failed/",
+          "score": "4.5",
           "summary": {
-            "en": "A MachineLearning community post asks whether learning-from-demonstrations and behavioral-cloning research is being shaped by frontier LLMs, ViTs, VLAs, or other recent advances, but provides no findings or discussion evidence."
+            "en": "A community post asks practitioners where they begin debugging production ML or agent workflow runs that complete without errors but yield incorrect final results, suggesting backward tracing, state inspection, replay, retrieval/tool checks, and external business-state validation."
           },
           "source": {
             "en": "Reddit"
@@ -465,8 +446,47 @@
           "tags": [
             "research",
             "reddit",
-            "robotics",
-            "LLM"
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "OpenAl Says It Has Cracked One of Math's “Millennium Problems” (Navier-Stokes) [N]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wavdi7/openal_says_it_has_cracked_one_of_maths/",
+          "score": "3.0",
+          "summary": {
+            "en": "A Reddit post links to a New York Times report and an OpenAI announcement claiming a Navier–Stokes Millennium Problem solution, but supplies no proof, technical details, validation, or substantive community discussion."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "ECCV 2026 Social Groups [D]"
+          },
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wb0k5w/eccv_2026_social_groups_d/",
+          "score": "2.0",
+          "summary": {
+            "en": "An ECCV 2026 visitor to Malmö asks whether attendees use a Discord, WhatsApp, or similar channel to discuss shared interests and arrange social activities after the conference."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
           ]
         }
       ]
@@ -485,16 +505,38 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 4,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "TPU Inference Externalization Full Steam Ahead - InferenceX"
+            "en": "On the Navier–Stokes Millennium Prize Problem"
           },
-          "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
-          "score": "6.0",
+          "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+          "score": "8.5",
           "summary": {
-            "en": "SemiAnalysis says InferenceX is advancing external access to Google’s TPU inference stack, citing up to 50% better performance per dollar, a growing customer base, Ironwood, and TPUv8i; the excerpt provides no benchmark methodology or confirmation of these claims."
+            "en": "Simon Willison reports that OpenAI claims agents resolved and Lean-verified the Navier–Stokes existence-and-smoothness problem after 88 hours and extensive compute, while an NYU mathematician alleges possible overlap with separate AI-assisted work and OpenAI says de-identified product data cannot be ruled out as model-improving input."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Introducing ChatGPT Images 2.5"
+          },
+          "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+          "score": "8.0",
+          "summary": {
+            "en": "Simon Willison reports that OpenAI introduced gpt-image-2.5-sunburst for editing precision and gpt-image-2.5-flare for faster everyday generation, with claimed improvements to multi-turn instruction following and reference-subject preservation, and demonstrates adding a character to an input image via a CLI."
           },
           "source": {
             "en": "RSS Feeds"
@@ -509,12 +551,12 @@
         },
         {
           "title": {
-            "en": "Quoting Jakub Pachocki"
+            "en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome"
           },
-          "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-          "score": "4.0",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "score": "7.0",
           "summary": {
-            "en": "OpenAI Chief Scientist Jakub Pachocki says OpenAI expects powerful aligned AI to be needed for infrastructure security, real-time protection against rogue agents, and new defenses, while arguing that this rationale must not excuse reckless development."
+            "en": "Google DeepMind says AlphaGenome Atlas predicts molecular effects for 9 billion possible single-letter DNA variants across the human genome, but the supplied material does not establish its methods, validation results, access model, or limitations."
           },
           "source": {
             "en": "RSS Feeds"
@@ -525,18 +567,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "agents",
-            "security"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)"
+            "en": "How GPT-5.6 Sol helps run quantum computing experiments"
           },
-          "url": "https://www.latent.space/p/aeo",
-          "score": "4.0",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "score": "6.0",
           "summary": {
-            "en": "Latent Space introduces an Astra project focused on AEO trends that it says founders and developer-experience leaders frequently ask about, but the supplied excerpt does not describe the tracker’s methodology, findings, or actionable guidance."
+            "en": "OpenAI says an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum-computing experiments, analyze results, and calibrate qubits, but the supplied excerpt does not establish methods, reliability, or outcomes."
           },
           "source": {
             "en": "RSS Feeds"
@@ -547,18 +588,99 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "models",
-            "developer-tools"
+            "research"
           ]
         },
         {
           "title": {
-            "en": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman"
+            "en": "Funding grants for new research into AI and teen development"
           },
-          "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating",
-          "score": "3.0",
+          "url": "https://openai.com/index/teen-development-research-grants",
+          "score": "6.0",
           "summary": {
-            "en": "Import AI 472 is presented as an analysis issue covering alleged DeepMind math-agent cheating, populist AI policies, Forethought’s “nightwatchman” theory, and a machine-hermeneutics story, with no supplied details to confirm or evaluate those topics."
+            "en": "OpenAI announces a $5 million grant program seeking independent research into how generative AI affects teen development, well-being, and safety; the supplied excerpt does not specify eligibility, selection criteria, or research requirements."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "Introducing ChatGPT Images 2.5"
+          },
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "score": "5.0",
+          "summary": {
+            "en": "OpenAI announces ChatGPT Images 2.5, described as helping users turn ideas, sketches, and reference photos into more personalized, polished images, but the supplied excerpt does not specify availability, methods, or measurable improvements."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
+          },
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "score": "5.0",
+          "summary": {
+            "en": "A Hugging Face Blog post titled “Safety for Whom?” appears to argue for refusing only an appropriate subset of a topic rather than rejecting the entire topic, but the supplied metadata does not establish its method, validation, or implementation guidance."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses"
+          },
+          "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+          "score": "4.0",
+          "summary": {
+            "en": "Florian Brand’s roundup says the open-model ecosystem is broadening and references Motif-3, GLM-5.3, Hy4-preview, and open-model licenses, but the supplied excerpt does not confirm their capabilities, terms, or practical implications."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "This AI entrepreneur is developing agents that can plan ahead for the unexpected"
+          },
+          "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+          "score": "4.0",
+          "summary": {
+            "en": "MIT Technology Review reports that Danijar Hafner is developing agents intended to plan ahead for unexpected situations at a new stealth startup, but the supplied excerpt gives no details on the system, evidence, or release plans."
           },
           "source": {
             "en": "RSS Feeds"
@@ -570,6 +692,26 @@
             "blogs",
             "rss-feeds",
             "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "The Work Now Within Reach"
+          },
+          "url": "https://openai.com/index/the-work-now-within-reach",
+          "score": "3.5",
+          "summary": {
+            "en": "OpenAI News frames more capable, affordable AI as expanding what people and businesses can accomplish and making growth more economical, but the supplied excerpt does not specify any product, release, evidence, or confirmed change."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
           ]
         }
       ]
@@ -588,16 +730,58 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 13,
+      "count": 24,
       "items": [
         {
           "title": {
-            "en": "216M Spy TVs – The LG Smart TV Problem [video]"
+            "en": "AlphaGenome Atlas: a high-resolution map of human DNA"
           },
-          "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "score": "7.5",
+          "summary": {
+            "en": "Google DeepMind’s AlphaGenome Atlas is presented as a predictive, high-resolution map of possible human DNA letter changes including non-coding DNA; discussion asks whether it adds information beyond existing AlphaGenome API access and whether it can identify pathogenic variants from consumer genomes."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "DaVinci Resolve 21.1"
+          },
+          "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
           "score": "7.0",
           "summary": {
-            "en": "A linked report alleges LG smart TVs logged audio while screens were off and inspected local devices, while commenters highlight reportedly broad voice-capture consent terms and network isolation as a user mitigation."
+            "en": "DaVinci Resolve 21.1 was announced, with practitioners describing a mature, stable editor and longstanding no-subscription upgrades, while Linux users report missing H.264/AAC, VST3, JACK, and Fairlight MIDI-control-surface support that can require re-encoding or external audio tools."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses"
+          },
+          "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+          "score": "7.0",
+          "summary": {
+            "en": "A Qwen3.8 27B quantization benchmark reports little difference through 4-bit, some degradation at 2-bit, and collapse at 1-bit; discussion questions its confidence-interval interpretation and highlights unmeasured KV-cache quantization effects for long contexts."
           },
           "source": {
             "en": "Hacker News"
@@ -612,12 +796,54 @@
         },
         {
           "title": {
-            "en": "Replaceable but Employed: Automation and the Meaning of Work"
+            "en": "Mercury 2.5"
           },
-          "url": "https://www.nber.org/papers/w35559",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
           "score": "7.0",
           "summary": {
-            "en": "An NBER working paper argues automation can reduce labor's value and bargaining power before eliminating jobs; commenters find its models interesting but question their connection to observed wages or workplace automation."
+            "en": "Inception Labs introduced Mercury 2.5, a diffusion-based model positioned for low-cost, low-latency coding and general use; commenters cite reported 1,100-token/s throughput for model-judge workflows, note it is not open-weight, and flag an API training opt-out setting."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "C*: Unifying Programming and Verification in C (2025)"
+          },
+          "url": "https://arxiv.org/abs/2504.02246",
+          "score": "7.0",
+          "summary": {
+            "en": "C* presents a 2025 approach to combine C programming with verification; discussion compares it with Ada/SPARK and F* while questioning long loop invariants, specification-bug risk, and the size of its likely user base."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Mistral raises €3B"
+          },
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "score": "7.0",
+          "summary": {
+            "en": "Mistral announces a €3B raise, while discussion frames its differentiated value around European sovereign deployment and reports mixed practical model competitiveness despite positive anecdotal RAG, OCR, STT, and TTS experience."
           },
           "source": {
             "en": "Hacker News"
@@ -633,74 +859,12 @@
         },
         {
           "title": {
-            "en": "Speculative Decoding in vLLM on AMD GPUs"
+            "en": "Large language models develop novel social biases through adaptive exploration"
           },
-          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
-          "score": "7.0",
-          "summary": {
-            "en": "vLLM published a post on speculative decoding on AMD GPUs; one commenter reports much slower stock vLLM generation on AMD R9700 cards than a fork, while others ask about verification mechanics and Nvidia acceptance-rate comparisons."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "coding",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Watch Los Angeles get built, one building at a time (1880–2026)"
-          },
-          "url": "https://lax-skyline.parcelscope.net/",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
           "score": "6.5",
           "summary": {
-            "en": "The site visualizes Los Angeles buildings by construction date from 1880–2026, while discussion cautions that it likely reflects surviving assessor-record properties rather than the full history of neighborhoods that were rebuilt or demolished."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Leaving VMware just got harder after Broadcom pulled VDDK downloads"
-          },
-          "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
-          "score": "6.0",
-          "summary": {
-            "en": "A report says Broadcom pulled VDDK downloads, potentially adding friction to VMware departure workflows, while commenters describe painless small-scale ESXi-to-Proxmox moves and note larger enterprises may retain VMware or consider alternatives."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Live map of public transport in Belgium"
-          },
-          "url": "https://openbaarvervoerbelgie.be/",
-          "score": "6.0",
-          "summary": {
-            "en": "A Belgium public-transport live map prompted comparisons with Swiss, Tashkent, and Catenary Maps services; a Catenary Maps contributor says its open-source global map shows vehicle positions, arrivals, departure boards, and route variants, sometimes interpolating European operator data."
+            "en": "An OpenReview-linked paper claims LLMs can develop biases toward otherwise equivalent artificial demographic groups through adaptive hiring decisions; comments highlight that the prompts explicitly frame ancestry groups and question whether learned cultural bias is the underlying mechanism."
           },
           "source": {
             "en": "Hacker News"
@@ -711,79 +875,18 @@
           "tags": [
             "community",
             "hacker-news",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Initial effects of AI technology on employment look positive"
-          },
-          "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
-          "score": "6.0",
-          "summary": {
-            "en": "A cited Economist estimate says AI has created roughly 1m U.S. jobs versus about 200,000 AI-attributed layoffs since mid-2023, largely through data-center construction needs, while commenters report difficult white-collar hiring and fragile AI-business economics."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "A Tesla ran a stop sign and killed a man, Full Self-Driving/Autopilot was on"
-          },
-          "url": "https://electrek.co/2026/09/07/tesla-driver-assist-stop-sign-buena-vista/",
-          "score": "6.0",
-          "summary": {
-            "en": "A report says a Tesla with driver assistance engaged ran a stop sign and killed a person, while discussion disputes whether basic Autopilot versus FSD could have provided stop-sign control and notes the unusually low reported pre-crash speed."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Caltech Mathathon – first hackathon ever devoted to research level mathematics"
-          },
-          "url": "https://mathathonchallenge.com/index.html",
-          "score": "5.5",
-          "summary": {
-            "en": "Caltech undergraduate organizers announce a research-mathematics-focused hackathon promoting responsible AI use, while discussion questions whether a short, LLM-centered format fits the slower iteration cycles associated with AI mathematics work."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "research",
+            "models",
             "LLM"
           ]
         },
         {
           "title": {
-            "en": "bzip3"
+            "en": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs"
           },
-          "url": "https://github.com/iczelia/bzip3",
-          "score": "5.0",
+          "url": "https://github.com/argonautlabsai/deltafin",
+          "score": "6.5",
           "summary": {
-            "en": "bzip3 is a compression project whose discussion highlights possible benchmark bias from a 512 MB bzip3 block size versus zstd defaults, while practitioners report that broad gzip support can outweigh stronger archival compression ratios."
+            "en": "Argonautlabs' Deltafin project claims to stream Kimi K3 (2.8T) from four SSDs on a MacBook Pro at 1 token/s; comments highlight that this is not presently a practical fully local setup and ask how the SSDs are connected."
           },
           "source": {
             "en": "Hacker News"
@@ -798,12 +901,12 @@
         },
         {
           "title": {
-            "en": "Keep Our Servers Running"
+            "en": "Show HN: Copperhead – Cursor for circuit boards"
           },
-          "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
-          "score": "5.0",
+          "url": "https://copperhead.sh/",
+          "score": "6.5",
           "summary": {
-            "en": "Internet Archive is seeking recurring donations with a stated September matching offer; discussion cites Open Library volunteer needs including Solr performance work, alongside reports of scraping contention, longstanding technical issues, and a cumbersome donation-cancellation process."
+            "en": "Copperhead presents itself as a Cursor-like circuit-board tool with Gerber, DXF/STEP, render, and BOM export claims; discussion situates it among emerging PCB-design tools while one user reports unusable text inputs in Chrome on macOS."
           },
           "source": {
             "en": "Hacker News"
@@ -818,12 +921,12 @@
         },
         {
           "title": {
-            "en": "Bill Gates tries to install MovieMaker (2003)"
+            "en": "ZX Spectrum: Experimenting with 1-Bit Sound"
           },
-          "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
-          "score": "5.0",
+          "url": "https://bumbershootsoft.wordpress.com/2026/09/05/zx-spectrum-experimenting-with-1-bit-sound/",
+          "score": "6.5",
           "summary": {
-            "en": "A historical account of Bill Gates encountering Movie Maker installation friction in 2003 prompted discussion focused on fragmented ownership, weak accountability, and the need to treat usability as an integral product concern."
+            "en": "A ZX Spectrum 1-bit sound experiment prompted discussion of square-wave harmonics, PWM, and DPCM-like waveform approximation, with commenters pointing to notable Spectrum beeper compositions and a demonstration video."
           },
           "source": {
             "en": "Hacker News"
@@ -838,12 +941,281 @@
         },
         {
           "title": {
-            "en": "Impedance Matching (2017)"
+            "en": "FreeBSD 14.5-Release"
           },
-          "url": "https://www.edge.org/response-detail/27238",
+          "url": "https://www.freebsd.org/releases/14.5R/announce/",
+          "score": "6.5",
+          "summary": {
+            "en": "FreeBSD 14.5-Release was announced, with discussion noting that 14.x is reportedly the final branch with i386 images and has an expected November 2028 end of life."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "How to build a printer"
+          },
+          "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+          "score": "6.0",
+          "summary": {
+            "en": "A linked article presents a project titled “How to build a printer”; the small Hacker News discussion is strongly positive and compares its apparent e-reader-like experience to Star Trek PADDs, but supplies no implementation evidence."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Navier-Stokes – Tristan Buckmaster [pdf]"
+          },
+          "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+          "score": "6.0",
+          "summary": {
+            "en": "Tristan Buckmaster's linked statement is discussed as claiming progress on finite-time blowup problems and a non-Millennium Navier–Stokes result, while commenters emphasize it is not a proof of the $1 million Clay problem and raise unresolved questions about possible model-training use."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "I-have-ADHD: A skill to stop coding agents from burying the answer"
+          },
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "score": "6.0",
+          "summary": {
+            "en": "The GitHub project proposes a skill to keep coding-agent responses concise; commenters identify recurring Claude-style verbosity but report that this specific instruction may stop working after only a few turns."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: LLM Attention Visualization"
+          },
+          "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+          "score": "6.0",
+          "summary": {
+            "en": "An LLM attention visualizer is presented as a particularly clear teaching aid for making attention weights and cross-phrase information combination more intuitive, while one commenter asks whether aggregating layers could obscure later-layer attention."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "AlphaGenome Atlas predictive map of every DNA letter change in the human genome"
+          },
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "score": "6.0",
+          "summary": {
+            "en": "DeepMind presents AlphaGenome Atlas as a predictive map for every possible single-letter DNA change in the human genome; discussion questions whether conservation-derived benchmarks distinguish new prediction from prior signal and notes limits on experimental applicability."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Antiquated HTML Snippets and Artefacts"
+          },
+          "url": "https://vale.rocks/posts/html-relics",
+          "score": "6.0",
+          "summary": {
+            "en": "A retrospective on obsolete HTML and browser-compatibility artifacts prompted examples including charset and BOM failures, verbose XHTML doctypes, IE PNG-alpha filters, server-side image maps, and Safari pinned-tab SVG metadata."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Tao: Open math problems being non-renewably mined by AI"
+          },
+          "url": "https://mathstodon.xyz/@tao/117237320796901560",
+          "score": "5.5",
+          "summary": {
+            "en": "Tao is presented as arguing that promising open math problems are a scarce resource that AI may exhaust, while commenters question whether solved problems still yield human insight and suggest generating better questions as a future frontier."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "On the Navier–Stokes Millennium Prize Problem"
+          },
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "score": "5.5",
+          "summary": {
+            "en": "OpenAI presents a claimed development on the Navier–Stokes Millennium Prize Problem; commenters highlight unverified claims of rapid mathematical-model improvement, alleged provenance concerns, and possible incentives to withhold promising research directions."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "Connecting the machines"
+          },
+          "url": "https://herdr.dev/blog/connecting-the-machines/",
+          "score": "5.0",
+          "summary": {
+            "en": "Herdr presents a way to connect coding-machine sessions, while discussion compares existing remote setups and identifies interactive authentication as a persistent operational problem."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Getting your hands dirty is good for you"
+          },
+          "url": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks",
+          "score": "5.0",
+          "summary": {
+            "en": "The linked article reportedly describes a comparison in which exposure to microbially diverse soil increased skin bacterial diversity and anti-inflammatory cytokines, while commenters add personal anecdotes and skepticism about optimizing the practice."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger"
+          },
+          "url": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
+          "score": "5.0",
+          "summary": {
+            "en": "Techdirt alleges Paramount used an astroturf group to create apparent support for a merger; commenters describe suspected subscriber-count incentives and patterns they associate with coordinated posting, without independently validating the allegation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Muse: Meta's personal AI agent, features and capabilities"
+          },
+          "url": "https://ai.meta.com/muse/",
           "score": "4.0",
           "summary": {
-            "en": "A 2017 Edge response applies impedance matching beyond electrical engineering to biological and environmental systems; discussion finds the biological framing interesting but includes criticism that the article overreaches rhetorically."
+            "en": "Meta presents Muse as a personal AI agent for tasks such as reservations, price monitoring, reminders, documents, image generation, and research, while commenters question Meta’s trustworthiness and note similarities to the discontinued Facebook M assistant."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "The two Christian saints who are the Buddha"
+          },
+          "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+          "score": "3.0",
+          "summary": {
+            "en": "A blog argues that two Christian saints are secretly the Buddha, while commenters discuss local religious adaptation, recurring hero-story patterns, and whether cultural influence supports the article’s broader conclusion."
           },
           "source": {
             "en": "Hacker News"
