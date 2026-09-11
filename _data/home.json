@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "010",
+    "number": "011",
     "date": {
-      "en": "Thursday, September 10, 2026",
-      "zh": "2026 年 9 月 10 日，星期四"
+      "en": "Friday, September 11, 2026",
+      "zh": "2026 年 9 月 11 日，星期五"
     },
-    "story_count": 63,
+    "story_count": 59,
     "stories_label": {
-      "en": "63 stories scored",
-      "zh": "已评分 63 条"
+      "en": "59 stories scored",
+      "zh": "已评分 59 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 66,
-    "priority_count": 54
+    "fetched_count": 65,
+    "priority_count": 53
   },
   "index": [
     {
       "title": {
-        "en": "Harden"
+        "en": "Wealthfolio"
       },
-      "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/wealthfolio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "7.0",
       "summary": {
-        "en": "Harden AIF is presented on Product Hunt as a free local security layer for AI coding-agent users that evaluates requested tool calls against request and session context before execution, with claimed benchmark advantages but no supplied validation or integration details."
+        "en": "Wealthfolio is a Product Hunt-listed open-source personal-finance app for individuals tracking investments, net worth, spending, and goals locally or via self-hosting, with optional brokerage, encrypted device-sync, and household-sharing services; implementation details are not supplied."
       },
       "source": {
         "en": "Product Hunt"
@@ -38,18 +38,17 @@
       "tags": [
         "products",
         "product-hunt",
-        "agents",
-        "security"
+        "open-source"
       ]
     },
     {
       "title": {
-        "en": "GLM 5.3 Flash Q4 @ 60tps / 550tps on M3 Ultra"
+        "en": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
       },
-      "url": "https://i.redd.it/b2f9uu3grhoh1.jpeg",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "score": "7.5",
       "summary": {
-        "en": "A ds4 branch reports fusing small Metal-kernel work for GLM-5.3-Flash Q4 on M3 Ultra, increasing reported single-stream decoding from 29 to 40 t/s at short context and 24 to 38 t/s at 62k, while commenters ask about output quality, batching, and lower-memory hardware."
+        "en": "Community commenters describe DeepSeek-V4.1-Flash as a 552B MoE model with 196B Engram, 16B decode and 8B prefill active parameters, FP4/QAT KV cache, and a claimed roughly 900MB KV cache at 1M context; benchmark and compression claims are not independently verified here."
       },
       "source": {
         "en": "Reddit"
@@ -60,17 +59,17 @@
       "tags": [
         "research",
         "reddit",
-        "coding"
+        "models"
       ]
     },
     {
       "title": {
-        "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+        "en": "Native is now the future of mobile at Shopify"
       },
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "score": "6.5",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "score": "8.0",
       "summary": {
-        "en": "IBM Research announces Granite Time Series PatchTST-FM-r2, described as a state-of-the-art time-series model with a commercial-friendly license; the supplied metadata does not confirm its benchmarks, capabilities, license terms, or availability details."
+        "en": "Shopify is reportedly moving its mobile apps from React Native to separate Swift and Kotlin codebases, arguing that agents now reduce the implementation, translation, testing, and review burden of two platforms; react-native-skia and FlashList are seeking new homes, while Restyle is planned for archival at the end of 2026."
       },
       "source": {
         "en": "RSS Feeds"
@@ -81,18 +80,17 @@
       "tags": [
         "blogs",
         "rss-feeds",
-        "models",
-        "research"
+        "agents"
       ]
     },
     {
       "title": {
-        "en": "iPhone 18 Pro and iPhone 18 Pro Max"
+        "en": "Forgejo <=16.0.3 Critical RCE"
       },
-      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
-      "score": "8.0",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "score": "8.5",
       "summary": {
-        "en": "Apple announced iPhone 18 Pro and Pro Max; discussion highlights a Reference mode that signs captured sensor data and uses Private Cloud Compute to create an unalterable reference image, while noting missing RAM and memory-bandwidth specifications."
+        "en": "Forgejo 16.0.4 addresses a critical issue where template expansion could interfere with Git repository initialization during creation from a template repository; comments state Gitea is protected against both reported issues."
       },
       "source": {
         "en": "Hacker News"
@@ -107,12 +105,12 @@
     },
     {
       "title": {
-        "en": "Shopify acquires Tailwind"
+        "en": "Rust is tier-1 language at Microsoft"
       },
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "score": "7.5",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "score": "8.0",
       "summary": {
-        "en": "Shopify has announced its acquisition of Tailwind, while discussion highlights an unverified claim that AI-driven changes to documentation traffic and template sales substantially affected Tailwind Labs' business model."
+        "en": "Microsoft is described as treating Rust as a tier-1 language, a strategic adoption signal with potential implications for systems programming and Microsoft tooling; discussion highlights anticipated MSVC integration but provides no supporting technical specifics."
       },
       "source": {
         "en": "Hacker News"
@@ -122,8 +120,7 @@
       },
       "tags": [
         "community",
-        "hacker-news",
-        "models"
+        "hacker-news"
       ]
     }
   ],
@@ -160,12 +157,33 @@
       "items": [
         {
           "title": {
-            "en": "Harden"
+            "en": "Wealthfolio"
           },
-          "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/wealthfolio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "7.0",
           "summary": {
-            "en": "Harden AIF is presented on Product Hunt as a free local security layer for AI coding-agent users that evaluates requested tool calls against request and session context before execution, with claimed benchmark advantages but no supplied validation or integration details."
+            "en": "Wealthfolio is a Product Hunt-listed open-source personal-finance app for individuals tracking investments, net worth, spending, and goals locally or via self-hosting, with optional brokerage, encrypted device-sync, and household-sharing services; implementation details are not supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "AI Observability by OpenObserve"
+          },
+          "url": "https://www.producthunt.com/products/openobserve?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Product Hunt presents OpenObserve as an OpenTelemetry-native observability product for teams running LLM agents, tracing sessions across models, tools, backend services, datastores, and user activity to investigate cost, latency, quality, loops, and failures, with validation and operational details unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -177,17 +195,79 @@
             "products",
             "product-hunt",
             "agents",
-            "security"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "GoModel"
+            "en": "Suno v6"
           },
-          "url": "https://www.producthunt.com/products/gomodel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "7.0",
+          "url": "https://www.producthunt.com/products/suno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
           "summary": {
-            "en": "Product Hunt presents GoModel as an MIT-licensed, self-hosted Go AI gateway for developers that exposes an OpenAI-compatible API across providers with budgets, caching, guardrails, load balancing, and failover; its actual provider coverage and operational validation are not supplied."
+            "en": "Product Hunt presents Suno v6 for music creators as three music-model variants enabling section or lyric edits, song mashups, and generation from text, audio, images, or video, with no supplied evidence on quality, access, licensing, or implementation."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Typewise Nova"
+          },
+          "url": "https://www.producthunt.com/products/typewise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "Product Hunt presents Typewise Nova as a no-code AI customer-experience operator for support teams that configures agents from plain-language policies, tests them on historical tickets, and proposes monitored fixes, with unspecified reliability, integrations, and operational safeguards."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Live Captions by Subanana"
+          },
+          "url": "https://www.producthunt.com/products/subanana?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "Product Hunt lists Live Captions by Subanana for speakers and live-production teams: attendees scan a QR code to receive captions or audio in a chosen language, while organizers can show two languages on-screen or feed OBS and vMix; accuracy and latency are unspecified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Desert Ant Labs"
+          },
+          "url": "https://www.producthunt.com/products/desert-ant-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "According to Product Hunt, Desert Ant Labs offers an SDK for developers to add specialized speech, text, and vision models that run offline in phones or browsers without per-use charges, free up to 100k monthly active devices; supported tasks, performance, and compatibility are not specified."
           },
           "source": {
             "en": "Product Hunt"
@@ -204,33 +284,12 @@
         },
         {
           "title": {
-            "en": "Noodle Seed"
+            "en": "FreeScan.app"
           },
-          "url": "https://www.producthunt.com/products/noodle-seed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.5",
+          "url": "https://www.producthunt.com/products/freescan-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Product Hunt lists Noodle Seed as a platform for software teams to build TypeScript workflows and expose them through a branded in-product assistant or external agents, with runtime support for identity, permissions, secrets, auditing, and operations; implementation and integration caveats are not provided."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Mastra Factory"
-          },
-          "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
-          "summary": {
-            "en": "Product Hunt presents Mastra Factory as an open-source, agent-powered software delivery environment for teams that want persistent coding agents to take repository work from issue intake and planning through implementation and pull-request review, with no supplied evidence on setup, licensing, or maturity."
+            "en": "FreeScan.app, presented on Product Hunt, offers no-signup public-URL audits across SEO, AI visibility, security, accessibility, and design, with Pro adding site-wide monitoring and MCP agent connections; audit accuracy, coverage, and operational details are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -242,39 +301,17 @@
             "products",
             "product-hunt",
             "agents",
-            "open-source"
+            "security"
           ]
         },
         {
           "title": {
-            "en": "DuckFightClub"
+            "en": "Modeinspect"
           },
-          "url": "https://www.producthunt.com/products/duckfightclub?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/modeinspect-1-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Product Hunt presents DuckFightClub as a competition for teams to train reinforcement-learning policies for Pollen’s open-source MicroDuck in simulated robot fights, differentiated by a planned livestream and eventual real-hardware events, though participation requirements and technical platform details are not provided."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "open-source",
-            "robotics"
-          ]
-        },
-        {
-          "title": {
-            "en": "Diiverge"
-          },
-          "url": "https://www.producthunt.com/products/diiverge-co?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.0",
-          "summary": {
-            "en": "Diiverge is a Product Hunt-listed tool for creators to turn an image into a shareable branching point-and-click adventure by selecting scene interactions and having AI generate subsequent scenes and short films; public worlds are free, while authoring uses purchasable scene packs."
+            "en": "Product Hunt presents Modeinspect as an AI design canvas for product teams to edit existing screens using a connected codebase’s components, tokens, live data, states, and breakpoints, then publish or submit changes for engineering review; integration fidelity and deployment safeguards are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -289,12 +326,12 @@
         },
         {
           "title": {
-            "en": "49agents IDE"
+            "en": "Viso Now"
           },
-          "url": "https://www.producthunt.com/products/49agents-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.5",
+          "url": "https://www.producthunt.com/products/viso-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Product Hunt lists 49Agents IDE as a self-built 2D map for developers to organize agents, terminals, repositories, and machines, aiming to reduce tab-navigation fatigue; the listing provides no details on implementation, supported platforms, or integrations."
+            "en": "Product Hunt lists Viso Now as a no-code platform for turning images, video, and camera feeds into computer-vision applications with agentic logic and custom live dashboards; its claimed lack of training, annotation, and coding is not substantiated by supplied technical details."
           },
           "source": {
             "en": "Product Hunt"
@@ -306,38 +343,17 @@
             "products",
             "product-hunt",
             "agents",
-            "developer-tools"
+            "coding"
           ]
         },
         {
           "title": {
-            "en": "AlphaGenome Atlas"
+            "en": "Whip"
           },
-          "url": "https://www.producthunt.com/products/alphagenome-atlas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
+          "url": "https://www.producthunt.com/products/whip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
           "summary": {
-            "en": "Product Hunt describes AlphaGenome Atlas as a Google DeepMind resource for researchers to explore precomputed predictions for possible single-letter human DNA variants via a visual interface, API, and Antigravity access, though accuracy and operational details are not provided."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "Type.com"
-          },
-          "url": "https://www.producthunt.com/products/type-com?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt presents Type.com as a shared workspace for teams to connect tools, use Claude or Codex, share skills, files, and threads, and build apps or automations; available details do not establish integrations, data handling, or differentiation."
+            "en": "Whip is a Product Hunt-listed browser feed for creators and audiences to discover and play interactive games, 3D worlds, stories, generative art, visualizations, and music toys, with creator channels and engagement features; technical implementation and adoption evidence are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -348,27 +364,6 @@
           "tags": [
             "products",
             "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "ChatGPT Images 2.5"
-          },
-          "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt presents ChatGPT Images 2.5 as an OpenAI image model for turning prompts, sketches, and reference photos into edited visuals, claiming sharper output and greater edit control; supplied details do not establish capabilities, access, or API workflow."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "models"
           ]
         }
       ]
@@ -387,16 +382,163 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 12,
+      "count": 13,
       "items": [
         {
           "title": {
-            "en": "GLM 5.3 Flash Q4 @ 60tps / 550tps on M3 Ultra"
+            "en": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face"
           },
-          "url": "https://i.redd.it/b2f9uu3grhoh1.jpeg",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
           "score": "7.5",
           "summary": {
-            "en": "A ds4 branch reports fusing small Metal-kernel work for GLM-5.3-Flash Q4 on M3 Ultra, increasing reported single-stream decoding from 29 to 40 t/s at short context and 24 to 38 t/s at 62k, while commenters ask about output quality, batching, and lower-memory hardware."
+            "en": "Community commenters describe DeepSeek-V4.1-Flash as a 552B MoE model with 196B Engram, 16B decode and 8B prefill active parameters, FP4/QAT KV cache, and a claimed roughly 900MB KV cache at 1M context; benchmark and compression claims are not independently verified here."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pi Agent Users - Nvidia Released Sol-Pi - A Pi-Extension based on AutoResearch loops to make the Harness more efficient"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcujgg/pi_agent_users_nvidia_released_solpi_a/",
+          "score": "7.0",
+          "summary": {
+            "en": "NVIDIA Labs released SoL-Pi, an opt-in MIT-licensed Pi extension intended to reduce repeated turns, context replay, oversized observations, and long-log reading, while commenters seek benchmarks, cross-harness portability, and long-task reliability evidence."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "DeepSeek V4-1 Flash is out"
+          },
+          "url": "https://www.reddit.com/gallery/1wcbid7",
+          "score": "7.0",
+          "summary": {
+            "en": "A Reddit post reports DeepSeek V4.1 Flash as a multimodal MoE with a claimed 552B backbone and million-token context; commenters point to released weights but flag roughly 485B total parameters and substantial self-hosting memory needs despite 8B active parameters."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "GigaChat-3.5-Reasoning"
+          },
+          "url": "https://huggingface.co/collections/ai-sage/gigachat-35-reasoning",
+          "score": "7.0",
+          "summary": {
+            "en": "GigaChat-3.5 Reasoning is presented as a 432B-A28B MoE using Gated DeltaNet and expert-to-single-model on-policy distillation, with MIT weights and a linked ongoing llama.cpp PR, while its claimed 37% reasoning-token reduction lacks independent evaluation details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "OUI-1: a model that generates bespoke UI elements"
+          },
+          "url": "https://v.redd.it/zbsecqsqcqoh1",
+          "score": "6.5",
+          "summary": {
+            "en": "A LocalLLaMA discussion examines OUI-1's claimed OpenUI-Lang fine-tuning as a way to avoid repeatedly spending roughly 800–1,200 prompt tokens on a UI DSL, while commenters flag unresolved risks around Markdown overrides, tool-result format retention, inference latency, and small-model deployment."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "New tensor type layouts for my GGUF uploads"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcsj6v/new_tensor_type_layouts_for_my_gguf_uploads/",
+          "score": "6.5",
+          "summary": {
+            "en": "A GGUF uploader reports research-driven per-tensor type layout changes that appear better than their prior model shapes, while commenters welcome the restraint, question upstream llama.cpp integration, and provide no independent performance validation."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Harness does matter"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/",
+          "score": "5.5",
+          "summary": {
+            "en": "A LocalLLaMA discussion argues that an LLM agent’s harness—especially prompts, context, documentation, and tool setup—can matter substantially, while commenters call for fixed-model, standardized harness benchmarks and request methodology and additional model comparisons."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Artificial Analysis is not \"broken\", and they prove it."
+          },
+          "url": "https://www.reddit.com/gallery/1wcxxm8",
+          "score": "5.0",
+          "summary": {
+            "en": "A LocalLLaMA discussion defends Artificial Analysis's weighted 10-evaluation Intelligence Index and published methodology, while commenters argue that arbitrary weights, leaderboard reconfiguration, and limited coding coverage can make its aggregate score unrepresentative for their use cases."
           },
           "source": {
             "en": "Reddit"
@@ -412,12 +554,12 @@
         },
         {
           "title": {
-            "en": "Apple A20 Pro debuts with 7-core GPU, 32-core Neural Engine and 50% more memory bandwidth (~115 GB/s)"
+            "en": "DeepSeek-V4.1-Flash surprised ...."
           },
-          "url": "https://www.notebookcheck.net/Apple-A20-Pro-debuts-with-7-core-GPU-32-core-Neural-Engine-and-50-more-memory-bandwidth.1395027.0.html",
-          "score": "6.5",
+          "url": "https://i.redd.it/va67hbc7knoh1.jpeg",
+          "score": "5.0",
           "summary": {
-            "en": "The reported A20 Pro configuration pairs a 7-core GPU and 32-core Neural Engine with an inferred 96-bit LPDDR5X bus delivering about 115 GB/s, while commenters note a claimed 12 GB RAM ceiling may constrain large local models."
+            "en": "A LocalLLaMA discussion speculates that DeepSeek-V4.1-Flash-style KV-cache techniques and 10–15B Engram components could enable more capable medium-size local models, while commenters focus on memory needs and unsubstantiated future model implications."
           },
           "source": {
             "en": "Reddit"
@@ -433,156 +575,12 @@
         },
         {
           "title": {
-            "en": "1-bit 27B in the browser: 25–30 tok/s on a 6 GB RTX 3060 Laptop (WebGPU, no install)"
+            "en": "ANOTHER researcher accuses OpenAI of training on conversations and then claiming a breakthrough"
           },
-          "url": "https://v.redd.it/qj0mwdwf1ioh1",
-          "score": "6.0",
-          "summary": {
-            "en": "The author claims a WebGPU/WGSL browser engine runs the 1-bit Bonsai-27B model at up to 25–30 tok/s on a 6 GB RTX 3060 Laptop GPU with about 3.8 GB of weights, while commenters report looping and failure on a simple prime-generation task."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "SOTA ImageGen Locally NVIDIA Cosmos3(64B) INT4 quants CUDA/MLX"
-          },
-          "url": "https://i.redd.it/k2ae9naj5ioh1.gif",
-          "score": "6.0",
-          "summary": {
-            "en": "A post links CUDA/MLX code and INT4 Cosmos3 64B weights for local text-to-image and image-to-video, reporting one roughly five-minute M4 Max clip, while commenters dispute production-quality results and ask how 16B and 4B variants compare."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Teach ML! Community service project from Stanford [N]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/",
-          "score": "5.0",
-          "summary": {
-            "en": "A Stanford AI-lab professor announces a Probability for AI course beginning October 9, proposing one volunteer teacher per 10 students and reporting 1,000+ teacher applications, while discussion mainly asks about eligibility, account requirements, and reuse outside Stanford."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Why the hell is LM Studio making LM Studio so difficult to download?"
-          },
-          "url": "https://i.redd.it/gfr7gaxhwhoh1.jpeg",
-          "score": "5.0",
-          "summary": {
-            "en": "LocalLLaMA users report that LM Studio is difficult to locate amid Bionic promotion, with one commenter describing hours of ComfyUI API errors after mistaking Bionic for an LM Studio rebrand; others recommend Unsloth Desktop."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
-          "score": "5.0",
-          "summary": {
-            "en": "A LocalLLaMA discussion argues that hobbyists can learn with APIs or small models on existing hardware before buying more gear, while commenters note testing larger hosted models and possible hardware-price increases as competing considerations."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Mention if a \"new model\" is a finetune"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpf6i/mention_if_a_new_model_is_a_finetune/",
-          "score": "5.0",
-          "summary": {
-            "en": "LocalLLaMA commenters broadly support visibly labeling fine-tunes—potentially with a base-model name—while noting that some transformative fine-tunes may warrant nuance rather than a rigid separate category."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Now this is a serious local machine"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbir6v/now_this_is_a_serious_local_machine/",
-          "score": "5.0",
-          "summary": {
-            "en": "A LocalLLaMA post flags AMD’s Threadripper Halo Station workstation announcement, while commenters chiefly react to its presumed high cost rather than providing technical evaluation."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Deepseek Has Soft Retired Deepseek V4 Pro"
-          },
-          "url": "https://i.redd.it/01k8gclhggoh1.png",
+          "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
           "score": "4.0",
           "summary": {
-            "en": "A LocalLLaMA discussion claims DeepSeek V4 Pro was softly retired after reward-hacking and limited gains versus Flash, while commenters debate whether smaller models can outperform larger ones; the supplied post provides no official confirmation or benchmarks."
+            "en": "A LocalLLaMA discussion alleges that OpenAI trained on conversations, prompting commenters to advocate local models and avoid hosted APIs for sensitive data, but the supplied post provides no direct evidence or technical specifics to substantiate the allegation."
           },
           "source": {
             "en": "Reddit"
@@ -598,33 +596,12 @@
         },
         {
           "title": {
-            "en": "Surveillance plagiarism by OpenAI"
+            "en": "I find it funny that a flash model is now 512GB"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wby2cm/surveillance_plagiarism_by_openai/",
-          "score": "4.0",
-          "summary": {
-            "en": "A LocalLLaMA post argues that training on users’ hosted-AI sessions could let models benefit from accumulated human prompting, while supplied comments largely treat such data collection as expected and provide no corroborating technical or policy evidence."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Qwen3.8-27B-Uncensored-Genesis-V1-GGUF"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbmo0k/qwen3827buncensoredgenesisv1gguf/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcvmuo/i_find_it_funny_that_a_flash_model_is_now_512gb/",
           "score": "3.5",
           "summary": {
-            "en": "A Reddit user released a GGUF model claiming tensor-noise distillation reduces excessive reasoning tokens, but the post provides no benchmarks or reproducible method and commenters question the theoretical link and prior lack of validation."
+            "en": "Discussion notes that a purported 512GB Flash model may still offer Flash-like pricing through sparse MoE activation, while commenters stress that “Flash” generally describes speed or a lower tier rather than model size."
           },
           "source": {
             "en": "Reddit"
@@ -636,6 +613,47 @@
             "research",
             "reddit",
             "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Notes on a hobby sub going mainstream"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctos6/notes_on_a_hobby_sub_going_mainstream/",
+          "score": "3.5",
+          "summary": {
+            "en": "A LocalLLaMA community post argues that rapid mainstream growth is displacing model and setup discussion with partisan or anti-company “gotcha” content; multiple commenters report the same fatigue, though the evidence is anecdotal."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "So relevant"
+          },
+          "url": "https://i.redd.it/i8agcp89wloh1.png",
+          "score": "2.5",
+          "summary": {
+            "en": "A humorous LocalLLaMA post prompted commenters to dispute grouping 24GB with lower-memory systems, with one claiming Qwen3.8-27B can run at a respectable context size on 24GB, but no benchmarks or configuration details are supplied."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
           ]
         }
       ]
@@ -654,16 +672,79 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 10,
+      "count": 9,
       "items": [
         {
           "title": {
-            "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+            "en": "Native is now the future of mobile at Shopify"
           },
-          "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+          "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+          "score": "8.0",
+          "summary": {
+            "en": "Shopify is reportedly moving its mobile apps from React Native to separate Swift and Kotlin codebases, arguing that agents now reduce the implementation, translation, testing, and review burden of two platforms; react-native-skia and FlashList are seeking new homes, while Restyle is planned for archival at the end of 2026."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
+          },
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
           "score": "6.5",
           "summary": {
-            "en": "IBM Research announces Granite Time Series PatchTST-FM-r2, described as a state-of-the-art time-series model with a commercial-friendly license; the supplied metadata does not confirm its benchmarks, capabilities, license terms, or availability details."
+            "en": "OpenAI News says César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates against drug-resistant infections, but the supplied excerpt does not describe the workflow, validation, or discovery results."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "Now everyone can put data to work"
+          },
+          "url": "https://openai.com/index/put-data-to-work",
+          "score": "6.5",
+          "summary": {
+            "en": "OpenAI announces a Data agent in ChatGPT Work that it says can connect company data, surface insights, and create interactive dashboards through natural-language requests; the excerpt does not specify data sources, availability, safeguards, or technical limitations."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Introducing ChatGPT for Financial Services"
+          },
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "score": "6.5",
+          "summary": {
+            "en": "OpenAI News announces ChatGPT for Financial Services, described as combining built-in financial data with GPT-6 Astra for research, modeling, and client-ready materials, but the excerpt provides no details on availability, integrations, safeguards, or measured results."
           },
           "source": {
             "en": "RSS Feeds"
@@ -680,12 +761,32 @@
         },
         {
           "title": {
-            "en": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning"
+            "en": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
           },
-          "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+          "url": "https://openai.com/index/expanding-ai-access-us-government",
+          "score": "6.5",
+          "summary": {
+            "en": "OpenAI says it and GSA will offer eligible U.S. federal, state, local, and tribal governments zero-dollar license fees, 50% discounted usage, and expanded cyber-defense support, but the supplied excerpt does not specify eligibility criteria, capabilities, or rollout terms."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Quoting Calif Research"
+          },
+          "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
           "score": "5.5",
           "summary": {
-            "en": "Sebastian Raschka’s article is presented as a look at recurrent transformer depth, hidden chains of thought, and recent research on looping transformer blocks, with no specific findings or implementation details supplied."
+            "en": "Calif Research claims to have released a WeWorm demo: a zero-click WeChat-call worm across iOS and Android allegedly built from an AI-assisted RCE in roughly nine days, but the supplied excerpt provides no technical evidence or independent confirmation."
           },
           "source": {
             "en": "RSS Feeds"
@@ -701,12 +802,12 @@
         },
         {
           "title": {
-            "en": "GPT-6 Astra: The next generation in intelligence for work"
+            "en": "What is So Hard About Behind-The-Meter Power For Datacenters? Part 1"
           },
-          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "url": "https://newsletter.semianalysis.com/p/what-is-so-hard-about-behind-the",
           "score": "5.0",
           "summary": {
-            "en": "OpenAI News presents GPT-6 Astra as its most capable business model, claiming advanced reasoning, computer use, and stronger writing and design judgment, but the supplied excerpt provides no specifications, benchmarks, release details, or independent confirmation."
+            "en": "Ellie Holbrook’s first installment appears to examine why behind-the-meter power for datacenters is difficult, contrasting “dumb science experiments” with “money printing machines,” but the supplied excerpt provides no technical explanation or confirmed conclusions."
           },
           "source": {
             "en": "RSS Feeds"
@@ -717,59 +818,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "models"
+            "LLM"
           ]
         },
         {
           "title": {
-            "en": "Paul Christiano joins OpenAI Foundation Board"
+            "en": "One resignation turned the embers of AI fear into a wildfire"
           },
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "score": "5.0",
+          "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+          "score": "3.0",
           "summary": {
-            "en": "OpenAI says Paul Christiano has joined the OpenAI Foundation Board and its Safety and Security Committee, citing his experience in AI alignment, safety, and standards; the excerpt does not specify resulting policies or initiatives."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Quoting Terence Tao"
-          },
-          "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-          "score": "4.5",
-          "summary": {
-            "en": "Terence Tao warns that AI-powered efforts may rapidly pursue publicly discussed open problems, potentially discouraging researchers from sharing promising directions and harming longstanding open-science norms; the excerpt presents this as a concern rather than a confirmed outcome."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "When will average people feel AI’s impact?"
-          },
-          "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-          "score": "4.5",
-          "summary": {
-            "en": "Nathan Lambert frames AI as less than five years into a potentially century-long compounding revolution and considers how the AI industry should manage its effects; the excerpt provides no concrete evidence or recommendations."
+            "en": "Nathan Lambert frames a recent AI-related resignation as intensifying existing fears, but the supplied excerpt provides no details about the person, event, evidence, or consequences."
           },
           "source": {
             "en": "RSS Feeds"
@@ -784,12 +843,12 @@
         },
         {
           "title": {
-            "en": "The AI policy window is open. We need to act."
+            "en": "[AINews] not much happened today"
           },
-          "url": "https://openai.com/index/ai-policy-window",
-          "score": "4.0",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+          "score": "1.0",
           "summary": {
-            "en": "Chris Lehane argues that advancing AI capabilities should be matched by stronger safety evidence, shared standards, and durable policy action while an unspecified policy opportunity remains open."
+            "en": "Latent Space characterizes the day as quiet, with no specific AI development, evidence, or consequence included in the supplied excerpt."
           },
           "source": {
             "en": "RSS Feeds"
@@ -800,69 +859,6 @@
           "tags": [
             "blogs",
             "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "Where Does a Robot Think – On-Device vs Datacenter Inference"
-          },
-          "url": "https://newsletter.semianalysis.com/p/where-does-a-robot-think-on-device",
-          "score": "4.0",
-          "summary": {
-            "en": "Ivan Chiam introduces a discussion of where robots should run AI inference—on-device or in a datacenter—but the supplied excerpt contains no stated capabilities, tradeoffs, evidence, or conclusions."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "robotics"
-          ]
-        },
-        {
-          "title": {
-            "en": "What OpenAI’s latest controversy tells us about the future of math"
-          },
-          "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-          "score": "4.0",
-          "summary": {
-            "en": "MIT Technology Review reports that OpenAI claims its agents solved a Millennium Prize Problem, but says the announcement is already overshadowed by unspecified accusations, leaving the result and its implications unconfirmed in the supplied excerpt."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded"
-          },
-          "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-          "score": "4.0",
-          "summary": {
-            "en": "Latent Space’s excerpt alleges that OpenAI used Astra-next, roughly 10,000 agents, 130B tokens, and over $40M to find a Navier–Stokes singularity in 88 hours, but supplies no method, result, or independent confirmation."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "agents"
           ]
         }
       ]
@@ -881,16 +877,36 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 22,
+      "count": 21,
       "items": [
         {
           "title": {
-            "en": "iPhone 18 Pro and iPhone 18 Pro Max"
+            "en": "Forgejo <=16.0.3 Critical RCE"
           },
-          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+          "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+          "score": "8.5",
+          "summary": {
+            "en": "Forgejo 16.0.4 addresses a critical issue where template expansion could interfere with Git repository initialization during creation from a template repository; comments state Gitea is protected against both reported issues."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Rust is tier-1 language at Microsoft"
+          },
+          "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
           "score": "8.0",
           "summary": {
-            "en": "Apple announced iPhone 18 Pro and Pro Max; discussion highlights a Reference mode that signs captured sensor data and uses Private Cloud Compute to create an unalterable reference image, while noting missing RAM and memory-bandwidth specifications."
+            "en": "Microsoft is described as treating Rust as a tier-1 language, a strategic adoption signal with potential implications for systems programming and Microsoft tooling; discussion highlights anticipated MSVC integration but provides no supporting technical specifics."
           },
           "source": {
             "en": "Hacker News"
@@ -905,54 +921,32 @@
         },
         {
           "title": {
-            "en": "Shopify acquires Tailwind"
+            "en": "JEP 544: Ahead-of-Time Code Compilation"
           },
-          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+          "url": "https://openjdk.org/jeps/544",
+          "score": "8.0",
+          "summary": {
+            "en": "OpenJDK’s JEP 544 proposes ahead-of-time code compilation, while discussion highlights that training-run-based workflows may impose bespoke build-pipeline burden and raises questions about native-only and cross-compilation paths."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Shopify is moving from React Native back to Swift and Kotlin"
+          },
+          "url": "https://shopify.engineering/back-to-native",
           "score": "7.5",
           "summary": {
-            "en": "Shopify has announced its acquisition of Tailwind, while discussion highlights an unverified claim that AI-driven changes to documentation traffic and template sales substantially affected Tailwind Labs' business model."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Desert Ant Labs: local, fast models that run on device"
-          },
-          "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-          "score": "7.0",
-          "summary": {
-            "en": "Desert Ant Labs announced local task-specific models accessible through Swift, Kotlin, and JavaScript SDKs, claiming no per-call cost or data egress; discussion highlights practical use of small models on non-GPU devices while questioning the business model and noting no Python SDK."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "How I advertise malicious software on Google Ads"
-          },
-          "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
-          "score": "7.0",
-          "summary": {
-            "en": "A Hacker News submission claims to describe advertising malicious software through Google Ads, while commenters report anecdotal concerns about automated moderation and scam advertising without independently verifying the underlying method."
+            "en": "Shopify says it is moving its mobile development from React Native back to Swift and Kotlin; commenters report similar native rewrites and argue that shared-codebase economics and improved native-app generation may change the tradeoff."
           },
           "source": {
             "en": "Hacker News"
@@ -967,12 +961,12 @@
         },
         {
           "title": {
-            "en": "Planet Labs' open satellite feed"
+            "en": "Detecting and countering misuse of AI: September 2026"
           },
-          "url": "https://tech.marksblogg.com/planet-labs-open-satellite-feed.html",
-          "score": "7.0",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "score": "7.5",
           "summary": {
-            "en": "Planet Labs’ open satellite feed is presented as a software-engineering-oriented geospatial project; discussion highlights that high-resolution commercial imagery can remain prohibitively costly for a conservation nonprofit, limiting evidentiary monitoring use."
+            "en": "Anthropic’s linked September 2026 threat report concerns detecting and countering AI misuse; comments highlight alleged undisclosed forwarding of customer prompts by Moonshot AI and DeepSeek to Claude, plus concern over selective disclosure of biological-misuse details."
           },
           "source": {
             "en": "Hacker News"
@@ -987,12 +981,12 @@
         },
         {
           "title": {
-            "en": "Playing whack-a-mole is losing"
+            "en": "OpenAI Agents API"
           },
-          "url": "https://dadrian.io/blog/posts/whack-a-mole-is-losing/",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
           "score": "7.0",
           "summary": {
-            "en": "Discussion argues that recurring vulnerability fixes should be complemented by systematic, invariant-based security engineering, while one commenter notes Chromium DCHECKs already exemplify that approach despite recurring related issues."
+            "en": "OpenAI’s Agents API is presented as a managed way to build tool-using agents, while discussion highlights self-hostable sandboxing as a portability benefit and notes concerns about lock-in and reportedly broken example links."
           },
           "source": {
             "en": "Hacker News"
@@ -1003,17 +997,58 @@
           "tags": [
             "community",
             "hacker-news",
-            "security"
+            "agents"
           ]
         },
         {
           "title": {
-            "en": "GPT-6 Astra, looped transformers, and hidden reasoning"
+            "en": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)"
           },
-          "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+          "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+          "score": "7.0",
+          "summary": {
+            "en": "NASA-linked material describes applying satellite-image manipulation techniques to reveal ancient imagery, while a commenter outlines a comparable LAB-channel contrast workflow in GIMP and another notes false-colour composites’ value for understanding sensor signals."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof"
+          },
+          "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+          "score": "7.0",
+          "summary": {
+            "en": "A post says OpenAI’s Navier–Stokes release included a Lean 4 formal proof, while commenters debate proof-checking resources, agent-versus-human cost comparisons, and whether improved automation changes historical formalization effort estimates."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neki – Sharded Postgres"
+          },
+          "url": "https://planetscale.com/blog/introducing-neki",
           "score": "6.5",
           "summary": {
-            "en": "A Sebastian Raschka article discusses reported GPT-6 Astra characteristics, looped/universal-transformer ideas, and hidden reasoning; commenters connect recurrent inference to concealed reasoning traces and cite prior chain-of-thought complexity research."
+            "en": "PlanetScale introduced Neki as a sharded Postgres offering, while discussion highlights unclear launch positioning, questions about eventual-consistency and CAP tradeoffs, and criticism that the product is not open source."
           },
           "source": {
             "en": "Hacker News"
@@ -1024,219 +1059,99 @@
           "tags": [
             "community",
             "hacker-news",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "What algorithm did Windows XP use to choose your initial user picture?"
+          },
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+          "score": "6.5",
+          "summary": {
+            "en": "A Microsoft Old New Thing post reportedly explains how Windows XP selected an initial user picture, while discussion frames it as a lesson in translating an intuitive human “random choice” into a concrete computer procedure."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "DeepSeek v4.1 Flash"
+          },
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "score": "6.5",
+          "summary": {
+            "en": "DeepSeek released DeepSeek V4.1 Flash via an apparent official Hugging Face repository; commenters praised its technical-report detail and highlighted a claimed $0.003-per-million-token cache-hit price as potentially consequential for long-context API costs."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "List of references on Sony websites to players \"owning\" their digital games"
+          },
+          "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+          "score": "6.0",
+          "summary": {
+            "en": "A reference list tracks Sony webpages describing digital-game purchasers as owners amid a lawsuit, while discussion challenges Sony's analogy that one purchaser owning a game would prevent later purchasers from obtaining separate copies and criticizes mandatory arbitration."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "More questions about whether researchers can trust OpenAI with unpublished math"
+          },
+          "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+          "score": "5.5",
+          "summary": {
+            "en": "Discussion questions whether researchers who share unpublished mathematics with OpenAI models can trust confidentiality and attribution boundaries, with commenters disagreeing over whether later model discoveries could plausibly derive from specific chats."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models",
             "research"
           ]
         },
         {
           "title": {
-            "en": "Understanding the recent DDoS attack against Read the Docs"
+            "en": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra"
           },
-          "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
-          "score": "6.5",
-          "summary": {
-            "en": "Read the Docs published an account of a recent DDoS attack; discussion focuses on potential Layer-7 defense gaps and attacker incentives, but the available comments are speculative rather than evidence."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Matt Mullenweg put on 'leave of absence'"
-          },
-          "url": "https://www.404media.co/wordpress-automattic-ceo-matt-mullenweg-put-on-leave-of-absence/",
-          "score": "6.5",
-          "summary": {
-            "en": "404 Media reports that Automattic’s board voted to place CEO Matt Mullenweg on paid leave, while commenters frame it as a significant governance event for the WordPress ecosystem but provide no confirmed operational consequences."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Growing proof that autonomous cars save lives"
-          },
-          "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
-          "score": "6.0",
-          "summary": {
-            "en": "An IEEE Spectrum article argues that evidence is growing that autonomous cars save lives; commenters question Waymo’s use of average-driver comparisons rather than rideshare-driver baselines and note that adoption depends on societal buy-in."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "No Man's Sky Cosmos"
-          },
-          "url": "https://www.nomanssky.com/cosmos-update/",
-          "score": "6.0",
-          "summary": {
-            "en": "Hello Games announced the No Man's Sky Cosmos update, while commenters sharply disagree over whether the game offers substantial gameplay despite acknowledging its long-running free-update strategy and turnaround from launch."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Apple Watch Series 12"
-          },
-          "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
-          "score": "6.0",
-          "summary": {
-            "en": "Apple introduced Watch Series 12 with an all-new health-sensing system; discussion centers on discomfort with an audio-note feature that may appear always-listening, legal-consent concerns, incremental upgrades, and alleged support removals."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills"
-          },
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "score": "6.0",
-          "summary": {
-            "en": "A gist claims Qwen 3.8 can follow GPT-5.5 Pro reasoning prefills, while discussion notes the comparison may rely on publicly exposed traces or shared benchmark solutions and therefore does not by itself establish improper training."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "AirPods 5"
-          },
-          "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+          "url": "https://cognition.com/blog/swe-2",
           "score": "5.5",
           "summary": {
-            "en": "Apple announced AirPods 5; supplied discussion highlights a claimed $129 price, open-ear active noise cancellation, new stem volume swipes, and debate over Bluetooth audio quality and shorter-stem ergonomics."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "GNU Radio in the browser"
-          },
-          "url": "https://gnuradioworld.com/",
-          "score": "5.5",
-          "summary": {
-            "en": "GNU Radio World presents GNU Radio in a browser; commenters connect it to WebUSB/WASM SDR experiments but also report that the introduction and help material are difficult to understand."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Claude, change the “Add to Cart” button to blue"
-          },
-          "url": "https://opusfived.dev/",
-          "score": "5.5",
-          "summary": {
-            "en": "An interactive site titled “Claude, change the ‘Add to Cart’ button to blue” appears to satirize or demonstrate AI coding-agent scope creep; commenters contrast overly persistent model behavior with cases where clearer prompts or skill instructions explain mistakes."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Lotus Notes and the dangers of starting from scratch"
-          },
-          "url": "https://buttondown.com/blog/lotus-notes-email",
-          "score": "5.5",
-          "summary": {
-            "en": "A retrospective on Lotus Notes appears to examine replacement-project risks, while a commenter recounts a constrained migration of roughly 4,000 custom Notes apps that had to be retargeted after its planned WebDAV destination was abandoned."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "What will our economic future look like?"
-          },
-          "url": "https://www.anthropic.com/institute/econ-scenarios",
-          "score": "5.0",
-          "summary": {
-            "en": "Anthropic’s economic-scenarios article prompts debate over whether AI productivity improves care or reduces staffing, with commenters also raising unmodeled risks around education, trust, inequality, data-center investment, and falling compute prices."
+            "en": "Cognition announced SWE-2, reportedly post-trained from Kimi, while discussion highlights a 92.8% Terminal Bench 2.1 versus 27.3% Terminal Bench 4 result as a possible warning about generalization and requests clarity on model stats and weight availability."
           },
           "source": {
             "en": "Hacker News"
@@ -1252,12 +1167,12 @@
         },
         {
           "title": {
-            "en": "We accidentally built a synthetic cell factory"
+            "en": "Don't let anyone take away your big box of cables"
           },
-          "url": "https://bnext.bio/post/we-accidentally-built-a-synthetic-cell-factory",
-          "score": "5.0",
+          "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+          "score": "5.5",
           "summary": {
-            "en": "A company post claims it “accidentally” built a synthetic cell factory; the limited discussion raises biosecurity concerns but supplies no concrete evidence about the system’s capabilities or availability."
+            "en": "A community discussion argues for retaining and grouping spare cables to deduplicate them, while one commenter warns that modular PSU cables can physically fit across models despite incompatible pinouts that may damage drives."
           },
           "source": {
             "en": "Hacker News"
@@ -1268,17 +1183,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "security"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Apple Watch Ultra 4"
+            "en": "Silicon Valley is transforming the military-industrial complex?"
           },
-          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/",
+          "url": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
           "score": "5.0",
           "summary": {
-            "en": "Apple’s newsroom URL announces Apple Watch Ultra 4, while commenters raise concerns about an alleged loss of offline Siri capability on older hardware, battery life and sizing, recording privacy, and a claimed higher-frequency heart-rate sensor."
+            "en": "A report examines how Big Tech and Silicon Valley are changing the military-industrial complex; comments argue that US defense funding and military customers have long shaped the region, while debating workers’ and companies’ responsibility for defense contracts."
           },
           "source": {
             "en": "Hacker News"
@@ -1293,12 +1208,72 @@
         },
         {
           "title": {
-            "en": "iPhone Duo"
+            "en": "Cognition's SWE-2 achieves 92.8 on Terminal-Bench 2.1"
           },
-          "url": "https://www.apple.com/iphone-duo/",
+          "url": "https://tokenstead.ai/models/swe-2",
+          "score": "5.0",
+          "summary": {
+            "en": "Cognition’s SWE-2 is reported to score 92.8 on Terminal-Bench 2.1, while commenters argue that benchmark is nearly solved or contaminated, cite only a modest Terminal-Bench 4 lead, and report mixed real-world results."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "AI Is Breaking This Thing We Call Trust"
+          },
+          "url": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust/",
+          "score": "5.0",
+          "summary": {
+            "en": "An opinion piece argues that AI weakens the link between producing work and understanding it; commenters note software already depends on trusted abstraction layers and contend broader human grifting, not AI alone, drives the trust problem."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Creativity is the new moat"
+          },
+          "url": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+          "score": "4.5",
+          "summary": {
+            "en": "An article argues that genuine creativity is a post-AI competitive moat, while commenters contend that a moat implies durable leverage rather than continual effort and warn that unnecessary “creative” web experiences can harm usability."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Proof of Capture: Apple Reference Image, but open source and using steganography"
+          },
+          "url": "https://merybenavente.me/blog/proof-of-capture",
           "score": "4.0",
           "summary": {
-            "en": "Apple’s “iPhone Duo” page prompted discussion of a folding-phone form factor and concerns about handset width, while the supplied comments provide no verified specifications or pricing."
+            "en": "The project claims an open-source, steganography-based proof of image capture, while discussion notes that sensor-input manipulation and photographing AI-generated screen content can still yield apparently authentic captures."
           },
           "source": {
             "en": "Hacker News"
@@ -1308,17 +1283,18 @@
           },
           "tags": [
             "community",
-            "hacker-news"
+            "hacker-news",
+            "open-source"
           ]
         },
         {
           "title": {
-            "en": "South Park creators rename show 'South America'"
+            "en": "Music Theory for the 21st-Century Classroom"
           },
-          "url": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o",
-          "score": "2.0",
+          "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+          "score": "4.0",
           "summary": {
-            "en": "The supplied item says South Park's creators renamed the show “South America”; the Hacker News comments add only alternative naming puns."
+            "en": "A linked online music-theory textbook reportedly includes homework and assignments for self-study, while commenters question its “21st-Century” framing and note limited treatment of jazz, global traditions, pop/rock, and microtonality."
           },
           "source": {
             "en": "Hacker News"
