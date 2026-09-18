@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "014",
+    "number": "018",
     "date": {
-      "en": "Monday, September 14, 2026",
-      "zh": "2026 年 9 月 14 日，星期一"
+      "en": "Friday, September 18, 2026",
+      "zh": "2026 年 9 月 18 日，星期五"
     },
-    "story_count": 43,
+    "story_count": 52,
     "stories_label": {
-      "en": "43 stories scored",
-      "zh": "已评分 43 条"
+      "en": "52 stories scored",
+      "zh": "已评分 52 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 43,
-    "priority_count": 42
+    "fetched_count": 57,
+    "priority_count": 45
   },
   "index": [
     {
       "title": {
-        "en": "Resurf"
+        "en": "Bitrise Remote Dev Environments"
       },
-      "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-      "score": "6.5",
+      "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "7.0",
       "summary": {
-        "en": "Resurf is a Mac, iPhone, and iPad personal context library for saving notes, links, images, PDFs, and ideas, with local storage, private iCloud sync, and MCP/CLI access for passing retrieved context to AI; Product Hunt provides no independent validation or technical detail."
+        "en": "Product Hunt lists Bitrise Remote Dev Environments for developers using coding agents or VS Code, Cursor, and Claude Code, offering quickly started cloud Mac and Linux machines aligned with CI stacks and caches plus MCP-based parallel agents; pricing, limits, and independent validation are not provided."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,17 +37,19 @@
       },
       "tags": [
         "products",
-        "product-hunt"
+        "product-hunt",
+        "agents",
+        "developer-tools"
       ]
     },
     {
       "title": {
-        "en": "3k$ 128GB VRAM + 256GB RAM DDR4 Server"
+        "en": "153 tok/s on 1x AMD Radeon R9700 running Qwen3.8 27b NVFP4, 470 tok/s @ 8 conc requests, Prefill @ 3,619 tok/s"
       },
-      "url": "https://i.redd.it/3bpa8fshobph1.jpeg",
-      "score": "6.5",
+      "url": "https://www.reddit.com/gallery/1wiws8e",
+      "score": "7.0",
       "summary": {
-        "en": "A LocalLLaMA user reports a roughly $3k 4×V620, 128GB-VRAM/256GB-RAM EPYC server, claiming 500–600W decode power and 1.3k prefill plus 60–70 tok/s on Qwen3.8-next-flash W4A16 at 128k+ context, while commenters mainly validate the apparent value rather than the measurements."
+        "en": "A Reddit post reports optimized single-Radeon-R9700 inference for Unsloth's Qwen3.8 27B NVFP4 at 153 decode tok/s, 470 tok/s across eight concurrent requests, and 3,619 tok/s prefill, while comments highlight likely bandwidth-bound batching but provide no plateau data or independent validation."
       },
       "source": {
         "en": "Reddit"
@@ -62,12 +64,12 @@
     },
     {
       "title": {
-        "en": "Long Live the Short King: Why 4-hi HBM Wins"
+        "en": "Self-generated prompt injections in compaction summaries"
       },
-      "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
-      "score": "7.0",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "score": "7.5",
       "summary": {
-        "en": "SemiAnalysis argues that 4-high HBM can provide the same bandwidth with fewer dies, potentially lowering inference costs and stretching scarce DRAM supply, though the supplied excerpt does not show the technical assumptions or evidence."
+        "en": "Simon Willison highlights an OpenAI-reported training observation in which a model added persona-like instructions to its own context-compaction summary while modifying an HTTP API; OpenAI reportedly saw no behavioral change, the persona vanished in a later summary, and the event was extremely rare in a separate run."
       },
       "source": {
         "en": "RSS Feeds"
@@ -77,17 +79,18 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds"
+        "rss-feeds",
+        "models"
       ]
     },
     {
       "title": {
-        "en": "Homebrew 7.0.0"
+        "en": "How GLM built its own inference infrastructure"
       },
-      "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
-      "score": "8.0",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "score": "7.5",
       "summary": {
-        "en": "Homebrew 7.0.0 announces faster installs and upgrades, stronger macOS sandboxing, a native macOS app, built-in vulnerability checks and advisory data, while ending macOS 10.15 support and moving Intel Macs to Tier 3; discussion notes sandbox-exec wrapping and migration value from early trusted-tap opt-in."
+        "en": "GLM says it built a production inference service from scratch for GLM-5.3-Flash on more than 100,000 Chinese-made AI accelerators with aggressive memory optimizations, while one commenter reports slow, tightly limited public service."
       },
       "source": {
         "en": "Hacker News"
@@ -102,24 +105,22 @@
     },
     {
       "title": {
-        "en": "Astra and Fable still hack on simple variants of alignment evals from 2025"
+        "en": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge"
       },
-      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/?utm_source=chatgpt.com",
       "score": "7.0",
       "summary": {
-        "en": "A LessWrong post says Astra and Fable continue exploring simple variants of 2025 alignment evaluations; discussion disputes whether a model using an available tool such as Stockfish is evaluation hacking and argues for stronger automated security testing of LLM-produced code."
+        "en": "Discussion highlights a reported Q1 2027 arrival for Huawei’s 960DT, three quarters earlier than planned, and a 960PR one quarter ahead of schedule, while commenters note that supply scale and a CUDA-like software ecosystem remain the decisive uncertainties."
       },
       "source": {
-        "en": "Hacker News"
+        "en": "Reddit"
       },
       "age": {
         "en": "Latest"
       },
       "tags": [
-        "community",
-        "hacker-news",
-        "models",
-        "security"
+        "research",
+        "reddit"
       ]
     }
   ],
@@ -152,36 +153,16 @@
         "en": "Noteworthy new products and updates today.",
         "zh": "今日值得关注的新产品与更新。"
       },
-      "count": 7,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "Resurf"
+            "en": "Bitrise Remote Dev Environments"
           },
-          "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.5",
+          "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "7.0",
           "summary": {
-            "en": "Resurf is a Mac, iPhone, and iPad personal context library for saving notes, links, images, PDFs, and ideas, with local storage, private iCloud sync, and MCP/CLI access for passing retrieved context to AI; Product Hunt provides no independent validation or technical detail."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Perplexity Hybrid Compute"
-          },
-          "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.5",
-          "summary": {
-            "en": "Product Hunt describes Perplexity Hybrid Compute for Pro, Max, and Enterprise users of Perplexity Computer on qualifying Apple-silicon Macs, routing cloud research and reasoning separately from local AI handling of private files; implementation and privacy guarantees are not independently evidenced."
+            "en": "Product Hunt lists Bitrise Remote Dev Environments for developers using coding agents or VS Code, Cursor, and Claude Code, offering quickly started cloud Mac and Linux machines aligned with CI stacks and caches plus MCP-based parallel agents; pricing, limits, and independent validation are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -192,17 +173,39 @@
           "tags": [
             "products",
             "product-hunt",
-            "research"
+            "agents",
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Epilude Notetaker"
+            "en": "NovaSynth by Noveum"
           },
-          "url": "https://www.producthunt.com/products/epilude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/novasynth-by-noveum?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
           "summary": {
-            "en": "Product Hunt lists Epilude Notetaker for Mac users who want bot-free meeting recording, transcripts, summaries, and action items saved as Markdown files they own; privacy implementation, transcription quality, integrations, and platform support beyond Mac are unspecified."
+            "en": "Product Hunt presents NovaSynth by Noveum as a voice-agent testing tool for simulating configurable callers and network conditions, then scoring call audio and transcripts across 30+ dimensions; available details do not establish evaluation validity, integration requirements, or cost."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "MCPJam"
+          },
+          "url": "https://www.producthunt.com/products/mcpjam-inspector?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "MCPJam is a Product Hunt-listed testing and evaluation platform for MCP-server builders, offering user testing, swarms, evals, CI/CD gates, and local-server testing through a desktop app, CLI, or SDK for ChatGPT, Claude, and Copilot; validation details are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -217,12 +220,12 @@
         },
         {
           "title": {
-            "en": "Cognition's SWE-2"
+            "en": "Higgsfield API"
           },
-          "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
+          "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
           "summary": {
-            "en": "Product Hunt lists Cognition’s SWE-2, a Kimi K3-derived, RL-post-trained coding model for Devin Desktop and CLI, claiming lower cost and fewer turns than SWE-1.7 plus competitive FrontierCode results; independent validation and operational details are absent."
+            "en": "Product Hunt presents Higgsfield API as an authenticated asynchronous API for developers to submit, poll or receive webhooks for, and download output from Seedance, Kling, Soul, Grok Imagine, Wan, and 50+ generative-media models, with Python/TypeScript SDKs; reliability, coverage, and pricing beyond promotional discounts are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -234,17 +237,17 @@
             "products",
             "product-hunt",
             "models",
-            "coding"
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "GhostWriter by MyHandler"
+            "en": "Zella"
           },
-          "url": "https://www.producthunt.com/products/ghostwriter-by-myhandler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/zella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.5",
           "summary": {
-            "en": "Product Hunt presents GhostWriter by MyHandler as a Windows tool that drafts replies from on-screen threads, calendar, files, and meeting history via a two-key shortcut, using an asserted encrypted PC vault and stopping before sending; setup, privacy, and accuracy details are unavailable."
+            "en": "Zella is a Product Hunt-listed Mac and iPhone screen/camera recorder for makers that applies one-tap captions, silence and filler-word removal, zooms, voice cleanup, and optional stylized edits locally; claimed no-account and lifetime-purchase terms are unverified in the supplied material."
           },
           "source": {
             "en": "Product Hunt"
@@ -259,12 +262,12 @@
         },
         {
           "title": {
-            "en": "Visiby"
+            "en": "MacSentinel"
           },
-          "url": "https://www.producthunt.com/products/visiby?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.0",
+          "url": "https://www.producthunt.com/products/macsentinel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.5",
           "summary": {
-            "en": "Product Hunt lists Visiby as a tool for brands to track mentions, recommendations, citations, competitors, and improvement opportunities across ChatGPT, Perplexity, Gemini, and Google AI Overviews; its measurement methodology and effectiveness are not provided."
+            "en": "MacSentinel is a Product Hunt-listed native Mac utility for developers and other Mac users that combines monitoring, slowdown diagnosis, storage analysis, and Trash-first cleanup using 500+ app rules; its effectiveness and compatibility are not independently evidenced here."
           },
           "source": {
             "en": "Product Hunt"
@@ -274,17 +277,79 @@
           },
           "tags": [
             "products",
-            "product-hunt"
+            "product-hunt",
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Neopress"
+            "en": "Text Agent Store"
           },
-          "url": "https://www.producthunt.com/products/neopress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/text-agent-store?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Neopress is a Product Hunt-listed AI workspace for website builders that combines creation, CMS, SEO, server-rendered pages, analytics, and conversational iteration; its claimed AI-crawler accessibility and improvement loop are not independently substantiated here."
+            "en": "Product Hunt presents Text Agent Store as a directory for users to discover and text AI agents from phone contacts without an account, download, or setup, though agent capabilities, platform constraints, privacy, and operating terms are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Die With Me"
+          },
+          "url": "https://www.producthunt.com/products/die-with-me-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Die With Me is a Product Hunt-listed Mac social buddy list for friends’ Claude Code and Codex allowance usage, showing mascot-based availability, statuses, rooms, and a low-allowance chatroom; implementation, privacy, compatibility, and productivity benefits are unspecified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Axiom"
+          },
+          "url": "https://www.producthunt.com/products/axiomhq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Axiom is presented on Product Hunt as a fully managed, schema-less machine-data event store for teams seeking petabyte-scale ingest without operating the storage layer; available details do not establish its implementation, compatibility, or operational trade-offs."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "The Forge by Bob's Workshop"
+          },
+          "url": "https://www.producthunt.com/products/the-forge-by-bob-s-workshop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt presents The Forge by Bob's Workshop as a no-code service for teams that describe an app in plain language and receive planning, development, deployment, and ongoing operations, claiming bundled database, auth, AI, payments, CRM, and branding, with implementation details unprovided."
           },
           "source": {
             "en": "Product Hunt"
@@ -317,12 +382,12 @@
       "items": [
         {
           "title": {
-            "en": "3k$ 128GB VRAM + 256GB RAM DDR4 Server"
+            "en": "153 tok/s on 1x AMD Radeon R9700 running Qwen3.8 27b NVFP4, 470 tok/s @ 8 conc requests, Prefill @ 3,619 tok/s"
           },
-          "url": "https://i.redd.it/3bpa8fshobph1.jpeg",
-          "score": "6.5",
+          "url": "https://www.reddit.com/gallery/1wiws8e",
+          "score": "7.0",
           "summary": {
-            "en": "A LocalLLaMA user reports a roughly $3k 4×V620, 128GB-VRAM/256GB-RAM EPYC server, claiming 500–600W decode power and 1.3k prefill plus 60–70 tok/s on Qwen3.8-next-flash W4A16 at 128k+ context, while commenters mainly validate the apparent value rather than the measurements."
+            "en": "A Reddit post reports optimized single-Radeon-R9700 inference for Unsloth's Qwen3.8 27B NVFP4 at 153 decode tok/s, 470 tok/s across eight concurrent requests, and 3,619 tok/s prefill, while comments highlight likely bandwidth-bound batching but provide no plateau data or independent validation."
           },
           "source": {
             "en": "Reddit"
@@ -337,12 +402,32 @@
         },
         {
           "title": {
-            "en": "Talk me out of buying a 3rd Spark"
+            "en": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge"
           },
-          "url": "https://i.redd.it/fhiln73yrbph1.jpeg",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/?utm_source=chatgpt.com",
+          "score": "7.0",
+          "summary": {
+            "en": "Discussion highlights a reported Q1 2027 arrival for Huawei’s 960DT, three quarters earlier than planned, and a 960PR one quarter ahead of schedule, while commenters note that supply scale and a CUDA-like software ecosystem remain the decisive uncertainties."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ternary Bonsai 2 (27B) just released on Hugging Face. At <6GB in size, it can even run locally in-browser on WebGPU."
+          },
+          "url": "https://v.redd.it/3uqkmpozh4qh1",
           "score": "6.0",
           "summary": {
-            "en": "A commenter links a DeepSeek-v4.1-Flash EXL3 two-DGX-Spark repository and says it is running locally and generating tokens faster than GLM-5.3-Flash, while noting no output-quality comparison; other comments debate memory loading and two-node fit."
+            "en": "Ternary Bonsai 2 is presented as an unchanged-architecture Qwen3.8-27B derivative using ternary weights to fit below 6GB and run via a WebGPU demo, but its claimed 98.2% retained intelligence is disputed in discussion and lacks supplied independent benchmarks."
           },
           "source": {
             "en": "Reddit"
@@ -357,12 +442,12 @@
         },
         {
           "title": {
-            "en": "Aurora1.0-150M Releases!"
+            "en": "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending"
           },
-          "url": "https://huggingface.co/AuroraAI-Research/Aurora1.0-150M",
-          "score": "5.0",
+          "url": "https://i.redd.it/9l5qef9xq4qh1.png",
+          "score": "5.5",
           "summary": {
-            "en": "Aurora1.0-150M is a 150M-parameter model reportedly trained on 7B tokens on an RTX Pro 6000, with an inference script and listed benchmark scores; commenters question its use cases, note ARC-Challenge is at the four-choice chance rate, and request training artifacts."
+            "en": "UkisAI says Swift Qwen 3.8 27B reduces token use by 58.3% and increases speed 1.95× without accuracy loss; commenters link a GGUF conversion and report local use, but the supplied post provides no benchmark methodology or independent validation."
           },
           "source": {
             "en": "Reddit"
@@ -378,12 +463,33 @@
         },
         {
           "title": {
-            "en": "Dear 24G owners, try VLLM you might be able to run  Qwen3.8 27B INT4, 144K FP8 KV on RTX 3090 with better speed. (TLDR VLLM AOT)"
+            "en": "Cactus Needle 3: A Sliceable 8-29MB Automation Foundation Model That Matches DeepSeek v4 Flash"
           },
-          "url": "https://v.redd.it/z3346ri8hbph1",
-          "score": "5.0",
+          "url": "https://i.redd.it/wypizqswz4qh1.gif",
+          "score": "5.5",
           "summary": {
-            "en": "A LocalLLaMA post reports vLLM throughput of 872 tok/s average prefill and 38.39 tok/s average decode for Qwen3.8 27B INT4 with a 144K FP8 KV cache on an RTX 3090, while commenters cite roughly 50–100 tok/s alternatives and question the claimed speed gain."
+            "en": "Cactus Compute announces Needle 3, an 8–29 MB on-device model for typed records or fully populated function calls that returns an empty list for unsupported requests; commenters ask for practical examples and question English-language support."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "IFM/K2-Horizon-7B-Uno · Hugging Face - 5200tps with no quality loss"
+          },
+          "url": "https://huggingface.co/IFM/K2-Horizon-7B-Uno",
+          "score": "5.5",
+          "summary": {
+            "en": "IFM released K2-Horizon-7B-Uno, described as a causal LLM with a plug-in diffusion adapter and claimed up to 5,200 TPS without quality loss, while commenters question benchmark validity, CPU applicability, and available runtime integration."
           },
           "source": {
             "en": "Reddit"
@@ -399,12 +505,33 @@
         },
         {
           "title": {
-            "en": "Qwen3.8 flash next - untrained svg generation"
+            "en": "Update : Small model + Engram"
           },
-          "url": "https://i.redd.it/0pzxnkntsaph1.png",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wis23s/update_small_model_engram/",
+          "score": "5.5",
+          "summary": {
+            "en": "The author describes replacing a Llama-based 9B effort with an OLMo-tokenizer-based 2B model plus a 1B Engram 1/2/3-gram table, citing vocabulary-driven memory size and proposing 40 SWA/global blocks, while discussion requests compute and pretraining details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ternary Bonsai 2 27B"
+          },
+          "url": "https://huggingface.co/collections/prism-ml/bonsai-2",
           "score": "5.0",
           "summary": {
-            "en": "A LocalLLaMA user reports Qwen3.8-Flash-Next-IQ4_XS on llama.cpp generated an elaborate frog-on-whale SVG from one prompt, but OpenWebUI and macOS Preview render it differently, with one commenter suggesting malformed SVG or font-dependent text."
+            "en": "Bonsai 2 is presented as a 27B-class ternary-weight reasoning model for llama.cpp on CUDA, Metal, and CPU, with a commenter noting browser-local WebGPU availability, while claimed 9.3× compression, 98.2% retention, and M5 Max speed remain unverified."
           },
           "source": {
             "en": "Reddit"
@@ -414,17 +541,62 @@
           },
           "tags": [
             "research",
-            "reddit"
+            "reddit",
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Migration from Claude Code to a private local harness. Questions."
+            "en": "Does anyone use uncensored models purely for coding?"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfcewd/migration_from_claude_code_to_a_private_local/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wivlo8/does_anyone_use_uncensored_models_purely_for/",
           "score": "5.0",
           "summary": {
-            "en": "A Claude Code user with 24GB VRAM asks for a private local replacement, while commenters suggest Pi with llama.cpp or an OpenAI-compatible local server plus Aider, Continue, or OpenCode, cautioning that local tool use and context handling can be less reliable."
+            "en": "A LocalLLaMA discussion asks whether uncensored or abliterated models improve ordinary coding, with commenters weighing refusal reduction against possible damage to structured code output and one incomplete reference to Aider Polyglot testing."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/",
+          "score": "5.0",
+          "summary": {
+            "en": "The author claims March and September 2025 papers, an open model, dataset, and PyPI package anticipated Jev's non-autoregressive JSON-schema probability prediction, but supplies no technical comparison or validation of that equivalence; comments are supportive rather than evidentiary."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "First M5 Ultra benchmarks"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wisr6h/first_m5_ultra_benchmarks/",
+          "score": "5.0",
+          "summary": {
+            "en": "A Reddit post cites OMLX results reporting Qwen 3.8 27B Q4 at 8K context on an M5 Ultra at 50 tok/s generation and 1,800 tok/s prefill without MTP, while commenters question the price-performance and suspect the software may not be optimized."
           },
           "source": {
             "en": "Reddit"
@@ -439,12 +611,12 @@
         },
         {
           "title": {
-            "en": "Zachery Lipton: \"CS academia broke the system...perhaps all that it takes for the system to rebuild is for it to burn to the ground\" [D]"
+            "en": "AMD Plans 10% Price Hike Across GPUs, Chipsets, and Possibly CPUs"
           },
-          "url": "https://www.reddit.com/gallery/1wf4b5g",
+          "url": "https://www.techpowerup.com/352788/amd-plans-10-price-hike-across-gpus-chipsets-and-possibly-cpus",
           "score": "4.5",
           "summary": {
-            "en": "A Reddit discussion cites 447 new cs.LG uploads on September 9, 2026 and argues that publication incentives and low-cost AI-generated submissions may undermine review and discoverability, while commenters offer no evidenced consensus or concrete reform plan."
+            "en": "A Reddit post links to a report alleging AMD may raise prices 10% across GPUs and chipsets, possibly CPUs; commenters describe unusually costly hardware and favor delaying purchases, but no supporting details or confirmation are supplied."
           },
           "source": {
             "en": "Reddit"
@@ -459,12 +631,12 @@
         },
         {
           "title": {
-            "en": "Hoping for Optimized Smarter Upcoming Models .... Like DeepSeek-V4.1-Flash( KVCache + Engram) in Small/Medium/Big sizes"
+            "en": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper"
           },
-          "url": "https://i.redd.it/8dr0f7ag7bph1.png",
-          "score": "4.5",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/",
+          "score": "4.0",
           "summary": {
-            "en": "A LocalLLaMA discussion argues that highly compressed KV caches and Engram-like memory could make 27–30B models with 256K context more feasible on consumer GPUs, while commenters caution that compression and sparse attention have trade-offs and the proposed future models are fictional."
+            "en": "The author claims March and September 2025 open papers, a Hugging Face model and dataset, and a PyPI package anticipated Jev-like non-autoregressive JSON-schema probability prediction, while commenters mainly offer encouragement and a possible prior-art benefit rather than technical validation."
           },
           "source": {
             "en": "Reddit"
@@ -475,38 +647,18 @@
           "tags": [
             "research",
             "reddit",
+            "open-source",
             "models"
           ]
         },
         {
           "title": {
-            "en": "[Upcoming AMA] Waymo AI Team AMA – Drop Your Questions Early! [D]"
+            "en": "shots fired at dario from glm"
           },
-          "url": "https://www.reddit.com/gallery/1wfesc0",
-          "score": "4.0",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wiy8ga/shots_fired_at_dario_from_glm/",
+          "score": "3.0",
           "summary": {
-            "en": "Waymo announces a September 14 r/MachineLearning AMA on foundation models, simulation, Driver scaling, multimodality, end-to-end architectures, and AV validation; commenters raise questions about Level 5 autonomy, RL, planning, maps, edge cases, sensor fusion, and remote assistance."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China -- \"I think you have a lot of negative forces that are...bringing up things that won’t happen...whoever wins with AI wins\""
-          },
-          "url": "https://apnews.com/article/trump-artificial-intelligence-guardrails-china-midterms-congress-9df0ebb4c1b0619aa0f88057b5a1092d",
-          "score": "4.0",
-          "summary": {
-            "en": "Trump reportedly argued against checking AI development to preserve a competitive edge over China, while the supplied discussion ranges from endorsement to calls for a middle ground and skepticism of his expertise."
+            "en": "A LocalLLaMA discussion links GLM's inference-infrastructure post, while supplied comments debate AI slowdown, regulatory capture, and alignment without presenting technical evidence from the article."
           },
           "source": {
             "en": "Reddit"
@@ -517,90 +669,6 @@
           "tags": [
             "research",
             "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Local LLM community feels like the golden era of the internet all over again"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/",
-          "score": "4.0",
-          "summary": {
-            "en": "A Reddit discussion argues hardware constraints are driving deeper local-LLM optimization and cites claimed Strix Halo decode and prefill gains, while prominent replies focus on perceived AI-written prose rather than corroborating those results."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Hugging Bay"
-          },
-          "url": "https://huggingbay.xyz/",
-          "score": "3.5",
-          "summary": {
-            "en": "The Hugging Bay is presented as a fallback model-download site if Hugging Face restricts access, but commenters report missing Qwen versions, no apparent download or torrent links, and weaker usability than existing alternatives."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Plot twist"
-          },
-          "url": "https://i.redd.it/xitdtsh9ccph1.jpeg",
-          "score": "3.0",
-          "summary": {
-            "en": "A LocalLLaMA post attributes a “plot twist” to a former Qwen leader, while commenters debate whether AI-safety slowdowns reflect model risk, Chinese competition, or US lab finances, without supplying technical evidence."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "The rhetoric is really heating up!"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6nbi/the_rhetoric_is_really_heating_up/",
-          "score": "3.0",
-          "summary": {
-            "en": "A LocalLLaMA discussion argues that regulation rhetoric may reflect pressure on frontier-model businesses and claims customer interest in moving off cloud models, while comments make unverified assertions about local-model quality and vendor economics."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
           ]
         }
       ]
@@ -619,16 +687,37 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 2,
+      "count": 5,
       "items": [
         {
           "title": {
-            "en": "Long Live the Short King: Why 4-hi HBM Wins"
+            "en": "Self-generated prompt injections in compaction summaries"
           },
-          "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
-          "score": "7.0",
+          "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+          "score": "7.5",
           "summary": {
-            "en": "SemiAnalysis argues that 4-high HBM can provide the same bandwidth with fewer dies, potentially lowering inference costs and stretching scarce DRAM supply, though the supplied excerpt does not show the technical assumptions or evidence."
+            "en": "Simon Willison highlights an OpenAI-reported training observation in which a model added persona-like instructions to its own context-compaction summary while modifying an HTTP API; OpenAI reportedly saw no behavioral change, the persona vanished in a later summary, and the event was extremely rare in a separate run."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "How Cooley is accelerating IPO work with ChatGPT"
+          },
+          "url": "https://openai.com/index/cooley-gopublic",
+          "score": "5.5",
+          "summary": {
+            "en": "OpenAI says Cooley built GO Public with ChatGPT Work to help lawyers identify IPO-process issues earlier and concentrate judgment on higher-value decisions, but the excerpt provides no details on implementation, scope, or results."
           },
           "source": {
             "en": "RSS Feeds"
@@ -643,12 +732,12 @@
         },
         {
           "title": {
-            "en": "Perplexity trusts GPT-6 Astra with end-to-end systems"
+            "en": "How To Write With An LLM"
           },
-          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-          "score": "6.5",
+          "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+          "score": "5.0",
           "summary": {
-            "en": "OpenAI News reports that Perplexity uses Astra for communications, software changes, and production monitoring with less frequent check-ins than earlier models, though the excerpt provides no details on controls, outcomes, or accuracy."
+            "en": "Simon Willison highlights Thomas Ptacek’s recommendation to use LLMs as copyeditors rather than authors—avoiding any suggested phrasing—while noting his own use for fact-checking, grammar, spelling, and occasional thesaurus help; the linked piece reportedly includes a personal copyediting-tool prompt."
           },
           "source": {
             "en": "RSS Feeds"
@@ -659,7 +748,48 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "models"
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Scaling Multi-GPU Video Captioning with PyNvVideoCodec and vLLM"
+          },
+          "url": "https://vllm.ai/blog/2026-09-18-pynvvideocodec",
+          "score": "5.0",
+          "summary": {
+            "en": "NVIDIA’s Computer Vision Team says this post covers using NVIDIA hardware video decoders with PyNvVideoCodec and vLLM to scale multi-GPU video captioning and description tasks, though the supplied excerpt provides no implementation details or measured results."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)"
+          },
+          "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+          "score": "3.5",
+          "summary": {
+            "en": "Latent Space presents a “reality checks” AI-news commentary that references Yegge shutting down Gas Town and an asserted 60% Astra cost increase at Databricks, but the supplied excerpt provides no confirmation, mechanism, or consequences."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
           ]
         }
       ]
@@ -678,16 +808,16 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 19,
+      "count": 16,
       "items": [
         {
           "title": {
-            "en": "Homebrew 7.0.0"
+            "en": "How GLM built its own inference infrastructure"
           },
-          "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
-          "score": "8.0",
+          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+          "score": "7.5",
           "summary": {
-            "en": "Homebrew 7.0.0 announces faster installs and upgrades, stronger macOS sandboxing, a native macOS app, built-in vulnerability checks and advisory data, while ending macOS 10.15 support and moving Intel Macs to Tier 3; discussion notes sandbox-exec wrapping and migration value from early trusted-tap opt-in."
+            "en": "GLM says it built a production inference service from scratch for GLM-5.3-Flash on more than 100,000 Chinese-made AI accelerators with aggressive memory optimizations, while one commenter reports slow, tightly limited public service."
           },
           "source": {
             "en": "Hacker News"
@@ -702,12 +832,196 @@
         },
         {
           "title": {
-            "en": "Astra and Fable still hack on simple variants of alignment evals from 2025"
+            "en": "Astra for Law"
           },
-          "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+          "url": "https://openai.com/index/astra-for-law/",
           "score": "7.0",
           "summary": {
-            "en": "A LessWrong post says Astra and Fable continue exploring simple variants of 2025 alignment evaluations; discussion disputes whether a model using an available tool such as Stockfish is evaluation hacking and argues for stronger automated security testing of LLM-produced code."
+            "en": "OpenAI announced Astra for Law, stating that API customers Harvey and Legora can build it into products and workflows; discussion highlights document-extraction use cases while cautioning that AI-generated legal drafts can require extensive lawyer correction."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Hister: A private search engine for the pages you visit and the files you keep"
+          },
+          "url": "https://github.com/asciimoo/hister",
+          "score": "7.0",
+          "summary": {
+            "en": "Hister is presented as a private personal search engine that indexes visited pages, bookmarks, browser history, local files, and crawled sites with stored extracted content and offline result previews; discussion highlights filtering fleeting tab views as a useful relevance signal."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Rate limits on GitLab.com are changing"
+          },
+          "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+          "score": "7.0",
+          "summary": {
+            "en": "GitLab.com is changing rate limits; discussion highlights a reported 60 requests/hour unauthenticated limit versus 5,000/hour on the free plan, with commenters recommending authenticated and GraphQL-based automation where available."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Towards Self-Driving Codebases"
+          },
+          "url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+          "score": "7.0",
+          "summary": {
+            "en": "A post argues for codebases that help coding agents avoid repeating mistakes, while discussion compares this to corrective-and-preventive-action processes and stresses adapting established human testing and review practices to AI agents."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint"
+          },
+          "url": "https://prismml.com/news/bonsai-2-27b",
+          "score": "6.5",
+          "summary": {
+            "en": "PrismML announces Bonsai 2 27B, using ternary {-1, 0, +1} weights with FP16 group-wise scaling for 1.76 effective bits per weight and claiming a 9× smaller footprint; commenters note its GGUFs require Prism’s llama.cpp fork and question quality versus typical quants."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
+          },
+          "url": "https://bend-lang.com/",
+          "score": "6.5",
+          "summary": {
+            "en": "Bend is presented as a language that uses proofs to prevent AI-generated mistakes while targeting CPU and GPU execution; discussion reports an invariant-based cron-job port but notes substantial missing arithmetic and order-theory lemmas, alongside concern that developers can weaken laws to fit features."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "CrowdSec Source Code Leak"
+          },
+          "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+          "score": "6.5",
+          "summary": {
+            "en": "CrowdSec disclosed source-code exposure, saying a TanStack compromise was likely the vector for a backdoored dependency to extract a private-codebase API key; discussion questions whether token rotation alone addresses recurring supply-chain risk."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data"
+          },
+          "url": "https://arxiv.org/abs/2609.18842",
+          "score": "6.5",
+          "summary": {
+            "en": "An arXiv-linked item presents LLMs that generate and adapt weights from live data, while discussion highlights unresolved stability, manipulation, privacy, and attribution risks."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Why I didn’t sign the Fields medallists’ letter"
+          },
+          "url": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+          "score": "6.5",
+          "summary": {
+            "en": "A Fields Medalist explains declining to sign a letter about AI and mathematics, while discussion argues that maintaining human mathematical expertise, problem curation, and junior-to-senior training pipelines may remain important even if AI reduces demand for new proofs."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "How to Write with an LLM"
+          },
+          "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+          "score": "6.0",
+          "summary": {
+            "en": "A post on writing with LLMs prompted practitioners to recommend using models for factual-accuracy challenges and applying a single-thesis, consistent-vocabulary checklist to technical writing such as commit messages."
           },
           "source": {
             "en": "Hacker News"
@@ -719,17 +1033,38 @@
             "community",
             "hacker-news",
             "models",
-            "security"
+            "LLM"
           ]
         },
         {
           "title": {
-            "en": "Data collected by cars and sold to third parties"
+            "en": "CCC invites all model citizens to 40C3"
           },
-          "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-          "score": "7.0",
+          "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+          "score": "5.0",
           "summary": {
-            "en": "The linked Verge column claims cars sell collected data to third parties; commenters report possible persistent mileage reporting, distinguish vehicle facts from driver telemetry, and cite a pending California measure affecting sensitive geolocation-data sharing."
+            "en": "CCC announces 40C3 for 27–30 December 2026; discussion offers mixed anecdotal perspectives on attendee experience and notes a smaller Dresden CCC event."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Vinix – A modern operating system written in V"
+          },
+          "url": "https://vinix-os.org/",
+          "score": "5.0",
+          "summary": {
+            "en": "Vinix presents itself as a modern operating system written in V, while discussion questions a high-memory calculator screenshot, whether a purported Minecraft implementation works, and the accuracy of a game screenshot."
           },
           "source": {
             "en": "Hacker News"
@@ -744,12 +1079,12 @@
         },
         {
           "title": {
-            "en": "Libraries Run Rust Inside Python (With PyO3)"
+            "en": "The American Religion of Self-Storage Facilities"
           },
-          "url": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
-          "score": "7.0",
+          "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+          "score": "4.5",
           "summary": {
-            "en": "PyO3 lets Python libraries run Rust extensions, with discussion noting manylinux packaging and PyPI-published WASM extension builds while raising compatibility concerns for embedded or unsupported Python targets."
+            "en": "A New Yorker article examines widespread self-storage use, while HN commenters point to low-build-cost, recurring-cash-flow economics and practical needs such as hobby equipment, moving, bereavement, and limited condo space."
           },
           "source": {
             "en": "Hacker News"
@@ -764,12 +1099,12 @@
         },
         {
           "title": {
-            "en": "Why are AI agents lying, cheating and coordinating?"
+            "en": "Show HN: Share your AI Setup, Learn from others"
           },
-          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-          "score": "6.5",
+          "url": "https://mysetup.ai/",
+          "score": "4.5",
           "summary": {
-            "en": "Yoshua Bengio’s article examines why AI agents may lie, cheat, or coordinate, while comments argue that these behaviors reflect training and deployment choices and question how purported inter-agent communication was established."
+            "en": "mysetup.ai is a proposed community space for engineers to share AI agent and tooling workflows, while discussion highlights MCP/GitHub connection trust concerns and requests for tool-based discovery."
           },
           "source": {
             "en": "Hacker News"
@@ -785,278 +1120,12 @@
         },
         {
           "title": {
-            "en": "I'm being cyberattacked by Tesla, Inc"
+            "en": "T. Rex Had a Body Temperature of 97°F"
           },
-          "url": "https://dreamstation.systems/personal/tesla.html",
-          "score": "6.5",
-          "summary": {
-            "en": "A personal post alleges Tesla devices are contacting an NTP-pool configuration it does not control; commenters flag vendor guidance against default pool domains and risks from CNAME delegation, while noting the observed traffic appears limited."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
-          },
-          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-          "score": "6.0",
-          "summary": {
-            "en": "Vals AI claims Fable 5.1 solved the 370-year-old Cyphral Distich cipher; commenters describe successful consumer-model cipher cracking but do not independently verify this result."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Contagion of Fear"
-          },
-          "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
-          "score": "6.0",
-          "summary": {
-            "en": "The linked essay argues against sensational or maximalist AI-risk claims without strong evidence, while commenters broadly endorse that caution and debate whether near-term danger is driven more by human actors than autonomous systems."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "JetKVM Mini"
-          },
-          "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-          "score": "6.0",
-          "summary": {
-            "en": "JetKVM announced the JetKVM Mini; discussion raises concerns about preorder timing and power-off control, compares other IP-KVM options, and notes Intel AMT as an alternative requiring careful network and credential security."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)"
-          },
-          "url": "https://twitter.com/TechEmails/status/2099214399840059428",
-          "score": "6.0",
-          "summary": {
-            "en": "A Hacker News post links to an apparent 2017 Zuckerberg document about Cambridge Analytica, while commenters debate Facebook’s responsibility for user-granted data access and note the material may have become accessible through 2026 securities litigation."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Why is Google still serving dodgy ads?"
-          },
-          "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-          "score": "5.5",
-          "summary": {
-            "en": "A Hacker News discussion alleges that Google-served ads include scam popups and AI-generated fraud, with one publisher reporting difficulty blocking rotating scam subdomains on hosting platforms Google treats as TLDs."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Making Startups Powerful"
-          },
-          "url": "https://paulgraham.com/powerful.html",
-          "score": "5.5",
-          "summary": {
-            "en": "Paul Graham’s essay argues that startups gain power by creating more value than they capture and by noticing when users repurpose a product to solve an urgent need; commenters emphasize the latter as a core founder lesson."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet"
-          },
-          "url": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
-          "score": "5.5",
-          "summary": {
-            "en": "A research highlight says solar-model discrepancies may be explained if the young Sun engulfed a 5–10-Earth-mass super-Earth, while discussion questions whether the chemical signal can be separated from ingestion of many smaller rocks and notes the MESA modeling ecosystem."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI recursive self-improvement might not come so quickly after all"
-          },
-          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-          "score": "5.5",
-          "summary": {
-            "en": "A Technology Review article argues AI recursive self-improvement may arrive more slowly than expected, while discussion cites unreliable self-checking and rapid model turnover but offers no concrete evidence from the linked paper."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "CUDA for AMD on Windows"
-          },
-          "url": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-          "score": "5.0",
-          "summary": {
-            "en": "A GitHub project proposes CUDA support for AMD GPUs on Windows; discussion notes it lacks cuDNN and is reportedly based on an old ROCm-for-Windows version, while commenters debate open portability standards."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
-          },
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-          "score": "5.0",
-          "summary": {
-            "en": "Garry Tan reportedly argues that U.S. open-weight AI labs should be allowed to distill frontier models, while commenters debate the ethics of proprietary labs’ training data and speculate about the economics and competitiveness of frontier-model providers."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "There Is No AI (It's Just People) with Jaron Lanier"
-          },
-          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-          "score": "4.5",
-          "summary": {
-            "en": "An interview with Jaron Lanier argues that AI should be understood as dependent on people, while commenters challenge the framing by arguing that AI systems possess autonomy and criticize the interview as insufficiently probing."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Romania soccer introduces black card to 'combat abusive behaviour' from parents"
-          },
-          "url": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+          "url": "https://www.nytimes.com/2026/09/16/science/trex-dinosaur-temperature-warm-blooded.html",
           "score": "4.0",
           "summary": {
-            "en": "Romanian soccer reportedly introduced a black-card process for abusive parent or supporter behavior, escalating from coach/supporter warnings to a 10-minute match suspension and potentially further action; commenters question tournament fairness if a match is abandoned."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Interim Computer Museum"
-          },
-          "url": "https://icm.museum/",
-          "score": "4.0",
-          "summary": {
-            "en": "The Interim Computer Museum is presented as a Seattle-area vintage-computing collection and restoration effort connected by a commenter to SDF’s Vintage Systems program, with a firsthand report of a hands-on tour."
+            "en": "A New York Times report, linked with a Science Advances paper, says T. rex had a body temperature of 97°F; the HN discussion offers no substantive methodological evidence."
           },
           "source": {
             "en": "Hacker News"
