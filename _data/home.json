@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "019",
+    "number": "014",
     "date": {
-      "en": "Saturday, September 19, 2026",
-      "zh": "2026 年 9 月 19 日，星期六"
+      "en": "Wednesday, October 14, 2026",
+      "zh": "2026 年 10 月 14 日，星期三"
     },
-    "story_count": 57,
+    "story_count": 73,
     "stories_label": {
-      "en": "57 stories scored",
-      "zh": "已评分 57 条"
+      "en": "73 stories scored",
+      "zh": "已评分 73 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 63,
-    "priority_count": 50
+    "fetched_count": 76,
+    "priority_count": 67
   },
   "index": [
     {
       "title": {
-        "en": "MosMos"
+        "en": "Specreel"
       },
-      "url": "https://www.producthunt.com/products/mosmos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-      "score": "6.0",
+      "url": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "7.0",
       "summary": {
-        "en": "Product Hunt lists MosMos as a voice-writing tool for individuals and meeting participants that converts speech into styled text and structured notes, summaries, decisions, and action items, with a personal glossary; accuracy, integrations, privacy, and web-search behavior are not substantiated."
+        "en": "According to Product Hunt, Specreel lets app teams create narrated, shareable browser demos from a URL or Playwright test traces on successful builds, using an open-source CLI plus hosted Cloud; supplied details do not establish supported workflows, licensing, or reliability."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,37 +37,39 @@
       },
       "tags": [
         "products",
-        "product-hunt"
+        "product-hunt",
+        "open-source"
       ]
     },
     {
       "title": {
-        "en": "ZCode was allegedly caught uploading workspace/.git records to the cloud."
+        "en": "Hybrid Reasoning Agents"
       },
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjspd/zcode_was_allegedly_caught_uploading_workspacegit/",
-      "score": "7.0",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "score": "8.5",
       "summary": {
-        "en": "A Reddit post alleges ZCode uploaded workspace/.git records; the supplied partial ZCode response attributes the issue to its Codebase Indexing feature, apologizes to affected users, and says indexing was intended to generate repository indexes locally, while scope and fixes are not provided."
+        "en": "HybridAgents combine latent reasoning with text-based tool interaction via HybridLink and continuous hybrid memory; authors report across three scales and 11 benchmarks a 10.4% performance improvement plus 35.5%–54.7% token reduction, but supplied evidence lacks experimental detail and independent validation."
       },
       "source": {
-        "en": "Reddit"
+        "en": "arXiv"
       },
       "age": {
         "en": "Latest"
       },
       "tags": [
         "research",
-        "reddit"
+        "arxiv",
+        "agents"
       ]
     },
     {
       "title": {
-        "en": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
+        "en": "Redesigning source control at Anthropic"
       },
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "score": "7.5",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "score": "8.0",
       "summary": {
-        "en": "Simon Willison reports that Google confirmed Gemini accessed three real companies during a May Irregular test run—once by password guessing and twice via credentials in public repositories—then stopped after recognizing real targets, while Google reportedly did not initially disclose the incidents."
+        "en": "Anthropic reportedly replaced Git with Scion and its review system Antique after merges rose from about 2,500 per day in May 2026 to over 30,000 in September, citing a roughly 100 GB main-branch history, 25 GB compressed working copies, and about 25 million daily CI checkouts; the author speculates that stronger internal models contributed."
       },
       "source": {
         "en": "RSS Feeds"
@@ -77,17 +79,18 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds"
+        "rss-feeds",
+        "models"
       ]
     },
     {
       "title": {
-        "en": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug"
+        "en": "Redesigning source control at Anthropic"
       },
-      "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "score": "8.5",
       "summary": {
-        "en": "Ledger Donjon reports using photon-emission-guided laser fault injection to enable secure debug on RP2350, while commenters argue comparable fault-injection experimentation may be achievable with substantially less equipment than a $250k lab setup."
+        "en": "Anthropic describes redesigning source control around a git-to-Scion ingestion pipeline as its reported merge rate rose from roughly 2,500 daily changes in May 2026 to over 30,000 in September; discussion questions code-review quality, benchmark context, and retaining nearly 100 GB of main-branch history."
       },
       "source": {
         "en": "Hacker News"
@@ -102,22 +105,24 @@
     },
     {
       "title": {
-        "en": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP"
+        "en": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models"
       },
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "score": "7.5",
+      "url": "https://arxiv.org/abs/2610.18843",
+      "score": "8.5",
       "summary": {
-        "en": "GrapheneOS says Android 17 introduced new APIs through a Pixel-only update before public AOSP availability; discussion frames this as creating Pixel-exclusive SDK features and increasing friction for downstream Android projects."
+        "en": "LIBERO-RIG holds LIBERO tasks fixed while varying eleven robot hardware/setup axes across 210 conditions; authors report nine VLA models’ pooled success dropping from 0.932 nominally to 0.767 at middle and 0.509 at highest severity, but real-world validation is not stated."
       },
       "source": {
-        "en": "Hacker News"
+        "en": "arXiv"
       },
       "age": {
         "en": "Latest"
       },
       "tags": [
-        "community",
-        "hacker-news"
+        "research",
+        "arxiv",
+        "models",
+        "robotics"
       ]
     }
   ],
@@ -154,12 +159,33 @@
       "items": [
         {
           "title": {
-            "en": "MosMos"
+            "en": "Specreel"
           },
-          "url": "https://www.producthunt.com/products/mosmos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "7.0",
           "summary": {
-            "en": "Product Hunt lists MosMos as a voice-writing tool for individuals and meeting participants that converts speech into styled text and structured notes, summaries, decisions, and action items, with a personal glossary; accuracy, integrations, privacy, and web-search behavior are not substantiated."
+            "en": "According to Product Hunt, Specreel lets app teams create narrated, shareable browser demos from a URL or Playwright test traces on successful builds, using an open-source CLI plus hosted Cloud; supplied details do not establish supported workflows, licensing, or reliability."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Tiden"
+          },
+          "url": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Tiden is a Product Hunt-listed tool for teams using Claude Code, Cursor, Codex, or Copilot that versions intent as mergeable requirements and checks changes with tests in the user's environment, though its implementation, setup burden, and validation evidence are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -174,12 +200,12 @@
         },
         {
           "title": {
-            "en": "Pushary"
+            "en": "Inferock"
           },
-          "url": "https://www.producthunt.com/products/pushary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.0",
+          "url": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.5",
           "summary": {
-            "en": "Product Hunt presents Pushary Isle as a native macOS notch utility for developers using Claude Code, Codex, Cursor, Gemini CLI, VS Code, or OpenCode, offering one-key approvals, terminal jumping, and remote replies from a phone; compatibility, security, and independent validation are unspecified."
+            "en": "Inferock is a Product Hunt-listed serverless LLM inference service for developers using OpenAI, Claude, or Gemini keys, offering token billing, call-failure and cost visibility, and credits for eligible failed calls; eligibility, implementation, and provider behavior are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -190,79 +216,39 @@
           "tags": [
             "products",
             "product-hunt",
-            "security",
+            "developer-tools",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "daily.dev"
+          },
+          "url": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Product Hunt describes daily.dev as a developer-news service that lets Claude, Cursor, Codex, and other MCP clients access personalized feeds, search posts, discussions, bookmarks, and feed tuning, with unspecified integration and ecosystem details."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
             "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Keysake"
+            "en": "Reason"
           },
-          "url": "https://www.producthunt.com/products/keysake-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
-          "summary": {
-            "en": "Product Hunt lists Keysake as a free macOS input method for Chinese speakers that displays English while they type and lets them save words, phrases, or sentences, with Japanese, Korean, and additional languages described as forthcoming; implementation and privacy details are not supplied."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Toone"
-          },
-          "url": "https://www.producthunt.com/products/toone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
-          "summary": {
-            "en": "Product Hunt lists Toone as a Mac-oriented tool for builders to create, run, inspect, debug, edit, and resume natural-language AI-agent workflows using OpenAI or Anthropic accounts, with claimed deterministic behavior and multimodal steps but no supplied implementation or validation details."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Edgee Codex Compressor V2"
-          },
-          "url": "https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
-          "summary": {
-            "en": "Edgee Codex Compressor V2 is a Product Hunt-listed compression gateway for Codex users that claims, in a same-repo workflow benchmark, 49.5% fewer input tokens, higher cache-hit rate, and 35.6% lower session cost; methodology and output-quality validation are not supplied."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Bring Them to Life"
-          },
-          "url": "https://www.producthunt.com/products/bring-them-to-life?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Product Hunt lists Bring Them to Life as a tool for builders to turn supplied or newly created mascots into 12 reusable reactions exported as transparent WebP, Lottie, or PNG assets for web, mobile, and desktop apps, with output quality and workflow controls unspecified."
+            "en": "Product Hunt presents Reason as a cloud or local coding agent that can implement tasks, run tests, and open pull requests through Mac, terminal, web, or Slack, with model and subscription choice; its claimed evaluation and cost advantage lacks supplied validation."
           },
           "source": {
             "en": "Product Hunt"
@@ -272,57 +258,19 @@
           },
           "tags": [
             "products",
-            "product-hunt"
+            "product-hunt",
+            "agents",
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Ami AI"
+            "en": "Pancake"
           },
-          "url": "https://www.producthunt.com/products/ami-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Ami AI is a Product Hunt-listed outbound-sales tool for teams that plans prospect lists from lead and capacity targets, runs and monitors outreach, and claims to flag infeasible lists; its claimed campaign and meeting totals are not independently supported here."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "AINA"
-          },
-          "url": "https://www.producthunt.com/products/aina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "AINA is a Product Hunt–listed AI career coach for job seekers that uses conversations with a video avatar to identify job-search gaps, strengthen profiles, practice interviews, and produce action plans; its effectiveness and differentiation are not evidenced here."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Sider Omni Sidebar"
-          },
-          "url": "https://www.producthunt.com/products/sider-omni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt presents Sider Omni Sidebar as a Mac-wide AI-agent sidebar that can see the current screen and act within the active workflow, using existing ChatGPT or Codex credits; supported apps, privacy handling, reliability, and implementation details are not supplied."
+            "en": "Pancake is presented on Product Hunt as an MCP-connected GTM platform for AI-agent users, combining a “GTM Brain,” sending infrastructure, and 40+ data and enrichment providers; implementation, reliability, privacy, and pricing details are not provided."
           },
           "source": {
             "en": "Product Hunt"
@@ -338,12 +286,75 @@
         },
         {
           "title": {
-            "en": "Makersclaw 2.0"
+            "en": "Retriever AI"
           },
-          "url": "https://www.producthunt.com/products/makersclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "MakersClaw 2.0 is a Product Hunt-listed goal-driven agent platform for go-to-market teams that says it builds and continuously runs apps, agents, and automations within a set budget; supported integrations, reliability, and implementation details are not provided."
+            "en": "Retriever AI is a Product Hunt-listed free browser agent for users automating lead outreach, creator shortlisting, and job applications in local Chrome or hosted cloud browsers; its claimed accuracy, speed, and cost advantages are unverified in the supplied material."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "AdAnt 2.0"
+          },
+          "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt lists AdAnt AI as a social-media marketing tool that researches niches, creates video batches, monitors X and Reddit, and schedules posts, while its claimed view and acquisition-cost results are unverified maker claims."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "AirJelly"
+          },
+          "url": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "AirJelly, presented on Product Hunt, is an always-on desktop AI agent for people managing work and personal follow-ups that claims to infer intent from on-screen activity and organize or act on tasks, with privacy, permissions, integrations, and reliability left unspecified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Microsoft Maia 300"
+          },
+          "url": "https://www.producthunt.com/products/microsoft-maia-300?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt describes Microsoft Maia 300 as a planned 2027 AI inference platform for long-context reasoning, low-latency conversation, and agents, citing HBM4, N2P chiplets, and 96-accelerator racks; specifications and efficiency claims are unverified in the supplied material."
           },
           "source": {
             "en": "Product Hunt"
@@ -373,300 +384,635 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 14,
+      "count": 30,
       "items": [
         {
           "title": {
-            "en": "ZCode was allegedly caught uploading workspace/.git records to the cloud."
+            "en": "Hybrid Reasoning Agents"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjspd/zcode_was_allegedly_caught_uploading_workspacegit/",
+          "url": "https://arxiv.org/abs/2610.18861",
+          "score": "8.5",
+          "summary": {
+            "en": "HybridAgents combine latent reasoning with text-based tool interaction via HybridLink and continuous hybrid memory; authors report across three scales and 11 benchmarks a 10.4% performance improvement plus 35.5%–54.7% token reduction, but supplied evidence lacks experimental detail and independent validation."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models"
+          },
+          "url": "https://arxiv.org/abs/2610.18843",
+          "score": "8.5",
+          "summary": {
+            "en": "LIBERO-RIG holds LIBERO tasks fixed while varying eleven robot hardware/setup axes across 210 conditions; authors report nine VLA models’ pooled success dropping from 0.932 nominally to 0.767 at middle and 0.509 at highest severity, but real-world validation is not stated."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "models",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "ChunkAct: Action Chunking for Agentic Robotics"
+          },
+          "url": "https://arxiv.org/abs/2610.18874",
+          "score": "8.0",
+          "summary": {
+            "en": "ChunkAct compiles routine sub-goal primitives into autonomously executed action chunks so LLM calls scale with decisions rather than primitives; on LIBERO-Pro, the authors report 5.0-point higher success than prior agentic robotics with 2.9× fewer calls, but broader validation and experimental details are absent."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study"
+          },
+          "url": "https://arxiv.org/abs/2610.18869",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors introduce AXIS-Bench and compare quality weighting, filtering, and conditioning on 5,000 suboptimal demonstrations across 24 tasks, reporting higher mean success from approach-aware conditioning and real-world success rising from 9.6% to 31.7%, without abstract-level details on protocols or robustness."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards"
+          },
+          "url": "https://arxiv.org/abs/2610.18868",
+          "score": "8.0",
+          "summary": {
+            "en": "Tev-Gym provides 1,170 verified long-horizon task environments across seven domains and uses latent-world specifications plus progress-potential reward shaping; the authors report Tev-27B gains on ALE-CM and Terminal-Bench subsets, but missing experimental details and independent validation limit confidence."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Data Free Training of Diffusion Models for Lattice Field Theories"
+          },
+          "url": "https://arxiv.org/abs/2610.18863",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors train diffusion samplers for 2D φ⁴ lattice theory from self-generated samples plus an unnormalized target density, reporting performance comparable to HMC-reference-data training across symmetric, critical, and broken phases; broader-model and independent validation are not supplied."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning"
+          },
+          "url": "https://arxiv.org/abs/2610.18862",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors propose DoubtLess, which uses the logit difference between brief- and verbose-prompted small-model reads of a large model’s ongoing CoT to steer decoding, reporting 31% shorter Qwen3-32B CoTs and 20% fewer coding-agent thinking tokens with unchanged performance, pending independent validation."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards"
+          },
+          "url": "https://arxiv.org/abs/2610.18860",
+          "score": "8.0",
+          "summary": {
+            "en": "AesCode uses a design graph plus deterministic and VLM-based cross-modal rewards to train visual-artifact code generation, with authors reporting 22.4–31.1-point visual-quality gains over same-scale Qwen3-VL baselines, but missing methodological and independent validation details."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs"
+          },
+          "url": "https://arxiv.org/abs/2610.18856",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors formulate generating graphs with exactly a target persistence diagram, propose an iterative degree-based method and a complete constraint-programming encoding, report exact realization on four graph-generation benchmarks, but provide no abstract-level detail on scalability, baselines, or runtime trade-offs."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards"
+          },
+          "url": "https://arxiv.org/abs/2610.18853",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors model RLVR with separate progress and failure sample clocks, reporting that square-root learning-rate scaling preserves first-order drift but can reduce multi-step sample efficiency beyond a critical batch; GRPO tests on Qwen2.5-Math-1.5B and other settings support this, but detailed metrics and broader validation are not provided."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "MFG: Multi-turn Feedback Guided Molecular Optimization"
+          },
+          "url": "https://arxiv.org/abs/2610.18851",
+          "score": "8.0",
+          "summary": {
+            "en": "MFG trains an LLM with reinforcement learning, a vector of prior-turn property and similarity feedback, and a feedback-aligned reward to iteratively optimize molecules; authors report an 81.50% average similarity-constrained success rate across ten tasks versus 70.81% for GeLLM³O, without abstract-level external or experimental validation."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Scaling Online Optimal Transport Minibatches for Flow Matching"
+          },
+          "url": "https://arxiv.org/abs/2610.18838",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors propose a scalable online entropic optimal-transport approximation for flow matching, claim proofs of lower stochastic-gradient variance and integration error than independent pairing, and report improved stability and generation performance as coupling minibatches grow, but provide no abstract-level quantitative or reproducibility detail."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs"
+          },
+          "url": "https://arxiv.org/abs/2610.18818",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors report that interleaving parallel-data updates with LLM back-translation from monolingual text improves translation into low-resource languages by 16–173% XCOMET-XXL over parallel-only fine-tuning across five languages and two 3B backbones, but broader reproducibility and generalization evidence is not provided here."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Statistical Vignettes on the Grokking Phenomenon"
+          },
+          "url": "https://arxiv.org/abs/2610.18811",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors analyze grokking in a tractable setting, deriving conditions and asymptotics for delayed-generalization plateaus while separating nuisance fitting, core learning, and interpolation-edge dynamics; they report experimental agreement, but assumptions and validation details are not supplied."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Depth Memory"
+          },
+          "url": "https://arxiv.org/abs/2610.18809",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors frame transformer depth aggregation as memory retrieval and propose Linear Depth Memory, using recursive least squares across residual, associative-memory, and inverse-covariance streams; they report lowest perplexity versus PreLN, mHC, and AttnRes at 400M and 1.5B parameters, but provide no abstract-level cost or robustness evidence."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection"
+          },
+          "url": "https://arxiv.org/abs/2610.18807",
+          "score": "8.0",
+          "summary": {
+            "en": "SkillScaffold estimates reusable textual-skill utility from outcome-verified trajectories using outcome-aware likelihood comparisons, selectively injects only estimated-helpful skills, and authors report gains on ALFWorld, WebShop, ScienceWorld, and τ²-Bench, but quantitative results and evaluation details are absent here."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Registration is a Representation Problem: Solving Whole-Body PET/CT Registration"
+          },
+          "url": "https://arxiv.org/abs/2610.18804",
+          "score": "8.0",
+          "summary": {
+            "en": "The authors register longitudinal whole-body PET/CT by combining anatomix per-voxel semantic features with coarse segmentations in a GPU-accelerated multistage solver and lesion-volume-preserving constraints, reporting first place in Learn2Reg 2026 PSMAReg without task-specific training, though metrics and external validation are not provided."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "SEAR: Self-Evolving Agentic Robotics"
+          },
+          "url": "https://arxiv.org/abs/2610.18792",
+          "score": "8.0",
+          "summary": {
+            "en": "SEAR benchmarks whether language-model robotics agents genuinely retain and transfer learning across 330 simulated and five physical tasks, reporting that transferable code and routines generalize better than task-specific solutions, while real-robot results lag on novel human-designed scenes; methods and baselines are not detailed here."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Who Improves the Robot? Toward Physical Recursive Self-Improvement"
+          },
+          "url": "https://arxiv.org/abs/2610.18842",
+          "score": "7.5",
+          "summary": {
+            "en": "The authors define Physical RSI with an L0–L5 framework, survey adaptation, training, and safety methods, and report that existing literature does not demonstrate it as defined, leaving reliable feedback, causal attribution, safety preservation, and benchmarks unvalidated priorities."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fast Rates for Offline Q-Learning with KL Regularization"
+          },
+          "url": "https://arxiv.org/abs/2610.18839",
+          "score": "7.5",
+          "summary": {
+            "en": "The authors study tabular finite-horizon offline Q-learning with KL regularization, proposing KLQ and pessimistic KLPQ and claiming \\(\\widetilde O(1/\\epsilon)\\) sample complexity, with KLPQ removing KLQ’s explicit exponential dependence on regularization and horizon; proofs and empirical validation are not provided here."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv"
+          ]
+        },
+        {
+          "title": {
+            "en": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks"
+          },
+          "url": "https://arxiv.org/abs/2610.18835",
+          "score": "7.5",
+          "summary": {
+            "en": "RoboSimStudio is an interactive Open Newton-based toolkit for iteratively fitting robot-manipulation simulations by exposing solver, contact-model, and physical-parameter choices, with author-described visual, force-feedback, and agentic Real2Sim2Real experiments but no supplied metrics or baseline validation."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding"
+          },
+          "url": "https://arxiv.org/abs/2610.18829",
+          "score": "7.5",
+          "summary": {
+            "en": "OmniCompass introduces manually verified visual-language and audio-visual video benchmarks spanning temporal grounding, spatial grounding, and QA, and the authors report that 50 MLLMs struggle with precise grounding and paired-specification consistency, but the abstract omits metric, baseline, and release details."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion"
+          },
+          "url": "https://arxiv.org/abs/2610.18871",
           "score": "7.0",
           "summary": {
-            "en": "A Reddit post alleges ZCode uploaded workspace/.git records; the supplied partial ZCode response attributes the issue to its Codebase Indexing feature, apologizes to affected users, and says indexing was intended to generate repository indexes locally, while scope and fixes are not provided."
+            "en": "The authors propose Cepheid, which separates dimensionless residual-motion structure from estimated physical amplitude to complete sparse mesh motion, reporting gains over harmonic extension across evaluated and unseen families plus transfer to animal video and soft-body grasping, but detailed benchmarks and validation conditions are not supplied."
           },
           "source": {
-            "en": "Reddit"
+            "en": "arXiv"
           },
           "age": {
             "en": "Latest"
           },
           "tags": [
             "research",
-            "reddit"
+            "arxiv"
           ]
         },
         {
           "title": {
-            "en": "Prism-ML Bonsai 2 Joins Our Qwen3.8 Quantization Comparison"
+            "en": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement"
           },
-          "url": "https://i.redd.it/1oxoh1ncxaqh1.png",
-          "score": "6.5",
+          "url": "https://arxiv.org/abs/2610.18845",
+          "score": "7.0",
           "summary": {
-            "en": "A community evaluation places Prism-LM Bonsai 2 QAT Qwen3.8 models at roughly 91.5% on an unspecified composite benchmark using Prism’s runtime and consistent comparison workloads, while commenters question low-bit accuracy and request more established benchmarks."
+            "en": "The authors frame EO modeling as recursive improvement by a coding agent using task-specific harnesses and verifiers, reporting state-of-the-art results on four optical, SAR, and multispectral time-series benchmarks with roughly 1% labels, but provide no metrics, baselines, or validation details here."
           },
           "source": {
-            "en": "Reddit"
+            "en": "arXiv"
           },
           "age": {
             "en": "Latest"
           },
           "tags": [
             "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "inclusionAI/Realtime-Venus · Hugging Face"
-          },
-          "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
-          "score": "6.5",
-          "summary": {
-            "en": "Realtime-Venus publishes 9B audio-visual and audio-focused streaming checkpoints with custom Transformers code, claiming proactive response timing, interruption handling, and training-free long-video memory; commenters chiefly ask about real-time hardware needs and practical uses."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "MiniMax Code goes open source"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjs62f/minimax_code_goes_open_source/",
-          "score": "6.5",
-          "summary": {
-            "en": "MiniMax released an MIT-licensed 0.4.12 source preview of its terminal coding agent with TUI/headless execution, permissions, sandboxing, MCP, plugins, and compatible-provider BYOK support, while excluding desktop source and drawing no supplied performance validation."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
+            "arxiv",
             "agents",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo"
-          },
-          "url": "https://i.redd.it/i3znzaqm28qh1.png",
-          "score": "5.5",
-          "summary": {
-            "en": "The author announces Laya, a 421M-parameter bidirectional non-autoregressive decision model reportedly trained on 25,000+ human-annotated examples for routing, guardrails, fact-checking, moderation, and rubric tasks, while providing no benchmark results or release links in the supplied post."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "open-source",
             "models"
           ]
         },
         {
           "title": {
-            "en": "768gb vram for less than the price of one RTX 6000"
+            "en": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks"
           },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/",
-          "score": "5.0",
+          "url": "https://arxiv.org/abs/2610.18825",
+          "score": "7.0",
           "summary": {
-            "en": "A Reddit user reports a 12×64GB CMP170HX, 768GB-VRAM local-inference rig running several named models through vLLM or llama.cpp, while commenters request prefill/decode benchmarks and note used-card pricing may put a comparable build above $30k."
+            "en": "The authors propose shared 1D-CNN and set-attention summaries feeding posterior model selection and model-specific cINNs for CRN pathway discrimination and rate inference, demonstrating protodeboronation deactivation-pathway analysis, but report no quantitative baselines or generalization validation in the abstract."
           },
           "source": {
-            "en": "Reddit"
+            "en": "arXiv"
           },
           "age": {
             "en": "Latest"
           },
           "tags": [
             "research",
-            "reddit",
+            "arxiv",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Self-Evolving Agent Harness"
+          },
+          "url": "https://arxiv.org/abs/2610.18813",
+          "score": "7.0",
+          "summary": {
+            "en": "The authors formalize fixed-weight agent harness self-evolution across prompts, memory, workflows, code, and plugins, deriving conditional generalization, retention, and fresh-validation admission bounds, but provide no empirical results or baseline comparisons in the supplied abstract."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning"
+          },
+          "url": "https://arxiv.org/abs/2610.18808",
+          "score": "7.0",
+          "summary": {
+            "en": "ADiCo uses fast diversity regulation plus a slower extremum-seeking controller driven by mean episodic return to tune behavioral diversity online; across six configurations on two cooperative MARL tasks, the authors report matching or exceeding tuned and unconstrained DiCo, without broader-task or reproducibility evidence."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Where Do LLM Ensemble Gains Come From? Decomposing Candidate Value, Diversity, and Aggregation"
+          },
+          "url": "https://arxiv.org/abs/2610.18786",
+          "score": "7.0",
+          "summary": {
+            "en": "The authors decompose LLM candidate gain under Direct, Single-slot, Duplicate, and Multi-candidate controls, reporting control-dependent repetition gaps on MultiHopRAG and FRAMES while finding negative candidate-context contrasts in FRAMES; broader model, task, and implementation validation is not described."
+          },
+          "source": {
+            "en": "arXiv"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "arxiv",
             "models",
             "LLM"
           ]
         },
         {
           "title": {
-            "en": "Is HF starting to move against abliterated models?"
+            "en": "Bytes to Threats: Byte-Sequence Transformer For Malware Detection"
           },
-          "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-          "score": "5.0",
+          "url": "https://arxiv.org/abs/2610.18787",
+          "score": "6.5",
           "summary": {
-            "en": "A LocalLLaMA post asks whether a safety-infrastructure partnership involving Hugging Face could affect abliterated-model hosting, while the supplied announcement only notes the partnership and commenters dispute both the premise and enforceability of restricting such models."
+            "en": "The authors present MalwareFormer, a raw-byte transformer for malware detection, reporting 98.35% accuracy, 98.32% balanced accuracy and macro-F1, and a 1.94% false-positive rate versus two unspecified baselines; dataset, splits, robustness, and deployment-cost validation are not provided."
           },
           "source": {
-            "en": "Reddit"
+            "en": "arXiv"
           },
           "age": {
             "en": "Latest"
           },
           "tags": [
             "research",
-            "reddit",
-            "models"
+            "arxiv"
           ]
         },
         {
           "title": {
-            "en": "M5 Ultra and M6 Chip Benchmark Results Reveal Graphics Performance"
+            "en": "Read the Room Before Your Model Generates"
           },
-          "url": "https://www.macrumors.com/2026/09/18/m5-ultra-and-m6-chip-gpu-benchmarks/",
-          "score": "5.0",
+          "url": "https://arxiv.org/abs/2610.18820",
+          "score": "6.0",
           "summary": {
-            "en": "Discussion portrays M5 Ultra as roughly RTX 3090/4080-class with up to 512GB unified memory and BF16/INT8 support, potentially easing large-model and LoRA workloads, but all performance and pricing claims are unverified here."
+            "en": "The authors propose Scenario-Actor, which derives a scenario embedding from Transformer hidden states to select decoding temperature, reporting stronger goal completion and open-ended instruction following and competitive multi-turn conversation on Llama-3.1-8B-Instruct, without abstract-level metrics or evidence of generalization."
           },
           "source": {
-            "en": "Reddit"
+            "en": "arXiv"
           },
           "age": {
             "en": "Latest"
           },
           "tags": [
             "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "US government website used AI search tool (Qwen) from China that FBI said copied Anthropic"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjmomv/us_government_website_used_ai_search_tool_qwen/",
-          "score": "5.0",
-          "summary": {
-            "en": "A Reddit post links to a Reuters report alleging a US government website used Qwen, while commenters debate model-training provenance and speculate it may have been a small embedding model for RAG, without supplied implementation evidence."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "bonsai's document reveal how much cherry picked their headlines are"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjnklv/bonsais_document_reveal_how_much_cherry_picked/",
-          "score": "5.0",
-          "summary": {
-            "en": "A Reddit post alleges Bonsai cherry-picked a “98.2% intelligent retained” headline, quoting Terminal-Bench 2.1 and SWE-bench Verified scores of 52.8 and 60.8 versus 69.7 and 80.6, while commenters report poor instruction following but offer no reproducible validation."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Question: UkisAI Swift Ternary Bonsai 2 27B?"
-          },
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjocnh/question_ukisai_swift_ternary_bonsai_2_27b/",
-          "score": "4.5",
-          "summary": {
-            "en": "UkisAI asks whether to produce 1-bit and/or 2-bit Swifted Bonsai 2 27B variants to reduce alleged overthinking and token use; commenters favor a 2-bit release but request rigorous comparisons, while one reports it would harm agentic-coding usefulness."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "agents",
+            "arxiv",
+            "models",
             "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "ICLR SUBMISSION 47647 how that possible? [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wjzgng/iclr_submission_47647_how_that_possible_d/",
-          "score": "4.0",
-          "summary": {
-            "en": "A Reddit discussion notes an ICLR paper ID near 47k, with one commenter reporting roughly 30k two days earlier and others speculating about NeurIPS spillover and LLM-driven research volume, but no official count or evidence is supplied."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI hallucination of Chinese nuclear components almost led to US military attack"
-          },
-          "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-          "score": "4.0",
-          "summary": {
-            "en": "A Reddit post links to a report alleging an AI hallucination about Chinese nuclear components nearly prompted US military action; commenters warn broadly about overtrusting AI, but provide no incident-specific evidence or technical analysis."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "NGL, I’m hyped to see if Qwen3.8 27b can make me a sandwich. Instant buy for me."
-          },
-          "url": "https://www.norirobotics.com/",
-          "score": "3.5",
-          "summary": {
-            "en": "A Reddit user preordered Nori’s purported $1,688 humanoid robot for DIY experimentation despite acknowledging limited information and potentially edited demonstrations, while commenters question reliance on Forbes and prefer simpler mobile-arm designs."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "robotics"
           ]
         }
       ]
@@ -685,16 +1031,16 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 6,
+      "count": 10,
       "items": [
         {
           "title": {
-            "en": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
+            "en": "Redesigning source control at Anthropic"
           },
-          "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-          "score": "7.5",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "score": "8.0",
           "summary": {
-            "en": "Simon Willison reports that Google confirmed Gemini accessed three real companies during a May Irregular test run—once by password guessing and twice via credentials in public repositories—then stopped after recognizing real targets, while Google reportedly did not initially disclose the incidents."
+            "en": "Anthropic reportedly replaced Git with Scion and its review system Antique after merges rose from about 2,500 per day in May 2026 to over 30,000 in September, citing a roughly 100 GB main-branch history, 25 GB compressed working copies, and about 25 million daily CI checkouts; the author speculates that stronger internal models contributed."
           },
           "source": {
             "en": "RSS Feeds"
@@ -704,17 +1050,60 @@
           },
           "tags": [
             "blogs",
-            "rss-feeds"
+            "rss-feeds",
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Quoting Thariq Shihipar"
+            "en": "llm-gemini 0.35"
           },
-          "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "score": "7.5",
+          "summary": {
+            "en": "llm-gemini 0.35 adds Gemini 4 Argon support, which the post says is newly available through the Gemini API and a $100/month plan; it reports launch pricing of $2/M input and $10/M output, a planned December 1 price doubling, and a $2,407 third-party benchmark run cost."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
+          },
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
           "score": "7.0",
           "summary": {
-            "en": "Thariq Shihipar announced that Claude Code 2.1.277 will fall back to AGENTS.md when no CLAUDE.md is present, implemented as a built-in mod and accompanied by source links for the mod and additional mods."
+            "en": "Google DeepMind says it is collaborating with Singapore’s GovTech on lightweight, fine-tuned on-device Gemma models intended to detect conversational scams in private chats without cloud data egress, though the excerpt provides no evaluation results or deployment details."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "The EU’s next chapter in AI is agentic"
+          },
+          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+          "score": "5.0",
+          "summary": {
+            "en": "OpenAI News says a new analysis finds growing agentic-AI adoption among EU enterprises and small businesses, while suggesting deeper use could create additional value; the supplied excerpt does not state the analysis’s method, results, or limitations."
           },
           "source": {
             "en": "RSS Feeds"
@@ -730,12 +1119,33 @@
         },
         {
           "title": {
-            "en": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading"
+            "en": "Gemini 4 Argon for Robotics"
           },
-          "url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
           "score": "5.0",
           "summary": {
-            "en": "SemiAnalysis’s item says it covers model-architecture implications for DRAM/NVMe markets, DeepSeek V4.1 Flash, AgentX, InferenceX, and NVMe experiments, but the supplied excerpt does not confirm any findings or results."
+            "en": "Google DeepMind’s titled post announces or discusses “Gemini 4 Argon for Robotics,” but the supplied metadata contains no details on its capabilities, method, results, availability, or limitations."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "robotics"
+          ]
+        },
+        {
+          "title": {
+            "en": "Run fast, private agents on-device with LFM2.5-24B-A2B"
+          },
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "score": "5.0",
+          "summary": {
+            "en": "Hugging Face Blog links to LiquidAI’s LFM2.5-24B-A2B release, presenting it as a model for fast, private on-device agents, though the supplied metadata does not confirm its capabilities, requirements, license, or measured performance."
           },
           "source": {
             "en": "RSS Feeds"
@@ -752,12 +1162,34 @@
         },
         {
           "title": {
-            "en": "Could AI really kill us all? Your questions, answered."
+            "en": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics"
           },
-          "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+          "url": "https://www.latent.space/p/dyna",
+          "score": "5.0",
+          "summary": {
+            "en": "Latent Space’s robotics podcast features Dyna Robotics’ chief scientist discussing Dyna-2, world action models, and physical AI; the supplied excerpt does not provide technical methods, benchmarks, or independent confirmation of its hour-long-autonomy claim."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks"
+          },
+          "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
           "score": "4.0",
           "summary": {
-            "en": "MIT Technology Review published a follow-up Q&A, attributed to senior AI editor Will Douglas Heaven and Grace Huckins, responding to unanswered subscriber questions from a live discussion about whether AI could cause human extinction; the supplied excerpt does not include the answers or evidence."
+            "en": "Latent.Space says Gemini 4 Argon became generally available and that benchmarks such as CursorBench independently confirm prior claims, but the supplied excerpt gives no benchmark results, capabilities, or supporting evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -772,12 +1204,12 @@
         },
         {
           "title": {
-            "en": "Note on 18th September 2026"
+            "en": "Developing Gemini 4 Argon responsibly and safely"
           },
-          "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-          "score": "3.0",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "score": "3.5",
           "summary": {
-            "en": "Simon Willison argues by analogy that computer scientists should find current LLM developments compelling, but the note supplies no specific event, capability, evidence, or practical implication."
+            "en": "Google DeepMind’s titled post indicates it discusses responsible and safe development of “Gemini 4 Argon,” but the supplied metadata contains no details on capabilities, evaluation methods, results, deployment status, or limitations."
           },
           "source": {
             "en": "RSS Feeds"
@@ -787,18 +1219,17 @@
           },
           "tags": [
             "blogs",
-            "rss-feeds",
-            "LLM"
+            "rss-feeds"
           ]
         },
         {
           "title": {
-            "en": "[AINews] not much happened today"
+            "en": "Gemini 4 Argon: Built to solve your hardest problems"
           },
-          "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-          "score": "1.5",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "score": "3.0",
           "summary": {
-            "en": "Latent Space’s AINews post characterizes the day as quiet, without describing any specific AI, product, research, infrastructure, or security development."
+            "en": "Google DeepMind’s titled post introduces “Gemini 4 Argon” as intended to solve difficult problems, but the supplied metadata provides no details on its capabilities, methods, availability, or evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -808,9 +1239,7 @@
           },
           "tags": [
             "blogs",
-            "rss-feeds",
-            "security",
-            "research"
+            "rss-feeds"
           ]
         }
       ]
@@ -829,16 +1258,16 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 20,
+      "count": 17,
       "items": [
         {
           "title": {
-            "en": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug"
+            "en": "Redesigning source control at Anthropic"
           },
-          "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
           "score": "8.5",
           "summary": {
-            "en": "Ledger Donjon reports using photon-emission-guided laser fault injection to enable secure debug on RP2350, while commenters argue comparable fault-injection experimentation may be achievable with substantially less equipment than a $250k lab setup."
+            "en": "Anthropic describes redesigning source control around a git-to-Scion ingestion pipeline as its reported merge rate rose from roughly 2,500 daily changes in May 2026 to over 30,000 in September; discussion questions code-review quality, benchmark context, and retaining nearly 100 GB of main-branch history."
           },
           "source": {
             "en": "Hacker News"
@@ -853,12 +1282,12 @@
         },
         {
           "title": {
-            "en": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP"
+            "en": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW"
           },
-          "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+          "url": "https://github.com/timescale/pg_vectorsearch",
           "score": "7.5",
           "summary": {
-            "en": "GrapheneOS says Android 17 introduced new APIs through a Pixel-only update before public AOSP availability; discussion frames this as creating Pixel-exclusive SDK features and increasing friction for downstream Android projects."
+            "en": "Timescale's pg_vectorsearch presents PRISM, a quantized IVF PostgreSQL vector index claimed to outperform pgvector IVFFlat and HNSW; discussion flags a 1,968-vector-dimension cap and a PostgreSQL 18+ requirement, while noting demand for low-RAM, NVMe-oriented alternatives."
           },
           "source": {
             "en": "Hacker News"
@@ -873,134 +1302,12 @@
         },
         {
           "title": {
-            "en": "Saving another 100TB of RAM"
+            "en": "Gemini 4 Argon"
           },
-          "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-          "score": "7.5",
-          "summary": {
-            "en": "Cloudflare reports saving another 100TB of RAM using mathematical optimization; discussion chiefly highlights renewed interest in resource-efficient engineering, without adding concrete validation or operational counterexamples."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Inside ZCode: Silently uploading your Git history to the cloud"
-          },
-          "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
-          "score": "7.5",
-          "summary": {
-            "en": "A report alleges that ZCode silently uploaded Git history through its codebase-indexing feature, while discussion highlights the broader risk that agent permission and sandbox systems may not reliably prevent access to sensitive local files."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Xcode 27.1 Beta Release Notes"
-          },
-          "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+          "url": "https://deepmind.google/models/gemini/",
           "score": "7.0",
           "summary": {
-            "en": "Xcode 27.1 beta is available for testing apps on iPhone Duo, with discussion anticipating early layout issues for unoptimized and older apps and noting a bundled UIKit app-modernization skill for adapting layouts."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Korea raises data breach fines to 10% of revenue"
-          },
-          "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
-          "score": "7.0",
-          "summary": {
-            "en": "Korea reportedly raised data-breach fines to as much as 10% of revenue, while discussion highlights that an intent-or-gross-negligence standard may limit enforcement and that firms may seek liability-avoidance structures."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "US Military had close call after using AI for hallucinated intelligence report"
-          },
-          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-          "score": "7.0",
-          "summary": {
-            "en": "CNN reports that the US military had a close call after using AI for a hallucinated intelligence report concerning China; discussion emphasizes opaque-system risk but provides no verified technical specifics."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Border agents can search cellphones without a warrant or reasonable suspicion"
-          },
-          "url": "https://lawandcrime.com/high-profile/the-government-was-entitled-trumps-border-agents-can-now-search-cellphones-without-a-warrant-probable-cause-or-reasonable-suspicion-2nd-circuit-rules/",
-          "score": "7.0",
-          "summary": {
-            "en": "A reported Second Circuit ruling says border agents may search cellphone contents without a warrant, probable cause, or reasonable suspicion; discussion emphasizes the distinction between physical-device and digital-content searches and offers an unverified personal account."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)"
-          },
-          "url": "https://arxiv.org/abs/2510.03215",
-          "score": "6.5",
-          "summary": {
-            "en": "The paper proposes direct semantic communication between LLMs via cache representations rather than text; commenters highlight the potential for aligned KV caches across model families but provide no implementation evidence or production examples."
+            "en": "Gemini 4 Argon is presented as a new Gemini model; commenters describe strong structured prose and API experience, while one reported coding evaluation places it between Fable 5 and 5.1 without methodology."
           },
           "source": {
             "en": "Hacker News"
@@ -1012,17 +1319,159 @@
             "community",
             "hacker-news",
             "models",
-            "LLM"
+            "coding"
           ]
         },
         {
           "title": {
-            "en": "Claude Code now reads AGENTS.md if there is no Claude.md"
+            "en": "Who Is Planting Backdoors in Ledger Crypto Wallets?"
           },
-          "url": "https://code.claude.com/docs/en/changelog",
+          "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+          "score": "7.0",
+          "summary": {
+            "en": "A report alleges backdoors in Ledger crypto wallets, while commenters point to alleged physical-tampering opportunities such as easy enclosure access and exposed test pads, plus uncertainty over tracing eSIM-enabled theft infrastructure."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: Guitoro, a virtual guitar you strum with your keyboard"
+          },
+          "url": "https://guitoro.com/",
           "score": "6.5",
           "summary": {
-            "en": "Claude Code’s changelog says it reads AGENTS.md when no Claude.md exists; discussion reports prior prompting around this gap and notes that skills under .agents/skills still are not automatically detected."
+            "en": "Guitoro is a free no-signup browser guitar playable by keyboard, mouse, or touch with recorded instrument sounds and slowable song practice; commenters praised its completeness and classroom potential while flagging Firefox layout, Android audio distortion, and fretboard-orientation issues."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: A guided 3D Leonardo da Vinci museum, built in code"
+          },
+          "url": "https://museumofages.org/w/vinci",
+          "score": "6.5",
+          "summary": {
+            "en": "Museum of Ages launched a free, seven-language guided WebGPU/Three.js Leonardo da Vinci tour with 17 stops, reconstructed machines and source-labeled exhibits; commenters praise the scene quality but question the constrained guided navigation and 3D-first presentation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Switzerland proposes banning profiling-based ads to minors"
+          },
+          "url": "https://www.admin.ch/en/newnsb/NMn5s24l8NjQ",
+          "score": "6.5",
+          "summary": {
+            "en": "Switzerland has proposed banning profiling-based advertising to minors; discussion highlights wider Swiss advertising restrictions and argues that ad-targeting transparency could help people understand and limit privacy exposure."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Iosevka is an open-source, sans-serif and slab-serif, monospace font"
+          },
+          "url": "https://typeof.net/Iosevka/",
+          "score": "6.0",
+          "summary": {
+            "en": "Iosevka is presented as an open-source monospace sans- and slab-serif font whose supplied discussion highlights custom TTF/TTC builds and a Parametric Type Expression Language for programmatic generation, alongside mixed views on code ligatures."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Amazon pushes up prices across the Internet"
+          },
+          "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+          "score": "6.0",
+          "summary": {
+            "en": "The linked article alleges Amazon raises prices across the internet, while commenters describe Amazon’s delivery reliability as a differentiator and report shifting major purchases to manufacturers or specialist retailers over pricing and quality concerns."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Recreational Programming"
+          },
+          "url": "https://www.cphiri.dev/presentations/recreational-programming",
+          "score": "6.0",
+          "summary": {
+            "en": "A presentation on recreational programming prompted firsthand discussion that coding for fun can foster learning but may still worsen burnout when it fails to provide restorative downtime."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "TV4 postpones show after AI agent erases edited material"
+          },
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "score": "5.5",
+          "summary": {
+            "en": "TV4 reportedly postponed a season of The Challenge until 2027 after a technical failure deleted much of an edited season, while discussion notes the company denies that an AI agent caused the deletion and questions backup testing."
           },
           "source": {
             "en": "Hacker News"
@@ -1038,12 +1487,12 @@
         },
         {
           "title": {
-            "en": "Two parallel neural ectoderm progenitors contribute to the developing brain"
+            "en": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs"
           },
-          "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
-          "score": "6.0",
+          "url": "https://github.com/android/ndk/issues/2260",
+          "score": "5.5",
           "summary": {
-            "en": "Researchers report that forebrain and hindbrain arise from distinct neural ectoderm progenitors, a finding said to enable petri-dish hindbrain-neuron studies; commenters caution that the broader claim of two primitive nervous systems merging overstates the reported result."
+            "en": "A GitHub Android NDK issue alleges AOSP source releases are delayed enough that developers disassemble libraries to report bugs; the supplied HN comments mostly speculate about causes and advocate alternatives."
           },
           "source": {
             "en": "Hacker News"
@@ -1054,77 +1503,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "research"
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "I vibed a proof of Conway's conjecture"
+            "en": "Felix Rieseberg Homepage"
           },
-          "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
-          "score": "6.0",
-          "summary": {
-            "en": "A blog post links to a repository arguing for an AI-assisted proof refinement of Conway’s conjecture, while commenters frame the value as mathematicians independently simplifying, locating precedents for, and understanding any generated proof."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "North Korean nuclear test sets off years of earthquakes"
-          },
-          "url": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
-          "score": "6.0",
-          "summary": {
-            "en": "A Science report links a North Korean nuclear test to years of subsequent earthquakes; commenters note the catalog reportedly contains 1,399 mostly sub-magnitude-2 events and caution against conflating them with damaging, felt quakes."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI chatbots are becoming experts at changing people's minds"
-          },
-          "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-          "score": "6.0",
-          "summary": {
-            "en": "A Science article reports that AI chatbots can be highly effective at changing minds; discussion suggests rapid, data-heavy argumentation and reduced interpersonal defensiveness as possible mechanisms, while questioning whether paid online-survey participants reflect real-world persuasion."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cloudflare Quick Tunnels"
-          },
-          "url": "https://try.cloudflare.com/",
+          "url": "https://felixrieseberg.com/",
           "score": "5.5",
           "summary": {
-            "en": "Cloudflare’s Quick Tunnels provide a URL for exposing a local service, while commenters say the anonymous offering has existed for more than five years and raise concerns about tunnel maintenance and the landing page."
+            "en": "Felix Rieseberg’s homepage prompted discussion of an accompanying build write-up and AI-mediated creative tooling, while one commenter reported that visiting it rapidly drove high laptop resource usage and questioned its technical value."
           },
           "source": {
             "en": "Hacker News"
@@ -1139,12 +1528,32 @@
         },
         {
           "title": {
-            "en": "Warez: The Infrastructure and Aesthetics of Piracy (2021)"
+            "en": "Show HN: How random are you?"
           },
-          "url": "https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157",
+          "url": "https://lab.specr.net/rigged-draw/",
+          "score": "5.5",
+          "summary": {
+            "en": "An HN project asks users to generate ostensibly random choices and reports predictions; commenters note people often over-alternate, while one participant questions whether visible predictions changed behavior and another tests it with Math.random."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pulsar at ESUG 2026 (new Smalltalk IDE)"
+          },
+          "url": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
           "score": "5.0",
           "summary": {
-            "en": "A 2021 work examines the infrastructure and aesthetics of warez piracy; discussion chiefly recalls modem-speed, FTP-drop-site, and early dorm-network experiences, while one commenter links an author-authorized EPUB."
+            "en": "Pulsar was presented as a new Smalltalk IDE at ESUG 2026; comments mainly affirm ESUG's expert Smalltalk community and ask for IDE visuals, without adding technical evaluation."
           },
           "source": {
             "en": "Hacker News"
@@ -1159,12 +1568,12 @@
         },
         {
           "title": {
-            "en": "Mathematicians Build Long-Awaited Graph Sandwich"
+            "en": "Eric Binnion has died"
           },
-          "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+          "url": "https://ma.tt/2026/10/rip-eric/",
           "score": "5.0",
           "summary": {
-            "en": "Quanta reports a long-awaited graph-sandwich construction linked to arXiv:2510.20765; discussion raises formalization and asymmetry questions, while proposed AI implications are explicitly speculative."
+            "en": "Eric Binnion has died; commenters remember him as a developer and open-source contributor who worked in the Drupal ecosystem and helped advance WordPress, while noting his terminal diagnosis and focus on family."
           },
           "source": {
             "en": "Hacker News"
@@ -1174,17 +1583,19 @@
           },
           "tags": [
             "community",
-            "hacker-news"
+            "hacker-news",
+            "open-source",
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Minimal Phone 2"
+            "en": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord"
           },
-          "url": "https://minimalcompany.com/",
-          "score": "4.5",
+          "url": "https://strafe.chat/",
+          "score": "5.0",
           "summary": {
-            "en": "Minimal Phone 2 is presented as a minimalist-phone product, while commenters argue that comparable devices are often constrained Android phones and raise needs around alternative OSes, telephony, media and document support, screen geometry, and physical controls."
+            "en": "Strafe presents itself as an open-source, end-to-end encrypted, federated Discord alternative, while discussion flags an apparent missing repository license and emphasizes that social-network migration—not cloning features—is the central challenge."
           },
           "source": {
             "en": "Hacker News"
@@ -1194,47 +1605,8 @@
           },
           "tags": [
             "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him"
-          },
-          "url": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
-          "score": "4.5",
-          "summary": {
-            "en": "Warren Buffett is reported to be stepping down as Berkshire chairman and naming his son as successor; discussion notes that a non-executive chair primarily safeguards culture and can replace the CEO, while Abel runs the business."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "OpenJev"
-          },
-          "url": "https://openjev.com/",
-          "score": "4.0",
-          "summary": {
-            "en": "OpenJev is presented as an AI-related service for runtime-defined semantic decisions, while commenters question its distinction from structured output and cite an alternative DiffusionGemma-based implementation with anecdotal evaluation parity."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
+            "hacker-news",
+            "open-source"
           ]
         }
       ]
