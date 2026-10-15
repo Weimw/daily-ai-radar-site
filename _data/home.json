@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "014",
+    "number": "015",
     "date": {
-      "en": "Wednesday, October 14, 2026",
-      "zh": "2026 年 10 月 14 日，星期三"
+      "en": "Thursday, October 15, 2026",
+      "zh": "2026 年 10 月 15 日，星期四"
     },
-    "story_count": 73,
+    "story_count": 54,
     "stories_label": {
-      "en": "73 stories scored",
-      "zh": "已评分 73 条"
+      "en": "54 stories scored",
+      "zh": "已评分 54 条"
     }
   },
   "note": {
@@ -16,8 +16,8 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 76,
-    "priority_count": 67
+    "fetched_count": 57,
+    "priority_count": 46
   },
   "index": [
     {
@@ -27,7 +27,7 @@
       "url": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "7.0",
       "summary": {
-        "en": "According to Product Hunt, Specreel lets app teams create narrated, shareable browser demos from a URL or Playwright test traces on successful builds, using an open-source CLI plus hosted Cloud; supplied details do not establish supported workflows, licensing, or reliability."
+        "en": "Specreel, presented on Product Hunt, lets product and engineering teams turn real-browser app walks or Playwright test traces into narrated shareable demos, with the claimed benefit that demos update after green builds; available details do not establish implementation quality or hosting trade-offs."
       },
       "source": {
         "en": "Product Hunt"
@@ -37,39 +37,17 @@
       },
       "tags": [
         "products",
-        "product-hunt",
-        "open-source"
+        "product-hunt"
       ]
     },
     {
       "title": {
-        "en": "Hybrid Reasoning Agents"
+        "en": "How Third Moment Research runs 10,000 agents for 36+ hours"
       },
-      "url": "https://arxiv.org/abs/2610.18861",
-      "score": "8.5",
+      "url": "https://openai.com/index/third-moment-research",
+      "score": "7.0",
       "summary": {
-        "en": "HybridAgents combine latent reasoning with text-based tool interaction via HybridLink and continuous hybrid memory; authors report across three scales and 11 benchmarks a 10.4% performance improvement plus 35.5%–54.7% token reduction, but supplied evidence lacks experimental detail and independent validation."
-      },
-      "source": {
-        "en": "arXiv"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "research",
-        "arxiv",
-        "agents"
-      ]
-    },
-    {
-      "title": {
-        "en": "Redesigning source control at Anthropic"
-      },
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "score": "8.0",
-      "summary": {
-        "en": "Anthropic reportedly replaced Git with Scion and its review system Antique after merges rose from about 2,500 per day in May 2026 to over 30,000 in September, citing a roughly 100 GB main-branch history, 25 GB compressed working copies, and about 25 million daily CI checkouts; the author speculates that stronger internal models contributed."
+        "en": "OpenAI says Third Moment Research uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to run agents for 36+ hours at a claimed 10,000-agent scale, but the excerpt provides no architecture, results, or independent confirmation."
       },
       "source": {
         "en": "RSS Feeds"
@@ -80,17 +58,18 @@
       "tags": [
         "blogs",
         "rss-feeds",
-        "models"
+        "agents",
+        "research"
       ]
     },
     {
       "title": {
-        "en": "Redesigning source control at Anthropic"
+        "en": "Better HTTP/1 connection reuse in Go 1.27"
       },
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "score": "8.5",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "score": "8.0",
       "summary": {
-        "en": "Anthropic describes redesigning source control around a git-to-Scion ingestion pipeline as its reported merge rate rose from roughly 2,500 daily changes in May 2026 to over 30,000 in September; discussion questions code-review quality, benchmark context, and retaining nearly 100 GB of main-branch history."
+        "en": "Go 1.27 improves HTTP/1 connection reuse, while discussion emphasizes that earlier correct client patterns could require increasingly complex asynchronous response-body draining and that Close behavior remains a documentation concern."
       },
       "source": {
         "en": "Hacker News"
@@ -105,24 +84,43 @@
     },
     {
       "title": {
-        "en": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models"
+        "en": "Virtual Oxide Labs: Emulating a Full Oxide Rack"
       },
-      "url": "https://arxiv.org/abs/2610.18843",
-      "score": "8.5",
+      "url": "https://oxide.computer/blog/voxel-labs",
+      "score": "8.0",
       "summary": {
-        "en": "LIBERO-RIG holds LIBERO tasks fixed while varying eleven robot hardware/setup axes across 210 conditions; authors report nine VLA models’ pooled success dropping from 0.932 nominally to 0.767 at middle and 0.509 at highest severity, but real-world validation is not stated."
+        "en": "Oxide Labs describes emulating a full Oxide Rack, while one commenter points to a separate CLI and manual write-up for trying a comparable virtualization-stack emulation."
       },
       "source": {
-        "en": "arXiv"
+        "en": "Hacker News"
       },
       "age": {
         "en": "Latest"
       },
       "tags": [
-        "research",
-        "arxiv",
-        "models",
-        "robotics"
+        "community",
+        "hacker-news"
+      ]
+    },
+    {
+      "title": {
+        "en": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
+      },
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "score": "7.0",
+      "summary": {
+        "en": "Google DeepMind says it is collaborating with Singapore’s GovTech on lightweight, fine-tuned on-device Gemma models intended to detect conversational scams in private chats without cloud data egress, though the excerpt provides no performance or deployment evidence."
+      },
+      "source": {
+        "en": "RSS Feeds"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "blogs",
+        "rss-feeds",
+        "models"
       ]
     }
   ],
@@ -164,28 +162,7 @@
           "url": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "7.0",
           "summary": {
-            "en": "According to Product Hunt, Specreel lets app teams create narrated, shareable browser demos from a URL or Playwright test traces on successful builds, using an open-source CLI plus hosted Cloud; supplied details do not establish supported workflows, licensing, or reliability."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Tiden"
-          },
-          "url": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "6.5",
-          "summary": {
-            "en": "Tiden is a Product Hunt-listed tool for teams using Claude Code, Cursor, Codex, or Copilot that versions intent as mergeable requirements and checks changes with tests in the user's environment, though its implementation, setup burden, and validation evidence are not provided."
+            "en": "Specreel, presented on Product Hunt, lets product and engineering teams turn real-browser app walks or Playwright test traces into narrated shareable demos, with the claimed benefit that demos update after green builds; available details do not establish implementation quality or hosting trade-offs."
           },
           "source": {
             "en": "Product Hunt"
@@ -200,12 +177,54 @@
         },
         {
           "title": {
+            "en": "Tiden"
+          },
+          "url": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.5",
+          "summary": {
+            "en": "Product Hunt presents Tiden as a companion for Claude Code, Cursor, Codex, and Copilot that versions intent as branching requirements and checks changes with tests in the user’s environment, though its actual coverage, integrations, and validation are not shown."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Exodus for Google Cloud Run"
+          },
+          "url": "https://www.producthunt.com/products/exodus-by-elim-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "6.0",
+          "summary": {
+            "en": "Product Hunt presents Exodus as a free, open-source tool for developers using Claude Code, Codex, or Cursor to assess an app, compare current versus Cloud Run costs, apply one of 50+ claimed migration playbooks, and migrate task by task; repository and validation details are not supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
             "en": "Inferock"
           },
           "url": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.5",
           "summary": {
-            "en": "Inferock is a Product Hunt-listed serverless LLM inference service for developers using OpenAI, Claude, or Gemini keys, offering token billing, call-failure and cost visibility, and credits for eligible failed calls; eligibility, implementation, and provider behavior are unspecified."
+            "en": "Inferock is a Product Hunt-listed serverless, pay-per-token LLM inference service for developers using OpenAI, Claude, or Gemini keys, offering call-failure and cost visibility plus credits for eligible failed calls; eligibility and implementation details are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -222,12 +241,12 @@
         },
         {
           "title": {
-            "en": "daily.dev"
+            "en": "Retriever AI"
           },
-          "url": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Product Hunt describes daily.dev as a developer-news service that lets Claude, Cursor, Codex, and other MCP clients access personalized feeds, search posts, discussions, bookmarks, and feed tuning, with unspecified integration and ecosystem details."
+            "en": "Product Hunt presents Retriever AI as a free browser agent for lead outreach, creator shortlisting, and job applications that can run in a user’s Chrome browser or hosted cloud browsers, with unverified comparative performance and cost claims."
           },
           "source": {
             "en": "Product Hunt"
@@ -238,6 +257,28 @@
           "tags": [
             "products",
             "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "daily.dev for agents"
+          },
+          "url": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "5.0",
+          "summary": {
+            "en": "Product Hunt presents daily.dev for agents as an integration for Claude, Cursor, Codex, or other MCP clients to access personalized developer-news feeds, search posts, discussions, bookmarks, and feed tuning, with unspecified implementation and ecosystem details."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
             "developer-tools"
           ]
         },
@@ -248,7 +289,7 @@
           "url": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "5.0",
           "summary": {
-            "en": "Product Hunt presents Reason as a cloud or local coding agent that can implement tasks, run tests, and open pull requests through Mac, terminal, web, or Slack, with model and subscription choice; its claimed evaluation and cost advantage lacks supplied validation."
+            "en": "Product Hunt presents Reason as a cloud or local coding agent for developers that can implement tasks, run tests, and open pull requests across Mac, terminal, web, and Slack, with model choice and a free local option; its benchmark and cost claims are not independently supported here."
           },
           "source": {
             "en": "Product Hunt"
@@ -270,28 +311,7 @@
           "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Pancake is presented on Product Hunt as an MCP-connected GTM platform for AI-agent users, combining a “GTM Brain,” sending infrastructure, and 40+ data and enrichment providers; implementation, reliability, privacy, and pricing details are not provided."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Retriever AI"
-          },
-          "url": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Retriever AI is a Product Hunt-listed free browser agent for users automating lead outreach, creator shortlisting, and job applications in local Chrome or hosted cloud browsers; its claimed accuracy, speed, and cost advantages are unverified in the supplied material."
+            "en": "Pancake is a Product Hunt-listed GTM platform for teams using agents such as Claude or Codex to deploy go-to-market workflows through one MCP connection, combining a stated GTM Brain, sending infrastructure, and 40+ data/enrichment providers; implementation and operational details are absent."
           },
           "source": {
             "en": "Product Hunt"
@@ -312,7 +332,7 @@
           "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists AdAnt AI as a social-media marketing tool that researches niches, creates video batches, monitors X and Reddit, and schedules posts, while its claimed view and acquisition-cost results are unverified maker claims."
+            "en": "Product Hunt lists AdAnt 2.0 as a social-media marketing tool for teams that researches niches, generates video batches, monitors X and Reddit conversations, and schedules posts; its claimed performance results and platform-operation details are not independently substantiated here."
           },
           "source": {
             "en": "Product Hunt"
@@ -333,7 +353,7 @@
           "url": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "AirJelly, presented on Product Hunt, is an always-on desktop AI agent for people managing work and personal follow-ups that claims to infer intent from on-screen activity and organize or act on tasks, with privacy, permissions, integrations, and reliability left unspecified."
+            "en": "AirJelly is presented on Product Hunt as an always-on desktop AI assistant that observes on-screen work to organize tasks and prompt follow-ups, but its integrations, privacy model, autonomy controls, and demonstrated reliability are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -344,28 +364,7 @@
           "tags": [
             "products",
             "product-hunt",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Microsoft Maia 300"
-          },
-          "url": "https://www.producthunt.com/products/microsoft-maia-300?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt describes Microsoft Maia 300 as a planned 2027 AI inference platform for long-context reasoning, low-latency conversation, and agents, citing HBM4, N2P chiplets, and 96-accelerator racks; specifications and efficiency claims are unverified in the supplied material."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
+            "models"
           ]
         }
       ]
@@ -384,638 +383,8 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 30,
-      "items": [
-        {
-          "title": {
-            "en": "Hybrid Reasoning Agents"
-          },
-          "url": "https://arxiv.org/abs/2610.18861",
-          "score": "8.5",
-          "summary": {
-            "en": "HybridAgents combine latent reasoning with text-based tool interaction via HybridLink and continuous hybrid memory; authors report across three scales and 11 benchmarks a 10.4% performance improvement plus 35.5%–54.7% token reduction, but supplied evidence lacks experimental detail and independent validation."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models"
-          },
-          "url": "https://arxiv.org/abs/2610.18843",
-          "score": "8.5",
-          "summary": {
-            "en": "LIBERO-RIG holds LIBERO tasks fixed while varying eleven robot hardware/setup axes across 210 conditions; authors report nine VLA models’ pooled success dropping from 0.932 nominally to 0.767 at middle and 0.509 at highest severity, but real-world validation is not stated."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models",
-            "robotics"
-          ]
-        },
-        {
-          "title": {
-            "en": "ChunkAct: Action Chunking for Agentic Robotics"
-          },
-          "url": "https://arxiv.org/abs/2610.18874",
-          "score": "8.0",
-          "summary": {
-            "en": "ChunkAct compiles routine sub-goal primitives into autonomously executed action chunks so LLM calls scale with decisions rather than primitives; on LIBERO-Pro, the authors report 5.0-point higher success than prior agentic robotics with 2.9× fewer calls, but broader validation and experimental details are absent."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents",
-            "robotics"
-          ]
-        },
-        {
-          "title": {
-            "en": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study"
-          },
-          "url": "https://arxiv.org/abs/2610.18869",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors introduce AXIS-Bench and compare quality weighting, filtering, and conditioning on 5,000 suboptimal demonstrations across 24 tasks, reporting higher mean success from approach-aware conditioning and real-world success rising from 9.6% to 31.7%, without abstract-level details on protocols or robustness."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards"
-          },
-          "url": "https://arxiv.org/abs/2610.18868",
-          "score": "8.0",
-          "summary": {
-            "en": "Tev-Gym provides 1,170 verified long-horizon task environments across seven domains and uses latent-world specifications plus progress-potential reward shaping; the authors report Tev-27B gains on ALE-CM and Terminal-Bench subsets, but missing experimental details and independent validation limit confidence."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Data Free Training of Diffusion Models for Lattice Field Theories"
-          },
-          "url": "https://arxiv.org/abs/2610.18863",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors train diffusion samplers for 2D φ⁴ lattice theory from self-generated samples plus an unnormalized target density, reporting performance comparable to HMC-reference-data training across symmetric, critical, and broken phases; broader-model and independent validation are not supplied."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning"
-          },
-          "url": "https://arxiv.org/abs/2610.18862",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors propose DoubtLess, which uses the logit difference between brief- and verbose-prompted small-model reads of a large model’s ongoing CoT to steer decoding, reporting 31% shorter Qwen3-32B CoTs and 20% fewer coding-agent thinking tokens with unchanged performance, pending independent validation."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards"
-          },
-          "url": "https://arxiv.org/abs/2610.18860",
-          "score": "8.0",
-          "summary": {
-            "en": "AesCode uses a design graph plus deterministic and VLM-based cross-modal rewards to train visual-artifact code generation, with authors reporting 22.4–31.1-point visual-quality gains over same-scale Qwen3-VL baselines, but missing methodological and independent validation details."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs"
-          },
-          "url": "https://arxiv.org/abs/2610.18856",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors formulate generating graphs with exactly a target persistence diagram, propose an iterative degree-based method and a complete constraint-programming encoding, report exact realization on four graph-generation benchmarks, but provide no abstract-level detail on scalability, baselines, or runtime trade-offs."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards"
-          },
-          "url": "https://arxiv.org/abs/2610.18853",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors model RLVR with separate progress and failure sample clocks, reporting that square-root learning-rate scaling preserves first-order drift but can reduce multi-step sample efficiency beyond a critical batch; GRPO tests on Qwen2.5-Math-1.5B and other settings support this, but detailed metrics and broader validation are not provided."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "MFG: Multi-turn Feedback Guided Molecular Optimization"
-          },
-          "url": "https://arxiv.org/abs/2610.18851",
-          "score": "8.0",
-          "summary": {
-            "en": "MFG trains an LLM with reinforcement learning, a vector of prior-turn property and similarity feedback, and a feedback-aligned reward to iteratively optimize molecules; authors report an 81.50% average similarity-constrained success rate across ten tasks versus 70.81% for GeLLM³O, without abstract-level external or experimental validation."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Scaling Online Optimal Transport Minibatches for Flow Matching"
-          },
-          "url": "https://arxiv.org/abs/2610.18838",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors propose a scalable online entropic optimal-transport approximation for flow matching, claim proofs of lower stochastic-gradient variance and integration error than independent pairing, and report improved stability and generation performance as coupling minibatches grow, but provide no abstract-level quantitative or reproducibility detail."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs"
-          },
-          "url": "https://arxiv.org/abs/2610.18818",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors report that interleaving parallel-data updates with LLM back-translation from monolingual text improves translation into low-resource languages by 16–173% XCOMET-XXL over parallel-only fine-tuning across five languages and two 3B backbones, but broader reproducibility and generalization evidence is not provided here."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Statistical Vignettes on the Grokking Phenomenon"
-          },
-          "url": "https://arxiv.org/abs/2610.18811",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors analyze grokking in a tractable setting, deriving conditions and asymptotics for delayed-generalization plateaus while separating nuisance fitting, core learning, and interpolation-edge dynamics; they report experimental agreement, but assumptions and validation details are not supplied."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "Depth Memory"
-          },
-          "url": "https://arxiv.org/abs/2610.18809",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors frame transformer depth aggregation as memory retrieval and propose Linear Depth Memory, using recursive least squares across residual, associative-memory, and inverse-covariance streams; they report lowest perplexity versus PreLN, mHC, and AttnRes at 400M and 1.5B parameters, but provide no abstract-level cost or robustness evidence."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection"
-          },
-          "url": "https://arxiv.org/abs/2610.18807",
-          "score": "8.0",
-          "summary": {
-            "en": "SkillScaffold estimates reusable textual-skill utility from outcome-verified trajectories using outcome-aware likelihood comparisons, selectively injects only estimated-helpful skills, and authors report gains on ALFWorld, WebShop, ScienceWorld, and τ²-Bench, but quantitative results and evaluation details are absent here."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Registration is a Representation Problem: Solving Whole-Body PET/CT Registration"
-          },
-          "url": "https://arxiv.org/abs/2610.18804",
-          "score": "8.0",
-          "summary": {
-            "en": "The authors register longitudinal whole-body PET/CT by combining anatomix per-voxel semantic features with coarse segmentations in a GPU-accelerated multistage solver and lesion-volume-preserving constraints, reporting first place in Learn2Reg 2026 PSMAReg without task-specific training, though metrics and external validation are not provided."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "SEAR: Self-Evolving Agentic Robotics"
-          },
-          "url": "https://arxiv.org/abs/2610.18792",
-          "score": "8.0",
-          "summary": {
-            "en": "SEAR benchmarks whether language-model robotics agents genuinely retain and transfer learning across 330 simulated and five physical tasks, reporting that transferable code and routines generalize better than task-specific solutions, while real-robot results lag on novel human-designed scenes; methods and baselines are not detailed here."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Who Improves the Robot? Toward Physical Recursive Self-Improvement"
-          },
-          "url": "https://arxiv.org/abs/2610.18842",
-          "score": "7.5",
-          "summary": {
-            "en": "The authors define Physical RSI with an L0–L5 framework, survey adaptation, training, and safety methods, and report that existing literature does not demonstrate it as defined, leaving reliable feedback, causal attribution, safety preservation, and benchmarks unvalidated priorities."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "robotics"
-          ]
-        },
-        {
-          "title": {
-            "en": "Fast Rates for Offline Q-Learning with KL Regularization"
-          },
-          "url": "https://arxiv.org/abs/2610.18839",
-          "score": "7.5",
-          "summary": {
-            "en": "The authors study tabular finite-horizon offline Q-learning with KL regularization, proposing KLQ and pessimistic KLPQ and claiming \\(\\widetilde O(1/\\epsilon)\\) sample complexity, with KLPQ removing KLQ’s explicit exponential dependence on regularization and horizon; proofs and empirical validation are not provided here."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks"
-          },
-          "url": "https://arxiv.org/abs/2610.18835",
-          "score": "7.5",
-          "summary": {
-            "en": "RoboSimStudio is an interactive Open Newton-based toolkit for iteratively fitting robot-manipulation simulations by exposing solver, contact-model, and physical-parameter choices, with author-described visual, force-feedback, and agentic Real2Sim2Real experiments but no supplied metrics or baseline validation."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding"
-          },
-          "url": "https://arxiv.org/abs/2610.18829",
-          "score": "7.5",
-          "summary": {
-            "en": "OmniCompass introduces manually verified visual-language and audio-visual video benchmarks spanning temporal grounding, spatial grounding, and QA, and the authors report that 50 MLLMs struggle with precise grounding and paired-specification consistency, but the abstract omits metric, baseline, and release details."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion"
-          },
-          "url": "https://arxiv.org/abs/2610.18871",
-          "score": "7.0",
-          "summary": {
-            "en": "The authors propose Cepheid, which separates dimensionless residual-motion structure from estimated physical amplitude to complete sparse mesh motion, reporting gains over harmonic extension across evaluated and unseen families plus transfer to animal video and soft-body grasping, but detailed benchmarks and validation conditions are not supplied."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement"
-          },
-          "url": "https://arxiv.org/abs/2610.18845",
-          "score": "7.0",
-          "summary": {
-            "en": "The authors frame EO modeling as recursive improvement by a coding agent using task-specific harnesses and verifiers, reporting state-of-the-art results on four optical, SAR, and multispectral time-series benchmarks with roughly 1% labels, but provide no metrics, baselines, or validation details here."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks"
-          },
-          "url": "https://arxiv.org/abs/2610.18825",
-          "score": "7.0",
-          "summary": {
-            "en": "The authors propose shared 1D-CNN and set-attention summaries feeding posterior model selection and model-specific cINNs for CRN pathway discrimination and rate inference, demonstrating protodeboronation deactivation-pathway analysis, but report no quantitative baselines or generalization validation in the abstract."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Self-Evolving Agent Harness"
-          },
-          "url": "https://arxiv.org/abs/2610.18813",
-          "score": "7.0",
-          "summary": {
-            "en": "The authors formalize fixed-weight agent harness self-evolution across prompts, memory, workflows, code, and plugins, deriving conditional generalization, retention, and fresh-validation admission bounds, but provide no empirical results or baseline comparisons in the supplied abstract."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning"
-          },
-          "url": "https://arxiv.org/abs/2610.18808",
-          "score": "7.0",
-          "summary": {
-            "en": "ADiCo uses fast diversity regulation plus a slower extremum-seeking controller driven by mean episodic return to tune behavioral diversity online; across six configurations on two cooperative MARL tasks, the authors report matching or exceeding tuned and unconstrained DiCo, without broader-task or reproducibility evidence."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Where Do LLM Ensemble Gains Come From? Decomposing Candidate Value, Diversity, and Aggregation"
-          },
-          "url": "https://arxiv.org/abs/2610.18786",
-          "score": "7.0",
-          "summary": {
-            "en": "The authors decompose LLM candidate gain under Direct, Single-slot, Duplicate, and Multi-candidate controls, reporting control-dependent repetition gaps on MultiHopRAG and FRAMES while finding negative candidate-context contrasts in FRAMES; broader model, task, and implementation validation is not described."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Bytes to Threats: Byte-Sequence Transformer For Malware Detection"
-          },
-          "url": "https://arxiv.org/abs/2610.18787",
-          "score": "6.5",
-          "summary": {
-            "en": "The authors present MalwareFormer, a raw-byte transformer for malware detection, reporting 98.35% accuracy, 98.32% balanced accuracy and macro-F1, and a 1.94% false-positive rate versus two unspecified baselines; dataset, splits, robustness, and deployment-cost validation are not provided."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv"
-          ]
-        },
-        {
-          "title": {
-            "en": "Read the Room Before Your Model Generates"
-          },
-          "url": "https://arxiv.org/abs/2610.18820",
-          "score": "6.0",
-          "summary": {
-            "en": "The authors propose Scenario-Actor, which derives a scenario embedding from Transformer hidden states to select decoding temperature, reporting stronger goal completion and open-ended instruction following and competitive multi-turn conversation on Llama-3.1-8B-Instruct, without abstract-level metrics or evidence of generalization."
-          },
-          "source": {
-            "en": "arXiv"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "arxiv",
-            "models",
-            "coding"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "id": "blogs",
@@ -1035,12 +404,12 @@
       "items": [
         {
           "title": {
-            "en": "Redesigning source control at Anthropic"
+            "en": "How Third Moment Research runs 10,000 agents for 36+ hours"
           },
-          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-          "score": "8.0",
+          "url": "https://openai.com/index/third-moment-research",
+          "score": "7.0",
           "summary": {
-            "en": "Anthropic reportedly replaced Git with Scion and its review system Antique after merges rose from about 2,500 per day in May 2026 to over 30,000 in September, citing a roughly 100 GB main-branch history, 25 GB compressed working copies, and about 25 million daily CI checkouts; the author speculates that stronger internal models contributed."
+            "en": "OpenAI says Third Moment Research uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to run agents for 36+ hours at a claimed 10,000-agent scale, but the excerpt provides no architecture, results, or independent confirmation."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1051,28 +420,8 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "llm-gemini 0.35"
-          },
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "score": "7.5",
-          "summary": {
-            "en": "llm-gemini 0.35 adds Gemini 4 Argon support, which the post says is newly available through the Gemini API and a $100/month plan; it reports launch pricing of $2/M input and $10/M output, a planned December 1 price doubling, and a $2,407 third-party benchmark run cost."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "LLM"
+            "agents",
+            "research"
           ]
         },
         {
@@ -1082,7 +431,7 @@
           "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
           "score": "7.0",
           "summary": {
-            "en": "Google DeepMind says it is collaborating with Singapore’s GovTech on lightweight, fine-tuned on-device Gemma models intended to detect conversational scams in private chats without cloud data egress, though the excerpt provides no evaluation results or deployment details."
+            "en": "Google DeepMind says it is collaborating with Singapore’s GovTech on lightweight, fine-tuned on-device Gemma models intended to detect conversational scams in private chats without cloud data egress, though the excerpt provides no performance or deployment evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1098,12 +447,73 @@
         },
         {
           "title": {
-            "en": "The EU’s next chapter in AI is agentic"
+            "en": "SentinelOne cuts malware analysis from weeks to hours"
           },
-          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-          "score": "5.0",
+          "url": "https://openai.com/index/sentinelone",
+          "score": "6.0",
           "summary": {
-            "en": "OpenAI News says a new analysis finds growing agentic-AI adoption among EU enterprises and small businesses, while suggesting deeper use could create additional value; the supplied excerpt does not state the analysis’s method, results, or limitations."
+            "en": "OpenAI News says SentinelOne uses OpenAI Daybreak to reduce malware analysis from weeks to hours and investigate more threats, but the supplied excerpt does not describe the workflow, evidence, or scope of the claim."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "How Block is building AI-powered security with OpenAI technology"
+          },
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "score": "6.0",
+          "summary": {
+            "en": "OpenAI reports that Block is using its technology for security work, with Block claiming its team can investigate threats faster and propose patches within minutes; the supplied excerpt does not describe the system, validation, or deployment scope."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost"
+          },
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "score": "6.0",
+          "summary": {
+            "en": "AllenAI’s Hugging Face Blog post introduces HiRO-ACEv2, which it describes as simulating extreme weather at 3 km resolution for a fraction of the cost; the supplied metadata does not confirm methods, benchmarks, or cost comparisons."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents"
+          },
+          "url": "https://www.latent.space/p/crossing-the-threshold",
+          "score": "6.0",
+          "summary": {
+            "en": "At AI Engineer New York, frontier labs and financial firms discussed balancing useful agent autonomy with human control over consequential financial decisions; the excerpt provides no specific approaches, results, or commitments."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1119,12 +529,12 @@
         },
         {
           "title": {
-            "en": "Gemini 4 Argon for Robotics"
+            "en": "AI is mass decompiling games. That's both awesome and scary."
           },
-          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-          "score": "5.0",
+          "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+          "score": "5.5",
           "summary": {
-            "en": "Google DeepMind’s titled post announces or discusses “Gemini 4 Argon for Robotics,” but the supplied metadata contains no details on its capabilities, method, results, availability, or limitations."
+            "en": "Simon Willison highlights an indie developer’s account of AI-assisted game decompilation enabling mashups and preservation-oriented ports, including browser/WebAssembly targets, while warning that similar techniques could affect proprietary software; the excerpt provides no technical validation or scale data."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1135,17 +545,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "robotics"
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Run fast, private agents on-device with LFM2.5-24B-A2B"
+            "en": "Amp puts AI agents to work beyond code with OpenAI models"
           },
-          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "url": "https://openai.com/index/amp-beyond-coding",
           "score": "5.0",
           "summary": {
-            "en": "Hugging Face Blog links to LiquidAI’s LFM2.5-24B-A2B release, presenting it as a model for fast, private on-device agents, though the supplied metadata does not confirm its capabilities, requirements, license, or measured performance."
+            "en": "OpenAI News says Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding, but the supplied excerpt does not specify workflows, technical differentiators, or reported results."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1162,12 +572,12 @@
         },
         {
           "title": {
-            "en": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics"
+            "en": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio"
           },
-          "url": "https://www.latent.space/p/dyna",
-          "score": "5.0",
+          "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+          "score": "4.0",
           "summary": {
-            "en": "Latent Space’s robotics podcast features Dyna Robotics’ chief scientist discussing Dyna-2, world action models, and physical AI; the supplied excerpt does not provide technical methods, benchmarks, or independent confirmation of its hour-long-autonomy claim."
+            "en": "Leash Bio reportedly used DNA-encoded library assay data to identify models that “cheat” and to train AI agents toward chemist-like reasoning, but the supplied excerpt provides no methodology, validation, or performance evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1187,49 +597,9 @@
             "en": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks"
           },
           "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-          "score": "4.0",
-          "summary": {
-            "en": "Latent.Space says Gemini 4 Argon became generally available and that benchmarks such as CursorBench independently confirm prior claims, but the supplied excerpt gives no benchmark results, capabilities, or supporting evidence."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "Developing Gemini 4 Argon responsibly and safely"
-          },
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
           "score": "3.5",
           "summary": {
-            "en": "Google DeepMind’s titled post indicates it discusses responsible and safe development of “Gemini 4 Argon,” but the supplied metadata contains no details on capabilities, evaluation methods, results, deployment status, or limitations."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "Gemini 4 Argon: Built to solve your hardest problems"
-          },
-          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-          "score": "3.0",
-          "summary": {
-            "en": "Google DeepMind’s titled post introduces “Gemini 4 Argon” as intended to solve difficult problems, but the supplied metadata provides no details on its capabilities, methods, availability, or evidence."
+            "en": "Latent.Space says Gemini 4 Argon reached general availability and that benchmarks including CursorBench independently confirm prior claims, but the supplied excerpt gives no results, methodology, or primary-release evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -1258,16 +628,182 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 17,
+      "count": 26,
       "items": [
         {
           "title": {
-            "en": "Redesigning source control at Anthropic"
+            "en": "Better HTTP/1 connection reuse in Go 1.27"
           },
-          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-          "score": "8.5",
+          "url": "https://go.dev/blog/http-connection-reuse",
+          "score": "8.0",
           "summary": {
-            "en": "Anthropic describes redesigning source control around a git-to-Scion ingestion pipeline as its reported merge rate rose from roughly 2,500 daily changes in May 2026 to over 30,000 in September; discussion questions code-review quality, benchmark context, and retaining nearly 100 GB of main-branch history."
+            "en": "Go 1.27 improves HTTP/1 connection reuse, while discussion emphasizes that earlier correct client patterns could require increasingly complex asynchronous response-body draining and that Close behavior remains a documentation concern."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Virtual Oxide Labs: Emulating a Full Oxide Rack"
+          },
+          "url": "https://oxide.computer/blog/voxel-labs",
+          "score": "8.0",
+          "summary": {
+            "en": "Oxide Labs describes emulating a full Oxide Rack, while one commenter points to a separate CLI and manual write-up for trying a comparable virtualization-stack emulation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Things to know when you get cancer – 2026 Edition"
+          },
+          "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+          "score": "7.0",
+          "summary": {
+            "en": "A cancer-navigation article is accompanied by commenters’ firsthand accounts that a second opinion and an extra test revealed previously missed distant metastasis, while others urge specialist-center care and warn that hospital groups can have differing incentives."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "OpenCode 2.0"
+          },
+          "url": "https://anoma.ly/notes/opencode-2-0/",
+          "score": "7.0",
+          "summary": {
+            "en": "OpenCode 2.0 reportedly adds automatic skill/plugin reloads, backgroundable tasks, configuration-editing support, improved sub-session communication, and a server model for remote sessions; one user reported severe installer slowdown apparently caused by progress-bar rendering."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Passkeys are not a trap"
+          },
+          "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+          "score": "7.0",
+          "summary": {
+            "en": "An article argues that passkeys are not inherently a trap, while commenters emphasize fragmented platform credential managers, weak migration paths, inconsistent site rollout, and concern that future attestation restrictions could reduce user choice."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Containment and monitoring failures are to blame for AI hacking reports: experts"
+          },
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "score": "7.0",
+          "summary": {
+            "en": "Security experts attribute reported AI-agent hacking incidents to weak containment and monitoring, while discussion notes that a Hugging Face incident reportedly involved a previously unknown Artifactory vulnerability as well as broader security-practice concerns."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Iosevka is an open-source, sans-serif and slab-serif monospace font"
+          },
+          "url": "https://typeof.net/Iosevka/",
+          "score": "7.0",
+          "summary": {
+            "en": "Iosevka is presented as an open-source sans- and slab-serif monospace font with a build system and PatEL DSL for customized font generation; commenters praise its configurability while noting narrow default spacing, ligature tradeoffs, and a font-loading issue on the specimen site."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: Petal, open-source CoScreen/ScreenHero finally free"
+          },
+          "url": "https://petal.live/",
+          "score": "7.0",
+          "summary": {
+            "en": "Former CoScreen team members announce Petal, a free open-source pair-programming tool after Datadog sunset CoScreen; commenters emphasize demand for durable collaborative-coding tools and note other services have also been discontinued."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Yandex outage: data shows that instead of going dark, malicious bots moved"
+          },
+          "url": "https://blog.cloudflare.com/yandex-outage/",
+          "score": "7.0",
+          "summary": {
+            "en": "Cloudflare’s Yandex-outage analysis reportedly found no network-wide evidence that strikes stopped social-media manipulation or other malicious activity, while discussion questions whether affected traffic was bot-farm activity or search crawling."
           },
           "source": {
             "en": "Hacker News"
@@ -1285,29 +821,89 @@
             "en": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW"
           },
           "url": "https://github.com/timescale/pg_vectorsearch",
-          "score": "7.5",
-          "summary": {
-            "en": "Timescale's pg_vectorsearch presents PRISM, a quantized IVF PostgreSQL vector index claimed to outperform pgvector IVFFlat and HNSW; discussion flags a 1,968-vector-dimension cap and a PostgreSQL 18+ requirement, while noting demand for low-RAM, NVMe-oriented alternatives."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Gemini 4 Argon"
-          },
-          "url": "https://deepmind.google/models/gemini/",
           "score": "7.0",
           "summary": {
-            "en": "Gemini 4 Argon is presented as a new Gemini model; commenters describe strong structured prose and API experience, while one reported coding evaluation places it between Fable 5 and 5.1 without methodology."
+            "en": "Timescale’s pg_vectorsearch presents a quantized IVF index called PRISM as faster than pgvector IVFFlat and HNSW; commenters flag a 1,968-dimension cap, PostgreSQL 18 requirement, and unresolved filtering/tenant-scope concerns."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "We’re releasing Jev 1.14.0 along with experimental features for dreamers"
+          },
+          "url": "https://typesafe.ai/blog/jev-1-14",
+          "score": "6.5",
+          "summary": {
+            "en": "Typesafe announced Jev 1.14.0 with experimental features and disclosed multimodal capabilities including image bounding boxes; commenters welcomed the benchmark warning, questioned the rollout framing, and noted segmentation remains important for some vision use cases."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Anthropic's Scion is heavily inspired by Mononoke"
+          },
+          "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+          "score": "6.5",
+          "summary": {
+            "en": "Discussion argues Anthropic’s Scion resembles Meta’s Sapling/Mononoke lineage, while commenters note Anthropic acknowledged Piper and Sapling as prior art and question whether the article demonstrates an attribution failure."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "America didn't lose its rare earth industry, it sold it"
+          },
+          "url": "https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it",
+          "score": "6.5",
+          "summary": {
+            "en": "The linked article argues that the U.S. sold rather than simply lost its rare-earth industry, while discussion emphasizes that separation and purification—not ore availability or mining—are the practical bottlenecks and questions the maturity of proposed new processes."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Tiny Little Office"
+          },
+          "url": "https://tinylittleoffice.com/",
+          "score": "6.0",
+          "summary": {
+            "en": "Tiny Little Office is presented as a free browser-based office suite whose documents appear to be encoded in renderable URLs, with comments noting LLM-oriented URL instructions and a reported OpenStreetMap 403 issue."
           },
           "source": {
             "en": "Hacker News"
@@ -1318,119 +914,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "models",
-            "coding"
+            "LLM"
           ]
         },
         {
           "title": {
-            "en": "Who Is Planting Backdoors in Ledger Crypto Wallets?"
+            "en": "Submarine cable resilience"
           },
-          "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
-          "score": "7.0",
-          "summary": {
-            "en": "A report alleges backdoors in Ledger crypto wallets, while commenters point to alleged physical-tampering opportunities such as easy enclosure access and exposed test pads, plus uncertainty over tracing eSIM-enabled theft infrastructure."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Show HN: Guitoro, a virtual guitar you strum with your keyboard"
-          },
-          "url": "https://guitoro.com/",
-          "score": "6.5",
-          "summary": {
-            "en": "Guitoro is a free no-signup browser guitar playable by keyboard, mouse, or touch with recorded instrument sounds and slowable song practice; commenters praised its completeness and classroom potential while flagging Firefox layout, Android audio distortion, and fretboard-orientation issues."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Show HN: A guided 3D Leonardo da Vinci museum, built in code"
-          },
-          "url": "https://museumofages.org/w/vinci",
-          "score": "6.5",
-          "summary": {
-            "en": "Museum of Ages launched a free, seven-language guided WebGPU/Three.js Leonardo da Vinci tour with 17 stops, reconstructed machines and source-labeled exhibits; commenters praise the scene quality but question the constrained guided navigation and 3D-first presentation."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Switzerland proposes banning profiling-based ads to minors"
-          },
-          "url": "https://www.admin.ch/en/newnsb/NMn5s24l8NjQ",
-          "score": "6.5",
-          "summary": {
-            "en": "Switzerland has proposed banning profiling-based advertising to minors; discussion highlights wider Swiss advertising restrictions and argues that ad-targeting transparency could help people understand and limit privacy exposure."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Iosevka is an open-source, sans-serif and slab-serif, monospace font"
-          },
-          "url": "https://typeof.net/Iosevka/",
+          "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
           "score": "6.0",
           "summary": {
-            "en": "Iosevka is presented as an open-source monospace sans- and slab-serif font whose supplied discussion highlights custom TTF/TTC builds and a Parametric Type Expression Language for programmatic generation, alongside mixed views on code ligatures."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Amazon pushes up prices across the Internet"
-          },
-          "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-          "score": "6.0",
-          "summary": {
-            "en": "The linked article alleges Amazon raises prices across the internet, while commenters describe Amazon’s delivery reliability as a differentiator and report shifting major purchases to manufacturers or specialist retailers over pricing and quality concerns."
+            "en": "An APNIC post concerns submarine-cable resilience; commenters stress the difficulty of engineering deep-ocean systems and suggest regional cable cuts can isolate geographically concentrated distributed networks."
           },
           "source": {
             "en": "Hacker News"
@@ -1445,12 +939,12 @@
         },
         {
           "title": {
-            "en": "Recreational Programming"
+            "en": "Running Windows desktop tests from Linux with disposable VMs"
           },
-          "url": "https://www.cphiri.dev/presentations/recreational-programming",
+          "url": "https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation",
           "score": "6.0",
           "summary": {
-            "en": "A presentation on recreational programming prompted firsthand discussion that coding for fun can foster learning but may still worsen burnout when it fails to provide restorative downtime."
+            "en": "A QA Wolf post describes running Windows desktop automation from Linux through disposable VMs; commenters corroborate QEMU/snapshot-based parallel workflows, flag potential slowness, and raise Windows licensing questions."
           },
           "source": {
             "en": "Hacker News"
@@ -1460,18 +954,138 @@
           },
           "tags": [
             "community",
-            "hacker-news",
-            "coding"
+            "hacker-news"
           ]
         },
         {
           "title": {
-            "en": "TV4 postpones show after AI agent erases edited material"
+            "en": "Banks are now trying to offload the AI data center debt they just underwrote"
           },
-          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
           "score": "5.5",
           "summary": {
-            "en": "TV4 reportedly postponed a season of The Challenge until 2027 after a technical failure deleted much of an edited season, while discussion notes the company denies that an AI agent caused the deletion and questions backup testing."
+            "en": "Banks commonly underwrite and syndicate large loans, but commenters argue the notable claim is that AI data-center debt distribution has reportedly remained unresolved for roughly six months rather than clearing within weeks."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fancy Curl Sites"
+          },
+          "url": "https://nytpu.com/gemlog/2026-03-18",
+          "score": "5.0",
+          "summary": {
+            "en": "“Fancy Curl Sites” showcases websites that change their presentation for curl users; discussion notes a static alternate-terminal-buffer technique that can display terminal output while retaining appended HTML, plus concerns about using a custom header rather than standard content negotiation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland"
+          },
+          "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
+          "score": "5.0",
+          "summary": {
+            "en": "A fire occurred at a Starlink site in Bulgaria after suspected sabotage in Poland, with Bulgaria's interior minister saying added security measures were introduced at similar facilities; discussion raises corporate-infrastructure security concerns but adds no confirmed technical evidence."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Google is silently linking your phone number across all signed-in accounts"
+          },
+          "url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+          "score": "5.0",
+          "summary": {
+            "en": "A linked report claims Google silently associates a phone number across signed-in accounts, while commenters raise concerns about account deanonymization and phone-number requirements without supplying corroborating technical evidence."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: I wrote an email app that accepts only one sender per inbox"
+          },
+          "url": "https://clova.email/",
+          "score": "5.0",
+          "summary": {
+            "en": "Clova.email proposes bring-your-own-domain inboxes that lock to a first sender, expire temporarily, or auto-create one-sender addresses from prefixes; commenters question sender-domain changes and differentiation from plus addressing and masked-email services."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Why is every rationalist blog post way too long?"
+          },
+          "url": "https://alexwennerberg.com/blog/2026-10-13-long.html",
+          "score": "4.5",
+          "summary": {
+            "en": "An opinion essay argues that rationalist writing often accumulates excessive detail and neglected assumptions; commenters connect the pattern to audience-context difficulties, UX onboarding, and concise editorial practice."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neckbeard – A DevOps/platform/SRE plugin for your agent"
+          },
+          "url": "https://github.com/bealesh/neckbeard",
+          "score": "4.5",
+          "summary": {
+            "en": "Neckbeard is presented as a DevOps/platform/SRE plugin for an agent, while discussion questions the value of inserting another layer above Terraform/HCL and cloud deployment workflows and notes a related self-hosted PaaS project."
           },
           "source": {
             "en": "Hacker News"
@@ -1487,12 +1101,12 @@
         },
         {
           "title": {
-            "en": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs"
+            "en": "TV4 postpones show after AI agent erases edited material"
           },
-          "url": "https://github.com/android/ndk/issues/2260",
-          "score": "5.5",
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "score": "4.5",
           "summary": {
-            "en": "A GitHub Android NDK issue alleges AOSP source releases are delayed enough that developers disassemble libraries to report bugs; the supplied HN comments mostly speculate about causes and advocate alternatives."
+            "en": "TV4 reportedly postponed a reality-show season after edited footage was deleted in a technical failure, while discussion highlights unverified AI-agent attribution and the apparent absence or failure of recoverable backups."
           },
           "source": {
             "en": "Hacker News"
@@ -1503,17 +1117,17 @@
           "tags": [
             "community",
             "hacker-news",
-            "developer-tools"
+            "agents"
           ]
         },
         {
           "title": {
-            "en": "Felix Rieseberg Homepage"
+            "en": "Americans' social activity has steeply declined in the past 30 years"
           },
-          "url": "https://felixrieseberg.com/",
-          "score": "5.5",
+          "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+          "score": "4.0",
           "summary": {
-            "en": "Felix Rieseberg’s homepage prompted discussion of an accompanying build write-up and AI-mediated creative tooling, while one commenter reported that visiting it rapidly drove high laptop resource usage and questioned its technical value."
+            "en": "A Data for Progress article claims Americans' social activity has steeply declined over 30 years; commenters connect it to longer-running social-capital decline and speculate about media, the internet, smartphones, demographics, and local community-building."
           },
           "source": {
             "en": "Hacker News"
@@ -1528,12 +1142,12 @@
         },
         {
           "title": {
-            "en": "Show HN: How random are you?"
+            "en": "Suicide rates highest ever among middle-aged men"
           },
-          "url": "https://lab.specr.net/rigged-draw/",
-          "score": "5.5",
+          "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
+          "score": "4.0",
           "summary": {
-            "en": "An HN project asks users to generate ostensibly random choices and reports predictions; commenters note people often over-alternate, while one participant questions whether visible predictions changed behavior and another tests it with Math.random."
+            "en": "A Telegraph-linked claim says suicide rates among middle-aged men are at a record high, while commenters describe anxiety, constrained life options, and uncertainty about social expectations, without evidence in the supplied material to establish causes or scale."
           },
           "source": {
             "en": "Hacker News"
@@ -1544,69 +1158,6 @@
           "tags": [
             "community",
             "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Pulsar at ESUG 2026 (new Smalltalk IDE)"
-          },
-          "url": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
-          "score": "5.0",
-          "summary": {
-            "en": "Pulsar was presented as a new Smalltalk IDE at ESUG 2026; comments mainly affirm ESUG's expert Smalltalk community and ask for IDE visuals, without adding technical evaluation."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Eric Binnion has died"
-          },
-          "url": "https://ma.tt/2026/10/rip-eric/",
-          "score": "5.0",
-          "summary": {
-            "en": "Eric Binnion has died; commenters remember him as a developer and open-source contributor who worked in the Drupal ecosystem and helped advance WordPress, while noting his terminal diagnosis and focus on family."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "open-source",
-            "developer-tools"
-          ]
-        },
-        {
-          "title": {
-            "en": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord"
-          },
-          "url": "https://strafe.chat/",
-          "score": "5.0",
-          "summary": {
-            "en": "Strafe presents itself as an open-source, end-to-end encrypted, federated Discord alternative, while discussion flags an apparent missing repository license and emphasizes that social-network migration—not cloning features—is the central challenge."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "open-source"
           ]
         }
       ]
