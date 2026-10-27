@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "022",
+    "number": "027",
     "date": {
-      "en": "Thursday, October 22, 2026",
-      "zh": "2026 年 10 月 22 日，星期四"
+      "en": "Tuesday, October 27, 2026",
+      "zh": "2026 年 10 月 27 日，星期二"
     },
-    "story_count": 54,
+    "story_count": 46,
     "stories_label": {
-      "en": "54 stories scored",
-      "zh": "已评分 54 条"
+      "en": "46 stories scored",
+      "zh": "已评分 46 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 65,
-    "priority_count": 49
+    "fetched_count": 52,
+    "priority_count": 41
   },
   "index": [
     {
       "title": {
-        "en": "BAND for Developers"
+        "en": "Strawberry 1.0"
       },
-      "url": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "url": "https://www.producthunt.com/products/strawberry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
       "score": "4.0",
       "summary": {
-        "en": "Product Hunt lists BAND for Developers, which claims to connect coding agents across existing tools through a shared workspace for task coordination, context exchange, and handoffs; supported tools and operational guarantees are unspecified."
+        "en": "Strawberry is a team AI browser whose “Companions” claim to research leads, transcribe meetings, automate follow-ups, and share learned preferences; Product Hunt supplies no independent evidence for its claimed time savings."
       },
       "source": {
         "en": "Product Hunt"
@@ -38,38 +38,17 @@
       "tags": [
         "products",
         "product-hunt",
-        "agents",
-        "developer-tools"
+        "research"
       ]
     },
     {
       "title": {
-        "en": "Few-read fault localization in simulated analog crossbars: a sparse-recovery decoder vs reading every cell (with the claims that failed) [R]"
+        "en": "Will the real Anthropic please stand up"
       },
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/",
-      "score": "5.5",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "score": "5.0",
       "summary": {
-        "en": "A Reddit post reports that sparse-recovery probes localized up to 64 stuck cells in simulated 256×256 analog crossbars using 4–12 reads at 1% noise, while separating decoder and read-direction gains and reporting failed preregistered claims."
-      },
-      "source": {
-        "en": "Reddit"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "research",
-        "reddit"
-      ]
-    },
-    {
-      "title": {
-        "en": "Today's PHP Security Release, and How We're Strengthening PHP Security"
-      },
-      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "score": "9.0",
-      "summary": {
-        "en": "PHP 8.x updates address two RCE vulnerabilities with exploits reportedly circulating after a disclosure leak; the cited timeline says Wiz confirmed unauthenticated RCE against Drupal and WordPress before patched releases became available."
+        "en": "MIT Technology Review examines Anthropic’s IPO prospectus, describing a 335-page filing with roughly 100 pages focused on risks and framing it as evidence of the company’s distinct view of AI technology."
       },
       "source": {
         "en": "RSS Feeds"
@@ -79,18 +58,17 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds",
-        "security"
+        "rss-feeds"
       ]
     },
     {
       "title": {
-        "en": "Today's PHP security release, and how we're strengthening security"
+        "en": "The Exponential Time Hypothesis Is False [pdf]"
       },
-      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "score": "9.0",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "score": "8.0",
       "summary": {
-        "en": "The PHP Foundation describes a security release addressing severe vulnerabilities after disclosure leaks accelerated PoC circulation; an HN commenter reports blocking multipart uploads mitigated exposure on one server."
+        "en": "A preprint claims the Exponential Time Hypothesis is false; commenters note its stated runtime bound does not transfer through general polynomial-time reductions and therefore does not establish subexponential algorithms for general NP problems."
       },
       "source": {
         "en": "Hacker News"
@@ -100,18 +78,37 @@
       },
       "tags": [
         "community",
-        "hacker-news",
-        "security"
+        "hacker-news"
       ]
     },
     {
       "title": {
-        "en": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds"
+        "en": "Working with academic communities to build scientific understanding"
       },
-      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "score": "9.0",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "score": "7.5",
       "summary": {
-        "en": "A report says eMudhra CA keys were cracked in milliseconds; discussion identifies Google paranoid_crypto as the discovery tool and stresses updating CA bundles and rebuilding images, with unpatchable devices the main concern."
+        "en": "OpenAI announces claimed advances in harmonic analysis, complexity theory, and quantum field theory; discussion highlights the asserted refutation of ETH and uncertainty about its implications."
+      },
+      "source": {
+        "en": "Hacker News"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "community",
+        "hacker-news"
+      ]
+    },
+    {
+      "title": {
+        "en": "Anthropic S-1"
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "score": "7.0",
+      "summary": {
+        "en": "Anthropic filed an S-1 with the SEC; discussion centers on whether AI demand can support the company’s reported growth expectations and extensive infrastructure commitments."
       },
       "source": {
         "en": "Hacker News"
@@ -158,12 +155,12 @@
       "items": [
         {
           "title": {
-            "en": "BAND for Developers"
+            "en": "Strawberry 1.0"
           },
-          "url": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/strawberry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists BAND for Developers, which claims to connect coding agents across existing tools through a shared workspace for task coordination, context exchange, and handoffs; supported tools and operational guarantees are unspecified."
+            "en": "Strawberry is a team AI browser whose “Companions” claim to research leads, transcribe meetings, automate follow-ups, and share learned preferences; Product Hunt supplies no independent evidence for its claimed time savings."
           },
           "source": {
             "en": "Product Hunt"
@@ -174,40 +171,17 @@
           "tags": [
             "products",
             "product-hunt",
-            "agents",
-            "developer-tools"
+            "research"
           ]
         },
         {
           "title": {
-            "en": "Notion Auto"
+            "en": "SurgePix"
           },
-          "url": "https://www.producthunt.com/products/notion-99?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/surgepix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt says Notion Auto supports agent tasks lasting 24 hours or more with browser and computer access, task routing, review mode, revised MCP, and a credit system; its cost and model-comparison claims are unverified."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Flagsmith Experiments"
-          },
-          "url": "https://www.producthunt.com/products/flagsmith?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt lists Flagsmith Experiments, an open-source A/B testing feature built on existing feature flags that claims Bayesian variant analysis with managed storage or customer-provided ClickHouse or Databricks."
+            "en": "SurgePix is presented as an AI visual editor that supports layer editing, text swaps, regional repainting, brand kits, and open-source skills for Claude Code and Cursor; its output quality and integration constraints are unspecified."
           },
           "source": {
             "en": "Product Hunt"
@@ -223,112 +197,12 @@
         },
         {
           "title": {
-            "en": "UseIt Studio"
+            "en": "MiniMax M3.1 Flash"
           },
-          "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
+          "url": "https://www.producthunt.com/products/minimax-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists UseIt Studio, an AI design tool for printable physical items that claims to produce editable files with dimensions, bleed, and dielines; output compatibility and validation are not supplied."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "TwinMind for Desktop"
-          },
-          "url": "https://www.producthunt.com/products/twinmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists TwinMind for Desktop, which claims automatic meeting detection, live transcription and summaries in more than 140 languages, plus cross-application hotkey dictation on Mac and Windows."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "SuperCMO AI"
-          },
-          "url": "https://www.producthunt.com/products/supercmo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists SuperCMO AI, Apache-2.0 skills for Claude Code, Cursor, or Codex that claim to learn a brand, analyze competitor ads, propose tests, and generate marketing assets with approval before costly renders."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Brains"
-          },
-          "url": "https://www.producthunt.com/products/the-brains?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists The Brains, an MIT-licensed MCP service that makes public materials from 37 founders, CEOs, and investors searchable in AI clients and claims to return linked source quotations; it is unofficial and unaffiliated."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "NativeShip"
-          },
-          "url": "https://www.producthunt.com/products/nativeship?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists NativeShip, which claims to help SaaS teams build, preview, publish, and maintain n8n integration nodes from an existing API using their own GitHub and npm accounts."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Mouse-1"
-          },
-          "url": "https://www.producthunt.com/products/mouse-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists Mouse-1, a decision model intended to return probabilities over agent state and options for small harness decisions; claims of being cheaper and faster than GPT-6 Sol are unsupported in the supplied content."
+            "en": "MiniMax M3.1 Flash is marketed for agentic coding, computer use, and cybersecurity, with vendor claims of faster and cheaper performance than its predecessor plus stated API pricing; weights are promised later."
           },
           "source": {
             "en": "Product Hunt"
@@ -340,17 +214,142 @@
             "products",
             "product-hunt",
             "agents",
-            "models"
+            "security"
           ]
         },
         {
           "title": {
-            "en": "Needle"
+            "en": "N8N Chat UI"
           },
-          "url": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "2.5",
+          "url": "https://www.producthunt.com/products/n8n-chat-ui-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists Needle, an outbound-sales tool that claims users can prompt Claude, ChatGPT, or Grok to find leads and reach them through LinkedIn, Instagram, or email; safeguards and workflow details are absent."
+            "en": "N8N Chat UI is a no-code builder for branded, mobile-friendly chat widgets connected to n8n workflows, claiming streaming, voice, file uploads, layouts, and a JavaScript API; security and hosting details are not supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "PDF Accessibility Checker by WebYes"
+          },
+          "url": "https://www.producthunt.com/products/pdf-accessibility-checker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "WebYes’s free PDF Accessibility Checker claims to flag missing image descriptions and heading issues, highlight affected content, identify human-review needs, and check PDFs up to 50 MB against WCAG 2.1 AA and PDF/UA."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "CloudKnife"
+          },
+          "url": "https://www.producthunt.com/products/cloudknife?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "CloudKnife claims to analyze Azure resources with AI agents, validate recommendations against deterministic rules such as SAP certification, and execute approved cost changes; accuracy, rollback, and security details are not provided."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "2G"
+          },
+          "url": "https://www.producthunt.com/products/2g?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "2G is a Windows and macOS sampler that claims to generate sounds from descriptions, support editing and keyboard playback, and run as a plugin or standalone app; free use begins with 20 generation credits."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "WhoIsCooking"
+          },
+          "url": "https://www.producthunt.com/products/whoiscooking?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "WhoIsCooking is a $5 Mac app that claims to identify which listed AI coding agents are heating an Apple Silicon machine and move busy work to efficiency cores; supported controls and measurement methodology are unspecified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Kiwi"
+          },
+          "url": "https://www.producthunt.com/products/kiwi-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Kiwi is a pilot proactive assistant that messages users about plans, travel, bills, and tasks, then claims to act in apps or websites after approval through iMessage or WhatsApp; privacy and execution limits are unspecified."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "desigma"
+          },
+          "url": "https://www.producthunt.com/products/desigma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "desigma is presented as a free Rust-based Figma alternative with a linked GitHub development project; the supplied launch text provides no feature set, license, file compatibility, or maturity information."
           },
           "source": {
             "en": "Product Hunt"
@@ -379,70 +378,8 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 3,
-      "items": [
-        {
-          "title": {
-            "en": "Few-read fault localization in simulated analog crossbars: a sparse-recovery decoder vs reading every cell (with the claims that failed) [R]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/",
-          "score": "5.5",
-          "summary": {
-            "en": "A Reddit post reports that sparse-recovery probes localized up to 64 stuck cells in simulated 256×256 analog crossbars using 4–12 reads at 1% noise, while separating decoder and read-direction gains and reporting failed preregistered claims."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Will our paper be removed from EMNLP because of no-show? [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/",
-          "score": "1.5",
-          "summary": {
-            "en": "An EMNLP author asks whether an accepted paper may be removed from proceedings after visa issues prevent in-person attendance, with no conference-policy answer included in the supplied content."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit"
-          ]
-        },
-        {
-          "title": {
-            "en": "Noun-verb-conjunction triads [D]"
-          },
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xbtzv9/nounverbconjunction_triads_d/",
-          "score": "1.5",
-          "summary": {
-            "en": "A Reddit poster proposes attention heads encoding noun-verb-conjunction triads as a structured internal language for neural networks, but supplies no experiments, implementation, or comparison with existing approaches."
-          },
-          "source": {
-            "en": "Reddit"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "research",
-            "reddit",
-            "coding"
-          ]
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "id": "blogs",
@@ -458,16 +395,76 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 14,
+      "count": 9,
       "items": [
         {
           "title": {
-            "en": "Today's PHP Security Release, and How We're Strengthening PHP Security"
+            "en": "Will the real Anthropic please stand up"
           },
-          "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-          "score": "9.0",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "score": "5.0",
           "summary": {
-            "en": "PHP 8.x updates address two RCE vulnerabilities with exploits reportedly circulating after a disclosure leak; the cited timeline says Wiz confirmed unauthenticated RCE against Drupal and WordPress before patched releases became available."
+            "en": "MIT Technology Review examines Anthropic’s IPO prospectus, describing a 335-page filing with roughly 100 pages focused on risks and framing it as evidence of the company’s distinct view of AI technology."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Quoting Jason Koebler"
+          },
+          "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+          "score": "4.5",
+          "summary": {
+            "en": "Simon Willison quotes Jason Koebler’s report that people lacking human platform support turn to ChatGPT, which increasingly directs routine support cases to 404 Media as purportedly newsworthy."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "ChatGPT’s expanding world of work"
+          },
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "score": "4.5",
+          "summary": {
+            "en": "OpenAI says its Signals data examines ChatGPT use across 165 work activities in nearly 100 countries and tracks changes over time; the supplied description does not state methods or results."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Greptile takes bug detection beyond code review with GPT-6 Astra"
+          },
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "score": "4.0",
+          "summary": {
+            "en": "OpenAI says Greptile uses GPT-6 Astra for user-workflow testing, Daybreak for security strengthening, and Codex to reduce rework; the supplied excerpt provides no implementation or outcome details."
           },
           "source": {
             "en": "RSS Feeds"
@@ -483,94 +480,12 @@
         },
         {
           "title": {
-            "en": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture"
+            "en": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
           },
-          "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
-          "score": "7.0",
-          "summary": {
-            "en": "Microsoft Research reports a proof resolving the Kannan–Lovász–Simonovits conjecture, a 31-year-old question about high-dimensional computation that removes a theoretical obstacle to understanding randomized-algorithm efficiency."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Huawei-DeepSeek Symbiosis"
-          },
-          "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
-          "score": "5.5",
-          "summary": {
-            "en": "SemiAnalysis advertises a deep dive on Huawei Ascend 950PR microbenchmarks, DeepSeek v4.1 Flash, and DeepSeek support for Ascend, with no benchmark results or methodology included in the excerpt."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "How we built ChatGPT’s novel ad stack for user trust and relevance"
-          },
-          "url": "https://openai.com/index/building-chatgpt-ad-stack",
-          "score": "4.5",
-          "summary": {
-            "en": "OpenAI describes an LLM-powered ChatGPT ad stack intended to infer conversational intent, keep ads separate from answers, and serve relevant ads at scale; technical design and validation details are not supplied."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium."
-          },
-          "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-          "score": "4.5",
-          "summary": {
-            "en": "Hugging Face published part one of a guide to system-level profiling of TorchNeuron workloads on AWS Trainium, with no tooling steps, measurements, or constraints included in the supplied content."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds"
-          ]
-        },
-        {
-          "title": {
-            "en": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
-          },
-          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
           "score": "4.0",
           "summary": {
-            "en": "OpenAI says ChatGPT Ads expanded to 26 countries and that more than 100,000 advertisers have used the platform, enabling more businesses to reach users during shopping-related conversations."
+            "en": "OpenAI says CodeRabbit uses GPT-6.1 Sol to investigate security risks in complex codebases and help developers review findings and proposed fixes; no validation results or limitations are provided."
           },
           "source": {
             "en": "RSS Feeds"
@@ -580,17 +495,19 @@
           },
           "tags": [
             "blogs",
-            "rss-feeds"
+            "rss-feeds",
+            "security",
+            "developer-tools"
           ]
         },
         {
           "title": {
-            "en": "Claude Mods: Flipping the Harness Inside Out"
+            "en": "How Ultrafast cut incident investigation from hours to minutes at OpenAI"
           },
-          "url": "https://www.latent.space/p/claude-mods",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
           "score": "4.0",
           "summary": {
-            "en": "Latent Space describes Claude Mods as an early “Attention Interface” that reverses the agent-harness orientation from machine-facing to human-facing, without supplying implementation or evaluation details."
+            "en": "OpenAI says its engineers use Codex Ultrafast for incident investigation, security analysis, refactoring, and daily workflows, claiming investigations can move from hours to minutes without supplying measurements or method."
           },
           "source": {
             "en": "RSS Feeds"
@@ -601,38 +518,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "agents"
+            "security"
           ]
         },
         {
           "title": {
-            "en": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback"
+            "en": "The focus on AI safety disasters ignores everyday harms"
           },
-          "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+          "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
           "score": "4.0",
           "summary": {
-            "en": "Latent Space characterizes DeepSeek DeepInfer as an open-source inference development and claims high cluster throughput, revenue, margins, and payback, but the supplied excerpt contains no methodology or verification."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "How AT&T is rethinking in-house legal work with OpenAI"
-          },
-          "url": "https://openai.com/index/att-legal",
-          "score": "3.5",
-          "summary": {
-            "en": "OpenAI says AT&T’s LegalEdge team is using OpenAI to make legal knowledge easier to access and rethink intake, but the supplied excerpt gives no implementation details or measured results."
+            "en": "MIT Technology Review argues that AI-safety discourse focused on catastrophic outcomes can overlook everyday harms, noting that baseline chatbot and platform safeguards may coexist with broader product harms."
           },
           "source": {
             "en": "RSS Feeds"
@@ -647,12 +543,12 @@
         },
         {
           "title": {
-            "en": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required"
+            "en": "How Fanatics and OpenAI streamline the fan experience"
           },
-          "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
           "score": "3.5",
           "summary": {
-            "en": "Hugging Face published a post titled “NVIDIA Kumo Relational” claiming relational-data performance beyond supervised machine learning without training; the supplied excerpt provides no method, evaluation, or caveat."
+            "en": "OpenAI says Fanatics’ Shop the Look helps fans assemble game-day outfits and reported 10% higher engagement in testing across roughly 30,000 MLB products; the excerpt does not describe methodology or conversion effects."
           },
           "source": {
             "en": "RSS Feeds"
@@ -667,75 +563,12 @@
         },
         {
           "title": {
-            "en": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications"
+            "en": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means"
           },
-          "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
           "score": "3.5",
           "summary": {
-            "en": "A Hugging Face post claims specialized small-language-model vocabularies can reduce real-application inference cost by 77%, but the supplied excerpt does not state the method, workloads, baselines, or limitations."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster"
-          },
-          "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-          "score": "3.5",
-          "summary": {
-            "en": "A Hugging Face post announces Granite Speech 5.0 for transcription, translation, and attribution with claimed accuracy and speed improvements, but provides no benchmarks, model details, or deployment caveats."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess"
-          },
-          "url": "https://www.latent.space/p/tenex",
-          "score": "3.5",
-          "summary": {
-            "en": "A 44-minute Latent Space interview with Tenex discusses outcome-based pricing, building with agents, and the final stage of enterprise AI adoption, without specific implementation evidence in the excerpt."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Broad access through consistent standards"
-          },
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "score": "3.0",
-          "summary": {
-            "en": "OpenAI says it works with distribution partners to maintain safeguards and clarify Usage Policy expectations, without specifying the standards, partners, or implementation changes involved."
+            "en": "Import AI 478 is titled around alignment mathematics, ProgramBench, and Mirendil, but the supplied excerpt contains only the phrase “What is ‘night’ to a machine?” and no supporting details."
           },
           "source": {
             "en": "RSS Feeds"
@@ -768,73 +601,12 @@
       "items": [
         {
           "title": {
-            "en": "Today's PHP security release, and how we're strengthening security"
+            "en": "The Exponential Time Hypothesis Is False [pdf]"
           },
-          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-          "score": "9.0",
-          "summary": {
-            "en": "The PHP Foundation describes a security release addressing severe vulnerabilities after disclosure leaks accelerated PoC circulation; an HN commenter reports blocking multipart uploads mitigated exposure on one server."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds"
-          },
-          "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-          "score": "9.0",
-          "summary": {
-            "en": "A report says eMudhra CA keys were cracked in milliseconds; discussion identifies Google paranoid_crypto as the discovery tool and stresses updating CA bundles and rebuilding images, with unpatchable devices the main concern."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "PHP 8.2.35"
-          },
-          "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-          "score": "9.0",
-          "summary": {
-            "en": "PHP 8.2.35 was released amid coordinated disclosure of reported critical vulnerabilities; discussion links it to unauthenticated RCE reports affecting Drupal and WordPress and notes the unusual need for preemptive server action."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "GitLab Critical Patch Release"
-          },
-          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
           "score": "8.0",
           "summary": {
-            "en": "GitLab issued a critical patch release; discussion says the affected endpoint is reachable without authentication and notes guidance for checking logs, while the critical CVE details remain embargoed."
+            "en": "A preprint claims the Exponential Time Hypothesis is false; commenters note its stated runtime bound does not transfer through general polynomial-time reductions and therefore does not establish subexponential algorithms for general NP problems."
           },
           "source": {
             "en": "Hacker News"
@@ -849,53 +621,52 @@
         },
         {
           "title": {
-            "en": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor"
+            "en": "Working with academic communities to build scientific understanding"
           },
-          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-          "score": "8.0",
-          "summary": {
-            "en": "A report alleges LiteLLM 1.107.0 on PyPI installed a credential stealer and backdoor; discussion says the incident appears to have been contained quickly and points to an incident notice."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "DuckDB 2.0.0 LTS “Cinnamon Teal”"
-          },
-          "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-          "score": "8.0",
-          "summary": {
-            "en": "DuckDB 2.0.0 LTS was announced; users report better compute scaling on high-core-count EC2 instances and discuss production use through Postgres wire protocol or Arrow Flight, alongside interest in triggers."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Railway Security Disclosure"
-          },
-          "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
           "score": "7.5",
           "summary": {
-            "en": "Railway disclosed a security incident, while multiple commenters report third-party use of secrets stored in Railway, suggesting operators should assess credentials and deployments."
+            "en": "OpenAI announces claimed advances in harmonic analysis, complexity theory, and quantum field theory; discussion highlights the asserted refutation of ETH and uncertainty about its implications."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Anthropic S-1"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "score": "7.0",
+          "summary": {
+            "en": "Anthropic filed an S-1 with the SEC; discussion centers on whether AI demand can support the company’s reported growth expectations and extensive infrastructure commitments."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fixing Tool-Call Accuracy in vLLM"
+          },
+          "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+          "score": "7.0",
+          "summary": {
+            "en": "Ubicloud describes improving vLLM tool-call accuracy through constrained decoding configuration; commenters say the capability already existed, identify configuration changes as the likely issue, and request evidence on model-quality tradeoffs versus retries."
           },
           "source": {
             "en": "Hacker News"
@@ -906,17 +677,38 @@
           "tags": [
             "community",
             "hacker-news",
-            "security"
+            "models",
+            "coding"
           ]
         },
         {
           "title": {
-            "en": "OpenAI models are coming to Google Cloud"
+            "en": "Type Server Protocol"
           },
-          "url": "https://openai.com/index/openai-models-google-cloud/",
-          "score": "7.0",
+          "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+          "score": "6.5",
           "summary": {
-            "en": "OpenAI says its models are coming to Google Cloud and enterprises can use Google Cloud spend commitments for purchases; discussion frames this as competition with other multi-cloud model providers."
+            "en": "Microsoft documents a Type Server Protocol for Python type-server functionality; discussion notes planned support in Ty while raising concerns over Python-specific naming and inconsistent behavior across existing type-checker ecosystems."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "GPT-6.1 Terra"
+          },
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "score": "6.5",
+          "summary": {
+            "en": "OpenAI introduces GPT-6.1 Terra; discussion reports observed differences among reasoning settings and questions where Terra fits relative to other available model tiers."
           },
           "source": {
             "en": "Hacker News"
@@ -932,32 +724,12 @@
         },
         {
           "title": {
-            "en": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)"
+            "en": "Sebastian Raschka's from-scratch video course on building reasoning models"
           },
-          "url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
-          "score": "7.0",
+          "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+          "score": "6.0",
           "summary": {
-            "en": "AWS says updates for PHP web runtime CVEs are expected October 22; discussion criticizes the timing and notes that operators may need to wait for Amazon Linux packages after the disclosure."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "The bridge to agent-scale Git infrastructure"
-          },
-          "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-          "score": "6.5",
-          "summary": {
-            "en": "GitHub published an engineering article on infrastructure for agent-scale Git workloads; commenters welcome the implementation detail while questioning reliability and comparing its timing with an Anthropic source-control announcement."
+            "en": "Sebastian Raschka’s course teaches reasoning-model construction from scratch; discussion stresses that such tutorials build understanding rather than enable production-scale training and raises unanswered local-versus-cloud compute questions."
           },
           "source": {
             "en": "Hacker News"
@@ -968,78 +740,301 @@
           "tags": [
             "community",
             "hacker-news",
-            "agents"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Your MCU likely escaped the eMudhra intermediate CA compromise"
+            "en": "Oldest GUI application that still runs on Windows 11"
           },
-          "url": "https://danielmangum.com/posts/mcu-emudhra-intermediate-ca-compromise/",
-          "score": "6.5",
-          "summary": {
-            "en": "A technical analysis argues many MCUs likely escaped the eMudhra intermediate compromise because they ship constrained trust stores; discussion notes some devices may not validate certificates and identifies ESP-IDF’s optional Mozilla bundle."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Google's Rust Style Guide"
-          },
-          "url": "https://google.github.io/styleguide/rustguide.html",
-          "score": "6.0",
-          "summary": {
-            "en": "Google published a Rust style guide; discussion highlights disagreement over unqualified type imports and Chromium guidance favoring tiny crates and shallow module structures."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Patch the Planet: global response coordination as agents uncover vulnerabilities"
-          },
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-          "score": "6.0",
-          "summary": {
-            "en": "OpenAI proposes coordinating global responses as agents uncover vulnerabilities; discussion argues the announcement overstates AI’s role and notes that backporting fixes remains difficult for unsupported releases."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Canary Tokens"
-          },
-          "url": "https://canarytokens.org/",
+          "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
           "score": "5.5",
           "summary": {
-            "en": "Canary Tokens provides decoy credentials and other triggers that notify defenders when used; discussion suggests value against indiscriminate LLM-driven attacks but flags phone-home and unsupported-provider limitations."
+            "en": "A post examines the oldest GUI application still runnable on Windows 11; discussion adds that some Windows 3.1-era software launches but fails where it depends on dynamically changing 8-bit palettes."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+          },
+          "url": "https://github.com/FrigadeHQ/hob",
+          "score": "5.5",
+          "summary": {
+            "en": "Hob is an MIT-licensed desktop app for local open-weight models that claims offline chats and file handling, sandboxed Python tools, SearXNG search, MCP support, and automatic model selection; commenters request concrete hardware-to-model guidance."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Concerning behavior from a popular open-weight AI model"
+          },
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "score": "5.5",
+          "summary": {
+            "en": "Cohere warns about concerning behavior from an unnamed popular open-weight model; discussion cites reported context-dependent insecure-code findings while questioning both dataset-poisoning limits and Cohere’s incentives."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems"
+          },
+          "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+          "score": "5.5",
+          "summary": {
+            "en": "404 Media reports that ChatGPT directs ordinary tech-support users to its newsroom; discussion frames this as an example of AI systems shifting support and spam-like workload to people outside the intended service channel."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Websites Should Be Printable"
+          },
+          "url": "https://brennenputh.me/blog/printable-websites/",
+          "score": "5.5",
+          "summary": {
+            "en": "An essay argues websites should support printing; discussion supports semantic HTML and print-specific navigation handling while debating font changes and reporting persistent browser print-rendering shortcomings."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Microsoft offers mass buyouts for roughly a quarter of its workforce"
+          },
+          "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+          "score": "5.0",
+          "summary": {
+            "en": "The Seattle Times reports Microsoft is offering buyouts to roughly a quarter of its workforce; commenters discuss an asserted 60,000-worker figure and the risk that voluntary packages disproportionately attract more employable staff."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pharo 14"
+          },
+          "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+          "score": "5.0",
+          "summary": {
+            "en": "Pharo 14 has been released; discussion compares it with other Smalltalk-family environments and considers whether live-programming systems could suit agent-assisted development."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real"
+          },
+          "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+          "score": "5.0",
+          "summary": {
+            "en": "404 Media reports leaked audio in which Flock’s CEO reportedly dismisses backlash; commenters cite alleged regulatory and public opposition to the company’s camera deployments."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "The EPA Is Quietly Killing Its Web Archive"
+          },
+          "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+          "score": "5.0",
+          "summary": {
+            "en": "Mother Jones reports that the EPA is reducing its web archive; commenters point to End of Term and Wayback archives and ask whether affected material has been scraped for offline preservation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "US designates helium as a critical material"
+          },
+          "url": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
+          "score": "5.0",
+          "summary": {
+            "en": "The US has designated helium a critical material; discussion notes distinct helium isotopes, cryogenic applications including quantum-computing-related cooling, and questions about extraction and supply incentives."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "CorridorKey 2.0"
+          },
+          "url": "https://corridorkey.com/",
+          "score": "4.5",
+          "summary": {
+            "en": "CorridorKey 2.0 appears to be a video keying tool; comments say it is free outside organizations above a stated revenue threshold and describe it as quality-oriented rather than real-time."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "CSS-Tricks has a new owner"
+          },
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "score": "4.5",
+          "summary": {
+            "en": "CSS-Tricks has announced a new owner; discussion focuses on the economics and uncertain longevity of independent frontend education amid changing web-development workflows."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Switzerland. Block by block. At 1:1 scale"
+          },
+          "url": "https://blocks.manifold3d.ch/",
+          "score": "4.5",
+          "summary": {
+            "en": "A project presents Switzerland block by block at 1:1 scale in Minecraft; discussion compares it with Denmark’s earlier geodata-backed Minecraft project and questions the site’s presentation and technical explanation."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "A Man from the Future: Why Johnny Can't Stop Abstracting"
+          },
+          "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+          "score": "4.0",
+          "summary": {
+            "en": "An essay about John von Neumann’s intellectual legacy prompts discussion of biographies, eidetic memory, and how technological change is reshaping software engineering."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Nietzschian Debugger"
+          },
+          "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+          "score": "3.5",
+          "summary": {
+            "en": "Nietzschian Debugger is presented as a debugging tool, while commenters note that its setup requires an Anthropic API key and characterize its “anti-AI” positioning as inconsistent with its apparent use of LLM-generated output."
           },
           "source": {
             "en": "Hacker News"
@@ -1051,168 +1046,6 @@
             "community",
             "hacker-news",
             "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Using thousands of AI agents to uncover new leads in biological data"
-          },
-          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-          "score": "5.0",
-          "summary": {
-            "en": "OpenAI describes using thousands of AI agents to generate biological leads; commenters note the highlighted gene is already associated with rare disease and that the cholesterol mechanism remains a vague hypothesis."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case"
-          },
-          "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-          "score": "4.5",
-          "summary": {
-            "en": "New Mexico reportedly obtained a $25 billion penalty against Meta in a Cambridge Analytica case; commenters expect an appeal and question how the outcome compares with other state settlements."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Claude Duet"
-          },
-          "url": "https://claude.com/product/claude-duet",
-          "score": "4.0",
-          "summary": {
-            "en": "Claude Duet appears to be a waitlisted assistant product; discussion criticizes signup integration and speculates that deferred personal-assistant workloads may be economically attractive for inference providers."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "EA is shutting down BioWare"
-          },
-          "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-          "score": "3.5",
-          "summary": {
-            "en": "The Verge reports that EA is shutting down BioWare; discussion reflects on the studio’s legacy and workforce turnover but supplies no direct technical or operational development."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic"
-          },
-          "url": "https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs",
-          "score": "3.5",
-          "summary": {
-            "en": "OIST reports coral rubble fused with plastic, termed “plasticorals,” on vulnerable coral-reef shores; commenters note the proposed beach-bonfire origin requires further research."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "Claude Duet"
-          },
-          "url": "https://claude.com/resources/articles/claude-duet",
-          "score": "3.5",
-          "summary": {
-            "en": "A second Claude Duet submission links to an Anthropic resource article; commenters raise concerns about application reliability and suggest trusted execution environments for privacy."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Potential third critical PHP CVE"
-          },
-          "url": "https://elk.zone/m.webtoo.ls/@elise@katze.sh/117479383721672027",
-          "score": "3.5",
-          "summary": {
-            "en": "A social post suggests a third critical PHP CVE, but commenters identify a possibly related confirmed GC regression as non-exploitable and advise waiting for an official PHP announcement."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin"
-          },
-          "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
-          "score": "1.5",
-          "summary": {
-            "en": "Oregon lawmakers approved money to buy a waterfall property listed for sale, with commenters discussing the reported public cost and the listing’s framing."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
           ]
         }
       ]
