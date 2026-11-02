@@ -1,9 +1,9 @@
 {
   "edition": {
-    "number": "001",
+    "number": "002",
     "date": {
-      "en": "Sunday, November 1, 2026",
-      "zh": "2026 年 11 月 1 日，星期日"
+      "en": "Monday, November 2, 2026",
+      "zh": "2026 年 11 月 2 日，星期一"
     },
     "story_count": 29,
     "stories_label": {
@@ -17,17 +17,17 @@
   },
   "source_status": {
     "fetched_count": 29,
-    "priority_count": 28
+    "priority_count": 29
   },
   "index": [
     {
       "title": {
-        "en": "telemetry.dev"
+        "en": "ClawsGO Science"
       },
-      "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-      "score": "5.5",
+      "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "4.0",
       "summary": {
-        "en": "telemetry.dev claims to trace AI-agent runs across model and tool calls with duration, tokens, cost, and errors, then connect prompt changes and dataset evaluations to production traces via TypeScript, Python, or OpenTelemetry."
+        "en": "Product Hunt lists ClawsGO Science as an AI research agent that claims to use a cloud lab with 500+ tools and 90+ datasets plus multi-agent clusters to turn questions into cited papers; validation and workflow limits are not supplied."
       },
       "source": {
         "en": "Product Hunt"
@@ -39,17 +39,17 @@
         "products",
         "product-hunt",
         "agents",
-        "models"
+        "research"
       ]
     },
     {
       "title": {
-        "en": "Agents Prompt People: Using Agents for Long-Horizon Financial Work"
+        "en": "Quoting Kyle Kingsbury"
       },
-      "url": "https://latent.space/p/arca/",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
       "score": "5.5",
       "summary": {
-        "en": "Arca's head of AI discusses persistent memory, custom agent harnesses, and workflows spanning days for financial work, but the supplied excerpt provides no technical validation or operational caveats."
+        "en": "Kyle Kingsbury, quoted from Jepsen's ParticleDB 1.1.4 analysis, argues that LLMs make maturity signals easier to counterfeit and asks how maintainers can establish and demonstrate correct software and documentation."
       },
       "source": {
         "en": "RSS Feeds"
@@ -60,17 +60,38 @@
       "tags": [
         "blogs",
         "rss-feeds",
-        "agents"
+        "LLM"
       ]
     },
     {
       "title": {
-        "en": "Jepsen: ParticleDB 1.1.4"
+        "en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case"
       },
-      "url": "https://jepsen.io/analyses/particledb-1.1.4",
-      "score": "9.0",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "score": "7.0",
       "summary": {
-        "en": "Jepsen reports that ParticleDB 1.1.4, which claimed PostgreSQL compatibility, exhibited lost committed writes, consistency violations, aborted and intermediate reads, and lost updates; it recommends halting deployment and checking or rebuilding state."
+        "en": "A report alleges Lenovo's fingerprint “encrypted” USB drive can be opened to reveal an unencrypted SD card; commenters recommend using software encryption and question whether the product received meaningful security review."
+      },
+      "source": {
+        "en": "Hacker News"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "community",
+        "hacker-news",
+        "security"
+      ]
+    },
+    {
+      "title": {
+        "en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
+      },
+      "url": "https://hackerbooks.org/",
+      "score": "6.5",
+      "summary": {
+        "en": "HackerBooks indexes roughly 16.5k books mentioned by at least two HN commenters since 2007, links each book to mentions, and offers downloadable data, while commenters identify missing entries and limited sorting."
       },
       "source": {
         "en": "Hacker News"
@@ -85,12 +106,12 @@
     },
     {
       "title": {
-        "en": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8"
+        "en": "Mathematics has changed. Let's act like it"
       },
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "score": "8.5",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "score": "6.5",
       "summary": {
-        "en": "CVE-2026-98432 is reported as a Linux IPv4 TCP use-after-free with CVSS 9.8; discussion says IP-option filtering may reduce exposure but is incomplete, and Ubuntu and Red Hat patches were reportedly unavailable."
+        "en": "Terence Tao argues mathematics should recognize people who thoroughly understand AI-derived proofs and develop further directions; commenters note concerns that early AI proofs may be long or incomprehensible and that research incentives are shifting."
       },
       "source": {
         "en": "Hacker News"
@@ -100,27 +121,8 @@
       },
       "tags": [
         "community",
-        "hacker-news"
-      ]
-    },
-    {
-      "title": {
-        "en": "Molly (Signal fork) has not been updated since 3 months and is vulnerable"
-      },
-      "url": "https://piefed.world/post/1503394",
-      "score": "7.5",
-      "summary": {
-        "en": "Molly, a Signal fork, is reported unupdated for three months and vulnerable; discussion notes official Signal multi-device support and a separate Polly stopgap with RingRTC and TLS-intermediate fixes, but with arm64 and Android 14+ limits."
-      },
-      "source": {
-        "en": "Hacker News"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "community",
-        "hacker-news"
+        "hacker-news",
+        "research"
       ]
     }
   ],
@@ -157,12 +159,12 @@
       "items": [
         {
           "title": {
-            "en": "telemetry.dev"
+            "en": "ClawsGO Science"
           },
-          "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.5",
+          "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
           "summary": {
-            "en": "telemetry.dev claims to trace AI-agent runs across model and tool calls with duration, tokens, cost, and errors, then connect prompt changes and dataset evaluations to production traces via TypeScript, Python, or OpenTelemetry."
+            "en": "Product Hunt lists ClawsGO Science as an AI research agent that claims to use a cloud lab with 500+ tools and 90+ datasets plus multi-agent clusters to turn questions into cited papers; validation and workflow limits are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -174,17 +176,80 @@
             "products",
             "product-hunt",
             "agents",
-            "models"
+            "research"
           ]
         },
         {
           "title": {
-            "en": "Secret Key"
+            "en": "Precise Edit by Ideogram"
           },
-          "url": "https://www.producthunt.com/products/secret-key?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "5.0",
+          "url": "https://www.producthunt.com/products/ideogram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
           "summary": {
-            "en": "Secret Key claims to provide open-source, self-hosted emergency password-database access by splitting a master password among trusted people, requiring any three of five shares plus SMS verification and a cancellable 48-hour delay."
+            "en": "Product Hunt lists Ideogram's upgraded Precise Edit as supporting a context window for original-pixel image edits up to 8K, claiming sharper small text, logos, and fine detail; no comparative samples or limitations are supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "agentmash"
+          },
+          "url": "https://www.producthunt.com/products/agentmash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt lists agentmash as an open-source shared context layer for coding agents that reports teammate file changes, synchronizes skills and automations, and claims connections to Claude Code, Codex, Antigravity, and open-source models."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "Click"
+          },
+          "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt lists Click as a managed-agent API that creates sessions with a sandbox, browser, and web search, streams results, and claims deferred tool discovery and Code Mode for handling thousands of tools without infrastructure management."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "BeeBranch"
+          },
+          "url": "https://www.producthunt.com/products/beebranch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Product Hunt lists BeeBranch as an open-source, local-first desktop Git client for GitHub and GitLab teams that claims no proprietary cloud, vendor account, telemetry, or AI; feature depth and maturity are not supplied."
           },
           "source": {
             "en": "Product Hunt"
@@ -200,160 +265,12 @@
         },
         {
           "title": {
-            "en": "GitHub Copilot Fusion"
+            "en": "Riverside Agents"
           },
-          "url": "https://www.producthunt.com/products/github-copilot-fusion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.5",
-          "summary": {
-            "en": "GitHub Copilot Fusion claims to route coding tasks across models and combine their work, with Standard, High, and Max effort settings across VS Code, Copilot CLI, the Copilot app, and JetBrains IDEs."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "models",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "Coding Wrapped"
-          },
-          "url": "https://www.producthunt.com/products/coding-wrapped?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.5",
-          "summary": {
-            "en": "Coding Wrapped claims to transform local Claude Code and Codex session histories into a pixel-art report on work rhythms, repeated phrases, agent-taken tasks, and habit tips, with one-command local processing."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "Godwit"
-          },
-          "url": "https://www.producthunt.com/products/godwit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.5",
-          "summary": {
-            "en": "Godwit is presented as an open-source desktop email client for any IMAP/SMTP account, with a user-chosen-model assistant that reads, summarizes, translates, and drafts email."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "open-source",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "SKI"
-          },
-          "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "SKI is a Mac voice-first harness that runs Claude Code, Codex, Cursor, OpenCode, Antigravity, and pi side by side and announces when one needs attention; its Product Hunt listing supplies no independent validation."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Specsight"
-          },
-          "url": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Specsight claims to turn code changes into a living product map, feature knowledge, and release updates for Product, Sales, and Support teams; the Product Hunt listing provides no validation or integration details."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "Backenly"
-          },
-          "url": "https://www.producthunt.com/products/backenly-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Backenly claims to let coding agents build Postgres-backed services over MCP and continuously repair indexes, RLS gaps, and realtime triggers, with approval for risky schema changes and versioned rollback; these are unverified launch claims."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "WinnerAdSpy"
-          },
-          "url": "https://www.producthunt.com/products/winneradspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/riverside-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "3.5",
           "summary": {
-            "en": "WinnerAdSpy claims to index 20M+ mobile-app ad creatives across 200K+ apps, classify them as Winner, Loser, or Learning, and expose insights through MCP-compatible ChatGPT, Claude, or Gemini workflows."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "AC Bridge"
-          },
-          "url": "https://www.producthunt.com/products/ac-bridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "AC Bridge claims to map Claude Code and Codex states to existing smart lights and plugs, show working, blocked, or done status, and let agents control compatible Hue, Govee, WLED, LIFX, Nanoleaf, and Home Assistant devices."
+            "en": "Product Hunt lists Riverside Agents as video-production agents for session preparation, editing, clipping, captions, and post scheduling, with users choosing automation level and approving content before publication; performance details are absent."
           },
           "source": {
             "en": "Product Hunt"
@@ -365,6 +282,90 @@
             "products",
             "product-hunt",
             "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Embage"
+          },
+          "url": "https://www.producthunt.com/products/embage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Product Hunt lists Embage as a platform for multichannel website and Telegram chat or voice agents that orchestrate sub-agents across knowledge bases, datastores, and third-party tools, then evaluate interactions and extract transcript data."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Modelpeers"
+          },
+          "url": "https://www.producthunt.com/products/modelpeers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Product Hunt lists Modelpeers as a feed for following AI-model and agent updates, including claimed version, pricing, limit, outage, and retirement changes across Claude Code, GPT-6, Gemini, and 200 other entries."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Raah.dev"
+          },
+          "url": "https://www.producthunt.com/products/raah-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Product Hunt lists Raah.dev as a dashboard connecting payment and conversion data with page speed, API latency, errors, and ISP performance, positioned as revenue analytics and real-user observability for humans and AI agents."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "ernd"
+          },
+          "url": "https://www.producthunt.com/products/ernd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "2.5",
+          "summary": {
+            "en": "Product Hunt lists ernd as a credit card for companies paying AI vendors, claiming 4% back on eligible spend and partnerships for better pricing, faster inference, and dedicated GPUs; eligibility and partner details are not supplied."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
           ]
         }
       ]
@@ -404,12 +405,12 @@
       "items": [
         {
           "title": {
-            "en": "Agents Prompt People: Using Agents for Long-Horizon Financial Work"
+            "en": "Quoting Kyle Kingsbury"
           },
-          "url": "https://latent.space/p/arca/",
+          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
           "score": "5.5",
           "summary": {
-            "en": "Arca's head of AI discusses persistent memory, custom agent harnesses, and workflows spanning days for financial work, but the supplied excerpt provides no technical validation or operational caveats."
+            "en": "Kyle Kingsbury, quoted from Jepsen's ParticleDB 1.1.4 analysis, argues that LLMs make maturity signals easier to counterfeit and asks how maintainers can establish and demonstrate correct software and documentation."
           },
           "source": {
             "en": "RSS Feeds"
@@ -420,17 +421,17 @@
           "tags": [
             "blogs",
             "rss-feeds",
-            "agents"
+            "LLM"
           ]
         },
         {
           "title": {
-            "en": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?"
+            "en": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout"
           },
-          "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
-          "score": "2.5",
+          "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+          "score": "5.0",
           "summary": {
-            "en": "The AINews roundup claims Google admitted AI Mode hurts Search revenue and links that claim to a market decline, but the supplied excerpt provides no supporting evidence or confirmation."
+            "en": "SemiAnalysis says the 2027 datacenter buildout is largely locked in, while a prolonged Texas permit freeze could threaten 2028 U.S. expansion amid bipartisan support for tighter rules; the supplied excerpt provides no supporting evidence."
           },
           "source": {
             "en": "RSS Feeds"
@@ -459,240 +460,16 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 16,
+      "count": 17,
       "items": [
         {
           "title": {
-            "en": "Jepsen: ParticleDB 1.1.4"
+            "en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case"
           },
-          "url": "https://jepsen.io/analyses/particledb-1.1.4",
-          "score": "9.0",
-          "summary": {
-            "en": "Jepsen reports that ParticleDB 1.1.4, which claimed PostgreSQL compatibility, exhibited lost committed writes, consistency violations, aborted and intermediate reads, and lost updates; it recommends halting deployment and checking or rebuilding state."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8"
-          },
-          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-          "score": "8.5",
-          "summary": {
-            "en": "CVE-2026-98432 is reported as a Linux IPv4 TCP use-after-free with CVSS 9.8; discussion says IP-option filtering may reduce exposure but is incomplete, and Ubuntu and Red Hat patches were reportedly unavailable."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Molly (Signal fork) has not been updated since 3 months and is vulnerable"
-          },
-          "url": "https://piefed.world/post/1503394",
-          "score": "7.5",
-          "summary": {
-            "en": "Molly, a Signal fork, is reported unupdated for three months and vulnerable; discussion notes official Signal multi-device support and a separate Polly stopgap with RingRTC and TLS-intermediate fixes, but with arm64 and Android 14+ limits."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Do the math: How we took over ChatGPT accounts"
-          },
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "score": "7.5",
-          "summary": {
-            "en": "A security report claims a link-clicking attack could take over ChatGPT accounts; commenters say OpenAI confirmed both affected frontends rejected the reported messages, fixed the issue, and paid a $5,000 bounty."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Malware uses LLMs to rank victims by how much they're worth"
-          },
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-          "score": "7.5",
-          "summary": {
-            "en": "Cisco Talos reports that the Volta infostealer uses LLMs to rank victims by likely value, suggesting malware operators are applying model-based prioritization to theft and monetization workflows."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "Switch Lowering in GCC"
-          },
-          "url": "https://xoranth.net/gcc-switch/",
+          "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
           "score": "7.0",
           "summary": {
-            "en": "The GCC switch-lowering analysis examines decision trees, jump tables, and sparse cases; commenters note cases where decision trees outperform jump tables and report very large sparse switches causing expensive LLVM optimization, motivating perfect hashing."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "HackerTube: YouTube built from videos recommended by HN"
-          },
-          "url": "https://karpathy.bearblog.dev/hacker-tube/",
-          "score": "6.5",
-          "summary": {
-            "en": "HackerTube presents a YouTube-style interface over 6,454 videos linked in 39,834 HN comments since 2007, with commenters valuing its escape from engagement-driven recommendation loops."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "It's the Memory Latency, Stupid"
-          },
-          "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-          "score": "6.5",
-          "summary": {
-            "en": "Memory-latency costs are framed as a central performance constraint, while commenters describe replacing allocation-heavy abstractions with inline containers, SAX-style processing, and pools on cache-constrained embedded systems."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "GPT-5.6 Sol can beat Factorio on peaceful mode"
-          },
-          "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-          "score": "6.0",
-          "summary": {
-            "en": "GPT-5.6 Sol reportedly launched a Factorio rocket on peaceful mode, but commenters say late-game production failures were handled by repeatedly ferrying supplies rather than fully connecting systems."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Anthropic blocks users for anything touching training larger models"
-          },
-          "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-          "score": "5.0",
-          "summary": {
-            "en": "A social-media claim says Anthropic blocks work related to training larger models; commenters urge professional users to maintain portable alternatives, while another commenter says the cited user may have been accessing geo-blocked Claude service from Hong Kong via VPN."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "With 86% of the words, you might understand only 38% of an anime's lines"
-          },
-          "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-          "score": "4.5",
-          "summary": {
-            "en": "The analysis argues that knowing 86% of words may yield understanding of only 38% of anime lines; commenters note contextual inference and the importance of sentence coverage rather than word coverage alone."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Duty of a Scholar"
-          },
-          "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
-          "score": "4.5",
-          "summary": {
-            "en": "The essay examines scholars' and engineers' duties to disclose public hazards, with commenters contrasting professional codes with perceived weak enforcement and debating historical treatment of hardware-security risks."
+            "en": "A report alleges Lenovo's fingerprint “encrypted” USB drive can be opened to reveal an unencrypted SD card; commenters recommend using software encryption and question whether the product received meaningful security review."
           },
           "source": {
             "en": "Hacker News"
@@ -708,12 +485,12 @@
         },
         {
           "title": {
-            "en": "An Italian farmer found some unknown seeds in his attic and planted them"
+            "en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
           },
-          "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-          "score": "3.5",
+          "url": "https://hackerbooks.org/",
+          "score": "6.5",
           "summary": {
-            "en": "An Italian farmer's attic seeds were reportedly identified as Triticum turgidum and described as drought-tolerant without fertilizer or herbicides, though tall stems can fail in severe weather."
+            "en": "HackerBooks indexes roughly 16.5k books mentioned by at least two HN commenters since 2007, links each book to mentions, and offers downloadable data, while commenters identify missing entries and limited sorting."
           },
           "source": {
             "en": "Hacker News"
@@ -728,52 +505,12 @@
         },
         {
           "title": {
-            "en": "Digital minimalism"
+            "en": "Mathematics has changed. Let's act like it"
           },
-          "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-          "score": "3.5",
+          "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+          "score": "6.5",
           "summary": {
-            "en": "The essay advocates digital minimalism, and commenters describe practices ranging from removing apps and abandoning smartphones to text-based browsing and reducing use of major technology platforms."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Serbia just elected the world's brainiest parliament"
-          },
-          "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-          "score": "3.5",
-          "summary": {
-            "en": "Science reports that Serbia elected a parliament described as exceptionally credentialed; commenters discuss whether leaderless student-led governance and subject-matter expertise translate into effective political decision-making."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Casio Watches of the 1980s"
-          },
-          "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
-          "score": "3.0",
-          "summary": {
-            "en": "Casio's 1980s watch retrospective prompted discussion of feature-heavy watch interfaces, including calculator, dictionary, and tide-tracking models, alongside modern preferences for simple inexpensive watches."
+            "en": "Terence Tao argues mathematics should recognize people who thoroughly understand AI-derived proofs and develop further directions; commenters note concerns that early AI proofs may be long or incomprehensible and that research incentives are shifting."
           },
           "source": {
             "en": "Hacker News"
@@ -784,6 +521,292 @@
           "tags": [
             "community",
             "hacker-news",
+            "research"
+          ]
+        },
+        {
+          "title": {
+            "en": "Proving and improving the Platonic Representation Hypothesis with JEPAs"
+          },
+          "url": "https://arxiv.org/abs/2610.39302",
+          "score": "6.5",
+          "summary": {
+            "en": "A preprint claims JEPAs can prove and improve the Platonic Representation Hypothesis; discussion cites a 33M-parameter text JEPA result on the paper's benchmark and questions whether scalable “good views” datasets are available."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)"
+          },
+          "url": "https://arxiv.org/abs/2409.02292",
+          "score": "6.5",
+          "summary": {
+            "en": "A 2024 paper describes exfiltrating data from air-gapped computers by generating radio signals from RAM; commenters describe a similar 2016 demo and note the reported attack requires malware plus a nearby SDR within roughly seven meters."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "The AI cost of JavaScript frameworks"
+          },
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "score": "6.0",
+          "summary": {
+            "en": "Nolan Lawson examines the AI-related cost of JavaScript frameworks; discussion argues frameworks chiefly constrain long-lived multi-developer projects, while agents may alter those tradeoffs without eliminating organizational needs."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "Landline phones will switch off across Britland in 100 days, no extensions"
+          },
+          "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+          "score": "6.0",
+          "summary": {
+            "en": "Openreach is reported to end British landline service in 100 days; commenters emphasize that POTS power and regulated quality-of-service differ from best-effort VoIP and mobile service, particularly during outages."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing"
+          },
+          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+          "score": "6.0",
+          "summary": {
+            "en": "A Brazilian court reportedly sanctioned lawyers over prompt injection in a filing; discussion asks how direct and hidden instructions should be treated and suggests rasterizing documents before OCR as a mitigation for invisible metadata."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ask HN: Which TV do you recommend for privacy?"
+          },
+          "url": "https://news.ycombinator.com/item?id=50328896",
+          "score": "5.5",
+          "summary": {
+            "en": "HN commenters recommend treating smart TVs as offline displays, avoiding built-in apps and network connections, using HDMI devices such as Apple TV, and checking HDMI-CEC support; one suggests physically disconnecting the wireless radio."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Seoul Viosys begins production of rare-earth-free white light emitter"
+          },
+          "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+          "score": "5.5",
+          "summary": {
+            "en": "Seoul Viosys says it has begun producing a rare-earth-free white-light emitter based on GaN; commenters flag gallium supply concentration, unresolved color-quality questions, and possible future display and optical-communications uses."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
+          },
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "score": "5.0",
+          "summary": {
+            "en": "An Apollo economist is reported to say AI has delivered no financial payoff to most companies, while commenters argue the cited analysis measures company revenue rather than investment returns and describe faster chemistry-data prototyping."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Domain hacks with unusual Unicode characters (2018)"
+          },
+          "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+          "score": "5.0",
+          "summary": {
+            "en": "A 2018 post explores domain hacks using unusual Unicode characters; commenters discuss IDNA encoding, separator mapping, compatibility normalization, password entropy, and characters that can behave unexpectedly in identifiers."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Novellas with Groff"
+          },
+          "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+          "score": "4.5",
+          "summary": {
+            "en": "A post describes producing novellas with Groff; commenters compare fiction-writing pipelines using editors, Markdown, Google Docs, and troff, including experience with historical macro packages and typesetting constraints."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy"
+          },
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+          "score": "4.5",
+          "summary": {
+            "en": "A report says 50-agent Minecraft teams failed to form a civilization after becoming bureaucratic; commenters question the experiment's rigor and goals, while describing similar agent loops and poor game-state understanding in informal trials."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Frontier Airlines Likely Breached"
+          },
+          "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+          "score": "4.0",
+          "summary": {
+            "en": "Frontier Airlines customers reportedly received phishing emails containing booking details; commenters speculate about itinerary enumeration or shared customer-service software, but no breach mechanism or confirmation is supplied."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "U.S. workers took home their smallest share of capital since at least 1947"
+          },
+          "url": "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/",
+          "score": "3.5",
+          "summary": {
+            "en": "A Fortune article claims U.S. workers received their smallest share of capital since at least 1947; discussion connects this to consumption, debt, and automation but supplies no verification of the underlying analysis."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Patrick Stewart taught us what good men do with power"
+          },
+          "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+          "score": "2.5",
+          "summary": {
+            "en": "A Vox essay argues Patrick Stewart's Jean-Luc Picard models responsible use of power; discussion compares the character with Horatio Hornblower and Star Trek's broader authorship, with one aside about Picard-themed AI-agent prompts."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "agents",
             "models"
           ]
         }
