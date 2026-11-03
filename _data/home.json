@@ -1,14 +1,14 @@
 {
   "edition": {
-    "number": "002",
+    "number": "003",
     "date": {
-      "en": "Monday, November 2, 2026",
-      "zh": "2026 年 11 月 2 日，星期一"
+      "en": "Tuesday, November 3, 2026",
+      "zh": "2026 年 11 月 3 日，星期二"
     },
-    "story_count": 29,
+    "story_count": 59,
     "stories_label": {
-      "en": "29 stories scored",
-      "zh": "已评分 29 条"
+      "en": "59 stories scored",
+      "zh": "已评分 59 条"
     }
   },
   "note": {
@@ -16,18 +16,18 @@
     "zh": "集中查看今天最值得关注的产品、研究、博客与社区讨论。"
   },
   "source_status": {
-    "fetched_count": 29,
-    "priority_count": 29
+    "fetched_count": 61,
+    "priority_count": 56
   },
   "index": [
     {
       "title": {
-        "en": "ClawsGO Science"
+        "en": "diff-tour"
       },
-      "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-      "score": "4.0",
+      "url": "https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+      "score": "4.5",
       "summary": {
-        "en": "Product Hunt lists ClawsGO Science as an AI research agent that claims to use a cloud lab with 500+ tools and 90+ datasets plus multi-agent clusters to turn questions into cited papers; validation and workflow limits are not supplied."
+        "en": "diff-tour is an open-source, read-only CLI tool that turns a Git diff into a guided review of intent, risks, rollback concerns, required fixes, and nits."
       },
       "source": {
         "en": "Product Hunt"
@@ -38,18 +38,37 @@
       "tags": [
         "products",
         "product-hunt",
-        "agents",
-        "research"
+        "open-source"
       ]
     },
     {
       "title": {
-        "en": "Quoting Kyle Kingsbury"
+        "en": "New sparse attention method for ultra-long context"
       },
-      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-      "score": "5.5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+      "score": "5.0",
       "summary": {
-        "en": "Kyle Kingsbury, quoted from Jepsen's ParticleDB 1.1.4 analysis, argues that LLMs make maturity signals easier to counterfeit and asks how maintainers can establish and demonstrate correct software and documentation."
+        "en": "A team claims an open sparse-attention method preserves Qwen 3.8 27B accuracy in some settings, supports up to 10M-token context with task-specific losses, and releases kernels, SGLang integration, and a paper."
+      },
+      "source": {
+        "en": "Reddit"
+      },
+      "age": {
+        "en": "Latest"
+      },
+      "tags": [
+        "research",
+        "reddit"
+      ]
+    },
+    {
+      "title": {
+        "en": "The U.S. Census Bureau and “Super Intelligence”"
+      },
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "score": "7.0",
+      "summary": {
+        "en": "Simon Willison shows Census BTOS AI-use figures rose after its question expanded from producing goods or services to any business function, and flags a forthcoming executive-order-driven terminology change as a comparability risk."
       },
       "source": {
         "en": "RSS Feeds"
@@ -59,18 +78,17 @@
       },
       "tags": [
         "blogs",
-        "rss-feeds",
-        "LLM"
+        "rss-feeds"
       ]
     },
     {
       "title": {
-        "en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case"
+        "en": "Astra can read and write weights to improve Qwen"
       },
-      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
-      "score": "7.0",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "score": "7.5",
       "summary": {
-        "en": "A report alleges Lenovo's fingerprint “encrypted” USB drive can be opened to reveal an unencrypted SD card; commenters recommend using software encryption and question whether the product received meaningful security review."
+        "en": "A post claims Astra can inspect and edit neural-network weights to reduce looping and improve a small Qwen model’s math results, though the supplied excerpt does not establish reproducibility."
       },
       "source": {
         "en": "Hacker News"
@@ -81,17 +99,17 @@
       "tags": [
         "community",
         "hacker-news",
-        "security"
+        "models"
       ]
     },
     {
       "title": {
-        "en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
+        "en": "We halved DNS build delay and cut memory use by 85%"
       },
-      "url": "https://hackerbooks.org/",
-      "score": "6.5",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "score": "7.0",
       "summary": {
-        "en": "HackerBooks indexes roughly 16.5k books mentioned by at least two HN commenters since 2007, links each book to mentions, and offers downloadable data, while commenters identify missing entries and limited sorting."
+        "en": "Cloudflare says targeted DNS zone builds halved build delay and reduced memory use by 85%; discussion asks about throughput scale and long-term correctness risks from the architectural change."
       },
       "source": {
         "en": "Hacker News"
@@ -102,27 +120,6 @@
       "tags": [
         "community",
         "hacker-news"
-      ]
-    },
-    {
-      "title": {
-        "en": "Mathematics has changed. Let's act like it"
-      },
-      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
-      "score": "6.5",
-      "summary": {
-        "en": "Terence Tao argues mathematics should recognize people who thoroughly understand AI-derived proofs and develop further directions; commenters note concerns that early AI proofs may be long or incomprehensible and that research incentives are shifting."
-      },
-      "source": {
-        "en": "Hacker News"
-      },
-      "age": {
-        "en": "Latest"
-      },
-      "tags": [
-        "community",
-        "hacker-news",
-        "research"
       ]
     }
   ],
@@ -159,12 +156,96 @@
       "items": [
         {
           "title": {
-            "en": "ClawsGO Science"
+            "en": "diff-tour"
           },
-          "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.5",
+          "summary": {
+            "en": "diff-tour is an open-source, read-only CLI tool that turns a Git diff into a guided review of intent, risks, rollback concerns, required fixes, and nits."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
+          ]
+        },
+        {
+          "title": {
+            "en": "beacon.sh"
+          },
+          "url": "https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "4.0",
           "summary": {
-            "en": "Product Hunt lists ClawsGO Science as an AI research agent that claims to use a cloud lab with 500+ tools and 90+ datasets plus multi-agent clusters to turn questions into cited papers; validation and workflow limits are not supplied."
+            "en": "Beacon.sh says it captures coding-agent traces across more than 20 harnesses to provide shared memory and operational visibility, with no supplied implementation, privacy, or validation detail."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": {
+            "en": "Agent Inbox"
+          },
+          "url": "https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "4.0",
+          "summary": {
+            "en": "Agent Inbox says it gives AI agents email, Slack, and Telegram identities behind one API so agents can reply in the originating thread without per-channel integration code."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Xmind 2027"
+          },
+          "url": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Xmind 2027 presents an AI-assisted mind-mapping workspace that can use local documents and maps in conversation and connect context to existing workflows through MCP."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Hyperresearch"
+          },
+          "url": "https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
+          "summary": {
+            "en": "Hyperresearch says it provides cited agentic-search reports, source-checked claims, a searchable evidence vault, and MCP/API access, while claiming top DRACO performance without supplied evidence."
           },
           "source": {
             "en": "Product Hunt"
@@ -181,54 +262,12 @@
         },
         {
           "title": {
-            "en": "Precise Edit by Ideogram"
+            "en": "Friday Work"
           },
-          "url": "https://www.producthunt.com/products/ideogram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
+          "url": "https://www.producthunt.com/products/friday-work?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.5",
           "summary": {
-            "en": "Product Hunt lists Ideogram's upgraded Precise Edit as supporting a context window for original-pixel image edits up to 8K, claiming sharper small text, logos, and fine detail; no comparative samples or limitations are supplied."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt"
-          ]
-        },
-        {
-          "title": {
-            "en": "agentmash"
-          },
-          "url": "https://www.producthunt.com/products/agentmash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt lists agentmash as an open-source shared context layer for coding agents that reports teammate file changes, synchronizes skills and automations, and claims connections to Claude Code, Codex, Antigravity, and open-source models."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Click"
-          },
-          "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
-          "summary": {
-            "en": "Product Hunt lists Click as a managed-agent API that creates sessions with a sandbox, browser, and web search, streams results, and claims deferred tool discovery and Code Mode for handling thousands of tools without infrastructure management."
+            "en": "Friday Work says it hands tasks between agents when Claude reaches a limit and lets agents exchange progress directly, reducing manual terminal-to-terminal context transfer."
           },
           "source": {
             "en": "Product Hunt"
@@ -244,33 +283,12 @@
         },
         {
           "title": {
-            "en": "BeeBranch"
+            "en": "Hera"
           },
-          "url": "https://www.producthunt.com/products/beebranch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "4.0",
+          "url": "https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.0",
           "summary": {
-            "en": "Product Hunt lists BeeBranch as an open-source, local-first desktop Git client for GitHub and GitLab teams that claims no proprietary cloud, vendor account, telemetry, or AI; feature depth and maturity are not supplied."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "open-source"
-          ]
-        },
-        {
-          "title": {
-            "en": "Riverside Agents"
-          },
-          "url": "https://www.producthunt.com/products/riverside-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists Riverside Agents as video-production agents for session preparation, editing, clipping, captions, and post scheduling, with users choosing automation level and approving content before publication; performance details are absent."
+            "en": "Hera is presented as an editable-layer creative canvas for coordinating multiple AI agents to generate, refine, animate, and resize branded marketing assets."
           },
           "source": {
             "en": "Product Hunt"
@@ -286,12 +304,12 @@
         },
         {
           "title": {
-            "en": "Embage"
+            "en": "Display 1.0"
           },
-          "url": "https://www.producthunt.com/products/embage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
+          "url": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "3.0",
           "summary": {
-            "en": "Product Hunt lists Embage as a platform for multichannel website and Telegram chat or voice agents that orchestrate sub-agents across knowledge bases, datastores, and third-party tools, then evaluate interactions and extract transcript data."
+            "en": "Display 1.0 presents a shared workspace for documents, prototypes, apps, agent-generated files, and internal knowledge organization, claiming compatibility with any agent and plan."
           },
           "source": {
             "en": "Product Hunt"
@@ -307,55 +325,12 @@
         },
         {
           "title": {
-            "en": "Modelpeers"
+            "en": "Cedric AI for Meetings"
           },
-          "url": "https://www.producthunt.com/products/modelpeers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists Modelpeers as a feed for following AI-model and agent updates, including claimed version, pricing, limit, outage, and retirement changes across Claude Code, GPT-6, Gemini, and 200 other entries."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents",
-            "models"
-          ]
-        },
-        {
-          "title": {
-            "en": "Raah.dev"
-          },
-          "url": "https://www.producthunt.com/products/raah-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
-          "score": "3.5",
-          "summary": {
-            "en": "Product Hunt lists Raah.dev as a dashboard connecting payment and conversion data with page speed, API latency, errors, and ISP performance, positioned as revenue analytics and real-user observability for humans and AI agents."
-          },
-          "source": {
-            "en": "Product Hunt"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "products",
-            "product-hunt",
-            "agents"
-          ]
-        },
-        {
-          "title": {
-            "en": "ernd"
-          },
-          "url": "https://www.producthunt.com/products/ernd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "url": "https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
           "score": "2.5",
           "summary": {
-            "en": "Product Hunt lists ernd as a credit card for companies paying AI vendors, claiming 4% back on eligible spend and partnerships for better pricing, faster inference, and dedicated GPUs; eligibility and partner details are not supplied."
+            "en": "Cedric AI for Meetings says it can attend Zoom, Meet, or Teams calls, present slides, answer using connected live data, and draft post-meeting follow-ups subject to approval."
           },
           "source": {
             "en": "Product Hunt"
@@ -366,6 +341,27 @@
           "tags": [
             "products",
             "product-hunt"
+          ]
+        },
+        {
+          "title": {
+            "en": "Looper"
+          },
+          "url": "https://www.producthunt.com/products/looper-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+AI+Radar+%28ID%3A+296107%29",
+          "score": "2.5",
+          "summary": {
+            "en": "Looper is presented as an open-source AI teammate that works toward one chosen metric across Gmail, GitHub, Search Console, and other tools while requesting approval before outbound actions."
+          },
+          "source": {
+            "en": "Product Hunt"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "products",
+            "product-hunt",
+            "open-source"
           ]
         }
       ]
@@ -384,8 +380,318 @@
         "en": "Research highlights and technical community discussions.",
         "zh": "研究亮点与技术社区讨论。"
       },
-      "count": 0,
-      "items": []
+      "count": 15,
+      "items": [
+        {
+          "title": {
+            "en": "New sparse attention method for ultra-long context"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+          "score": "5.0",
+          "summary": {
+            "en": "A team claims an open sparse-attention method preserves Qwen 3.8 27B accuracy in some settings, supports up to 10M-token context with task-specific losses, and releases kernels, SGLang integration, and a paper."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Not another tok/s post: local quants vs Claude on 9 real bugs"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlwpqv/not_another_toks_post_local_quants_vs_claude_on_9/",
+          "score": "5.0",
+          "summary": {
+            "en": "A user compares local quantized models and Claude on nine private C++/CUDA regressions, using sandboxed agents without network, CUDA, or build access and three runs per task."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "agents",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Unsloth vs GSQ-RCO - 512K context DeepSeek-V4.1 GGUF benchmarks Terminal Bench"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm102d/unsloth_vs_gsqrco_512k_context_deepseekv41_gguf/",
+          "score": "5.0",
+          "summary": {
+            "en": "Unsloth reports DeepSeek-V4.1 GGUF benchmarks against GSQ-RCO at up to 512K context, citing broader agentic tests, repeated runs, revised graders, and 35.1B benchmarked tokens."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "[Release] ISTA DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder: a 763B model at 1 bit per parameter"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
+          "score": "4.5",
+          "summary": {
+            "en": "ISTA released a pruned and quantized DeepSeek-V4.1-Flash-1017 coder build that retains half its routed experts and reports 72.1GB transformer weights, while requiring a shared 110.6GB Engram file."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Inconsistencies in Unsloth's LiveCodeBench Results"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm9i4x/inconsistencies_in_unsloths_livecodebench_results/",
+          "score": "4.0",
+          "summary": {
+            "en": "A Reddit analysis flags changed LiveCodeBench results for several Unsloth quantizations and a Q8 baseline, suggesting that different generation counts may explain simultaneous score increases."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Official Statement: Qwen Models Will Stick to Open Source to the End!"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+          "score": "3.5",
+          "summary": {
+            "en": "A Reddit post says a Qwen leader contradicted rumors of an API-only future and committed future Qwen 4.0 and 5.0 releases to open source, without linking the original statement."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "open-source",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Running UNCENSORED DeepSeek-V4.1-Flash-1017 on a 12 Gb VRAM"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm0uy0/running_uncensored_deepseekv41flash1017_on_a_12/",
+          "score": "3.0",
+          "summary": {
+            "en": "A post describes modifying selected DeepSeek-V4.1-Flash tensors to reduce reported JailbreakBench refusals while retaining quantization and enabling operation with a 12GB GPU plus system memory and SSD."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1%"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma0tw/gpt6_astra_edits_qwen_weights_math500_79_to_481/",
+          "score": "2.5",
+          "summary": {
+            "en": "A Reddit post claims GPT-6 Astra edited Qwen weights to improve MATH-500 from 7.9% to 48.1%, without supplied methods, code, or independent validation."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Qwen 3.8 27b is sometimes so smart it scares me..."
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+          "score": "2.5",
+          "summary": {
+            "en": "A user says Qwen 3.8 27B noticed Blender Python access and used it during a physics task, presenting an anecdotal example of local-model tool use."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+          "score": "2.5",
+          "summary": {
+            "en": "A Reddit post argues that reported Claude Code restrictions on reverse-engineering tasks strengthen the case for self-hosting, while supplying a third-party link rather than primary policy details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/",
+          "score": "2.0",
+          "summary": {
+            "en": "A Reddit post links to work claiming LLMs can natively read and write neural-network weights, but the supplied content contains no methods, results, or reproducibility details."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "LLM"
+          ]
+        },
+        {
+          "title": {
+            "en": "Kind of enjoying the ISTA (GSQ-RCO) vs Unsloth beef"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8xhn/kind_of_enjoying_the_ista_gsqrco_vs_unsloth_beef/",
+          "score": "2.0",
+          "summary": {
+            "en": "A Reddit post about competition between ISTA and Unsloth quantization approaches asks why ISTA does not publish KLD measurements for easier comparisons."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "AMA Announcement: Reflection, the lab behind behind Beam (Tuesday Nov 3rd, 8am-11am PT)"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmkk4/ama_announcement_reflection_the_lab_behind_behind/",
+          "score": "1.5",
+          "summary": {
+            "en": "A LocalLLaMA post announces an upcoming AMA with Reflection’s product team about Beam, described as its first open-weight model."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Amazon Is Allegedly Canceling GPU Orders And, In Rare Cases, Closing Accounts For Purchasing Compute Hardware; Tim Sweeney Also A Victim Of This Practice"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
+          "score": "1.5",
+          "summary": {
+            "en": "A Reddit post alleges Amazon is canceling some GPU orders and closing accounts for compute-hardware purchases, but provides no excerpted evidence or verification."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Am I the only one who frequently opens this subreddit and stumbles upon announcements about Qwen4?"
+          },
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+          "score": "0.5",
+          "summary": {
+            "en": "A Reddit user describes repeatedly checking for an anticipated Qwen4 announcement, with no release details or technical evidence provided."
+          },
+          "source": {
+            "en": "Reddit"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "research",
+            "reddit"
+          ]
+        }
+      ]
     },
     {
       "id": "blogs",
@@ -401,37 +707,16 @@
         "en": "High-signal posts from curated blogs and newsletters.",
         "zh": "精选博客与通讯中的高信号文章。"
       },
-      "count": 2,
+      "count": 9,
       "items": [
         {
           "title": {
-            "en": "Quoting Kyle Kingsbury"
+            "en": "The U.S. Census Bureau and “Super Intelligence”"
           },
-          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-          "score": "5.5",
+          "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+          "score": "7.0",
           "summary": {
-            "en": "Kyle Kingsbury, quoted from Jepsen's ParticleDB 1.1.4 analysis, argues that LLMs make maturity signals easier to counterfeit and asks how maintainers can establish and demonstrate correct software and documentation."
-          },
-          "source": {
-            "en": "RSS Feeds"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "blogs",
-            "rss-feeds",
-            "LLM"
-          ]
-        },
-        {
-          "title": {
-            "en": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout"
-          },
-          "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
-          "score": "5.0",
-          "summary": {
-            "en": "SemiAnalysis says the 2027 datacenter buildout is largely locked in, while a prolonged Texas permit freeze could threaten 2028 U.S. expansion amid bipartisan support for tighter rules; the supplied excerpt provides no supporting evidence."
+            "en": "Simon Willison shows Census BTOS AI-use figures rose after its question expanded from producing goods or services to any business function, and flags a forthcoming executive-order-driven terminology change as a comparability risk."
           },
           "source": {
             "en": "RSS Feeds"
@@ -442,6 +727,172 @@
           "tags": [
             "blogs",
             "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Scaling Git at OpenAI"
+          },
+          "url": "https://openai.com/index/scaling-git-at-openai",
+          "score": "5.5",
+          "summary": {
+            "en": "OpenAI says it built Pando, a Git-compatible backend intended to support development scale associated with Codex, without supplying implementation details in the excerpt."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "LifeVal"
+          },
+          "url": "https://openai.com/index/lifeval",
+          "score": "5.0",
+          "summary": {
+            "en": "OpenAI introduced LifeVal, a benchmark intended to measure how well AI helps with everyday tasks including childcare, financial management, and government paperwork."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora"
+          },
+          "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+          "score": "5.0",
+          "summary": {
+            "en": "Legora’s CTO discusses building and testing legal agents when client confidentiality prevents the company from viewing traces of agent work."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora"
+          },
+          "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+          "score": "4.5",
+          "summary": {
+            "en": "A Latent Space interview with Legora’s CTO covers legal AI, evaluation without traces, large tabular-document reviews, and effects on the billable-hour model."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Introducing the Grid Protectors Program"
+          },
+          "url": "https://openai.com/index/grid-protectors-program",
+          "score": "3.5",
+          "summary": {
+            "en": "OpenAI announced the Grid Protectors Program, saying it will work with utilities to support grid reliability and protect consumer electricity costs around future compute campuses."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds"
+          ]
+        },
+        {
+          "title": {
+            "en": "The agentic web is here"
+          },
+          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "score": "3.5",
+          "summary": {
+            "en": "An article frames current autonomous-agent activity on the web against the earlier Semantic Web vision, but the supplied excerpt stops before explaining the claimed present-day shift."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Raising the quality of insights in agentic analytics"
+          },
+          "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+          "score": "2.5",
+          "summary": {
+            "en": "A sponsored article argues that agentic analytics needs higher-quality insights as agents automate workflows, but the supplied excerpt provides no methodology, examples, or findings."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents"
+          ]
+        },
+        {
+          "title": {
+            "en": "Stop counting tokens, start counting what ships"
+          },
+          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+          "score": "2.5",
+          "summary": {
+            "en": "A sponsored article argues that coding agents consume far more tokens than chat prompts because they plan, write code, test, and iterate, without supplying supporting measurements beyond a broad range."
+          },
+          "source": {
+            "en": "RSS Feeds"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "blogs",
+            "rss-feeds",
+            "agents",
+            "coding"
           ]
         }
       ]
@@ -460,37 +911,37 @@
         "en": "Top discussions and links from Hacker News.",
         "zh": "Hacker News 热门讨论与链接。"
       },
-      "count": 17,
+      "count": 22,
       "items": [
         {
           "title": {
-            "en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case"
+            "en": "Astra can read and write weights to improve Qwen"
           },
-          "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+          "score": "7.5",
+          "summary": {
+            "en": "A post claims Astra can inspect and edit neural-network weights to reduce looping and improve a small Qwen model’s math results, though the supplied excerpt does not establish reproducibility."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "We halved DNS build delay and cut memory use by 85%"
+          },
+          "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
           "score": "7.0",
           "summary": {
-            "en": "A report alleges Lenovo's fingerprint “encrypted” USB drive can be opened to reveal an unencrypted SD card; commenters recommend using software encryption and question whether the product received meaningful security review."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "security"
-          ]
-        },
-        {
-          "title": {
-            "en": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
-          },
-          "url": "https://hackerbooks.org/",
-          "score": "6.5",
-          "summary": {
-            "en": "HackerBooks indexes roughly 16.5k books mentioned by at least two HN commenters since 2007, links each book to mentions, and offers downloadable data, while commenters identify missing entries and limited sorting."
+            "en": "Cloudflare says targeted DNS zone builds halved build delay and reduced memory use by 85%; discussion asks about throughput scale and long-term correctness risks from the architectural change."
           },
           "source": {
             "en": "Hacker News"
@@ -505,33 +956,12 @@
         },
         {
           "title": {
-            "en": "Mathematics has changed. Let's act like it"
+            "en": "WTF Ubuntu?"
           },
-          "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+          "url": "https://chalmovsky.com/posts/wtf-ubuntu",
           "score": "6.5",
           "summary": {
-            "en": "Terence Tao argues mathematics should recognize people who thoroughly understand AI-derived proofs and develop further directions; commenters note concerns that early AI proofs may be long or incomprehensible and that research incentives are shifting."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "research"
-          ]
-        },
-        {
-          "title": {
-            "en": "Proving and improving the Platonic Representation Hypothesis with JEPAs"
-          },
-          "url": "https://arxiv.org/abs/2610.39302",
-          "score": "6.5",
-          "summary": {
-            "en": "A preprint claims JEPAs can prove and improve the Platonic Representation Hypothesis; discussion cites a 33M-parameter text JEPA result on the paper's benchmark and questions whether scalable “good views” datasets are available."
+            "en": "“WTF Ubuntu?” criticizes Ubuntu’s handling of a kernel vulnerability; commenters report fixes in proposed repositories and dispute whether available evidence supports an RCE rather than crash or DoS risk."
           },
           "source": {
             "en": "Hacker News"
@@ -546,32 +976,32 @@
         },
         {
           "title": {
-            "en": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)"
+            "en": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks"
           },
-          "url": "https://arxiv.org/abs/2409.02292",
-          "score": "6.5",
-          "summary": {
-            "en": "A 2024 paper describes exfiltrating data from air-gapped computers by generating radio signals from RAM; commenters describe a similar 2016 demo and note the reported attack requires malware plus a nearby SDR within roughly seven meters."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "The AI cost of JavaScript frameworks"
-          },
-          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
           "score": "6.0",
           "summary": {
-            "en": "Nolan Lawson examines the AI-related cost of JavaScript frameworks; discussion argues frameworks chiefly constrain long-lived multi-developer projects, while agents may alter those tradeoffs without eliminating organizational needs."
+            "en": "A post alleges Ubuntu LTS kernels lacked a patch for CVE-2026-98432 for nearly three weeks; discussion notes mitigations, questions the RCE characterization, and reports proposed-repository fixes."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Agentic backdoors via pretraining poisoning"
+          },
+          "url": "https://arxiv.org/abs/2610.37741",
+          "score": "6.0",
+          "summary": {
+            "en": "An arXiv paper examines agentic backdoors introduced through pretraining poisoning; commenters emphasize sandboxing and observability while debating whether open-weight models face uniquely greater risk."
           },
           "source": {
             "en": "Hacker News"
@@ -583,158 +1013,17 @@
             "community",
             "hacker-news",
             "agents",
-            "developer-tools"
+            "models"
           ]
         },
         {
           "title": {
-            "en": "Landline phones will switch off across Britland in 100 days, no extensions"
+            "en": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
           },
-          "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
-          "score": "6.0",
-          "summary": {
-            "en": "Openreach is reported to end British landline service in 100 days; commenters emphasize that POTS power and regulated quality-of-service differ from best-effort VoIP and mobile service, particularly during outages."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing"
-          },
-          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-          "score": "6.0",
-          "summary": {
-            "en": "A Brazilian court reportedly sanctioned lawyers over prompt injection in a filing; discussion asks how direct and hidden instructions should be treated and suggests rasterizing documents before OCR as a mitigation for invisible metadata."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Ask HN: Which TV do you recommend for privacy?"
-          },
-          "url": "https://news.ycombinator.com/item?id=50328896",
+          "url": "https://momentic.ai/",
           "score": "5.5",
           "summary": {
-            "en": "HN commenters recommend treating smart TVs as offline displays, avoiding built-in apps and network connections, using HDMI devices such as Apple TV, and checking HDMI-CEC support; one suggests physically disconnecting the wireless radio."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Seoul Viosys begins production of rare-earth-free white light emitter"
-          },
-          "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
-          "score": "5.5",
-          "summary": {
-            "en": "Seoul Viosys says it has begun producing a rare-earth-free white-light emitter based on GaN; commenters flag gallium supply concentration, unresolved color-quality questions, and possible future display and optical-communications uses."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
-          },
-          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-          "score": "5.0",
-          "summary": {
-            "en": "An Apollo economist is reported to say AI has delivered no financial payoff to most companies, while commenters argue the cited analysis measures company revenue rather than investment returns and describe faster chemistry-data prototyping."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "Domain hacks with unusual Unicode characters (2018)"
-          },
-          "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
-          "score": "5.0",
-          "summary": {
-            "en": "A 2018 post explores domain hacks using unusual Unicode characters; commenters discuss IDNA encoding, separator mapping, compatibility normalization, password entropy, and characters that can behave unexpectedly in identifiers."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news",
-            "coding"
-          ]
-        },
-        {
-          "title": {
-            "en": "Novellas with Groff"
-          },
-          "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
-          "score": "4.5",
-          "summary": {
-            "en": "A post describes producing novellas with Groff; commenters compare fiction-writing pipelines using editors, Markdown, Google Docs, and troff, including experience with historical macro packages and typesetting constraints."
-          },
-          "source": {
-            "en": "Hacker News"
-          },
-          "age": {
-            "en": "Latest"
-          },
-          "tags": [
-            "community",
-            "hacker-news"
-          ]
-        },
-        {
-          "title": {
-            "en": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy"
-          },
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-          "score": "4.5",
-          "summary": {
-            "en": "A report says 50-agent Minecraft teams failed to form a civilization after becoming bureaucratic; commenters question the experiment's rigor and goals, while describing similar agent loops and poor game-state understanding in informal trials."
+            "en": "Momentic presents agents that explore web, iOS, and Android apps to find bugs; discussion questions its advantage over custom Playwright harnesses and notes confusing demo results."
           },
           "source": {
             "en": "Hacker News"
@@ -750,12 +1039,33 @@
         },
         {
           "title": {
-            "en": "Frontier Airlines Likely Breached"
+            "en": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You"
           },
-          "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
-          "score": "4.0",
+          "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+          "score": "5.5",
           "summary": {
-            "en": "Frontier Airlines customers reportedly received phishing emails containing booking details; commenters speculate about itinerary enumeration or shared customer-service software, but no breach mechanism or confirmation is supplied."
+            "en": "NIST released a cybersecurity guide for self-employed people and solopreneurs; commenters question whether its terminology and level of detail are accessible to nontechnical operators."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "security"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: I've updated my Linux System Call website and API"
+          },
+          "url": "https://syscall.sh/",
+          "score": "5.5",
+          "summary": {
+            "en": "syscall.sh updated its Linux syscall reference and API with more architectures, kernel selection, and descriptions; commenters flag architecture details and recommend checking local headers for authoritative values."
           },
           "source": {
             "en": "Hacker News"
@@ -770,12 +1080,12 @@
         },
         {
           "title": {
-            "en": "U.S. workers took home their smallest share of capital since at least 1947"
+            "en": "Show HN: Subvocal – Talk to your computer without making noise"
           },
-          "url": "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/",
-          "score": "3.5",
+          "url": "https://news.ycombinator.com/item?id=50340088",
+          "score": "5.0",
           "summary": {
-            "en": "A Fortune article claims U.S. workers received their smallest share of capital since at least 1947; discussion connects this to consumption, debt, and automation but supplies no verification of the underlying analysis."
+            "en": "Subvocal says its smart glasses decode silent mouthed or internally articulated speech into text; discussion raises questions about on-device processing, fit, accents, battery life, and RF safety."
           },
           "source": {
             "en": "Hacker News"
@@ -790,12 +1100,92 @@
         },
         {
           "title": {
-            "en": "Patrick Stewart taught us what good men do with power"
+            "en": "Moving our warehouse off DuckDB"
           },
-          "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
-          "score": "2.5",
+          "url": "https://posthog.com/blog/moving-off-duckdb",
+          "score": "5.0",
           "summary": {
-            "en": "A Vox essay argues Patrick Stewart's Jean-Luc Picard models responsible use of power; discussion compares the character with Horatio Hornblower and Star Trek's broader authorship, with one aside about Picard-themed AI-agent prompts."
+            "en": "PostHog describes moving its warehouse off DuckDB after rebuilding from ClickHouse months earlier; discussion criticizes the lack of measurements, testing detail, and confirmed outcomes for the new system."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre"
+          },
+          "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+          "score": "4.5",
+          "summary": {
+            "en": "Warsaw in Voxels combines OpenStreetMap, LiDAR, imagery, and city-tree data into an interactive 3D map, but commenters report very slow desktop and mobile performance."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Egoless Mathematics in the AI Era"
+          },
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+          "score": "4.5",
+          "summary": {
+            "en": "Terry Tao’s essay considers egoless mathematics in the AI era, while discussion challenges whether mathematical practice can be separated from human motivation and professional incentives."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Polyend releases the Tracker firmware source code"
+          },
+          "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+          "score": "4.5",
+          "summary": {
+            "en": "Polyend released Tracker firmware source code, enabling custom firmware work; discussion highlights repair availability for bricked devices and obstacles to broader hardware-source releases."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "LongCat-2.5: Native Multimodality for Agentic Tasks"
+          },
+          "url": "https://longcat.ai/blog/longcat-2.5/",
+          "score": "4.5",
+          "summary": {
+            "en": "LongCat-2.5 is presented as a native multimodal model for agentic tasks; commenters question comparison baselines, chart quality, and whether local deployment is competitive with alternatives."
           },
           "source": {
             "en": "Hacker News"
@@ -808,6 +1198,167 @@
             "hacker-news",
             "agents",
             "models"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ask HN: Who is hiring? (November 2026)"
+          },
+          "url": "https://news.ycombinator.com/item?id=50338728",
+          "score": "4.0",
+          "summary": {
+            "en": "Hacker News’s November 2026 hiring thread collects employer-posted roles with location and remote-work conventions, including engineering and AI-related openings."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Apple reports fourth quarter results"
+          },
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+          "score": "4.0",
+          "summary": {
+            "en": "Apple published fourth-quarter results; discussion focuses on product wishes, stock movement, and uncertainty over the company’s AI-infrastructure strategy."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Oracle files to sell $20B in new stock, bonds to finance AI buildout"
+          },
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "score": "4.0",
+          "summary": {
+            "en": "Oracle reportedly filed to sell $20B in stock and bonds for AI infrastructure; comments focus on debt, commodity-compute risk, and potential effects on other Oracle businesses."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "The SEC Should Block Anthropic's IPO to Protect the Public"
+          },
+          "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+          "score": "3.0",
+          "summary": {
+            "en": "An opinion piece argues the SEC should block a possible Anthropic IPO, while comments dispute the premise and question unsupported AI-adoption statistics."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Anthropic's growth just flattened"
+          },
+          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+          "score": "3.0",
+          "summary": {
+            "en": "A post claims Anthropic’s growth flattened; discussion offers speculative explanations involving product timing, usage controls, and market saturation without supplied supporting data."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "US boy names that became girl names and vice versa"
+          },
+          "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+          "score": "2.5",
+          "summary": {
+            "en": "An analysis of US names shifting between gender associations prompts comments that some examples conflate culturally distinct names and that many shifts begin from rare usage."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sneaking into the auditorium for the Windows 2000 launch rehearsal"
+          },
+          "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
+          "score": "2.5",
+          "summary": {
+            "en": "A Microsoft developer-blog post recounts sneaking into a Windows 2000 launch rehearsal; discussion adds nostalgia about infrared file transfer and Palm beaming."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news",
+            "developer-tools"
+          ]
+        },
+        {
+          "title": {
+            "en": "My Favourite Laptop"
+          },
+          "url": "https://blog.jsbarretto.com/post/laptop",
+          "score": "2.5",
+          "summary": {
+            "en": "A personal essay about a favorite laptop prompts discussion of long-lived hardware, repairability, second-hand machines, and installing Fedora on older systems."
+          },
+          "source": {
+            "en": "Hacker News"
+          },
+          "age": {
+            "en": "Latest"
+          },
+          "tags": [
+            "community",
+            "hacker-news"
           ]
         }
       ]
